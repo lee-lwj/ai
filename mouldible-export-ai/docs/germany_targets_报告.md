@@ -1,3 +1,55 @@
+## Website/named Kontakt Batch 125
+
+> 合并前重读 CSV（任务初口径 **4361** / **3052**；Directory Batch130dir steering → 写时 live **4391** / **3078**）。本批按 live 合并，网站轨净增 **+8** → 瞬时 **4399** / **3080**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4399** |
+| high / medium | **4119** / **280** |
+| 唯一域名 | **3080** |
+| 含电话 / 含城市 | **3799** / **3886** |
+| 非 .de 邮箱 | **1171** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4056** |
+| design_studio | **189** |
+| oem_buyer | **119** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+8**（相对写时基线 4391）
+
+- `info@bergcad.de` — Berg Technologie GmbH (Bad Lippspringe) — `overseas_peer_overflow` / high — Wladimir Berg
+- `info@bergcad.com` — Berg Technologie GmbH (Bad Lippspringe) — `overseas_peer_overflow` / high — Wladimir Berg
+- `service@alento.eu` — Alento GmbH (Ebersberg) — `oem_buyer` / high — Manfred Zoss
+- `matthias.dueran@haller-lahr.de` — Willi Haller GmbH (Lahr) — `overseas_peer_overflow` / high — Matthias Düran
+- `oliver.danner@haller-lahr.de` — Willi Haller GmbH (Lahr) — `overseas_peer_overflow` / high — Oliver Danner
+- `ralf.woelfle@haller-lahr.de` — Willi Haller GmbH (Lahr) — `overseas_peer_overflow` / high — Ralf Wölfle
+- `alexander.weiss@haller-lahr.de` — Willi Haller GmbH (Lahr) — `overseas_peer_overflow` / high — Alexander Weiß
+- `info@stolz-seng.de` — Stolz & Seng (Donaueschingen) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `FLICKS-CAD` — SKIP phone-only / E-Mail anzeigen cloak
+- `Finke Formenbau plain mailto / Privacy JS-split` — SKIP no plain company-site mailto
+- `ABAS Fulda named` — SKIP Cloudflare 526 / only known info@
+- `CAD-KON named beyond team_` — SKIP known
+- `Reddikowsky / Dobener / ck-form.de` — SKIP dead/unreachable
+- `invent g.helm@lh` — SKIP invent
+- `Conrad Formenbau+Druckguss` — DROP Druckguss-primary (Zink)
+- `Sieberkon / spritzgusswerkzeug-konstruktion` — DROP CH/AT-only
+- `SCK Schneider CAD` — DROP aerospace-primary off-ICP
+- `miriam.koessler@ / roland.hallmann@ haller` — DROP Einkauf / Finanzen+Personal
+- `schell-connect` — DROP Stanz/connector
+- `Gerken continuum` — DROP Stanz/Umform avoid
+
+---
+
 ## Website/named Kontakt Batch 124
 
 > 合并前重读 CSV（任务口径 **4356** / **3047**；Directory Batch130dir 未抬升 live）。本批按 live 合并，网站轨净增 **+5** → 瞬时 **4361** / **3052**。

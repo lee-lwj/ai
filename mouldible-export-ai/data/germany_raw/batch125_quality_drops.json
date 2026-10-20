@@ -1,0 +1,74 @@
+[
+  {
+    "item": "Formacon j.sancar@formacon.de",
+    "reason": "SKIP site still unreachable (curl 0) — never invent from SERP; carry recovery"
+  },
+  {
+    "item": "FLICKS-CAD Wolfgang Flickschuh",
+    "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto"
+  },
+  {
+    "item": "Finke Formenbau info@finke-formenbau.de / JS-split Privacy",
+    "reason": "SKIP no plain company-site mailto; Privacy spaced cloak; third-party directory invent avoid; known finke-gruppe named only"
+  },
+  {
+    "item": "ABAS Fulda named beyond info@",
+    "reason": "SKIP Cloudflare 526 — only known info@"
+  },
+  {
+    "item": "CAD-KON named beyond team_cad-kon@t-online",
+    "reason": "SKIP only known team_"
+  },
+  {
+    "item": "Reddikowsky / Dobener",
+    "reason": "SKIP sites still dead / unreachable"
+  },
+  {
+    "item": "ck-form.de",
+    "reason": "SKIP site unreachable"
+  },
+  {
+    "item": "invent g.helm@lh-konstruktion.de",
+    "reason": "SKIP invent — only info@ published"
+  },
+  {
+    "item": "Conrad Formenbau und Druckguss info@formenbau-conrad.de",
+    "reason": "DROP Druckguss-primary (Zink Druckguss emphasis; dual Formenbau+Druckguss casting)"
+  },
+  {
+    "item": "Sieberkon mail@sieberkon.info",
+    "reason": "DROP CH/AT-only (Marbach Schweiz / +41)"
+  },
+  {
+    "item": "spritzgusswerkzeug-konstruktion.de",
+    "reason": "DROP CH/AT-only (Österreich-facing; no DE Impressum)"
+  },
+  {
+    "item": "SCK Schneider CAD info@sck.de / Gernot.Schneider@sck.de",
+    "reason": "DROP off-ICP aerospace primary (Flugzeug-Bordküchen/Montagetechnik; not Spritzgussformenbau)"
+  },
+  {
+    "item": "miriam.koessler@haller-lahr.de",
+    "reason": "DROP Einkauf/Vertrieb role"
+  },
+  {
+    "item": "roland.hallmann@haller-lahr.de",
+    "reason": "DROP Finanzen/Personal"
+  },
+  {
+    "item": "schell-connect.com",
+    "reason": "DROP Stanz continuum / connector primary"
+  },
+  {
+    "item": "formenbau-pg.de",
+    "reason": "SKIP site unreachable"
+  },
+  {
+    "item": "RSP-Ingenieurbüro",
+    "reason": "SKIP site unreachable"
+  },
+  {
+    "item": "Gerken continuum",
+    "reason": "DROP Stanz/Umform avoid"
+  }
+]
