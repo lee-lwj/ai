@@ -1,0 +1,35 @@
+{
+  "batch": 134,
+  "before": {
+    "emails": 4548,
+    "domains": 3179,
+    "hosts": 3189
+  },
+  "after": {
+    "emails": 4553,
+    "domains": 3182,
+    "hosts": 3191
+  },
+  "net_new": 5,
+  "added_emails": [
+    "moberholz@gmx.de",
+    "info@jb-formenbau.de",
+    "emwbau@t-online.de",
+    "michael.neumann@ziform.com",
+    "matthias.schneider@ziform.com"
+  ],
+  "confidence": {
+    "medium": 281,
+    "high": 4272
+  },
+  "icp_tag": {
+    "overseas_peer_overflow": 4169,
+    "oem_buyer": 148,
+    "sourcing": 36,
+    "design_studio": 200
+  },
+  "phones": 3931,
+  "cities": 4037,
+  "non_de": 1209,
+  "timestamp_hkt": "2026-10-21 06:55:55 Asia/Hong_Kong"
+}

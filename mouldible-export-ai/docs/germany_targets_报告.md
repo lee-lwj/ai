@@ -1,3 +1,66 @@
+## Website/named Kontakt Batch 134
+
+> 合并前重读 CSV（任务启动口径 B133 后 **4548** / **3179** domains ~**3189** hosts；写前 live 仍 **4548** / **3179** domains ~**3189** hosts）。本批按 live 合并，网站轨净增 **+5** → **4553** / **3182** domains (~**3191** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4553** |
+| high / medium | **4272** / **281** |
+| 唯一域名（domain 列） | **3182** |
+| 唯一邮箱主机（@host） | **3191** |
+| 含电话 / 含城市 | **3931** / **4037** |
+| 非 .de 邮箱 | **1209** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4169** |
+| design_studio | **200** |
+| oem_buyer | **148** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+5**（相对写时基线 4548）
+
+- `moberholz@gmx.de` — Martin Oberholz / Oberholz Werkzeugbau Kunststofftechnik — Martin Oberholz (Inhaber) (Lüdenscheid) — `overseas_peer_overflow` / high
+- `info@jb-formenbau.de` — JB Formenbau / Josef Böhmer — Josef Böhmer (Inhaber / Geschäftsführer) (Velbert) — `overseas_peer_overflow` / high
+- `emwbau@t-online.de` — Erich Menn Werkzeugbau GmbH & Co.KG (Bad Berleburg-Aue) — `overseas_peer_overflow` / high
+- `michael.neumann@ziform.com` — Zimmermann Formen- und Werkzeugbau GmbH (Ziform) — Dr. Michael Neumann (Geschäftsleitung) (Gladenbach) — `overseas_peer_overflow` / high
+- `matthias.schneider@ziform.com` — Zimmermann Formen- und Werkzeugbau GmbH (Ziform) — Matthias Schneider (Geschäftsführung) (Gladenbach) — `overseas_peer_overflow` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de / Auer / Mohr / Walter / Preisner / Pour / HeiForm / Heinze / MS Formen` — SKIP still dead/403/unreachable — carry recovery
+- `spritzgiessformen.de` — DROP parked/redirect afp24
+- `rommel-formen.de` — DROP Metallguss redirect (haas-metallguss)
+- `wf-werkzeugtechnik.de info@` — DROP Spannzeuge/CNC tooling accessories wrong vertical
+- `vollmann-group.com gevelsberg@` — DROP Stanz-/Umform primary
+- `Finke / Beck Plastics / Weber Weidenberg` — SKIP JS/Joomla cloak only
+- `WS Neustadt` — SKIP (at) obfuscation invent
+- `SGWK` — SKIP postal Impressum still pending medium→high
+- `formenmacher.de / bougies.de` — DROP Thermoform/Silikon/Kerzen not Spritzguss
+- `rheder-werkzeugbau.de / rhe-we.de` — DROP Zerspanung-primary (+ Stanz/Umform)
+- `zindt-formenbau.de / zindt-fb.de` — DROP EPS/EPP Partikelschaum-Formen (not thermoplastic Spritzguss)
+- `meissner-formentechnologie.com` — DROP Sandguss/Kokillenguss/metal Formen primary
+- `a.mueller@ / k.sticker@ Mueller` — DROP Buchhaltung / Einkauf
+- `karen.assmann@ / alexander.schiller@ Ziform` — DROP Personal / Einkauf
+- `form-exclusiv.de` — DROP Möbelmanufaktur
+- `hematec-werkzeugbau.de / tilgert` — SKIP unreadable/unreachable
+
+### 产物
+
+- `data/germany_raw/batch134_new_verified.json`
+- `data/germany_raw/batch134_quality_drops.json`
+- `data/germany_raw/batch134_merge_log.json`
+- `data/germany_raw/batch134_candidates_final.json`
+- `data/germany_raw/batch135_queue_note.txt`
+
+_报告更新：2026-10-21 Asia/Hong_Kong_
+
+---
+
 ## Website/named Kontakt Batch 133
 
 > 合并前重读 CSV（任务启动口径 B132 后 **4543** / **3176** domains ~**3186** hosts；写前 live 仍 **4543** / **3176** domains ~**3186** hosts）。本批按 live 合并，网站轨净增 **+5** → **4548** / **3179** domains (~**3189** hosts)。

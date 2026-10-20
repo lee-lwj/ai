@@ -1,0 +1,10 @@
+# Batch 135 queue note (Website / named Kontakt)
+
+Baseline after B134: live **4553** emails / **3182** domains (~**3191** hosts) (B134 website net +5 from 4548).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch135dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers; Thermoform-Tiefzieh-primary (Senkel pattern); Zerspanung-only (Kaiser/Neueder/Rheder pattern); CNC-Frästeile-only (Bärmann pattern); casino-hijacked hosts (wedo/spritzgiessformen pattern); EPS/EPP Partikelschaum-Formen (Zindt pattern); Sandguss/Kokillenguss Formen (Meissner Formentechnologie pattern).
+- B134 KEEP: Oberholz moberholz@gmx.de (Lüdenscheid); JB Formenbau info@ (Velbert); Menn emwbau@t-online.de (Bad Berleburg); Ziform michael.neumann@ + matthias.schneider@ GF (Gladenbach).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); Finke plain mailto if published (JS crypt still only); CAD-KON plastics named if .de recovers; Reddikowsky/Dobener/ck-form if live; Beck/Bauer Willingen if plain mailto (Joomla cloak); Formenbau Rapp / Auer / kb-sprung if 403 clears; Heise/Detlef Mohr/Hochstadter-formenbau if sites recover; Jordan Spritzguss if recovers; WS Neustadt plain mailto upgrade; SGWK postal Impressum upgrade medium→high; preisner/pour/walter-formenbau host if plain Impressum recovers; HeiForm/Heinze when 403 clears; Weber Formenbau Weidenberg if plain (cloak now); MS Formen if site recovers; Hematec if plain mailto decompresses; saur-formenbau already covered via saur-wzb.de; aku-kunststoff24 / wischemann / vvk / ks-werkzeugtechnik if plain mailto appears; residual Ruhrgebiet/Bergisches Land/Niederrhein singles; design_studio CAD-Konstruktion peers Köln/Düsseldorf corridor beyond Designmachine/WERK|m/Entwurfreich.
