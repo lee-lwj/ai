@@ -1161,6 +1161,68 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch125dir
+
+> 合并前重读 CSV（Website B120 后直播基线 **4306** / **3007**；指令预期 4306）。合并后基线：**4312** / **3013**（已剔除 rechnungswesen@ 会计本地）。
+
+### 累计（Batch125dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4312** |
+| high / medium | **4034** / **278** |
+| 唯一域名 | **3013** |
+| 含电话 / 含城市 | **3722** / **3800** |
+| 非 .de 邮箱 | **1154** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3988** |
+| design_studio | **179** |
+| oem_buyer | **110** |
+| sourcing | **35** |
+
+### 本轨成果（Batch125dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **14** |
+| 有邮箱命中 | **9** |
+| 本轨净增邮箱 | **6**（high **5** / medium **1**） |
+| 相对基线 4306/3007 | **+6** / **+6** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B124 域名队列 | 空（主靠城种子） |
+| Rhein-Main/Pfalz/Saar + BW/Bayern/ST/BB × kw | 有效（144 城） |
+| Bing Maps / Europages / Fakuma | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+| 质量 | 剔除 plexiglas/roehm 材料商；剔除 rechnungswesen@ |
+
+### 本轨新增邮箱（共 6）
+
+- `info@steck-plastics.de` (high)
+- `info@beckmann-kunststoffe.de` (high)
+- `info@hiendl.de` (medium)
+- `info@gw-werkzeugbau.de` (high)
+- `info@mskunststofftechnik.de` (high)
+- `hendrik.voelker@jetmold.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch125dir_*.json`
+- `data/germany_raw/batch125dir_next_search_seeds.json`
+
+### 状态
+
+Batch125dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch126dir（主靠 Oberbayern/Schwaben 城种子）。
+
 ## 目录/展会轨 Batch124dir
 
 > 合并前重读 CSV（直播基线 **4294** / **3001**；指令预期 4294，含 B123dir+Website B118）。合并后基线：**4298** / **3005**。

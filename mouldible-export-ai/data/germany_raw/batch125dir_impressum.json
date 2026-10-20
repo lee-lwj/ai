@@ -1,0 +1,165 @@
+[
+  {
+    "domain": "steck-plastics.de",
+    "ok": true,
+    "emails": [
+      "info@steck-plastics.de"
+    ],
+    "source_url": "https://steck-plastics.de/impressum/",
+    "phone": "",
+    "city": "Schramberg-Sulgen Handelsregister",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "beckmann-kunststoffe.de",
+    "ok": true,
+    "emails": [
+      "info@beckmann-kunststoffe.de"
+    ],
+    "source_url": "https://beckmann-kunststoffe.de/impressum/",
+    "phone": "+49 5222 73428",
+    "city": "Bad Salzuflen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "hiendl-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@hiendl.de"
+    ],
+    "source_url": "https://hiendl-kunststofftechnik.de/impressum/",
+    "phone": "",
+    "city": "Bogen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "gw-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@gw-werkzeugbau.de"
+    ],
+    "source_url": "https://gw-werkzeugbau.de/impressum/",
+    "phone": "+49 (0) 1708714251",
+    "city": "Marktredwitz",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "pdm-formen.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "mskunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@mskunststofftechnik.de"
+    ],
+    "source_url": "https://mskunststofftechnik.de/impressum/",
+    "phone": "Tel.: 08247 90622-0",
+    "city": "Bad Wörishofen Tel",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "plexiglas-polymers.com",
+    "ok": true,
+    "emails": [
+      "francoise.schmit@roehm.com"
+    ],
+    "source_url": "https://www.plexiglas-polymers.com/de/kontakt",
+    "phone": "+49 152 24498730",
+    "city": "Gif sur Yvette C",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "guethner-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@guethner-gmbh.de"
+    ],
+    "source_url": "https://www.guethner-werkzeugbau.de/impressum.html",
+    "phone": "+49 7977 911684",
+    "city": "Oberrot-Marbächle",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "jetmold.de",
+    "ok": true,
+    "emails": [
+      "hendrik.voelker@jetmold.de"
+    ],
+    "source_url": "https://www.jetmold.de/Kontakt",
+    "phone": "+49 7441 950",
+    "city": "Freudenstadt",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "kindtner-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "kontakt@kindtner.de",
+      "vertrieb@kindtner.de",
+      "sergej.drozdov@kindtner.de",
+      "daniel.koczor@kindtner.de",
+      "roland.jazdz@kindtner.de",
+      "rechnungswesen@kindtner.de"
+    ],
+    "source_url": "https://kindtner-kunststofftechnik.de/kontakt/",
+    "phone": "+49 (0)7940 9283-0",
+    "city": "Künzelsau",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "hess-formen.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "plastiform-online.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "polymergmbh.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "rommel-formen.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

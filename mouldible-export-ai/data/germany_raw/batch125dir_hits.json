@@ -1,0 +1,14 @@
+{
+  "batch": "125dir",
+  "n_emails": 6,
+  "n_domains": 6,
+  "emails": [
+    "info@steck-plastics.de",
+    "info@beckmann-kunststoffe.de",
+    "info@hiendl.de",
+    "info@gw-werkzeugbau.de",
+    "info@mskunststofftechnik.de",
+    "hendrik.voelker@jetmold.de"
+  ],
+  "fix": "Dropped rechnungswesen@ (accounting); replaced with non-HR kindtner emails if new"
+}
