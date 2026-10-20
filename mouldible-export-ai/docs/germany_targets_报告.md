@@ -1,3 +1,53 @@
+## Website/named Kontakt Batch 121
+
+> 合并前重读 CSV（任务口径 **4306** / **3018**；Directory Batch125dir→**4312**、Batch126dir→写时 live **4316** / **3017**）。本批按 live 合并，网站轨净增 **+8** → 瞬时 **4324** / **3018**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4324** |
+| high / medium | **4044** / **280** |
+| 唯一域名 | **3018** |
+| 含电话 / 含城市 | **3733** / **3812** |
+| 非 .de 邮箱 | **1154** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3998** |
+| design_studio | **181** |
+| oem_buyer | **110** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+8**（相对写时基线 4316）
+
+- `info@ehformtechnik.de` — E & H Formtechnik-Entwicklung GmbH (Waldsassen) — `design_studio` / high
+- `r.ernstberger@ehformtechnik.de` — E & H Formtechnik-Entwicklung GmbH (Waldsassen) — `design_studio` / high — R. Ernstberger
+- `entwicklung@polymold.de` — POLYMOLD GmbH (Pähl) — `overseas_peer_overflow` / high — Gereon Starke
+- `gereon.starke@polymold.de` — POLYMOLD GmbH (Pähl) — `overseas_peer_overflow` / high — Gereon Starke
+- `projektmanagement@polymold.de` — POLYMOLD GmbH (Pähl) — `overseas_peer_overflow` / high
+- `wzb@polymold.de` — POLYMOLD GmbH (Pähl) — `overseas_peer_overflow` / high — Kai Gerhardt
+- `kai.gerhardt@polymold.de` — POLYMOLD GmbH (Pähl) — `overseas_peer_overflow` / high — Kai Gerhardt
+- `tobias.steidl@polymold.de` — POLYMOLD GmbH (Pähl) — `overseas_peer_overflow` / high — Tobias Steidl
+
+### 本批质量剔除（节选）
+
+- `info@weborbis-webdesign.de` — DROP Werbeagentur (BM Impressum web designer)
+- `poststelle@datenschutz-bayern.de / poststelle@lra-ed.de` — DROP third-party Behörde on Impressum
+- `sh@kreativstudio-hohmann.de / hallo@dieatemraeuber.de / info@7bytes.de` — DROP agency / photo / web designer third-party
+- `bewerbung@spindler-formenbau.de / bewerbung@stolz-seng.de` — DROP Bewerbung/HR
+- `dsb@stolz-seng.de` — DROP Datenschutzbeauftragter
+- `warenausgang@p-w-f.de` — DROP Versand/Warenausgang
+- `info.h@nel-praezision.de` — DROP cloak parse artifact (Hänel)
+- `Gollmer kontakt third-party (stolz-industries / mks-sales / atr-solutions / mf-couplings)` — DROP third-party sales partners on Gollmer kontakt (carry-forward)
+- `Meissner Formentechnologie` — DROP Sand-/Kokillen-/Druckguss-primary
+- `Riedl / Frank / Bergmann / Happ / W&W / Fenkl / Marquart / Saur / Kaut / Kaspareth / Berger / KB-Hein / Voth / WTL / Spies / Stolz-Seng / Otto / EDEGS / OptiCAMMS / Gärtner / BM / Spindler / Hänel / CAD studios` — SKIP already known
+- `Finke/ccoffice/Formacon/Krauss mailto∂` — SKIP cloak / phone-only / dead (carry forward to B122)
+
+---
+
 ## Website/named Kontakt Batch 120
 
 > 合并前重读 CSV（基线 **4303** / **3017**；任务口径 4303/3006 hosts~3017）。本批网站轨净增 **+3** → 瞬时 **4306** / **3018**。

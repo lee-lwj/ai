@@ -1,0 +1,94 @@
+{
+  "batch": 121,
+  "timestamp_hk": "2026-10-21 04:43 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4316 emails / 3017 domains (task steered 4306; Batch125dir→4312; Batch126dir→4316). Merge against live 4316.",
+  "baseline": {
+    "emails": 4316,
+    "domains": 3017
+  },
+  "net_new": 8,
+  "website_batch_end_snapshot": {
+    "emails": 4324,
+    "domains": 3018
+  },
+  "new_totals": {
+    "emails": 4324,
+    "domains": 3018,
+    "high": 4044,
+    "medium": 280,
+    "non_de": 1154,
+    "icp": {
+      "overseas_peer_overflow": 3998,
+      "design_studio": 181,
+      "oem_buyer": 110,
+      "sourcing": 35
+    },
+    "with_phone": 3733,
+    "with_city": 3812
+  },
+  "added_domains": [
+    "ehformtechnik.de"
+  ],
+  "added_emails": [
+    "info@ehformtechnik.de",
+    "r.ernstberger@ehformtechnik.de",
+    "entwicklung@polymold.de",
+    "gereon.starke@polymold.de",
+    "projektmanagement@polymold.de",
+    "wzb@polymold.de",
+    "kai.gerhardt@polymold.de",
+    "tobias.steidl@polymold.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "gereon.starke@ (first miss then re-seen)",
+      "reason": "KEEP after &#64; unescape re-verify on homepage"
+    },
+    {
+      "item": "info@weborbis-webdesign.de",
+      "reason": "DROP Werbeagentur (BM Impressum web designer)"
+    },
+    {
+      "item": "poststelle@datenschutz-bayern.de / poststelle@lra-ed.de",
+      "reason": "DROP third-party Behörde on Impressum"
+    },
+    {
+      "item": "sh@kreativstudio-hohmann.de / hallo@dieatemraeuber.de / info@7bytes.de",
+      "reason": "DROP agency / photo / web designer third-party"
+    },
+    {
+      "item": "bewerbung@spindler-formenbau.de / bewerbung@stolz-seng.de",
+      "reason": "DROP Bewerbung/HR"
+    },
+    {
+      "item": "dsb@stolz-seng.de",
+      "reason": "DROP Datenschutzbeauftragter"
+    },
+    {
+      "item": "warenausgang@p-w-f.de",
+      "reason": "DROP Versand/Warenausgang"
+    },
+    {
+      "item": "info.h@nel-praezision.de",
+      "reason": "DROP cloak parse artifact (Hänel)"
+    },
+    {
+      "item": "Gollmer kontakt third-party (stolz-industries / mks-sales / atr-solutions / mf-couplings)",
+      "reason": "DROP third-party sales partners on Gollmer kontakt (carry-forward)"
+    },
+    {
+      "item": "Meissner Formentechnologie",
+      "reason": "DROP Sand-/Kokillen-/Druckguss-primary"
+    },
+    {
+      "item": "Riedl / Frank / Bergmann / Happ / W&W / Fenkl / Marquart / Saur / Kaut / Kaspareth / Berger / KB-Hein / Voth / WTL / Spies / Stolz-Seng / Otto / EDEGS / OptiCAMMS / Gärtner / BM / Spindler / Hänel / CAD studios",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "Finke/ccoffice/Formacon/Krauss mailto∂",
+      "reason": "SKIP cloak / phone-only / dead (carry forward to B122)"
+    }
+  ]
+}
