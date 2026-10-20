@@ -652,6 +652,101 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch108dir
+
+> 合并前重读 CSV（Website B106–B108 后基线 **4057** / **2806**）。合并后基线：**4078** / **2827**。
+
+### 累计（Batch108dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4078** |
+| high / medium | **3819** / **259** |
+| 唯一域名 | **2827** |
+| 含电话 / 含城市 | **3505** / **3590** |
+| 非 .de 邮箱 | **1121** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3801** |
+| design_studio | **165** |
+| oem_buyer | **78** |
+| sourcing | **34** |
+
+### 本轨成果（Batch108dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **55** |
+| 有邮箱命中 | **27** |
+| 本轨净增邮箱 | **21**（high **21** / medium **0**） |
+| 相对基线 4057/2806 | **+21** / **+21** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **50** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B107dir gsbiz | **32** |
+| 扩展 | BW/BY/HE/NRW 城 + spritz/thermo/elastomer 类目；ajax **105** → 新 gsbiz **140**（取 90，余 50） |
+| 本轮核验队列 | **55**（53 完成 + 2 超时 forced no_email） |
+| 超时强制 no_email | onlinehome.de, werto-plast.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **50** |
+
+### 方法
+
+1. 排空 gsbiz **32** + GS 扩展 → Impressum（未整队重跑，用 `.jsonll` 部分结果收尾）  
+2. 合并前重读 **4057/2806**（Website B106–B108 已入）  
+3. 质量剔除：portal/presse/thyssenkrupp/formbeton/off-domain/msn；保留 brand_related medium  
+4. 再播种：gsbiz 余 **50**
+
+### 本轨新增邮箱（共 21）
+
+- `info@aptoplast.com` (high)
+- `info@bayer-praezisionsteile.de` (high)
+- `info@feintech-richter.de` (high)
+- `info@g-k-schoen.de` (high)
+- `info@hms-gmbh.eu` (high)
+- `info@greineroffenburg.de` (high)
+- `info@kern.de` (high)
+- `info@cncform.de` (high)
+- `info@koenig-automotive.de` (high)
+- `info@hallerkt.de` (high)
+- `sekretariat@komos.de` (high)
+- `info@kostal-co.de` (high)
+- `info@rmax-poliertechnik.de` (high)
+- `info@rietzel-plexi.de` (high)
+- `info@schreck-kunststofftechnik.com` (high)
+- `office@richter-wolfgang.com` (high)
+- `info@schulze-schulze.com` (high)
+- `info@profiform-feinwerktechnik.de` (high)
+- `info@kremm.de` (high)
+- `info@uebelgoenne.de` (high)
+- `fp@waltonphilipps.com` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 2 域名超时 → forced no_email（onlinehome.de, werto-plast.de）
+- 见 `data/germany_raw/batch108dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch108dir_impressum.json`
+- `data/germany_raw/batch108dir_verified.json` / `batch108dir_hits.json`
+- `data/germany_raw/batch108dir_merge_log.json` / `batch108dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch108dir 已合并；域名队列 **0**；gsbiz 余 **50** 供 Batch109dir。
+
+---
+
 ## 目录/展会轨 Batch107dir
 
 > 合并前重读 CSV（基线 **4012** / **2769**；Website B106 可能并行写入）。合并后基线：**4044** / **2800**。
