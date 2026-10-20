@@ -95,6 +95,94 @@
 
 ---
 
+## 目录/展会轨 Batch88dir
+
+> 合并前重读 CSV（基线 **3560** / **2460**；Website B89 当时尚未改写）。合并后基线供 Website B89/B90：**3597** / **2486**。
+
+### 累计（Batch88dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3597** |
+| high / medium | **3365** / **232** |
+| 唯一域名 | **2486** |
+| 含电话 / 含城市 | **3121** / **3232** |
+| 非 .de 邮箱 | **951** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3362** |
+| design_studio | **136** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch88dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **120** |
+| 有邮箱命中 | **40** |
+| 本轨净增邮箱 | **37**（high **36** / medium **1**） |
+| 相对基线 3560 | **+37** |
+| 再播种剩余 | **120** |
+| 队列剩余 | **120** |
+
+### 方法
+
+1. 排空上轮 **120** 个 broader master `.de/.at/.ch` → Impressum/Kontakt  
+2. append-dedupe（合并前重读 **3560/2460**）  
+3. 质量剔除：web.de / freenet 门户、医院等非 ICP（broader master 噪音）  
+4. 续播种 broader master → 队列 **120**；WLW 跳过
+
+### 本轨新增邮箱（节选前 25 / 共 37）
+
+- `info@helios-ac.ch`
+- `admin@digisens.ch`
+- `admin@mafix.ch`
+- `automotive@preh.de`
+- `contact@nose.ch`
+- `commercial@rmontavon.ch`
+- `contact@rmontavon.ch`
+- `corresp@schallersa.ch`
+- `info@werba-print.de`
+- `daten@lmd-innovation.de`
+- `dave@wats-on.de`
+- `post@schoenmueller.de`
+- `contact@dixi.ch`
+- `communication@he-arc.ch`
+- `juridique@he-arc.ch`
+- `office@hadi.at`
+- `presse@bingo-ev.de`
+- `support@bingo-ev.de`
+- `info@rudolfpuetzergmbh.de`
+- `hewa@hewa-ft.de`
+- `info@tectro.de`
+- `info@hund.de`
+- `info@realag.ch`
+- `info@adax.ch`
+- `info@admo.ch`
+… 另有 12 个，见 `data/germany_raw/batch88dir_hits.json`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- broader master 含门户噪音，已剔除 web.de/freenet/hcuge
+- 见 `data/germany_raw/batch88dir_merge_log.json` / `batch88dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch88dir_impressum.json`
+- `data/germany_raw/batch88dir_verified.json` / `batch88dir_hits.json`
+- `data/germany_raw/batch88dir_merge_log.json` / `batch88dir_reseed.json`
+
+### 状态
+
+Batch88dir 已合并；队列剩余 **120** 供 Batch89dir。
+
+---
+
 ## 目录/展会轨 Batch87dir
 
 > 合并前重读 CSV（Website B88 后基线 **3552** / **2452**）。合并后基线供 Website B89：**3560** / **2460**。
