@@ -1,0 +1,54 @@
+[
+  {
+    "item": "Formacon j.sancar@",
+    "reason": "SKIP site still unreachable from box (curl 000 / WebFetch 500) — never invent; carry recovery"
+  },
+  {
+    "item": "Finke Gruppe named",
+    "reason": "SKIP cloaked/spaced emails on company site; known named already in master"
+  },
+  {
+    "item": "CAD-KON .de / Reddikowsky / Dobener / ck-form / Rapp / Auer / kb-sprung / Heise / Hochstadter-formenbau / Jordan",
+    "reason": "SKIP dead/403/unreachable"
+  },
+  {
+    "item": "Beck Plastics / Bauer Willingen",
+    "reason": "SKIP Joomla cloak / (at) obfuscation — plain-only"
+  },
+  {
+    "item": "ABAS Menrad / JAMA named beyond info@ / invent g.helm@",
+    "reason": "SKIP invent/cloak/tel-only"
+  },
+  {
+    "item": "hochstaedter.de Folientunnel",
+    "reason": "DROP wrong vertical (agriculture Folientunnel, not Formenbau)"
+  },
+  {
+    "item": "neueder.de",
+    "reason": "DROP Zerspanung/CNC Maschinenbau-primary (Kaiser pattern)"
+  },
+  {
+    "item": "sgwk.de sports club",
+    "reason": "DROP wrong host — SGWK plastics = spritzgusswerkzeug-konstruktion.de (already medium, no postal Impressum yet)"
+  },
+  {
+    "item": "wedo-formenbau / weiss-form",
+    "reason": "SKIP wedo no plain mailto on company site; DROP weiss-form Umform primary + (at) cloak"
+  },
+  {
+    "item": "OM r.thomas@",
+    "reason": "DROP Verwaltung & Talent Management"
+  },
+  {
+    "item": "Vorbach stefan.neuhorn (dot)/(at)",
+    "reason": "SKIP obfuscation invent; info@ already known"
+  },
+  {
+    "item": "Möschl / BM alt host / Spindler bewerbung@",
+    "reason": "SKIP emails already in master / Bewerbung"
+  },
+  {
+    "item": "preisner / pour / walter-formenbau host",
+    "reason": "SKIP dead recovery probes"
+  }
+]

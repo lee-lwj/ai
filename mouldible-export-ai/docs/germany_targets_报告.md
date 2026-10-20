@@ -1,3 +1,61 @@
+## Website/named Kontakt Batch 131
+
+> 合并前重读 CSV（Directory 未抬升；直播基线仍 **4517** / **3157** domains ~**3168** hosts；任务初口径 4517/3158 与 domain 列差 1、hosts 一致）。本批按 live 合并，网站轨净增 **+6** → **4523** / **3161** domains (~**3172** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4523** |
+| high / medium | **4242** / **281** |
+| 唯一域名（domain 列） | **3161** |
+| 唯一邮箱主机（@host） | **3172** |
+| 含电话 / 含城市 | **3905** / **4007** |
+| 非 .de 邮箱 | **1202** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4143** |
+| design_studio | **197** |
+| oem_buyer | **147** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+6**（相对写时基线 4517）
+
+- `info@swk.berlin` — SWK Innovations GmbH & Co. KG (Lübbenau) — `oem_buyer` / high
+- `p.stammberger@swk.berlin` — SWK — Petra Stammberger (Geschäftsleitung) — `oem_buyer` / high
+- `t.psaar@swk.berlin` — SWK — Thomas Psaar (Prokurist / technische Leitung) — `oem_buyer` / high
+- `contact@kohlmeier-vlotho.de` — Gebr. Kohlmeier GmbH (Vlotho; site km-vlotho.de) — `oem_buyer` / high
+- `info@plastform.de` — Plastform GmbH (Hückeswagen; Extrusionsblaswerkzeuge) — `overseas_peer_overflow` / high
+- `gmtiug@aol.com` — GMTI Golz Mould & Tools Int. UG (Arnbruck) — `overseas_peer_overflow` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `Finke / CAD-KON .de / Reddikowsky / Dobener / ck-form / Rapp / Auer / kb-sprung / Heise / Hochstadter-formenbau / Jordan` — SKIP dead/403/cloak
+- `Beck Plastics / Bauer Willingen` — SKIP Joomla cloak (plain-only)
+- `ABAS Menrad / JAMA named / invent g.helm@` — SKIP invent/cloak/tel-only
+- `hochstaedter.de` — DROP wrong vertical (Folientunnel agriculture)
+- `neueder.de` — DROP Zerspanung/CNC Maschinenbau-primary
+- `sgwk.de` — DROP sports club; plastics SGWK remains spritzgusswerkzeug-konstruktion.de (medium, no postal Impressum)
+- `wedo / weiss-form` — SKIP no plain mailto / DROP Umform-primary
+- `OM r.thomas@` — DROP Verwaltung & Talent Management
+- `Vorbach (dot)/(at) / Möschl already-known / Bewerbung` — SKIP
+
+### 产物
+
+- `data/germany_raw/batch131_new_verified.json`
+- `data/germany_raw/batch131_quality_drops.json`
+- `data/germany_raw/batch131_merge_log.json`
+- `data/germany_raw/batch131_candidates_final.json`
+- `data/germany_raw/batch132_queue_note.txt`
+
+_报告更新：2026-10-21 06:22 Asia/Hong_Kong_
+
+---
+
 ## Website/named Kontakt Batch 130
 
 > 合并前重读 CSV（Directory Batch134dir 尚未抬升；直播基线仍 **4508** / **3154** domains ~**3164** hosts；任务初口径 4508 有效）。本批按 live 合并，网站轨净增 **+9** → **4517** / **3158** domains (~**3168** hosts)。

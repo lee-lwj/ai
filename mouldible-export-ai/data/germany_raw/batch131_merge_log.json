@@ -1,0 +1,21 @@
+{
+  "batch": 131,
+  "type": "website_named_kontakt",
+  "baseline_emails": 4517,
+  "baseline_domains": 3168,
+  "baseline_note": "live re-read before merge: 4517 unique emails / 3168 hosts; domain-col count computed post",
+  "added": 6,
+  "after_emails": 4523,
+  "after_domains_col": 3161,
+  "after_hosts": 3172,
+  "kept_emails": [
+    "info@swk.berlin",
+    "p.stammberger@swk.berlin",
+    "t.psaar@swk.berlin",
+    "contact@kohlmeier-vlotho.de",
+    "info@plastform.de",
+    "gmtiug@aol.com"
+  ],
+  "skipped_present": [],
+  "timestamp_asia_hong_kong": "2026-10-21 06:21 Asia/Hong_Kong"
+}
