@@ -1,66 +1,67 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 83）
+## 1. 累计交付数量（如实，至 Batch 84）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3333** |
-| 本轮净增（相对目录 Batch82dir 合并后基线 3320） | **+13** |
+| 去重后邮箱总数（累计） | **3382** |
+| 本轮净增（相对目录 Batch83dir 合并后基线 3368） | **+14** |
 | 本轮因已在 master/targets 跳过 | **0** |
 | 本轮质量剔除（死站/错垂/cloak 等） | **10** |
-| 其中 high / medium | **3121** / **212** |
-| 唯一域名 | **2327** |
-| 非 .de 邮箱（累计） | **800** |
-| 含电话 / 含城市 | **2925** / **3038** |
-| 本轮新域名贡献 | **1** |
+| 其中 high / medium | **3165** / **217** |
+| 唯一域名 | **2349** |
+| 非 .de 邮箱（累计） | **821** |
+| 含电话 / 含城市 | **2972** / **3084** |
+| 本轮新域名贡献 | **0** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3102** |
+| overseas_peer_overflow | **3151** |
 | design_studio | **132** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 83 · Website/named Kontakt）
+## 2. 本轮方法（Batch 84 · Website/named Kontakt）
 
-1. **基线**：目录 Batch82dir（VDWF）合并后 **重读 CSV** → **3320 / 2326**（非用户提示的 3042），再合并本轮。
-2. **Expand 队列**：仍空；wave1 ~50–60 singles（多数已被 dir 吸收）。
+1. **基线**：目录 Batch83dir 合并后 **重读 CSV** → **3368 / 2349**（非用户提示的 3333），再合并本轮。
+2. **Expand 队列**：仍空；wave1 ~55 tooling singles + wave2 余量（多数无 named 或已吸收）。
 3. **Named Kontakt / Web 定向**：
-   - KP Kunststoffprofile `verkauf@`（Münchweiler；Beschaffung 剔除）
-   - Erodiertechnik Naumann `werkzeugbau.de`（info@ + wasser@；Buchhaltung 剔除）
-   - Kummer Werkzeugbau Gummersbach（Marco/Matthias GF + ms@ 3D-Fräsen + de@ Drahterodieren）
-   - Leonhardt Tooling Hochdorf（Schimek Angebote + Oppenländer Bestandskunden）
-   - M+W Dortmund（Wihler×2 GF + Tenbusch Betriebsleiter + König Service；Einkauf 剔除）
-4. **质量门**：Einkauf/Buchhaltung/Sekretariat/HR；HPF 多数已由 Batch82dir 入库；cloak。
+   - Formenbau Staiger（Udo Staiger GF + Sebastian Weisser Betriebsleitung）
+   - Werkzeugbau Ehlenbröker（Markus GF + Eickmeier Drahterosion + Grötsch HSC + Wiebe medium）
+   - Moldsystem Jörg Wolfrum；Tsetinis `anfrage@`；Kiefer `info@kiefer-wzb.de`
+   - SPIES Formenbau Melle（Henseler Betriebsleitung + Wittenbrock AV + `info@spies-formenbau.de`）
+   - Müller MF `mueller@`；Eckerle Roland Blank
+4. **质量门**：Kaufmännisch/HR（Anke Ehlenbröker）；Stanz/Umform（Flüss、Ladwig）；Magazin；shop@；marketing@；dsb@；Versand/Logistik；cloak（Hack ROT13 / Croner 401 / RFK 无 plaintext named）。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 singles | ~60 | **+11**（Kummer/Leonhardt/MUW + KP） |
-| named Web（Naumann/HPF/WeWo…） | 多页 | **+2** Naumann；HPF/WeWo 已在 targets |
+| wave1/2 singles | ~70 | Staiger / Ehlenbröker / Moldsystem / Tsetinis / Kiefer |
+| named Web（Spies / Müller / Eckerle…） | 多页 | **+4** Spies + Müller + Blank；Walter/WIBRA/GHD 已由 Batch83dir 入库 |
 
-### 本轮新增（+13）
+### 本轮新增（+14）
 
-- `verkauf@kp-kunststoffprofile.de` · Münchweiler an der Rodalb ·   · high
-- `info@werkzeugbau.de` · Leipheim · Oliver Naumann · high
-- `wasser@werkzeugbau.de` · Leipheim · Günther Blömacher · high
-- `marco@kummer.de` · Gummersbach · Marco Kummer · high
-- `matthias@kummer.de` · Gummersbach · Matthias Kummer · high
-- `ms@kummer.de` · Gummersbach · Mathias Stolz · high
-- `de@kummer.de` · Gummersbach · David de Blaauw · high
-- `k.schimek@leonhardt-tooling.de` · Hochdorf ·   · high
-- `oppenlaender@leonhardt-tooling.de` · Hochdorf · Alexander Oppenländer · high
-- `volker.wihler@muw-do.de` · Dortmund · Volker Wihler · high
-- `lars.wihler@muw-do.de` · Dortmund · Lars Wihler · high
-- `achim.tenbusch@muw-do.de` · Dortmund · Achim Tenbusch · high
-- `thomas.koenig@muw-do.de` · Dortmund · Thomas König · high
+- `udo.staiger@formenbaustaiger.de` · Königsfeld-Neuhausen · Udo Staiger · high
+- `sebastian.weisser@formenbaustaiger.de` · Königsfeld-Neuhausen · Sebastian Weisser · high
+- `m.ehlenbroeker@wzb-ehlenbroeker.de` · Hille · Markus Ehlenbröker · high
+- `a.eickmeier@wzb-ehlenbroeker.de` · Hille · Andreas Eickmeier · high
+- `o.groetsch@wzb-ehlenbroeker.de` · Hille · Olaf Grötsch · high
+- `j.wiebe@wzb-ehlenbroeker.de` · Hille · Johann Wiebe · medium
+- `joerg.wolfrum@moldsystem.de` · Cadolzburg · Jörg Wolfrum · high
+- `anfrage@tsetinistooling.de` · Karlsruhe ·   · high
+- `info@kiefer-wzb.de` · Pfullingen · Ralf / Mario Kiefer · high
+- `a.henseler@spies-formenbau.de` · Melle · Andreas Henseler · high
+- `j.wittenbrock@spies-formenbau.de` · Melle · Jens Wittenbrock · high
+- `info@spies-formenbau.de` · Melle ·   · high
+- `mueller@mueller-mf.de` · Memmingen · David Müller · medium
+- `r.blank@eckerle-gmbh.de` · Beilngries · Roland Blank · medium
 
 ### 本轮新域名
 
-- `werkzeugbau.de`
+（无 — 全部落在已有域名）
 
 ### skipped-already-known（0）
 
@@ -68,7 +69,7 @@
 
 ### 质量剔除（节选）
 
-**10**：KP Beschaffung；Naumann Buchhaltung；HPF Sekretariat；Jongen HR；MUW Einkauf；cloak…
+**10**：Ehlenbröker Kaufmännisch/HR；Flüss Stanz；Ladwig Stanz/Umform；Marktspiegel；Messingzangen；ham shop@；ompg marketing@；polar dsb@；Wartenfelser Personal/Logistik；Hack/Croner/RFK cloak。
 
 ---
 
@@ -76,19 +77,18 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch83_new_verified.json`
-- `data/germany_raw/batch83_expand_results.json`
-- `data/germany_raw/batch83_merge_log.json`
-- `data/germany_raw/batch83_candidates.json` / `batch83_probe_wave1.json`
-- `data/germany_raw/batch83_quality_drops.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B84）
+- `data/germany_raw/batch84_new_verified.json`
+- `data/germany_raw/batch84_expand_results.json`
+- `data/germany_raw/batch84_merge_log.json`
+- `data/germany_raw/batch84_candidates.json` / `batch84_probe_wave1.json` / `batch84_probe_wave2.json`
+- `data/germany_raw/batch84_quality_drops.json`
+- `data/germany_raw/batch84_probe_queue.json`
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B84 继续 named Kontakt；cloak 观察。
-
+**应有尽有 — 尚未完成。** Expand 仍空。B85 继续 named Kontakt on remaining unprobed tooling singles；优先 web-search+WebFetch。Watch Batch84dir。Cloak：Hack/Croner/FBB/RFK 仍勿 invent。
 
 ---
 
