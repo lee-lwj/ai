@@ -1,3 +1,47 @@
+## Website/named Kontakt Batch 108
+
+> 合并前重读 CSV（基线 **4052** / **2820**；Batch107 后 4052/2820）。
+
+### 累计（Batch 108 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4057** |
+| high / medium | **3798** / **259** |
+| 唯一域名 | **2822** |
+| 含电话 / 含城市 | **3488** / **3569** |
+| 非 .de 邮箱 | **1115** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3780** |
+| design_studio | **165** |
+| oem_buyer | **78** |
+| sourcing | **34** |
+
+### 本批净增 **+5**
+
+- `info@jell-konstruktion.de` — JELL GmbH & Co. KG (Bernau am Chiemsee) — `design_studio` / high
+- `anfrage@aboutjell.de` — JELL GmbH & Co. KG (Bernau am Chiemsee) — `design_studio` / high
+- `holwarth@haenel-praezision.de` — Hänel Präzisionsformenbau GmbH (Neuendettelsau) — `design_studio` / high
+- `info@embayer.de` — E.M.Bayer GmbH & Co. KG (Freystadt) — `oem_buyer` / high
+- `info@burms.de` — BURMS – 3D Druck Jena GmbH & Co. KG (Kahla) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `info@krauss-web.de` — SKIP invent — Impressum shows mailto∂ krauss-web.de obfuscation; mailto@ already known junk; do not invent info@
+- `daniel.faltus@embayer.de` — DROP Personal/HR jobs mailbox
+- `info@wds-werkzeugbau.de` — DROP Thermoform/Siegel packaging (prior continuum)
+- `info@sundermeier-werkzeugbau.de` — DROP Druckguss/Stanz co-primary
+- `info@konstruktion-weides.de / weides@arcor.de` — DROP Druckguss co + personal arcor mailbox
+- `info@ck-form.de` — DROP unreachable
+- `rfk-formenbau Druckguss tags` — SKIP already-known; Druckguss co on site
+- `croner-formenbau.de` — SKIP already-known; site 401/thin
+
+---
+
 ## Website/named Kontakt Batch 107
 
 > 合并前重读 CSV（基线 **4048** / **2818**；Batch106 后 4048/2818）。
