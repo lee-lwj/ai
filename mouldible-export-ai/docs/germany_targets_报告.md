@@ -1,97 +1,82 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 88）
+## 1. 累计交付数量（如实，至 Batch 89）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3552** |
-| 本轮净增（相对目录 Batch86dir 合并后基线 3534） | **+18** |
+| 去重后邮箱总数（累计） | **3604** |
+| 本轮净增（相对目录 Batch88dir 合并后基线 3597） | **+7** |
 | 本轮因已在 master/targets 跳过 | **0** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **8** |
-| 其中 high / medium | **3322** / **230** |
-| 唯一域名 | **2452** |
-| 非 .de 邮箱（累计） | **920** |
-| 含电话 / 含城市 | **3106** / **3218** |
-| 本轮新域名贡献 | **2** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **12** |
+| 其中 high / medium | **3372** / **232** |
+| 唯一域名 | **2491** |
+| 非 .de 邮箱（累计） | **953** |
+| 含电话 / 含城市 | **3128** / **3239** |
+| 本轮新域名贡献 | **5** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3319** |
-| design_studio | **134** |
+| overseas_peer_overflow | **3369** |
+| design_studio | **136** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 88 · Website/named Kontakt）
+## 2. 本轮方法（Batch 89 · Website/named Kontakt）
 
-1. **基线**：目录 Batch86dir 合并后 **重读 CSV** → **3534 / 2450**（非用户提示的 3480）。
-2. **Expand 队列**：仍空；unprobed tooling singles ~10。
+1. **基线**：目录 Batch88dir 合并后 **重读 CSV** → **3597 / 2486**（非用户提示的 3552，亦非 Batch87dir 的 3560）。
+2. **Expand 队列**：仍空；DE tooling singles 几乎耗尽（余 CH/AT）。
 3. **Named Kontakt / Web 定向**：
-   - K&B Kunststofftechnik Niederalteich（GF + Werkzeugbau + Spritzguss + QS；Buchhaltung/Einkauf 剔除）— **新域名**
-   - Willy Sutter Formenbau Steinen/Kronach（`wsuttergmbh.de` 新域名 + Barnickel @.com；Buchhaltung 剔除）
-   - TKT Kunststoff-Technik Bad Laer（Management/CS/Plant/PM；空格混淆 live-seen）
-   - Schäfer `unterellen@` DE 工厂（海外工厂邮箱剔除）
-4. **质量门**：Buchhaltung/Einkauf；Rummel third-party only；Tebis CAM 软件；FWI 协会；cloak。
+   - Heck & Becker Dautphetal（Druckguss-Formenbau OEM peer）— **新域名**
+   - Thier GmbH Schömberg（Formenbau+Spritzguss；CF 解码 .com/.de）— **新域名×2**
+   - Mues Products & Moulds Kolbermoor（Spritzgießformen；非 Neubrandenburg 冲压）— **新域名**
+   - KPS `thilo.drechsler@` 3D-Druck（Personal/Buchhaltung 剔除）
+   - Borkott GF `fb@`（Assistentin 剔除）
+   - Fischer Werkzeugbau Rimsting `info@wzb-fischer.de` — **新域名**
+4. **质量门**：HTML 注释-only Stüwe；Aurora 再生料；Henneke Corian；Mues-Gruppe/Kortenbach 冲压；Assistentin/Finanzen/Personal/Versand；closed Kleber；cloak invent。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 remaining singles | ~12 | WSutter/TKT/Schäfer |
-| named Web（K&B/Lechner/Rummel…） | 多页 | **+5** K&B；Lechner 已入库；Rummel 未 live |
+| wave1 thin multi peers | ~21 | Stüwe(注释 DROP)/Aurora(错垂 DROP) |
+| named Web（Heck/Thier/Mues-PM/Borkott/Fischer/Wesko…） | 多页 | **+7** 入库 |
 
-### 本轮新增（+18）
+### 本轮新增（+7）
 
-- `info@kb-kunststofftechnik.de` · Niederalteich ·    · high
-- `willmerdinger@kb-kunststofftechnik.de` · Niederalteich · Kurt Willmerdinger · high
-- `lukas.willmerdinger@kb-kunststofftechnik.de` · Niederalteich · Lukas Willmerdinger · high
-- `szilard.kolozsi-nagy@kb-kunststofftechnik.de` · Niederalteich · Szilard Kolozsi-Nagy · high
-- `qm-qs@kb-kunststofftechnik.de` · Niederalteich · Laura Weber · high
-- `info@wsuttergmbh.de` · Steinen ·    · high
-- `k.maier@wsuttergmbh.de` · Steinen · Karl Maier · high
-- `s.gerring@wsuttergmbh.de` · Steinen · Stefan Gerring · high
-- `t.winter@wsuttergmbh.de` · Steinen · Tom Winter · high
-- `r.klatt@wsuttergmbh.de` · Steinen · Robert Klatt · high
-- `a.weimer@wsuttergmbh.de` · Kronach · Alexander Weimer · high
-- `a.meier@wsuttergmbh.de` · Kronach · Alexander Meier · high
-- `a.barnickel@wsuttergmbh.com` · Kronach · Alexander Barnickel · high
-- `peter.brinkmann@tkt-plastics.com` · Bad Laer · Peter Brinkmann · high
-- `joerg.thomas@tkt-plastics.com` · Bad Laer · Jörg Thomas · high
-- `barbara.moehlmann@tkt-plastics.com` · Bad Laer · Barbara Moehlmann · high
-- `henning.funke@tkt-plastics.com` · Bad Laer · Henning Funke · high
-- `unterellen@schaefer.biz` · Unterellen ·    · medium
+- `info@heck-becker.com` · Dautphetal ·    · high
+- `info@thier-gmbh.com` · Schömberg · David Thier · high
+- `info@thier-gmbh.de` · Schömberg · David Thier · high
+- `info@mues-pm.de` · Kolbermoor ·    · high
+- `thilo.drechsler@kps-kunststofftechnik.de` · Scheibenberg · Thilo Drechsler · high
+- `fb@borkott.de` · Solingen · Frank Borkott · high
+- `info@wzb-fischer.de` · Rimsting · Johann Fischer · high
 
-### 本轮新域名
+### 本轮质量剔除（摘要）
 
-- `kb-kunststofftechnik.de`
-- `wsuttergmbh.de`
-
-### skipped-already-known（0）
-
-（无）
-
-### 质量剔除（节选）
-
-**8**：K&B Buchhaltung/Einkauf；Sutter Buchhaltung；Rummel plasticker-only；Schäfer 海外厂；Tebis；FWI；cloak。
+- a.stuewe@formen-undwerkzeugbau.de (Andrea Stüwe): DROP — HTML comment only on Kontakt, not live-visible
+- aurora-kunststoffe.de (19 named): DROP Rohstoff/Regrind/Extrusion/Mahlbetrieb (wrong vertical like XIFA)
+- service@henneke.com: DROP Corian/Hi-Macs Mineralwerkstoff Formenbau (not Spritzguss peer)
+- mues-gruppe.de johannes.peter/vertrieb/andre.wellsandt: DROP Stanz/Umform Blech (Neubrandenburg); kept mues-pm.de Spritzguss instead
+- kortenbach.de jens/bastian: DROP Stanz/Tiefzieh/Umform Solingen
+- bw@borkott.de (Birgit Wehrens): DROP Assistentin der Geschäftsleitung
+- sebastian.pfueller@wesko-gmbh.de: DROP Finanzen/Personal
+- ines.erdtel@ / dominik.gross@wesko: DROP unclear role / Prüftechnik-AV only
+- a.fuerst@formzeug.de: DROP Lager-Logistik
+- FUKS/Heim/Gollmer/Fütterer/OM/B+S/TriWeFo named: Already absorbed by Batch87dir/prior; no net new
+- kleber-formenbau.de: DROP site marks permanently closed
+- warenausgang@p-w-f.de: DROP Versand
 
 ---
 
-## 3. 产物路径
+## 3. 下轮（Batch 90）提示
 
-- `data/germany_targets.csv` / `data/germany_targets.xlsx`
-- `docs/germany_targets_报告.md`
-- `data/germany_raw/batch88_new_verified.json`
-- `data/germany_raw/batch88_expand_results.json`
-- `data/germany_raw/batch88_merge_log.json`
-- `data/germany_raw/batch88_candidates.json` / `batch88_probe_wave1.json`
-- `data/germany_raw/batch88_quality_drops.json`
+Expand still empty; tooling singles ~8 CH/AT only. Prefer web-search named Kontakt on unharvested Spritzguss Formenbau peers. Watch Batch89dir. Avoid Stanz/Umform, Rohstoff, Corian, Assistentin/Buchhaltung/Einkauf/Versand, cloak invent, HTML-comment-only.
 
 ---
 
-## 4. 状态
-
-**应有尽有 — 尚未完成。** Expand 仍空；singles 队列近空。B89 优先 web-search named Kontakt；Watch Batch87dir。
+_报告更新：2026-10-21 01:42 Asia/Hong_Kong_
 
 ---
 
