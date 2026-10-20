@@ -1,0 +1,80 @@
+[
+  {
+    "company": "FLICKS-CAD Wolfgang Flickschuh",
+    "domain": "flicks-cad.de",
+    "email": "info@flicks-cad.de",
+    "email_source_url": "https://flicks-cad.de/assets/site.js",
+    "contact_name": "Wolfgang Flickschuh",
+    "job_title": "Inhaber / Konstrukteur",
+    "phone": "+49 176 46510938",
+    "city": "Suhl-Albrechts",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch127: NEW domain; live same-domain assets/site.js reveals mailto info@flicks-cad.de (E-Mail anzeigen); Impressum https://flicks-cad.de/impressum.html Goldbachstrasse 55, 98529 Suhl-Albrechts DE-proven; Spritzgießwerkzeug-/Elektrodenkonstruktion Cimatron peer design studio"
+  },
+  {
+    "company": "G. Mertgens & Co. GmbH",
+    "domain": "mertgens.de",
+    "email": "post@mertgens.de",
+    "email_source_url": "https://www.mertgens.de/",
+    "contact_name": "Dominik Mertgens",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 2354 9097-0",
+    "city": "Meinerzhagen",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch127: NEW domain; live footer/Impressum same-domain mailto post@; Darmcher Grund 19, 58540 Meinerzhagen HRB 3671 AG Iserlohn USt DE125798699; GF Dominik Mertgens; Spritzguss + Formenbau/Werkzeugbau + Oberflächenveredelung OEM peer"
+  },
+  {
+    "company": "canto Ing. GmbH",
+    "domain": "canto-web.de",
+    "email": "tschorn@canto-web.de",
+    "email_source_url": "https://www.canto-web.de/kontakt.html",
+    "contact_name": "Hagen Tschorn",
+    "job_title": "Geschäftsführer | Modellbau / Vertrieb / RP",
+    "phone": "+49 2351 67257-120",
+    "city": "Lüdenscheid",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch127: NEW domain canto-web.de (company also publishes known info@prototypen.de); live Kontakt HTML-entity mailto; Kalver Straße 23, 58515 Lüdenscheid; Serien-/Prototypenwerkzeuge + Elektrodenkonstruktion peer tooling"
+  },
+  {
+    "company": "canto Ing. GmbH",
+    "domain": "canto-web.de",
+    "email": "schulte@canto-web.de",
+    "email_source_url": "https://www.canto-web.de/kontakt.html",
+    "contact_name": "Hendrik Schulte",
+    "job_title": "Geschäftsführer | Werkzeugbau & Konstruktion",
+    "phone": "+49 2351 67257-200",
+    "city": "Lüdenscheid",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch127: NEW domain canto-web.de; live Kontakt HTML-entity mailto; Kalver Straße 23, 58515 Lüdenscheid; GF Werkzeugbau & Konstruktion peer tooling"
+  },
+  {
+    "company": "Dietrich Formenbau (Dietrich Gruppe)",
+    "domain": "dietrich-gruppe.com",
+    "email": "a.wienand@dietrich-gruppe.com",
+    "email_source_url": "https://dietrich-formenbau.de/kontakt/",
+    "contact_name": "André Wienand",
+    "job_title": "Technischer Betriebsleiter",
+    "phone": "+49 2351 950 950",
+    "city": "Lüdenscheid",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch127: NEW named Kontakt on known domain; live Kontakt mailto; Dietrich Formenbau Kunststoff-Serienwerkzeuge Lüdenscheid (Dietrich Gruppe); Technischer Betriebsleiter — not Einkauf/Verwaltung"
+  },
+  {
+    "company": "AluConcept AG",
+    "domain": "aluconcept.com",
+    "email": "info@aluconcept.com",
+    "email_source_url": "https://www.aluconcept.com/impressum",
+    "contact_name": "Frank Hellmich",
+    "job_title": "Vorstand",
+    "phone": "+49 2064 4899-0",
+    "city": "Dinslaken",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch127: NEW domain; live Impressum plain E-Mail; Lanterstrasse 17, 46539 Dinslaken HRB 10206 AG Duisburg USt DE813191959; Vorstand Frank Hellmich; Spritzguss (100+ Maschinen) + Werkzeugbau primary ICP, secondary Druckguss/Galvanik OEM peer"
+  }
+]

@@ -1,3 +1,51 @@
+## Website/named Kontakt Batch 127
+
+> 合并前重读 CSV（任务初口径 **4429** / **3119**；Directory Batch132dir steering → 写时 live **4450** / **3136**）。本批按 live 合并，网站轨净增 **+6** → 瞬时 **4456** / **3140**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4456** |
+| high / medium | **4176** / **280** |
+| 唯一域名 | **3140** |
+| 含电话 / 含城市 | **3840** / **3941** |
+| 非 .de 邮箱 | **1186** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4104** |
+| design_studio | **192** |
+| oem_buyer | **125** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+6**（相对写时基线 4450）
+
+- `info@flicks-cad.de` — FLICKS-CAD Wolfgang Flickschuh (Suhl-Albrechts) — `design_studio` / high — Wolfgang Flickschuh
+- `post@mertgens.de` — G. Mertgens & Co. GmbH (Meinerzhagen) — `oem_buyer` / high — Dominik Mertgens
+- `tschorn@canto-web.de` — canto Ing. GmbH (Lüdenscheid) — `overseas_peer_overflow` / high — Hagen Tschorn
+- `schulte@canto-web.de` — canto Ing. GmbH (Lüdenscheid) — `overseas_peer_overflow` / high — Hendrik Schulte
+- `a.wienand@dietrich-gruppe.com` — Dietrich Formenbau (Dietrich Gruppe) (Lüdenscheid) — `overseas_peer_overflow` / high — André Wienand
+- `info@aluconcept.com` — AluConcept AG (Dinslaken) — `oem_buyer` / high — Frank Hellmich
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `Finke Formenbau plain mailto` — SKIP no plain company-site mailto
+- `ABAS Fulda named` — SKIP Cloudflare 526 / only known info@
+- `CAD-KON / Reddikowsky / Dobener / ck-form` — SKIP dead/unreachable
+- `invent g.helm@lh` — SKIP invent
+- `Beck Plastics` — SKIP joomla-hidden-mail cloak (plain-only hint)
+- `formenbau-rapp / auer-formenbau / kb-sprung` — SKIP 403/unreachable
+- `heise-formenbau / detlefmohr-cad / hochstadter` — SKIP dead
+- `spritzgusswerkzeug-konstruktion.de` — DROP CH/AT-leaning prior pattern
+- `l.graeve@dietrich-gruppe` — DROP Verwaltung
+- `FINI / zi-systeme / krauss / Rosenberger` — SKIP already known
+
+---
+
 ## 目录/展会轨 Batch132dir
 
 > 合并前重读 CSV（直播基线 **4429** / **3108**；Website Batch126 steering +4）。合并后基线：**4450** / **3126**（hosts ~3136）。

@@ -1,0 +1,120 @@
+{
+  "batch": 127,
+  "timestamp_hk": "2026-10-21 05:37 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write after Batch132dir steer: 4450 emails / 3136 unique email-domains (parent said 4450/3126 hosts~3136).",
+  "baseline": {
+    "emails": 4450,
+    "domains": 3136
+  },
+  "net_new": 6,
+  "website_batch_end_snapshot": {
+    "emails": 4456,
+    "domains": 3140
+  },
+  "new_totals": {
+    "emails": 4456,
+    "domains": 3140,
+    "high": 4176,
+    "medium": 280,
+    "non_de": 1186,
+    "icp": {
+      "overseas_peer_overflow": 4104,
+      "oem_buyer": 125,
+      "sourcing": 35,
+      "design_studio": 192
+    },
+    "with_phone": 3840,
+    "with_city": 3941
+  },
+  "added_domains": [
+    "aluconcept.com",
+    "canto-web.de",
+    "flicks-cad.de",
+    "mertgens.de"
+  ],
+  "added_emails": [
+    "info@flicks-cad.de",
+    "post@mertgens.de",
+    "tschorn@canto-web.de",
+    "schulte@canto-web.de",
+    "a.wienand@dietrich-gruppe.com",
+    "info@aluconcept.com"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site still unreachable (curl 000) — never invent from SERP; carry recovery"
+    },
+    {
+      "item": "FLICKS-CAD cloak-only prior",
+      "reason": "RESOLVED — same-domain site.js publishes info@flicks-cad.de (KEEP)"
+    },
+    {
+      "item": "Finke Formenbau plain mailto",
+      "reason": "SKIP Kontakt/Impressum 301 to finke-gruppe without plain company-site mailto on finke-formenbau.de; Privacy/cloak"
+    },
+    {
+      "item": "ABAS Fulda named beyond info@",
+      "reason": "SKIP Cloudflare 526 / no mailto on Ansprechpartner — only known info@"
+    },
+    {
+      "item": "CAD-KON named beyond team_",
+      "reason": "SKIP site unreachable / only known team_; mail@cad-kon.com Aufmass off-ICP"
+    },
+    {
+      "item": "Reddikowsky / Dobener / ck-form.de",
+      "reason": "SKIP sites still dead/unreachable — SERP invent avoid"
+    },
+    {
+      "item": "invent g.helm@lh-konstruktion.de",
+      "reason": "SKIP invent — only info@ published"
+    },
+    {
+      "item": "Beck Plastics Magstadt mail@",
+      "reason": "SKIP joomla-hidden-mail cloak / no plain mailto (hint: plain only)"
+    },
+    {
+      "item": "formenbau-rapp.de / auer-formenbau",
+      "reason": "SKIP 403 / unreachable — SERP info@ invent avoid"
+    },
+    {
+      "item": "kb-sprung.de",
+      "reason": "SKIP 403 Forbidden — no published mailto readable"
+    },
+    {
+      "item": "heise-formenbau.de / detlefmohr-cad.de",
+      "reason": "SKIP sites unreachable (curl 000)"
+    },
+    {
+      "item": "hochstadter-formenbau.de",
+      "reason": "SKIP site unreachable — SERP invent avoid"
+    },
+    {
+      "item": "spritzgusswerkzeug-konstruktion.de info@",
+      "reason": "DROP CH/AT-leaning / prior Sieberkon pattern; DE address not proven on live Impressum"
+    },
+    {
+      "item": "l.graeve@dietrich-gruppe.com",
+      "reason": "DROP Verwaltung"
+    },
+    {
+      "item": "FINI Technology finigmbh@t-online.de",
+      "reason": "SKIP already known; no new same-domain mailbox"
+    },
+    {
+      "item": "zi-systeme.de / krauss mailto@",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "Rosenberger encrypted info@/vertrieb@ ros en-berger.de",
+      "reason": "SKIP already known on rosen-berger.de"
+    },
+    {
+      "item": "info@dietrich-formenbau.de invent",
+      "reason": "SKIP invent — live site publishes formenbau@dietrich-gruppe.com only"
+    }
+  ],
+  "xlsx_updated": true
+}

@@ -1,0 +1,10 @@
+# Batch 128 queue note (Website / named Kontakt)
+
+Baseline after B127: live **4456** emails / **3140** domains (B127 website net +6 from 4450; Directory Batch132dir had raised 4429→4450 before this merge).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch133dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers (BWF Holzkirchen pattern).
+- B127 KEEP: FLICKS info@ (Suhl); Mertgens post@ (Meinerzhagen); canto tschorn@ + schulte@ (Lüdenscheid); Dietrich a.wienand@ Technischer Betriebsleiter; AluConcept info@ (Dinslaken).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); ABAS named beyond info@ when Cloudflare clears; Finke plain mailto if published on company site; CAD-KON plastics named beyond team_; Reddikowsky/Dobener/ck-form if live; g.helm@ only if published; Beck Plastics if plain mailto; Formenbau Rapp / Auer / kb-sprung if 403 clears; Heise/Detlef Mohr/Hochstadter if sites recover; FINI named beyond known t-online; Jordan Spritzguss if jordan-spritzguss.de recovers.
