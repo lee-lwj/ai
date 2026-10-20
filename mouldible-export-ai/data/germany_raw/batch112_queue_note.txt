@@ -1,0 +1,11 @@
+# Batch 112 queue note (Website / named Kontakt)
+
+Baseline after B111: **4177** emails / **2921** domains (from 4171/2918; B111 net +6).
+
+- Expand empty; DE tooling singles exhausted; thin multi named Kontakt low-yield.
+- Prefer web-search + WebFetch named Kontakt (konstruktion@/cad@/anfrage@/Konstruktionsleiter) + NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion.
+- Prefer DE-proven (Impressum DE / DE phone); treat non-DE EU/CH country boxes cautiously.
+- Watch Directory Batch112dir / Batch113dir / map-reseed — re-read CSV before write.
+- Avoid: Stanz/Umform/Schnitt-primary; Druckguss/Kokillen-primary; Thermoform/Siegel; Feinguss/Gießerei; Composite/GFK; Buchhaltung/Personal/Einkauf/Verwaltung/Assistentin/Versand; cloak invent; generic Maschinenbau CAD without Spritz/Formenbau; CH-only boxes.
+- Known skips this continuum: … + cad-eckes generic Maschinenbau; Schmidt Stanz-co; Gerken Stanz/Umform; Conrad Druckguss; 3D tooldesign CH; KWS Schulz Umform; gerd.hoelzel Einkauf; FUS reception untitled; Korropol Composite; mold-engineering cloak.
+- B111 KEEP: Neumayr CAD Solutions Hirschau; Fischer Formenbau Taunusstein; Hofmann-wze info+mh+felix; info@fus-werkzeugbau.

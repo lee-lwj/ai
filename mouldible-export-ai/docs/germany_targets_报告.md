@@ -1,3 +1,50 @@
+## Website/named Kontakt Batch 111
+
+> 合并前重读 CSV（基线 **4171** / **2918**；Batch111dir 后邮箱 **4160**，父代理域名口径 2893 / hosts~2909；本机重计域名 **2918**）。
+
+### 累计（Batch 111 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4177** |
+| high / medium | **3915** / **262** |
+| 唯一域名 | **2921** |
+| 含电话 / 含城市 | **3601** / **3674** |
+| 非 .de 邮箱 | **1134** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3885** |
+| design_studio | **169** |
+| oem_buyer | **88** |
+| sourcing | **35** |
+
+### 本批净增 **+6**
+
+- `neumayr@cad-solutions.cc` — CAD Solutions Neumayr (Hirschau) — `design_studio` / high
+- `info@fischer-werkzeugbau.de` — Fischer Formenbau / Tarek Fischer (Taunusstein) — `oem_buyer` / high
+- `info@hofmann-wze.de` — Hofmann Erodiertechnik GmbH / Hofmann die Werkzeugentwickler (Helmbrechts) — `oem_buyer` / high
+- `mh@hofmann-wze.de` — Hofmann Erodiertechnik GmbH / Hofmann die Werkzeugentwickler (Helmbrechts) — `oem_buyer` / high
+- `felix.meister@hofmann-wze.de` — Hofmann Erodiertechnik GmbH / Hofmann die Werkzeugentwickler (Helmbrechts) — `oem_buyer` / high
+- `info@fus-werkzeugbau.de` — HPF / Friedrich & Partner Werkzeug- und Formenbau (Großdubrau) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `info@cad-eckes.de` — DROP generic Maschinenbau/Metallbau CAD + Beschaffung/Einkauf — not Spritz/Formenbau peer
+- `info@werkzeugbauschmidt.de` — DROP Stanz/Biege co-primary with Spritz
+- `info@gerken-konstruktionen.de` — DROP Stanz/Umform primary (prior continuum Gerken)
+- `info@formenbau-conrad.de` — DROP Druckguss-primary (Formenbau und Druckguss GmbH)
+- `info@3d-tooldesign.com` — SKIP CH country-box Langnau (not DE-proven)
+- `steffen.schulz@kws-dresden.de` — DROP Stanz/Umform/Folgeverbund-primary career; Spritz secondary
+- `gerd.hoelzel@hofmann-wze.de` — DROP Leiter Konstruktion|Einkauf — Einkauf in title
+- `kathrin.friedrich@ / nadine.reichelt@ fus-werkzeugbau` — DROP untitled reception/office (phone -0 only)
+- `mail@hilzensauer-cad-design.de` — SKIP already known
+- `mold-engineering UnCryptMailto` — DROP cloak invent
+- `info@korropol.com / korropol.de` — DROP Composite/GFK/CFK primary
+
+---
 ## Website/named Kontakt Batch 110
 
 > 合并前重读 CSV（基线 **4136** / **2887**；Batch110dir 后邮箱 **4136**，父代理域名口径 2871 / hosts~2887；本机重计域名 **2887**）。
@@ -737,6 +784,88 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch112dir
+
+> 合并前重读 CSV（基线 **4160** / **2893**）。合并后基线：**4171** / **2902**。
+
+### 累计（Batch112dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4171** |
+| high / medium | **3909** / **262** |
+| 唯一域名 | **2902** |
+| 含电话 / 含城市 | **3595** / **3668** |
+| 非 .de 邮箱 | **1133** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3885** |
+| design_studio | **168** |
+| oem_buyer | **83** |
+| sourcing | **35** |
+
+### 本轨成果（Batch112dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **31** |
+| 有邮箱命中 | **15** |
+| 本轨净增邮箱 | **11**（high **11** / medium **0**） |
+| 相对基线 4160/2893 | **+11** / **+9** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **11** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| GS niche/regions + 余 9 gsbiz | 有效（via gsbiz/ajax） |
+| Europages DE p1–3 | 有效（via ep **9**；外国已滤） |
+| DDG/Bing 区域查询 | 部分（via search **0**） |
+| Das Örtliche / Kompass / WLW | **跳过** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 gsbiz | **9** + niche 扩 **36** |
+| 多源 jobs | **75** |
+| 本轮核验 | **31**（curl 短超时） |
+| 再播种 | gsbiz **11** |
+
+### 本轨新增邮箱（共 11）
+
+- `hofmann@erodiertechnik-hofmann.de` (high)
+- `info@ets-erodiertechnik.de` (high)
+- `info@korthals-erodiertechnik.de` (high)
+- `info@erotec-berlin.de` (high)
+- `aldenhoven@halex.de` (high)
+- `gussago@halex.de` (high)
+- `verdello@halex.de` (high)
+- `info@jaeger-et.de` (high)
+- `kontakt@eco-kunststoff.com` (high)
+- `order@vbkunststoffe.de` (high)
+- `info@technikinform.de` (high)
+
+### 阻塞 / 备注
+
+- WLW / Örtliche / Kompass — 按策略跳过
+- 见 `data/germany_raw/batch112dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch112dir_*.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch112dir 已合并；域名队列 **0**；gsbiz 余 **11**。
 
 ---
 
