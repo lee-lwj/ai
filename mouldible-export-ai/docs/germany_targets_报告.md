@@ -1,3 +1,46 @@
+## Website/named Kontakt Batch 110
+
+> 合并前重读 CSV（基线 **4136** / **2887**；Batch110dir 后邮箱 **4136**，父代理域名口径 2871 / hosts~2887；本机重计域名 **2887**）。
+
+### 累计（Batch 110 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4140** |
+| high / medium | **3879** / **261** |
+| 唯一域名 | **2889** |
+| 含电话 / 含城市 | **3566** / **3638** |
+| 非 .de 邮箱 | **1131** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3854** |
+| design_studio | **168** |
+| oem_buyer | **83** |
+| sourcing | **35** |
+
+### 本批净增 **+4**
+
+- `info@goletz-gmbh.de` — Goletz GmbH (Kierspe) — `oem_buyer` / high
+- `asommer@oelfke.de` — Ulrich Oelfke Formenbau GmbH & Co. KG (Lüdenscheid) — `oem_buyer` / high
+- `jsommer@oelfke.de` — Ulrich Oelfke Formenbau GmbH & Co. KG (Lüdenscheid) — `oem_buyer` / high
+- `info@kompetenzkunststoff.de` — ma Kompetenz Kunststoff / Ingenieurbüro Michael Ahrens (Niedereschach) — `sourcing` / high
+
+### 本批质量剔除（节选）
+
+- `thorsten.meyer@meykon.net` — DROP Feinguss + Blasformen/PET primary
+- `info@cad-konstruktionsbuero.de` — DROP generic Maschinenbau CAD — not Spritzguss/Formenbau peer
+- `info@flicks-cad.de / Wolfgang Flickschuh` — DROP cloak — Impressum shows E-Mail: Kontakt / E-Mail anzeigen only; never invent
+- `arichter@oelfke.de` — DROP Verwaltung
+- `anfragen@mf-schwinn.de` — DROP Schwinn Umform/Druckguss co-primary (prior continuum)
+- `info@jskonstruktion.de` — DROP Gießerei/Modellbau/Kernkästen primary; Spritz listed secondary
+- `info@spritzgusswerkzeug-konstruktion.de` — SKIP prior continuum
+- `office@formenbau-gmbh.at` — SKIP AT country-box + Feinguss/Schmiede co
+- `bewerbung@spindler-formenbau.de` — DROP HR/jobs mailbox
+
+---
 ## Website/named Kontakt Batch 109
 
 > 合并前重读 CSV（基线 **4103** / **2865**；Batch109dir 后邮箱 **4103**，父代理域名口径曾报 2849；本机重计域名 **2865**）。

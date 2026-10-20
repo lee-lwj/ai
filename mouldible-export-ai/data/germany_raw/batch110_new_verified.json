@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Goletz GmbH",
+    "domain": "goletz-gmbh.de",
+    "email": "info@goletz-gmbh.de",
+    "email_source_url": "https://www.goletz-gmbh.de/impressum/",
+    "contact_name": "Dr. Rolf Danzebrink / Michael Vedder",
+    "job_title": "Geschäftsführung / Kunststoff-Spritzguss & Baugruppen",
+    "phone": "+49 2359 9140-50",
+    "city": "Kierspe",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch110: NEW domain; live Impressum+home info@; Full-Service Spritzguss Automotive/Möbel; DE NRW Kierspe HRB Iserlohn"
+  },
+  {
+    "company": "Ulrich Oelfke Formenbau GmbH & Co. KG",
+    "domain": "oelfke.de",
+    "email": "asommer@oelfke.de",
+    "email_source_url": "https://oelfke.de/kontakt/",
+    "contact_name": "Andreas Sommer",
+    "job_title": "Geschäftsführer / Werkzeugmachermeister Formenbau",
+    "phone": "+49 2351 676950",
+    "city": "Lüdenscheid",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch110: named Kontakt live; Formenbau peer (formenbau@ already known); DE NRW Lüdenscheid"
+  },
+  {
+    "company": "Ulrich Oelfke Formenbau GmbH & Co. KG",
+    "domain": "oelfke.de",
+    "email": "jsommer@oelfke.de",
+    "email_source_url": "https://oelfke.de/kontakt/",
+    "contact_name": "Julian Sommer",
+    "job_title": "Geschäftsleitung / Feinwerkmechanikermeister",
+    "phone": "+49 2351 676950",
+    "city": "Lüdenscheid",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch110: named Kontakt live Geschäftsleitung; Formenbau peer; DE NRW Lüdenscheid"
+  },
+  {
+    "company": "ma Kompetenz Kunststoff / Ingenieurbüro Michael Ahrens",
+    "domain": "kompetenzkunststoff.de",
+    "email": "info@kompetenzkunststoff.de",
+    "email_source_url": "https://www.kompetenzkunststoff.de/impressum.html",
+    "contact_name": "Michael Ahrens",
+    "job_title": "Inhaber / Werkzeugkonstruktion & Beschaffung Spritzguss",
+    "phone": "+49 7728 644860",
+    "city": "Niedereschach",
+    "icp_tag": "sourcing",
+    "confidence": "high",
+    "notes": "Batch110: NEW domain; live Impressum+home; Spritzgusswerkzeuge 2K Etagen Global sourcing DE/China; DE BW Niedereschach (Zink-Druckguss listed secondary)"
+  }
+]
