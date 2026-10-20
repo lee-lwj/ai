@@ -1,3 +1,122 @@
+## Website/named Kontakt Batch 99
+
+> 合并前重读 CSV（Batch97dir 后基线 **3809** / **2589**；非 steering 初值 3779/2561。Batch98dir 未写入）。
+
+### 累计（Batch 99 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3816** |
+| high / medium | **3571** / **245** |
+| 唯一域名 | **2591** |
+| 含电话 / 含城市 | **3293** / **3368** |
+| 非 .de 邮箱 | **1062** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3572** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **33** |
+
+### 本轨成果（Batch 99）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+7**（high **7** / medium **0**） |
+| 相对基线 3809/2589 | **+7** / **+2** 域名 |
+| master 可选重叠跳过 | **4** |
+| 质量剔除 | **10** |
+
+### 方法
+
+1. 重读确认 **3809/2589**（Batch97dir 已合并；Batch98dir 空）
+2. Thin multi named Kontakt（Giebeler×4、WFK Steinbrück）+ NEW-domain Spritzgießformenbau
+3. 命中：**Martin Müller Formenbau** / **Schmidtke ohG** 新域名；**martin@wfk**；**Giebeler** kowalewski/lauber/leinbach/hofmann
+4. 质量门：Druckguss-primary（Conrad/Härer）；Buchhaltung/Versand；master-optional；names without mailto invent
+
+### 本轨新增邮箱（共 7）
+
+- `mail@mm-wzfb.de` · Geislingen bei Balingen · Martin Müller · Allgemeine Anfragen / Inhaber · high · **新域名**
+- `info@schmidtke-ohg.de` · Lüdenscheid · Michaela Schmidtke / Andreas Schmidtke · Allgemeine Anfragen / Inhaber · high · **新域名**
+- `martin@wfk-steinbrueck.de` · Lüdenscheid · Martin Steinbrück · Geschäftsführender Gesellschafter · high
+- `kowalewski@giebeler.eu` · Eschenburg-Wissenbach · Jacqueline Kowalewski · Werkzeugbau Ansprechpartnerin · high
+- `lauber@giebeler.eu` · Eschenburg-Wissenbach · Heiko Lauber · Werkzeugservice · high
+- `leinbach@giebeler.eu` · Eschenburg-Wissenbach · Oliver Leinbach · Werkzeugservice · high
+- `hofmann@giebeler.eu` · Eschenburg-Wissenbach · Peter Hofmann · Werkzeugservice · high
+
+### 产物
+
+- `data/germany_raw/batch99_new_verified.json` / `batch99_candidates_final.json`
+- `data/germany_raw/batch99_quality_drops.json` / `batch99_merge_log.json`
+- `data/germany_raw/batch100_queue_note.txt`
+
+### 状态
+
+Batch 99 已合并；下轮 Batch 100（Website）/ Batch98dir|99dir（目录）。队列剩余 thin multi ~**70+** + 新域名定向。DE-proven 优先；谨慎非 DE EU 国别邮箱。
+
+---
+
+## Website/named Kontakt Batch 98
+
+> 合并前重读 CSV（Batch96dir 后基线 **3775** / **2559**；非 3734/2536。Batch97dir 未写入）。
+
+### 累计（Batch 98 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3779** |
+| high / medium | **3535** / **244** |
+| 唯一域名 | **2561** |
+| 含电话 / 含城市 | **3270** / **3349** |
+| 非 .de 邮箱 | **1031** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3535** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **33** |
+
+### 本轨成果（Batch 98）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+4**（high **3** / medium **1**） |
+| 相对基线 3775/2559 | **+4** / **+2** 域名 |
+| master 可选重叠 | **0** |
+| 质量剔除 | **13** |
+
+### 方法
+
+1. 重读确认 **3775/2559**（Batch96dir 已合并；Batch97dir 空）
+2. Thin multi named Kontakt（Gollmer）+ NEW-domain Spritzgießformenbau 定向
+3. 命中：**Karl-Heinz Müller Formenbau** 新域名；**Gollmer** p.beckel/c.reichle；**Wagenknecht** 新域名（medium，Spritz+Stanz）
+4. 质量门：Stanz/Umform（Heru）；Kokillen/Druckguss（Haasis/Karl Walter）；Rohstoff（TEKUMA）；Lager/Assistentin/Versand；Insolvenz（A-Form）；cloak/dead site
+
+### 本轨新增邮箱（共 4）
+
+- `info@formenbau-mueller.de` · Balingen-Engstlatt · — · Allgemeine Anfragen · high · **新域名**
+- `p.beckel@gollmer-formen.de` · Kirchheim unter Teck · Philipp Beckel · Technischer Leiter ppa. / Prokurist · high
+- `c.reichle@gollmer-formen.de` · Kirchheim unter Teck · Christoph Reichle · Projektleiter · high
+- `info@wagenknecht-werkzeugbau.de` · Ebersbach-Neugersdorf · Dietmar Wagenknecht · Allgemeine Anfragen / Geschäftsführung · medium · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch98_new_verified.json` / `batch98_candidates_final.json`
+- `data/germany_raw/batch98_quality_drops.json` / `batch98_merge_log.json`
+- `data/germany_raw/batch99_queue_note.txt`
+
+### 状态
+
+Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）。队列剩余 thin multi ~**75+** + 新域名定向。DE-proven 优先；谨慎非 DE EU 国别邮箱。
+
+---
+
 ## Website/named Kontakt Batch 97
 
 > 合并前重读 CSV（Website B96 后基线 **3724** / **2533**；Batch96dir 未写入）。
@@ -59,6 +178,83 @@
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch97dir
+
+> 合并前重读 CSV（Website B98 后基线 **3779** / **2561**；非 3775）。合并后基线：**3809** / **2589**。
+
+### 累计（Batch97dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3809** |
+| high / medium | **3564** / **245** |
+| 唯一域名 | **2589** |
+| 含电话 / 含城市 | **3286** / **3361** |
+| 非 .de 邮箱 | **1058** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3565** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **33** |
+
+### 本轨成果（Batch97dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **80** |
+| 有邮箱命中 | **32** |
+| 本轨净增邮箱 | **30**（high **29** / medium **1**） |
+| 相对 Website B98 基线 3779/2561 | **+30** / **+28** 域名 |
+| 再播种剩余 | **80** |
+| 队列剩余 | **80** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空队列 | **80**（B96dir reseed：master_strict + VDWF） |
+| 超时强制 no_email | 7（kikou-mold / moldspec / quality-mold / wepmolding / yongshengmould / starda-mould / precisionmoldandtool） |
+| VDWF/Fakuma | 饱和 |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | master_strict 续取 **80**（已滤中国竞品 mould） |
+
+### 方法
+
+1. 排空上轮 **80** → Impressum（ThreadPool JSONL）
+2. 合并前重读 **3779/2561** = Website B98
+3. 质量剔除：中国竞品 mould、ISP/off-domain（hinet/cmdppl）、accounting/hr/tinfo；保留 MHS related medium
+4. 再播种：master_strict 续 → 队列 **80**
+
+### 本轨新增邮箱（共 30，节选）
+
+- DE：`info@lahme-praezision.de` · `info@osp-praezision.de` · `info@thome-praezision.de`
+- `info@werkzeugbau.com` · `info@bussmold.com` · `info@fischer-cnc.com` · `info@cncalvi.com`
+- `info@mhs-hotrunners.com`（medium，related moldhotrunnersolutions）
+- 及其他 mould/CNC peer `.com`（见 verified.json）
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 7 域名超时 → forced no_email
+- 中国竞品 mould 域名排除
+- 见 `data/germany_raw/batch97dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch97dir_impressum.json`
+- `data/germany_raw/batch97dir_verified.json` / `batch97dir_hits.json`
+- `data/germany_raw/batch97dir_merge_log.json` / `batch97dir_reseed.json`
+
+### 状态
+
+Batch97dir 已合并；队列剩余 **80**（master_strict 续）供 Batch98dir。
 
 ---
 
