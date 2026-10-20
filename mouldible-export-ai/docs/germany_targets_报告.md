@@ -178,3 +178,92 @@
 ### 状态
 
 原 352 队列已排空并入库；剩余种子队列 **77**（含 WLW p6–12 再播种）（未核验且未入库）。Formenbau JS 阻断与 Europages CAPTCHA 仍在，续跑可扩 WLW/Fakuma 新页。
+
+
+---
+
+## 目录/展会轨 Batch77dir
+
+> 续跑 WLW p6–12 再播种队列（77）；合并前重读 CSV（基线 **2519**；Website B77 本轮未抢先写入）。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2586** |
+| high / medium | **2427** / **159** |
+| 唯一域名 | **1791** |
+| 含电话 / 含城市 | **2304** / **2402** |
+| 非 .de 邮箱 | **543** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **2358** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch77dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **77** |
+| 有邮箱命中 | **59** |
+| 本轨净增邮箱 | **67**（全部 high） |
+| 相对基线 2519 | **+67** |
+| 再播种新域名（WLW p13–20 + KW 详情） | **123** |
+| 队列剩余 | **123** |
+
+### 方法与 blockers
+
+1. 队列 77 域名 Impressum/Kontakt 核验 → email-unique merge  
+2. 排空后扩种：WLW formenbau/spritzguss/werkzeugbau **p13–20**（firm `sameAs`）+ KunststoffWeb 详情页  
+3. **Gelbe Seiten**：静态 HTML 无 website/mailto（consent/JS）— blocker  
+4. **KW Formenbau p100362** 仍空列表；3 域名连接失败（alform.de / bornemann.de / lanolin.de）
+
+### 本轨新增邮箱（节选前 25 / 共 67）
+
+- `office@threedreamz.com`
+- `info@leibe.eu`
+- `info@bechtold-sohn.com`
+- `info@alstertaler.de`
+- `fj@alstertaler.de`
+- `info@startech24.de`
+- `info@3dock.de`
+- `info@mve-bahl.de`
+- `info@apppex.com`
+- `velisa.pantic@aartech.ch`
+- `finance@aartech.ch`
+- `dragan.filipovic@aartech.ch`
+- `hr@aartech.ch`
+- `info@abk-pressenbau.de`
+- `schwarz@schwarz-stuttgart.de`
+- `feinguss@buerstlein-guss.de`
+- `anfragen@buerstlein-guss.de`
+- `info@carlfroh.net`
+- `info@geyerwerkzeugbau.de`
+- `info@cam4solid.de`
+- `info@braunmetall.de`
+- `info@bintek.ch`
+- `info@3ddrucklife.de`
+- `info@martanplastics.com`
+- `info@cb-feinmechanik.de`
+… 另有 42 个，见 `data/germany_raw/batch77dir_hits.json`
+
+### 本轨新域名（节选）
+
+`3d-druck-amann.de`, `3ddrucklife.de`, `3dock.de`, `3dprintpoint.de`, `aartech.ch`, `abk-pressenbau.de`, `ahwzb.de`, `alstertaler.de`, `apppex.com`, `bechtold-sohn.com`, `benkon.de`, `bintek.ch`, `braunmetall.de`, `buerstlein-guss.de`, `cam4solid.de`, `carlfroh.net`, `carlpabst.de`, `cast-tec.de`, `cb-feinmechanik.de`, `cleveland.de`…
+
+### 产物
+
+- `data/germany_targets.csv` / `.xlsx`
+- `data/germany_raw/batch77dir_impressum.json`
+- `data/germany_raw/batch77dir_verified.json` / `batch77dir_hits.json`
+- `data/germany_raw/batch77dir_merge_log.json` / `batch77dir_reseed.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**123**）
+
+### 状态
+
+Batch77dir 完成：**+67** 邮箱；队列再播种至 **123** 待 Batch78dir。
