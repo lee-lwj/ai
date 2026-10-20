@@ -1,0 +1,93 @@
+[
+  {
+    "company": "Robert Hofmann GmbH",
+    "domain": "r-hofmann.de",
+    "email": "ingo.guettler@r-hofmann.de",
+    "email_source_url": "https://www.r-hofmann.de/kontakt/",
+    "contact_name": "Ingo Güttler",
+    "job_title": "Leitung Entwicklung und Projektmanagement",
+    "phone": "+49 9571 949-210",
+    "city": "Lichtenfels",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch115: NEW named on known domain; live Kontakt; Spritzguss/Werkzeugbau/additive Prototyp-Serie peer; DE BY Lichtenfels HRB 1741"
+  },
+  {
+    "company": "Robert Hofmann GmbH",
+    "domain": "r-hofmann.de",
+    "email": "maxime.cerulus@r-hofmann.de",
+    "email_source_url": "https://www.r-hofmann.de/kontakt/",
+    "contact_name": "Maxime Cerulus",
+    "job_title": "Director Business Development Medical & Healthcare",
+    "phone": "+49 9571 949-114",
+    "city": "Lichtenfels",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch115: named Kontakt live; BD Medical Spritzguss/additive peer"
+  },
+  {
+    "company": "Robert Hofmann GmbH",
+    "domain": "r-hofmann.de",
+    "email": "guenter.dorsch@r-hofmann.de",
+    "email_source_url": "https://www.r-hofmann.de/kontakt/",
+    "contact_name": "Günter Dorsch",
+    "job_title": "Sales Manager Mobility & Logistics",
+    "phone": "+49 9571 949-155",
+    "city": "Lichtenfels",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch115: named Kontakt live; Sales Manager"
+  },
+  {
+    "company": "Robert Hofmann GmbH",
+    "domain": "r-hofmann.de",
+    "email": "kai.kegelmann@r-hofmann.de",
+    "email_source_url": "https://www.r-hofmann.de/kontakt/",
+    "contact_name": "Kai Kegelmann",
+    "job_title": "Senior Sales Manager Mobility & Logistics / Defence & Security",
+    "phone": "+49 9571 949-211",
+    "city": "Lichtenfels",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch115: named Kontakt live; Senior Sales Manager"
+  },
+  {
+    "company": "Robert Hofmann GmbH",
+    "domain": "r-hofmann.de",
+    "email": "karl.leitinger@r-hofmann.de",
+    "email_source_url": "https://www.r-hofmann.de/kontakt/",
+    "contact_name": "Karl Leitinger",
+    "job_title": "Key Account Manager Aerospace & Aviation",
+    "phone": "+49 9571 949-244",
+    "city": "Lichtenfels",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch115: named Kontakt live; KAM"
+  },
+  {
+    "company": "Robert Hofmann GmbH",
+    "domain": "r-hofmann.de",
+    "email": "ulrich.haas@r-hofmann.de",
+    "email_source_url": "https://www.r-hofmann.de/kontakt/",
+    "contact_name": "Ulrich Haas",
+    "job_title": "Senior Sales Manager Mobility / Defence / Consumer",
+    "phone": "+49 9571 949-107",
+    "city": "Lichtenfels",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch115: named Kontakt live; Senior Sales Manager"
+  },
+  {
+    "company": "Konstruktionsbüro / Organisationsbüro Herbert Bübel",
+    "domain": "khb-buebel.de",
+    "email": "cad@khb-buebel.de",
+    "email_source_url": "https://www.tool4tool.de/impressum/",
+    "contact_name": "Herbert Bübel",
+    "job_title": "Inhaber / Konstruktion Spritzguss- und Formwerkzeuge",
+    "phone": "+49 911 3776077",
+    "city": "Nürnberg",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch115: NEW mailbox khb-buebel.de; live Impressum cad(at); Konstruktion Spritzguss-/Formwerkzeuge (Druckguss/Press co secondary); DE BY Nürnberg; info@tool4tool.de same firm skipped as secondary"
+  }
+]

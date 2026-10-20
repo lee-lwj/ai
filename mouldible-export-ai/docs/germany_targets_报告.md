@@ -1,3 +1,46 @@
+## Website/named Kontakt Batch 115
+
+> 合并前重读 CSV（基线 **4247** / **2976**；Batch119dir 后父代理口径 4247/2965 hosts~2976）。勿用 4237。本批网站轨净增 **+7** → 瞬时 **4254** / **2977**；live 现为 **4254** / **2977**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4254** |
+| high / medium | **3981** / **273** |
+| 唯一域名 | **2977** |
+| 含电话 / 含城市 | **3671** / **3744** |
+| 非 .de 邮箱 | **1143** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3946** |
+| design_studio | **173** |
+| oem_buyer | **100** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+7**（相对基线 4247）
+
+- `ingo.guettler@r-hofmann.de` — Robert Hofmann GmbH (Lichtenfels) — `oem_buyer` / high
+- `maxime.cerulus@r-hofmann.de` — Robert Hofmann GmbH (Lichtenfels) — `oem_buyer` / high
+- `guenter.dorsch@r-hofmann.de` — Robert Hofmann GmbH (Lichtenfels) — `oem_buyer` / high
+- `kai.kegelmann@r-hofmann.de` — Robert Hofmann GmbH (Lichtenfels) — `oem_buyer` / high
+- `karl.leitinger@r-hofmann.de` — Robert Hofmann GmbH (Lichtenfels) — `oem_buyer` / high
+- `ulrich.haas@r-hofmann.de` — Robert Hofmann GmbH (Lichtenfels) — `oem_buyer` / high
+- `cad@khb-buebel.de` — Konstruktionsbüro Herbert Bübel (Nürnberg) — `design_studio` / high
+
+### 本批质量剔除（节选）
+
+- `maximilian.koenig@r-hofmann.de` — DROP Supply Chain Management
+- `info@spritzgusswerkzeug-konstruktion.de` — SKIP no Impressum/address
+- `info@gerken-konstruktionen.de` — DROP Stanz-/Umform-primary
+- `info@wa21.de` — DROP third-party agency on Rethemeier
+- `info@tool4tool.de` — SKIP secondary (prefer cad@khb-buebel.de Impressum)
+- rethemeier / spritzguss.de / formzeug / croner / hwf — SKIP already known
+
+---
 ## Website/named Kontakt Batch 114
 
 > 合并前重读 CSV（基线 **4234** / **2966**；Batch118dir 后父代理口径 4234/2953 hosts~2966）。勿用 4219/4227。本批网站轨净增 +3 → **4237** / **2967**；live 现为 **4237** / **2967**。
