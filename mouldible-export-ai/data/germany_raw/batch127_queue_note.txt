@@ -1,0 +1,10 @@
+# Batch 127 queue note (Website / named Kontakt)
+
+Baseline after B126: live **4429** emails / **3119** domains (B126 website net +4 from 4425; Directory Batch131dir had raised 4399→4425 before this merge).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch132dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers (BWF Holzkirchen pattern).
+- B126 KEEP: CAD-Rudolph andreas.rudolph@ (Römerstein); SOLSEC info@ (Bobingen); Kühnlein info@ (Mammendorf); Kläger info@ (Dornstetten known domain).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); FLICKS plain email if revealed; ABAS named beyond info@ when Cloudflare clears; Finke plain mailto if published; CAD-KON plastics named beyond team_; Reddikowsky/Dobener/ck-form if live; g.helm@ only if published; Beck Plastics Magstadt if plain mailto; Formenbau Rapp if 403 clears; Auer Formenbau if site recovers.

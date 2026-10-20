@@ -1,3 +1,53 @@
+## Website/named Kontakt Batch 126
+
+> 合并前重读 CSV（任务初口径 **4399** / **3080**；Directory Batch131dir steering → 写时 live **4425** / **3116**）。本批按 live 合并，网站轨净增 **+4** → 瞬时 **4429** / **3119**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4429** |
+| high / medium | **4149** / **280** |
+| 唯一域名 | **3119** |
+| 含电话 / 含城市 | **3823** / **3915** |
+| 非 .de 邮箱 | **1177** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4081** |
+| design_studio | **191** |
+| oem_buyer | **122** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+4**（相对写时基线 4425）
+
+- `andreas.rudolph@cad-rudolph.de` — CAD-CAM Technologie Andreas Rudolph (Römerstein-Zainingen) — `design_studio` / high — Andreas Rudolph
+- `info@solsec.de` — SOLSEC GmbH (Bobingen) — `design_studio` / high — Alexander Stotz / Ioannis Choumetis
+- `info@kuehnlein-gmbh.de` — Karl Kühnlein GmbH (Mammendorf) — `oem_buyer` / high — Klaus Kühnlein
+- `info@klaeger.de` — Kläger Spritzguss GmbH & Co. KG (Dornstetten) — `overseas_peer_overflow` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `FLICKS-CAD` — SKIP phone-only / E-Mail: Kontakt cloak
+- `Finke Formenbau plain mailto` — SKIP no plain company-site mailto
+- `ABAS Fulda named` — SKIP Cloudflare / only known info@
+- `CAD-KON named beyond team_` — SKIP; `mail@cad-kon.com` Aufmass off-ICP
+- `Reddikowsky / Dobener / ck-form.de` — SKIP dead/unreachable
+- `invent g.helm@lh` — SKIP invent
+- `THB Konstruktionsbüro` — DROP Stanz/Umform-primary
+- `BWF Holzkirchen info@bwf-gmbh.de` — DROP Alu-CNC / not plastics Formenbau
+- `c.bosch@klaeger` — DROP Beschaffung/Einkauf
+- `antje.knoth@vorbach` — DROP Finanzen/Personal
+- `job@haenel` — DROP Bewerbung
+- `Beck Plastics` — SKIP cloak / no plain mailto
+- `formenbau-rapp / auer-formenbau` — SKIP 403/unreachable
+- `Gerken continuum` — DROP Stanz/Umform avoid
+
+---
+
 ## Website/named Kontakt Batch 125
 
 > 合并前重读 CSV（任务初口径 **4361** / **3052**；Directory Batch130dir steering → 写时 live **4391** / **3078**）。本批按 live 合并，网站轨净增 **+8** → 瞬时 **4399** / **3080**。
