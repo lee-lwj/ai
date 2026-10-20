@@ -1,72 +1,71 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 87）
+## 1. 累计交付数量（如实，至 Batch 88）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3480** |
-| 本轮净增（相对目录 Batch85dir 合并后基线 3462） | **+18** |
+| 去重后邮箱总数（累计） | **3552** |
+| 本轮净增（相对目录 Batch86dir 合并后基线 3534） | **+18** |
 | 本轮因已在 master/targets 跳过 | **0** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **10** |
-| 其中 high / medium | **3258** / **222** |
-| 唯一域名 | **2404** |
-| 非 .de 邮箱（累计） | **896** |
-| 含电话 / 含城市 | **3049** / **3166** |
-| 本轮新域名贡献 | **0** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **8** |
+| 其中 high / medium | **3322** / **230** |
+| 唯一域名 | **2452** |
+| 非 .de 邮箱（累计） | **920** |
+| 含电话 / 含城市 | **3106** / **3218** |
+| 本轮新域名贡献 | **2** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3248** |
-| design_studio | **133** |
+| overseas_peer_overflow | **3319** |
+| design_studio | **134** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 87 · Website/named Kontakt）
+## 2. 本轮方法（Batch 88 · Website/named Kontakt）
 
-1. **基线**：目录 Batch85dir 合并后 **重读 CSV** → **3462 / 2404**（非用户提示的 3435）。
-2. **Expand 队列**：仍空；wave1 singles 命中 Mack/Lercher/HWB/Niggemann/FFT（后者错垂剔除）。
+1. **基线**：目录 Batch86dir 合并后 **重读 CSV** → **3534 / 2450**（非用户提示的 3480）。
+2. **Expand 队列**：仍空；unprobed tooling singles ~10。
 3. **Named Kontakt / Web 定向**：
-   - FOBOHA Haslach `sales-china@`
-   - Frank & Liebergeld Ruhla（GF/Prokurist/Werkzeugmacher；Buchhaltung/DSB 剔除）
-   - mack Kunststofftechnik Ulm（GF/Betriebsleiter/CAD-CAM；Assistentin/Auftragsabwicklung 剔除）
-   - Lercher Werkzeugbau Klaus AT（Werkzeugbau/Spritzguss/Projekt；HR/Front/Buchhaltung 剔除）
-   - HWB Horitschon AT（GF Vertrieb + Produktion + Konstruktion；Buchhaltung/EDV 剔除）
-   - Niggemann Formenbau Werdohl（Udo/Thomas GF）
-4. **质量门**：FFT Umform/Karosserie；XIFA Rohstoffvertrieb；Bulte FR fasteners；Meyer 未 live；Buchhaltung/HR/Assistentin/EDV。
+   - K&B Kunststofftechnik Niederalteich（GF + Werkzeugbau + Spritzguss + QS；Buchhaltung/Einkauf 剔除）— **新域名**
+   - Willy Sutter Formenbau Steinen/Kronach（`wsuttergmbh.de` 新域名 + Barnickel @.com；Buchhaltung 剔除）
+   - TKT Kunststoff-Technik Bad Laer（Management/CS/Plant/PM；空格混淆 live-seen）
+   - Schäfer `unterellen@` DE 工厂（海外工厂邮箱剔除）
+4. **质量门**：Buchhaltung/Einkauf；Rummel third-party only；Tebis CAM 软件；FWI 协会；cloak。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 singles | ~55 | Mack/Lercher/HWB/Niggemann（FFT 剔除） |
-| named Web（Foboha/Liebergeld/Xifa…） | 多页 | Foboha+Liebergeld；Xifa 错垂 |
+| wave1 remaining singles | ~12 | WSutter/TKT/Schäfer |
+| named Web（K&B/Lechner/Rummel…） | 多页 | **+5** K&B；Lechner 已入库；Rummel 未 live |
 
 ### 本轮新增（+18）
 
-- `sales-china@foboha.com` · Haslach ·    · high
-- `ines.liebergeld-winges@frank-liebergeld.com` · Ruhla · Ines Liebergeld-Winges · high
-- `stev.buttke@frank-liebergeld.com` · Ruhla · Stev Buttke · high
-- `tino.baacke@frank-liebergeld.com` · Ruhla · Tino Baacke · high
-- `bernd.liebergeld@frank-liebergeld.com` · Ruhla · Bernd Liebergeld · medium
-- `e.mack@mack-kunststoff.com` · Ulm · Elmar Mack · high
-- `f.hartmann@mack-kunststoff.com` · Ulm · Florian Hartmann · high
-- `h.weber@mack-kunststoff.com` · Ulm · Heiko Weber · high
-- `achim.summer@lercher.at` · Klaus · Achim Summer · high
-- `juergen.lercher@lercher.at` · Klaus · Jürgen Lercher · high
-- `andreas.thaler@lercher.at` · Klaus · Andreas Thaler · high
-- `adrian.willidal@lercher.at` · Klaus · Adrian Willidal · high
-- `manuel.salzgeber@lercher.at` · Klaus · Manuel Salzgeber · high
-- `christian.mayerhofer@hwb.co.at` · Horitschon · Christian Mayerhofer · high
-- `bernhard.hahn@hwb.co.at` · Horitschon · Bernhard Hahn · high
-- `ralph.hueller@hwb.co.at` · Horitschon · Ralph Hueller · high
-- `udo.niggemann@niggemann.net` · Werdohl · Udo Niggemann · high
-- `t.niggemann@niggemann.net` · Werdohl · Thomas Niggemann · high
+- `info@kb-kunststofftechnik.de` · Niederalteich ·    · high
+- `willmerdinger@kb-kunststofftechnik.de` · Niederalteich · Kurt Willmerdinger · high
+- `lukas.willmerdinger@kb-kunststofftechnik.de` · Niederalteich · Lukas Willmerdinger · high
+- `szilard.kolozsi-nagy@kb-kunststofftechnik.de` · Niederalteich · Szilard Kolozsi-Nagy · high
+- `qm-qs@kb-kunststofftechnik.de` · Niederalteich · Laura Weber · high
+- `info@wsuttergmbh.de` · Steinen ·    · high
+- `k.maier@wsuttergmbh.de` · Steinen · Karl Maier · high
+- `s.gerring@wsuttergmbh.de` · Steinen · Stefan Gerring · high
+- `t.winter@wsuttergmbh.de` · Steinen · Tom Winter · high
+- `r.klatt@wsuttergmbh.de` · Steinen · Robert Klatt · high
+- `a.weimer@wsuttergmbh.de` · Kronach · Alexander Weimer · high
+- `a.meier@wsuttergmbh.de` · Kronach · Alexander Meier · high
+- `a.barnickel@wsuttergmbh.com` · Kronach · Alexander Barnickel · high
+- `peter.brinkmann@tkt-plastics.com` · Bad Laer · Peter Brinkmann · high
+- `joerg.thomas@tkt-plastics.com` · Bad Laer · Jörg Thomas · high
+- `barbara.moehlmann@tkt-plastics.com` · Bad Laer · Barbara Moehlmann · high
+- `henning.funke@tkt-plastics.com` · Bad Laer · Henning Funke · high
+- `unterellen@schaefer.biz` · Unterellen ·    · medium
 
 ### 本轮新域名
 
-（无 — 全部落在已有域名）
+- `kb-kunststofftechnik.de`
+- `wsuttergmbh.de`
 
 ### skipped-already-known（0）
 
@@ -74,7 +73,7 @@
 
 ### 质量剔除（节选）
 
-**10**：Liebergeld Buchhaltung/DSB；Mack Assistentin/Auftragsabwicklung；Lercher HR；HWB Buchhaltung/EDV；FFT Blech-Umform；XIFA Rohstoff；Bulte FR；Meyer 未 live。
+**8**：K&B Buchhaltung/Einkauf；Sutter Buchhaltung；Rummel plasticker-only；Schäfer 海外厂；Tebis；FWI；cloak。
 
 ---
 
@@ -82,17 +81,174 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch87_new_verified.json`
-- `data/germany_raw/batch87_expand_results.json`
-- `data/germany_raw/batch87_merge_log.json`
-- `data/germany_raw/batch87_candidates.json` / `batch87_probe_wave1.json`
-- `data/germany_raw/batch87_quality_drops.json`
+- `data/germany_raw/batch88_new_verified.json`
+- `data/germany_raw/batch88_expand_results.json`
+- `data/germany_raw/batch88_merge_log.json`
+- `data/germany_raw/batch88_candidates.json` / `batch88_probe_wave1.json`
+- `data/germany_raw/batch88_quality_drops.json`
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B88 继续 named Kontakt；Watch Batch86dir/87dir；cloak 勿 invent。
+**应有尽有 — 尚未完成。** Expand 仍空；singles 队列近空。B89 优先 web-search named Kontakt；Watch Batch87dir。
+
+---
+
+## 目录/展会轨 Batch87dir
+
+> 合并前重读 CSV（Website B88 后基线 **3552** / **2452**）。合并后基线供 Website B89：**3560** / **2460**。
+
+### 累计（Batch87dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3560** |
+| high / medium | **3329** / **231** |
+| 唯一域名 | **2460** |
+| 含电话 / 含城市 | **3109** / **3221** |
+| 非 .de 邮箱 | **927** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3325** |
+| design_studio | **136** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch87dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **37** |
+| 有邮箱命中 | **11** |
+| 本轨净增邮箱 | **8**（high **7** / medium **1**） |
+| 相对 Website B88 基线 3552 | **+8** |
+| 再播种剩余 | **121** |
+| 队列剩余 | **121** |
+
+### 方法
+
+1. 排空上轮 **37** 个 master ICP 剩余域名 → Impressum/Kontakt  
+2. append-dedupe（合并前重读 **3552/2452** = Website B88）  
+3. 严格 ICP master 池已空 → 再播种放宽为 broader master `.de/.at/.ch` + expand/design 队列（**121**）  
+4. WLW 跳过（CAPTCHA）
+
+### 本轨新增邮箱（共 8）
+
+- `christoph@formfabrik.ch`
+- `office@formschluss.at`
+- `office@kmould.at`
+- `contact@peschke.at`
+- `office@researchstudio.at`
+- `proform@proform.ch`
+- `spritzguss@prontoplast.ch`
+- `wehapost@weha-plastic.de`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 严格 keyword master ICP 耗尽；已切换 broader master 再播种
+- 见 `data/germany_raw/batch87dir_merge_log.json` / `batch87dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch87dir_impressum.json`
+- `data/germany_raw/batch87dir_verified.json` / `batch87dir_hits.json`
+- `data/germany_raw/batch87dir_merge_log.json` / `batch87dir_reseed.json`
+
+### 状态
+
+Batch87dir 已合并；队列剩余 **121** 供 Batch88dir。
+
+---
+
+## 目录/展会轨 Batch86dir
+
+> 合并前重读 CSV（Website B87 后基线 **3480** / **2404**）。合并后基线供 Website B88：**3534** / **2450**。
+
+### 累计（Batch86dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3534** |
+| high / medium | **3305** / **229** |
+| 唯一域名 | **2450** |
+| 含电话 / 含城市 | **3088** / **3200** |
+| 非 .de 邮箱 | **914** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3301** |
+| design_studio | **134** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch86dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **150** |
+| 有邮箱命中 | **60** |
+| 本轨净增邮箱 | **54**（high **49** / medium **7**） |
+| 相对 Website B87 基线 3480 | **+54** |
+| master ICP 再播种剩余 | **37** |
+| 队列剩余 | **37** |
+
+### 方法
+
+1. 排空上轮 **150** 个 master ICP 再播种域名 → Impressum/Kontakt  
+2. append-dedupe（合并前重读 **3480/2404** = Website B87）  
+3. 质量过滤：同域 high；品牌相关 medium（含 `.swiss` 孪生）；丢弃 digit-prefix 刮取垃圾邮箱  
+4. 再播种 master ICP 续段 → 队列 **37**；WLW 跳过
+
+### 本轨新增邮箱（节选前 25 / 共 54）
+
+- `max.eberle@glaroform.swiss`
+- `robin.eberle@glaroform.swiss`
+- `peter.hotz@glaroform.swiss`
+- `markus.blessing@glaroform.swiss`
+- `michele.freuler@glaroform.swiss`
+- `info@glaroform.swiss`
+- `info@hf-cncbearbeitung.de`
+- `info@hipp-praezisionstechnik.de`
+- `info@hs-formtechnik.de`
+- `info@hs-kunststoffe.de`
+- `info@ils-fertigungstechnik.de`
+- `info@indra-metall.de`
+- `info@kaiser-metallwaren.de`
+- `info@keim-fasertechnik.de`
+- `info@ks-biegetechnik.de`
+- `info@lamers-metallverarbeitung.de`
+- `info@lappe-metallbau.de`
+- `info@maedel-metall.de`
+- `info@maschinentechnik.de`
+- `info@mcadform.de`
+- `info@metallbearbeitung-bruno.de`
+- `info@mform.de`
+- `info@mjm-metallverarbeitung.de`
+- `info@mould2part.ch`
+- `info@multiple-design.ch`
+… 另有 31 个，见 `data/germany_raw/batch86dir_hits.json`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch86dir_merge_log.json` / `batch86dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch86dir_impressum.json`
+- `data/germany_raw/batch86dir_verified.json` / `batch86dir_hits.json`
+- `data/germany_raw/batch86dir_merge_log.json` / `batch86dir_reseed.json`
+
+### 状态
+
+Batch86dir 已合并；队列剩余 **37**（master ICP）供 Batch87dir。
 
 ---
 
