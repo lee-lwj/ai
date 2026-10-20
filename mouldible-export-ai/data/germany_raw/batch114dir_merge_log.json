@@ -1,0 +1,62 @@
+{
+  "batch": "114dir",
+  "label": "目录/展会轨 Batch114dir",
+  "csv_before": 4181,
+  "csv_after": 4192,
+  "net_new_emails": 11,
+  "high": 11,
+  "medium": 0,
+  "impressum_checked": 33,
+  "impressum_ok": 12,
+  "stats": {
+    "no_hit": 21,
+    "added_cand": 11,
+    "dup_email": 5,
+    "qual_offdomain_drop": 1
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 1,
+  "seed_status": {
+    "gsbiz_drained": 30,
+    "jobs": 142,
+    "source_ok_pages": {
+      "maps": 36,
+      "search": 36,
+      "ep": 9,
+      "assoc": 1,
+      "ajax": 20
+    },
+    "new_gsbiz_ids": 2,
+    "expand_fetched": 2,
+    "queue": 33,
+    "queue_via": {
+      "ajax": 2,
+      "gsbiz": 18,
+      "search": 10,
+      "ep": 3
+    },
+    "sources": {
+      "email": 28,
+      "web": 5
+    },
+    "remain_gsbiz": 0,
+    "method": "Drain 30 gsbiz + city×kw Bing/DDG + Europages deep + associations + city spritzgussteile; skip WLW/Örtliche/Kompass"
+  },
+  "baseline_note": "Re-read CSV before merge (4181/2909)",
+  "blockers": [
+    "WLW/Örtliche/Kompass skipped",
+    "assoc directories mostly 404/empty",
+    "GS new gsbiz +2 only"
+  ],
+  "domains_after": 2919,
+  "domains_before": 2909,
+  "sources": "Drain 30 gsbiz + city×kw Bing/DDG + Europages deep + associations + city spritzgussteile; skip WLW/Örtliche/Kompass",
+  "expand_worked": {
+    "ajax": 2,
+    "gsbiz": 18,
+    "search": 10,
+    "ep": 3
+  },
+  "saturation_note": "GS id pool saturated; city×keyword Bing/DDG still useful for net-new domains",
+  "quality_note": "Dropped funeral/fenster/liqui/off-domain; kept same-domain high + brand_related medium"
+}

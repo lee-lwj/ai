@@ -787,6 +787,80 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch114dir
+
+> 合并前重读 CSV（基线 **4181** / **2909**）。合并后基线：**4192** / **2919**。
+
+### 累计（Batch114dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4192** |
+| high / medium | **3928** / **264** |
+| 唯一域名 | **2919** |
+| 含电话 / 含城市 | **3614** / **3689** |
+| 非 .de 邮箱 | **1135** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3900** |
+| design_studio | **169** |
+| oem_buyer | **88** |
+| sourcing | **35** |
+
+### 本轨成果（Batch114dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **33** |
+| 有邮箱命中 | **12** |
+| 本轨净增邮箱 | **11**（high **11** / medium **0**） |
+| 相对基线 4181/2909 | **+11** / **+10** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **1** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| 排空 gsbiz **30** | 有效（主贡献） |
+| 城市×关键词 Bing/DDG | 有效（via search **10**） |
+| Europages DE 深页 | 部分（多页 404） |
+| 协会/展会目录 | 弱（多数 404） |
+| GS 新 id | 枯竭（扩期仅 +2） |
+| WLW / Örtliche / Kompass | 跳过 |
+
+### 饱和备注
+
+Gelbe Seiten gsbiz 池高度重叠；本批净增主要来自 **已排空的 30 ids + 城市×关键词网页检索**，而非新 GS 列表页。
+
+### 本轨新增邮箱（共 11）
+
+- `info@eurotech-kunststofftechnik.de` (high)
+- `info@dlkunststofftechnik.de` (high)
+- `info@gh-kunststofftechnik.de` (high)
+- `info@kunststofftechnik-hennigsdorf.de` (high)
+- `info@borchert-fuhrmann.de` (high)
+- `info@isomer.de` (high)
+- `info@hf-fischer.de` (high)
+- `info@rotasin.de` (high)
+- `mail@schnorr.de` (high)
+- `automotive@schnorr.de` (high)
+- `stark@stark-leisten.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch114dir_*.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch114dir 已合并；域名队列 **0**；gsbiz 余 **1**。
+
+---
+
 ## 目录/展会轨 Batch113dir
 
 > 合并前重读 CSV（基线 **4177** / **2905**；父指令约 4177/2921）。合并后基线：**4181** / **2909**。
