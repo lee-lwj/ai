@@ -1,3 +1,71 @@
+## Website/named Kontakt Batch 129
+
+> 合并前重读 CSV（Directory Batch133dir 已抬升至 **4492** / **3151** domains ~**3161** hosts；任务初口径 4466 已过时）。本批按 live 合并，网站轨净增 **+16** → **4508** / **3154** domains (~**3164** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4508** |
+| high / medium | **4228** / **280** |
+| 唯一域名（domain 列） | **3154** |
+| 唯一邮箱主机（@host） | **3164** |
+| 含电话 / 含城市 | **3890** / **3993** |
+| 非 .de 邮箱 | **1198** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4134** |
+| design_studio | **196** |
+| oem_buyer | **142** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+16**（相对写时基线 4492）
+
+- `info@barku.de` — BARKU Barnstorfer Kunststofftechnik (Barnstorf) — `oem_buyer` / high
+- `borchers@barku.de` — BARKU — `oem_buyer` / high — Florian Borchers (GF)
+- `niemann@barku.de` — BARKU — `oem_buyer` / high — Bernd Niemann (GF)
+- `politzky@barku.de` — BARKU — `oem_buyer` / high — Carsten Politzky (Technical Sales)
+- `ewald@barku.de` — BARKU — `oem_buyer` / high — Torsten Ewald (Technical Sales)
+- `hagemeier@barku.de` — BARKU — `oem_buyer` / high — Andreas Hagemeier (Technical Sales)
+- `ukley@barku.de` — BARKU — `oem_buyer` / high — Benjamin Ukley (Technical Sales)
+- `nagel@barku.de` — BARKU — `oem_buyer` / high — Björn Nagel (Vertriebsinnendienst)
+- `holste@barku.de` — BARKU — `oem_buyer` / high — Marco Holste (Technische Leitung / Prokurist)
+- `stietz@barku.de` — BARKU — `overseas_peer_overflow` / high — Andreas Stietz (Konstruktion / Werkzeugbau)
+- `baehr@barku.de` — BARKU — `overseas_peer_overflow` / high — Sebastian Bähr (Konstruktion)
+- `meyer@barku.de` — BARKU — `oem_buyer` / high — Jürgen Meyer (Leiter QS)
+- `bening@barku.de` — BARKU — `oem_buyer` / high — Bernd Bening (QS)
+- `info@heinz-kueck.de` — Heinz Kück Präzisionswerkzeuge (Niederkassel-Mondorf) — `overseas_peer_overflow` / high — Robin Flück (GF)
+- `info@molds-and-parts.com` — molds & parts GmbH (Zimmern o.R.) — `sourcing` / high — Andreas Trauschweizer
+- `renate.wirth@dorn-tt.de` — Dorn Spritzguss (Tettnang) — `oem_buyer` / high — Renate Wirth (QS)
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `Finke / CAD-KON / Reddikowsky / Dobener / ck-form` — SKIP dead / cloak
+- `formenbau-rapp / auer / kb-sprung / heise / mohr / hochstadter / jordan` — SKIP 403/dead
+- `Beck Plastics joomla-hidden-mail` — SKIP cloak (plain-only hint)
+- `ABAS karl.menrad@` / `invent g.helm@` — SKIP invent / tel-only
+- `info@wa21.de` Rethemeier footer — DROP Werbeagentur 21 third-party
+- `BARKU wohlking@ / sekretariat@` — DROP Fibu/Personal / Sekretariat
+- `BARKU preuss@ / marose@ / koch@ / bpolitzky@` — DROP Purchasing/Einkauf
+- `Dorn schlessmann@ / heimpel@ / hoeld@ / willmann@` — DROP Auftragsabwicklung/Buchhaltung
+- `BM praezisions-formenbau-werkzeugbau.de` — SKIP email already known (bm-formenbau.de)
+
+### 产物
+
+- `data/germany_raw/batch129_new_verified.json`
+- `data/germany_raw/batch129_quality_drops.json`
+- `data/germany_raw/batch129_merge_log.json`
+- `data/germany_raw/batch129_candidates_final.json`
+- `data/germany_raw/batch130_queue_note.txt`
+
+_报告更新：2026-10-21 06:10 Asia/Hong_Kong_
+
+---
+
 ## 目录/展会轨 Batch133dir
 
 > 合并前重读 CSV（直播基线 **4466** / **3134**；Website Batch128 steering +10）。合并后基线：**4492** / **3151**（hosts ~3161）。
