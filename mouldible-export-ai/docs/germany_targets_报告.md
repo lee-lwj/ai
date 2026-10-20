@@ -1,3 +1,122 @@
+## Website/named Kontakt Batch 101
+
+> 合并前重读 CSV（Batch99dir 后基线 **3867** / **2635**；非初值 3854/2623。Batch100dir 未写入；dir 队列空）。
+
+### 累计（Batch 101 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3874** |
+| high / medium | **3629** / **245** |
+| 唯一域名 | **2642** |
+| 含电话 / 含城市 | **3324** / **3390** |
+| 非 .de 邮箱 | **1105** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3617** |
+| design_studio | **154** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch 101）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+7**（high **7** / medium **0**） |
+| 相对基线 3867/2635 | **+7** / **+7** 域名 |
+| master 可选重叠跳过 | **0** |
+| 质量剔除 | **7** |
+
+### 方法
+
+1. 重读确认 **3867/2635**（Batch99dir 已合并；Batch100dir 空；dir queue empty）
+2. NEW-domain Konstruktionsbüros + WBKT Präzisionsformenbau/Spritzguss
+3. 命中：Scheidig / Kesterke / WeKonSo / WBKT Kruse / Karthaus / RDCAD / Piston（7 NEW domains）
+4. 质量门：Druckguss-primary（Cox）；Stanz/Umform（DK/Gerken）；general CAD（Ptach）；unpublished（Banas）；no mailto（Thermo-Tec）
+
+### 本轨新增邮箱（共 7）
+
+- `info@cad-scheidig.de` · Gräfenthal · Frank Scheidig · Inhaber / Konstruktion Spritzgießwerkzeuge · high · **新域名**
+- `info@kesterke.de` · Bargstedt · Peter Kesterke · Geschäftsführer / Konstruktion Spritzgiesswerkzeuge · high · **新域名**
+- `info@wekonso.de` · Löhne · Frank Balsmeier · Inhaber / CAD Konstruktion Spritzgießwerkzeuge · high · **新域名**
+- `kruse@wbkt.de` · Egeln · — · Allgemeine Anfragen / Werkzeugbau Spritzgießwerkzeuge · high · **新域名**
+- `info@cad-karthaus.de` · Wipperfürth · Jörg Karthaus · Inhaber / Werkzeugkonstruktion Spritzguss · high · **新域名**
+- `rdcad@rdcad.de` · Ansbach · Dieter Rößl · Inhaber / Konstruktion Spritzgußwerkzeuge · high · **新域名**
+- `info@konstruktionsbuero-piston.de` · Hatzfeld-Reddighausen · Maximilian Schneider · Geschäftsführer / Konstruktion Spritzgießwerkzeuge · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch101_new_verified.json`
+- `data/germany_raw/batch101_candidates_final.json`
+- `data/germany_raw/batch101_quality_drops.json`
+- `data/germany_raw/batch101_merge_log.json`
+- `data/germany_raw/batch102_queue_note.txt`
+
+---
+
+## Website/named Kontakt Batch 100
+
+> 合并前重读 CSV（Batch98dir 后基线 **3846** / **2615**；非初值 3816/2591。Batch99dir 未写入）。
+
+### 累计（Batch 100 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3854** |
+| high / medium | **3609** / **245** |
+| 唯一域名 | **2623** |
+| 含电话 / 含城市 | **3310** / **3381** |
+| 非 .de 邮箱 | **1092** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3603** |
+| design_studio | **148** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch 100）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+8**（high **8** / medium **0**） |
+| 相对基线 3846/2615 | **+8** / **+8** 域名 |
+| master 可选重叠跳过 | **0** |
+| 质量剔除 | **7** |
+
+### 方法
+
+1. 重读确认 **3846/2615**（Batch98dir 已合并；Batch99dir 空）
+2. Thin multi + NEW-domain: Konstruktionsbüros（Hiemer/Lais/KuKo/Beckmann/Krauss/HHK）+ LiuTek sourcing + Tettenborn Formenbau
+3. 命中：8 NEW domains（design_studio×6 + sourcing×1 + peer×1）
+4. 质量门：Buchhaltung/Personal（sonja.karl）；invent sebastian.karl；Glauchau 无 Spritz；rausch .com 错 TLD；Einkauf
+
+### 本轨新增邮箱（共 8）
+
+- `info@kb-hiemer.de` · Burggriesbach · Leonas Hiemer · Inhaber / Konstruktion Formenbau · high · **新域名**
+- `info@liutek.de` · Neuendettelsau · Xinhui Liu · Geschäftsführung / China Formen DE · high · **新域名**
+- `info@formenbau-tettenborn.de` · Solingen · — · Allgemeine Anfragen / Formenbau · high · **新域名**
+- `sl@lais-konstruktion.de` · Münstertal · Stefan Lais · Inhaber / Konstruktion Spritzgießformen · high · **新域名**
+- `info@kuko-web.de` · Pforzen · Peter Kunert · Inhaber / Konstruktion Spritzgusswerkzeuge · high · **新域名**
+- `info@beckmann-cad.de` · Altdorf · Michael Beckmann · Geschäftsführer / Konstruktion Spritzgusswerkzeuge · high · **新域名**
+- `mailto@krauss-web.de` · Calw · — · Allgemeine Anfragen / Formenkonstruktion · high · **新域名**
+- `info@hhk-konstruktion.de` · Lohkirchen · Helmut Höllbauer · Inhaber / Konstruktion Werkzeugbau · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch100_new_verified.json`
+- `data/germany_raw/batch100_candidates_final.json`
+- `data/germany_raw/batch100_quality_drops.json`
+- `data/germany_raw/batch100_merge_log.json`
+- `data/germany_raw/batch101_queue_note.txt`
+
+---
+
 ## Website/named Kontakt Batch 99
 
 > 合并前重读 CSV（Batch97dir 后基线 **3809** / **2589**；非 steering 初值 3779/2561。Batch98dir 未写入）。
@@ -178,6 +297,88 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch99dir
+
+> 合并前重读 CSV（Website B100 后基线 **3854** / **2623**；非 3846）。合并后基线：**3867** / **2635**。
+
+### 累计（Batch99dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3867** |
+| high / medium | **3622** / **245** |
+| 唯一域名 | **2635** |
+| 含电话 / 含城市 | **3317** / **3383** |
+| 非 .de 邮箱 | **1105** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3616** |
+| design_studio | **148** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch99dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **85** |
+| 有邮箱命中 | **60** |
+| 本轨净增邮箱 | **13**（high **13** / medium **0**） |
+| 相对 Website B100 基线 3854/2623 | **+13** / **+12** 域名 |
+| 已知重复跳过 | **45** |
+| 再播种剩余 | **0** |
+| 队列剩余 | **0** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 master_strict 残 | **22** |
+| VDWF HTML 新域名 | **63**（非 WLW） |
+| master_strict 新 | **0**（已尽） |
+| 核验合计 | **85** |
+| 超时强制 no_email | bus-werkzeugbau.de |
+| WLW | CAPTCHA — 跳过 |
+| maps/OEM/embassy | 无可用新队列；kunststoff-magazin 403 |
+| 再播种 | **空**（master/VDWF/peer 近耗尽） |
+
+### 方法
+
+1. 排空残 **22** + VDWF mitglieder HTML 再提取 **63** → Impressum
+2. 合并前重读 **3854/2623** = Website B100
+3. 质量剔除：institut/marktspiegel/OWL、beispiel.de、bewerbung、careers@；多数 VDWF 命中已在库（known **45**）
+4. 再播种尝试后队列 **0**
+
+### 本轨新增邮箱（共 13）
+
+- `sales@topgrademolds.com` · `spareparts@topgrademolds.com`
+- `sales@vannormanmolding.com` · `sales@vsmolding.com` · `sales@wentworthmold.com`
+- `sales@wundermold.com` · `sales@xcentricmold.com` · `info@kunststoff-teile.com`
+- `sege@semoulding.com` · `th@visualcnc.com` · `sales@eriemolded.com`
+- `webinfo@cncke.com` · `msicustomerservice@msimoldbuilders.com`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- master_strict 耗尽；依赖 VDWF 再提取
+- 目录轨队列现为 **0** — 下轮需新源（非 WLW：Gelbe Seiten/Europages/OEM maps/展商新页）
+- 见 `data/germany_raw/batch99dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch99dir_impressum.json`
+- `data/germany_raw/batch99dir_verified.json` / `batch99dir_hits.json`
+- `data/germany_raw/batch99dir_merge_log.json` / `batch99dir_reseed.json`
+
+### 状态
+
+Batch99dir 已合并；队列剩余 **0**（种子近耗尽）。
 
 ---
 
