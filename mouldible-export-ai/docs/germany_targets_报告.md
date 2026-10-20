@@ -518,6 +518,110 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch107dir
+
+> 合并前重读 CSV（基线 **4012** / **2769**；Website B106 可能并行写入）。合并后基线：**4044** / **2800**。
+
+### 累计（Batch107dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4044** |
+| high / medium | **3785** / **259** |
+| 唯一域名 | **2800** |
+| 含电话 / 含城市 | **3475** / **3556** |
+| 非 .de 邮箱 | **1115** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3778** |
+| design_studio | **158** |
+| oem_buyer | **74** |
+| sourcing | **34** |
+
+### 本轨成果（Batch107dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **55** |
+| 有邮箱命中 | **34** |
+| 本轨净增邮箱 | **32**（high **30** / medium **2**） |
+| 相对基线 4012/2769 | **+32** / **+31** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **32** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B106dir gsbiz | **22** |
+| 扩展 | 26 城 × formenbau/spritzguss + 12 类目 bundesweit + page2；ajax **67** → 新 gsbiz **112**（取 80 核验，余 32） |
+| 本轮核验队列 | **55**（预筛弱域名后） |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **32** |
+
+### 方法
+
+1. 排空 `queue_gsbiz_ids_remaining.txt` **22** + GS 城市/类目扩展 → Impressum  
+2. 合并前重读 **4012/2769**  
+3. 质量剔除：freenet/portal/off-domain；保留 brand_related medium（aundm、knoblauch）  
+4. 再播种：gsbiz 余 **32**
+
+### 本轨新增邮箱（共 32）
+
+- `info@bartz-werke.de` (high)
+- `info@aundm.eu` (medium)
+- `info@arias.de` (high)
+- `info@daenekamp.de` (high)
+- `kontakt@ewf-steinau.de` (high)
+- `anfrage@ewf-steinau.de` (high)
+- `info@bm-kunststoffe.de` (high)
+- `info@3d-formtec.de` (high)
+- `info@fiwec.de` (high)
+- `info@gottron-hoffmann.de` (high)
+- `service@gms-24.de` (high)
+- `info@fwb-gmbh.de` (high)
+- `email@eneratio.de` (high)
+- `info@kallichundpartner.de` (high)
+- `info@hufer-kunststofftechnik.de` (high)
+- `info@jakob-partner.de` (high)
+- `info@hugo-ackermann.de` (high)
+- `info@heinz-feld.de` (high)
+- `info@kellercnc.de` (high)
+- `mail@hkl-aachen.de` (high)
+- `service@kulisch-gmbh.de` (high)
+- `info@neuhof-dies.com` (high)
+- `info@knoblauch-gmbh.eu` (medium)
+- `info@polywerk-berlin.de` (high)
+- `info@leicht-mueller.de` (high)
+- `info@enkst.de` (high)
+- `info@schade-gmbh.de` (high)
+- `info@shapetool.de` (high)
+- `info@tis-europa.com` (high)
+- `info@wefo-spaeth.de` (high)
+- `rimmele@formentechnik.com` (high)
+- `anselm.baumann@ostpool.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch107dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch107dir_impressum.json`
+- `data/germany_raw/batch107dir_verified.json` / `batch107dir_hits.json`
+- `data/germany_raw/batch107dir_merge_log.json` / `batch107dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch107dir 已合并；域名队列 **0**；gsbiz 余 **32** 供 Batch108dir。
+
+---
+
 ## 目录/展会轨 Batch106dir
 
 > 合并前重读 CSV（Website B105 后基线 **3985** / **2744**；非 3982）。合并后基线：**4012** / **2769**。
