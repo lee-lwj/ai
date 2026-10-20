@@ -1,57 +1,66 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 82）
+## 1. 累计交付数量（如实，至 Batch 83）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3042** |
-| 本轮净增（相对基线 3035；Batch82dir 合并时尚未入库） | **+7** |
+| 去重后邮箱总数（累计） | **3333** |
+| 本轮净增（相对目录 Batch82dir 合并后基线 3320） | **+13** |
 | 本轮因已在 master/targets 跳过 | **0** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **8** |
-| 其中 high / medium | **2854** / **188** |
-| 唯一域名 | **2119** |
-| 非 .de 邮箱（累计） | **692** |
-| 含电话 / 含城市 | **2676** / **2785** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **10** |
+| 其中 high / medium | **3121** / **212** |
+| 唯一域名 | **2327** |
+| 非 .de 邮箱（累计） | **800** |
+| 含电话 / 含城市 | **2925** / **3038** |
 | 本轮新域名贡献 | **1** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **2814** |
-| design_studio | **129** |
+| overseas_peer_overflow | **3102** |
+| design_studio | **132** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 82 · Website/named Kontakt）
+## 2. 本轮方法（Batch 83 · Website/named Kontakt）
 
-1. **基线**：合并前 **重读 CSV** → **3035 / 2118**（Batch82dir VDWF 本轮写时尚未合并）。
-2. **Expand 队列**：仍空；wave1 ~55 + extra 6 singles → 2 promising（Hippe plant；Hombach anfrage 未再现）。
+1. **基线**：目录 Batch82dir（VDWF）合并后 **重读 CSV** → **3320 / 2326**（非用户提示的 3042），再合并本轮。
+2. **Expand 队列**：仍空；wave1 ~50–60 singles（多数已被 dir 吸收）。
 3. **Named Kontakt / Web 定向**：
-   - Schweiger tooling Uffing（info@ + Halupczok Sales + A.Schweiger CSO + Stoffel CEO + Knoflach/Nagl Prok.；Einkauf/Lager 剔除；@rathgeber.at / @vdwf.de 剔除）
-   - Hippe `hildesheim@` 第二厂址（已有 spremberg@）
-4. **质量门**：协会邮箱；Einkauf/Lager；master（stefan.kind）；cloak。
+   - KP Kunststoffprofile `verkauf@`（Münchweiler；Beschaffung 剔除）
+   - Erodiertechnik Naumann `werkzeugbau.de`（info@ + wasser@；Buchhaltung 剔除）
+   - Kummer Werkzeugbau Gummersbach（Marco/Matthias GF + ms@ 3D-Fräsen + de@ Drahterodieren）
+   - Leonhardt Tooling Hochdorf（Schimek Angebote + Oppenländer Bestandskunden）
+   - M+W Dortmund（Wihler×2 GF + Tenbusch Betriebsleiter + König Service；Einkauf 剔除）
+4. **质量门**：Einkauf/Buchhaltung/Sekretariat/HR；HPF 多数已由 Batch82dir 入库；cloak。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1/extra singles | ~61 | **+1**（Hippe） |
-| named Web（Schweiger/VDWF/Kind-tec） | 多页 | **+6** Schweiger；VDWF/Kind skip |
+| wave1 singles | ~60 | **+11**（Kummer/Leonhardt/MUW + KP） |
+| named Web（Naumann/HPF/WeWo…） | 多页 | **+2** Naumann；HPF/WeWo 已在 targets |
 
-### 本轮新增（+7）
+### 本轮新增（+13）
 
-- `info@schweiger.tools` · Uffing am Staffelsee ·   · high
-- `m.halupczok@schweiger.tools` · Uffing am Staffelsee · Matthias Halupczok · high
-- `a.schweiger@schweiger.tools` · Uffing am Staffelsee · Anton Schweiger · high
-- `k.stoffel@schweiger.tools` · Uffing am Staffelsee · Dr. Kai Konstantin Stoffel · high
-- `a.knoflach@schweiger.tools` · Uffing am Staffelsee · Andreas Knoflach · high
-- `p.nagl@schweiger.tools` · Uffing am Staffelsee · Philipp Nagl · high
-- `hildesheim@hippe.de` · Hildesheim ·   · high
+- `verkauf@kp-kunststoffprofile.de` · Münchweiler an der Rodalb ·   · high
+- `info@werkzeugbau.de` · Leipheim · Oliver Naumann · high
+- `wasser@werkzeugbau.de` · Leipheim · Günther Blömacher · high
+- `marco@kummer.de` · Gummersbach · Marco Kummer · high
+- `matthias@kummer.de` · Gummersbach · Matthias Kummer · high
+- `ms@kummer.de` · Gummersbach · Mathias Stolz · high
+- `de@kummer.de` · Gummersbach · David de Blaauw · high
+- `k.schimek@leonhardt-tooling.de` · Hochdorf ·   · high
+- `oppenlaender@leonhardt-tooling.de` · Hochdorf · Alexander Oppenländer · high
+- `volker.wihler@muw-do.de` · Dortmund · Volker Wihler · high
+- `lars.wihler@muw-do.de` · Dortmund · Lars Wihler · high
+- `achim.tenbusch@muw-do.de` · Dortmund · Achim Tenbusch · high
+- `thomas.koenig@muw-do.de` · Dortmund · Thomas König · high
 
 ### 本轮新域名
 
-- `schweiger.tools`
+- `werkzeugbau.de`
 
 ### skipped-already-known（0）
 
@@ -59,7 +68,7 @@
 
 ### 质量剔除（节选）
 
-**8**：Schweiger Einkauf/Lager；Rathgeber AT；VDWF 协会；Kind-tec master；Hombach anfrage 未验证…
+**10**：KP Beschaffung；Naumann Buchhaltung；HPF Sekretariat；Jongen HR；MUW Einkauf；cloak…
 
 ---
 
@@ -67,19 +76,42 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch82_new_verified.json`
-- `data/germany_raw/batch82_expand_results.json`
-- `data/germany_raw/batch82_merge_log.json`
-- `data/germany_raw/batch82_candidates.json` / `batch82_probe_wave1.json`
-- `data/germany_raw/batch82_quality_drops.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B83）
+- `data/germany_raw/batch83_new_verified.json`
+- `data/germany_raw/batch83_expand_results.json`
+- `data/germany_raw/batch83_merge_log.json`
+- `data/germany_raw/batch83_candidates.json` / `batch83_probe_wave1.json`
+- `data/germany_raw/batch83_quality_drops.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B84）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。若 Batch82dir（VDWF）随后合并，下轮重读基线。B83 继续 named Kontakt。
+**应有尽有 — 尚未完成。** Expand 仍空。B84 继续 named Kontakt；cloak 观察。
 
+
+---
+
+## 目录/展会轨 Batch82dir（VDWF）
+
+> 合并前重读 CSV（Website B82 后基线 **3042** / **2119**）。合并后基线供 Website B83：**3320** / **2326**。
+
+### 累计（Batch82dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3320** |
+| 唯一域名 | **2326** |
+| 本轨净增（相对 3042） | **+278** |
+| Impressum 核验 | **328** |
+
+### 本轨要点
+
+VDWF Mitglieder extras（WLW CAPTCHA 阻断）；见 `batch82dir_merge_log.json` / `batch82dir_hits.json`。
+
+### 状态
+
+Batch82dir 已合并；Website Batch 83 在其上再合并 **+13** → 累计 **3333 / 2327**。
 
 ---
 
