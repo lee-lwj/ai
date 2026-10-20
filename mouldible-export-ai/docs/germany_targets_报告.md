@@ -1,3 +1,67 @@
+## Website/named Kontakt Batch 97
+
+> 合并前重读 CSV（Website B96 后基线 **3724** / **2533**；Batch96dir 未写入）。
+
+### 累计（Batch 97 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3734** |
+| high / medium | **3491** / **243** |
+| 唯一域名 | **2536** |
+| 含电话 / 含城市 | **3240** / **3343** |
+| 非 .de 邮箱 | **996** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3492** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch 97）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+10**（high **10** / medium **0**） |
+| 相对基线 3724/2533 | **+10** / **+3** 域名 |
+| master 可选重叠 | **0** |
+| 质量剔除 | **11** |
+
+### 方法
+
+1. 重读确认 **3724/2533**（Batch96dir 空）
+2. Expand 空；thin multi + NEW-domain Spritzguss/Formenbau 定向
+3. 命中：**Formenbau Jäger** t-online；**Meinecke** 新域名；**Schürholz** 新域名；MOLDINO EU 国别邮箱×7
+4. 质量门：Rohstoff（Aurora）；Formkästen/Corian/Feuerfest；Stanz/Umform；Druckguss-primary；cloak invent
+
+### 本轨新增邮箱（共 10）
+
+- `formenbaujaeger@t-online.de` · Brunnthal · Gabriele Jäger · Allgemeine Anfragen / Vertretung · high · **新域名**
+- `info@meinecke-formenbau.de` · Ennepetal · Bernd Meinecke / Stefan Hartmann · Geschäftsführer / Allgemeine Anfragen · high · **新域名**
+- `info@schuerholz.eu` · Attendorn · — · Allgemeine Anfragen · high · **新域名**
+- `italy@moldino.eu` · Brescia · — · Italien Niederlassung · high
+- `france@moldino.eu` · Dijon · — · Frankreich Niederlassung · high
+- `spain@moldino.eu` · Sant Cugat del Vallès · — · Spanien Niederlassung · high
+- `portugal@moldino.eu` · Marinha Grande · — · Portugal Niederlassung · high
+- `poland@moldino.eu` · Poznań · — · Polen Niederlassung · high
+- `austria@moldino.eu` · Linz · — · Österreich Niederlassung · high
+- `slovenia@moldino.eu` · Ljubljana · — · Slowenien Niederlassung · high
+
+### 产物
+
+- `data/germany_raw/batch97_new_verified.json` / `batch97_candidates_final.json`
+- `data/germany_raw/batch97_quality_drops.json` / `batch97_merge_log.json`
+- `data/germany_raw/batch98_queue_note.txt`
+
+### 状态
+
+Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
 ## Website/named Kontakt Batch 96
 
 > 合并前重读 CSV（Website B95 + Batch94dir 后基线 **3717** / **2532**；Batch95dir **+0**）。
