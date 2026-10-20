@@ -1,3 +1,46 @@
+## Website/named Kontakt Batch 116
+
+> 合并前重读 CSV（基线 **4267** / **2990**；Batch121dir 后父代理口径 4267/2979 hosts~2990）。勿用 4260/4254。本批网站轨净增 **+4** → 瞬时 **4271** / **2993**；live 现为 **4271** / **2993**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4271** |
+| high / medium | **3997** / **274** |
+| 唯一域名 | **2993** |
+| 含电话 / 含城市 | **3687** / **3759** |
+| 非 .de 邮箱 | **1145** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3959** |
+| design_studio | **175** |
+| oem_buyer | **102** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+4**（相对基线 4267）
+
+- `mail@ruf-formentechnik.de` — RUF Formentechnik (Sankt Georgen im Schwarzwald) — `design_studio` / high
+- `b.ruf@ruf-formentechnik.de` — RUF Formentechnik (Sankt Georgen im Schwarzwald) — `design_studio` / high
+- `info@ssk-kunststoff.de` — Stefan Schmider Kunststoff und Kunststoffverarbeitung (SSK) (Berghaupten) — `oem_buyer` / high
+- `info@ssk-schmider.de` — Stefan Schmider Kunststoff und Kunststoffverarbeitung (SSK) (Berghaupten) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `info@cad-cam-beichert.de` — SKIP already known (Beichert Spritzgießformen CAD)
+- `info@tooldesign.de` — DROP Werbe- & Designagentur (not Formenbau ICP)
+- `kb-das.de E-Mail empty` — DROP cloak/empty — David Schuster Spritz CAD, never invent
+- `info@krauss-web.de from mailto ∂ krauss-web.de` — DROP cloak invent (mailto ∂); domain already has mailto@ placeholder
+- `info@spritzgusswerkzeug-konstruktion.de` — SKIP no Impressum/DE address — DE+AT mobile-only (also B115 drop)
+- `mail@sieberkon.info` — DROP CH-only (Marbach CH)
+- `pauser-weinkauf.de` — SKIP site dead/minimal (336B); cannot live-verify
+- `hiltel-formentechnik.com` — SKIP no plain email (JS SPA)
+
+---
+
 ## Website/named Kontakt Batch 115
 
 > 合并前重读 CSV（基线 **4247** / **2976**；Batch119dir 后父代理口径 4247/2965 hosts~2976）。勿用 4237。本批网站轨净增 **+7** → 瞬时 **4254** / **2977**；live 现为 **4254** / **2977**。

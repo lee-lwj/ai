@@ -1,0 +1,54 @@
+[
+  {
+    "company": "RUF Formentechnik",
+    "domain": "ruf-formentechnik.de",
+    "email": "mail@ruf-formentechnik.de",
+    "email_source_url": "https://www.ruf-formentechnik.de/impressum.html",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 (0)7724/9167750",
+    "city": "Sankt Georgen im Schwarzwald",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch116: NEW domain; live Impressum/Kontakt mail@; Spritzguss-Service / Werkzeugkonstruktion / Kunststoffteil-Auslegung; DE BW Am Sommerrain 53, 78112 St. Georgen (JSON-LD LocalBusiness)"
+  },
+  {
+    "company": "RUF Formentechnik",
+    "domain": "ruf-formentechnik.de",
+    "email": "b.ruf@ruf-formentechnik.de",
+    "email_source_url": "https://www.ruf-formentechnik.de/impressum.html",
+    "contact_name": "Bernd Ruf",
+    "job_title": "Inhaber",
+    "phone": "+49 (0)7724/9167750",
+    "city": "Sankt Georgen im Schwarzwald",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch116: named b.ruf@ live on Impressum + Organization JSON-LD email; same DE St. Georgen Formentechnik/Werkzeugkonstruktion studio"
+  },
+  {
+    "company": "Stefan Schmider Kunststoff und Kunststoffverarbeitung (SSK)",
+    "domain": "ssk-kunststoff.de",
+    "email": "info@ssk-kunststoff.de",
+    "email_source_url": "https://ssk-kunststoff.de/index.php/kontakt",
+    "contact_name": "Stefan Schmider",
+    "job_title": "Inhaber",
+    "phone": "+49 (0) 78 03 / 41 14",
+    "city": "Berghaupten",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch116: NEW domain; live Kontakt; Spritzgussteile / Formenbau / Baugruppen OEM peer; DE BW Untere Gewerbestraße 12, 77791 Berghaupten"
+  },
+  {
+    "company": "Stefan Schmider Kunststoff und Kunststoffverarbeitung (SSK)",
+    "domain": "ssk-schmider.de",
+    "email": "info@ssk-schmider.de",
+    "email_source_url": "https://ssk-kunststoff.de/index.php/component/content/article?id=1&Itemid=111",
+    "contact_name": "Stefan Schmider",
+    "job_title": "Inhaber",
+    "phone": "+49 (0) 78 03 / 41 14",
+    "city": "Berghaupten",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch116: NEW alt domain live on Datenschutz contact block (same SSK Berghaupten); Spritzguss/Formenbau OEM peer"
+  }
+]

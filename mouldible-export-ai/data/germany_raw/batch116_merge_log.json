@@ -1,0 +1,88 @@
+{
+  "batch": 116,
+  "timestamp_hk": "2026-10-21 04:18 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write after Batch121dir steer: 4267 emails / 2990 domains (parent: 4267/2979 hosts~2990). Never use 4260/4254.",
+  "baseline": {
+    "emails": 4267,
+    "domains": 2990
+  },
+  "net_new": 4,
+  "website_batch_end_snapshot": {
+    "emails": 4271,
+    "domains": 2993
+  },
+  "new_totals": {
+    "emails": 4271,
+    "domains": 2993,
+    "high": 3997,
+    "medium": 274,
+    "non_de": 1145,
+    "icp": {
+      "overseas_peer_overflow": 3959,
+      "design_studio": 175,
+      "oem_buyer": 102,
+      "sourcing": 35
+    },
+    "with_phone": 3687,
+    "with_city": 3759
+  },
+  "added_domains": [
+    "ruf-formentechnik.de",
+    "ssk-kunststoff.de",
+    "ssk-schmider.de"
+  ],
+  "added_emails": [
+    "mail@ruf-formentechnik.de",
+    "b.ruf@ruf-formentechnik.de",
+    "info@ssk-kunststoff.de",
+    "info@ssk-schmider.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@cad-cam-beichert.de",
+      "reason": "SKIP already known (Beichert Spritzgießformen CAD)"
+    },
+    {
+      "item": "info@tooldesign.de",
+      "reason": "DROP Werbe- & Designagentur (not Formenbau ICP)"
+    },
+    {
+      "item": "kb-das.de E-Mail empty",
+      "reason": "DROP cloak/empty — David Schuster Spritz CAD, never invent"
+    },
+    {
+      "item": "info@krauss-web.de from mailto ∂ krauss-web.de",
+      "reason": "DROP cloak invent (mailto ∂); domain already has mailto@ placeholder"
+    },
+    {
+      "item": "info@spritzgusswerkzeug-konstruktion.de",
+      "reason": "SKIP no Impressum/DE address — DE+AT mobile-only (also B115 drop)"
+    },
+    {
+      "item": "mail@sieberkon.info",
+      "reason": "DROP CH-only (Marbach CH)"
+    },
+    {
+      "item": "pauser-weinkauf.de",
+      "reason": "SKIP site dead/minimal (336B); cannot live-verify"
+    },
+    {
+      "item": "hiltel-formentechnik.com",
+      "reason": "SKIP no plain email (JS SPA)"
+    },
+    {
+      "item": "info@hoer-tec.de / Hörmann",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "Gollmer third-party sales emails",
+      "reason": "DROP third-party/agency mailboxes"
+    },
+    {
+      "item": "info@wagenknecht-werkzeugbau.de",
+      "reason": "SKIP already known; Stanz co-primary risk"
+    }
+  ]
+}
