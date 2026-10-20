@@ -62,6 +62,86 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch96dir
+
+> 合并前重读 CSV（Website B97 后基线 **3734** / **2536**；非 3724）。合并后基线：**3775** / **2559**。
+
+### 累计（Batch96dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3775** |
+| high / medium | **3532** / **243** |
+| 唯一域名 | **2559** |
+| 含电话 / 含城市 | **3266** / **3345** |
+| 非 .de 邮箱 | **1031** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3533** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch96dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **64** |
+| 有邮箱命中 | **26** |
+| 本轨净增邮箱 | **41**（high **41** / medium **0**） |
+| 相对 Website B97 基线 3734/2536 | **+41** / **+23** 域名 |
+| 再播种剩余 | **80** |
+| 队列剩余 | **80** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 严格 ICP 过滤残留 | **4**（自 B95dir 弱词队列 80） |
+| master_strict 新域名 | **60** |
+| 核验合计 | **64** |
+| 超时强制 no_email | cncmetal.com, jpmprototype.com |
+| VDWF/Fakuma | 饱和；VDWF HTML 再提取供再播种 |
+| WLW | CAPTCHA — 跳过 |
+
+### 方法
+
+1. 排空严格 ICP 过滤残留 **4** + master_strict **60** → Impressum（ThreadPool JSONL）
+2. 合并前重读 **3734/2536** = Website B97
+3. 质量剔除：协会/媒体 off-domain（gkv/vdma/hanser/ruffini）、digit-prefix junk local
+4. 再播种：master_strict 续取 + VDWF HTML 域名 → 队列 **80**
+
+### 本轨新增邮箱（共 41，节选）
+
+- `info@kunststoffverpackungen.de` · `pro-kunststoff.de`（5）
+- `normalientooling.com` · `rpimolding.com`（8）· `decaturmold.com`（6）
+- `murraymold.com` · `blackhawkmolding.com` · `allamericanmold.com` · `artmarkmold.com`
+- `jmjmoldes.com` · `grupomoldoeste.com` · 及其他 mould/CNC peer `.com`
+
+完整列表见 `data/germany_raw/batch96dir_verified.json` / `batch96dir_hits.json`。
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 2 域名超时 → forced no_email
+- 弱词非严格残留 **76** 未回队（本轮仅严格 ICP）
+- 见 `data/germany_raw/batch96dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch96dir_impressum.json`
+- `data/germany_raw/batch96dir_verified.json` / `batch96dir_hits.json`
+- `data/germany_raw/batch96dir_merge_log.json` / `batch96dir_reseed.json`
+
+### 状态
+
+Batch96dir 已合并；队列剩余 **80**（master_strict 续 + VDWF）供 Batch97dir。
+
+---
+
 ## Website/named Kontakt Batch 96
 
 > 合并前重读 CSV（Website B95 + Batch94dir 后基线 **3717** / **2532**；Batch95dir **+0**）。
