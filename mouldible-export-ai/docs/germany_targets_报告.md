@@ -1,3 +1,169 @@
+## 目录/展会轨 Batch93dir
+
+> 合并前重读 CSV（Website B94 后基线 **3681** / **2514**）。合并后基线供 Website B95：**3702** / **2527**。
+
+### 累计（Batch93dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3702** |
+| high / medium | **3460** / **242** |
+| 唯一域名 | **2527** |
+| 含电话 / 含城市 | **3212** / **3312** |
+| 非 .de 邮箱 | **987** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3465** |
+| design_studio | **137** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch93dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **98** |
+| 有邮箱命中 | **29** |
+| 本轨净增邮箱 | **21**（high **19** / medium **2**） |
+| 相对 Website B94 基线 3681 | **+21** |
+| 再播种剩余 | **98** |
+| 队列剩余 | **98** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空队列 | **98** |
+| VDWF live HTML | **ok**（新提取 **94**） |
+| Fakuma live HTML | **ok**（新提取 **4**） |
+| 剔除展会门户 | schall-messen / control / motek / stanztec / schweisstec |
+
+### 方法
+
+1. 排空上轮 **98** VDWF/Fakuma live+archive 域名 → Impressum  
+2. 刷新 VDWF Mitglieder / Fakuma 展商列表再播种  
+3. append-dedupe（合并前重读 **3681/2514**）；剔除展会主办方与租赁非 ICP  
+4. WLW 跳过
+
+### 本轨新增邮箱（节选前 25 / 共 21）
+
+- `ehs@dietrich-gruppe.com`
+- `info@siebenwurst.com`
+- `info@q-tech-roding.de`
+- `info@tefmeflex.de`
+- `contact@tepcon.de`
+- `info@tepcon.de`
+- `info@tooling-cooperation.de`
+- `info@topseal-group.de`
+- `info@zenit.de`
+- `office@3s-gmbh.at`
+- `office@ach-solution.at`
+- `jm.saby@addiplast-group.com`
+- `s.huguet@addiplast-group.com`
+- `d.sautour@addiplast-group.com`
+- `s.guyenot@addiplast-group.com`
+- `a.colombet@addiplast-group.com`
+- `c.iribarne@addiplast-group.com`
+- `l.kamp@addiplast-group.com`
+- `l.lesova@addiplast-group.com`
+- `sales@artooling.com`
+- `info@artopmold.com`
+
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch93dir_merge_log.json` / `batch93dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch93dir_impressum.json`
+- `data/germany_raw/batch93dir_verified.json` / `batch93dir_hits.json`
+- `data/germany_raw/batch93dir_merge_log.json` / `batch93dir_reseed.json`
+
+### 状态
+
+Batch93dir 已合并；队列剩余 **98** 供 Batch94dir。
+
+---
+
+## 目录/展会轨 Batch92dir
+
+> 合并前重读 CSV（Website B93 后基线 **3668** / **2510**）。合并后基线供 Website B94：**3669** / **2511**。
+
+### 累计（Batch92dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3669** |
+| high / medium | **3429** / **240** |
+| 唯一域名 | **2511** |
+| 含电话 / 含城市 | **3185** / **3292** |
+| 非 .de 邮箱 | **971** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3434** |
+| design_studio | **136** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch92dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **120** |
+| 有邮箱命中 | **22** |
+| 本轨净增邮箱 | **1**（high **0** / medium **1**） |
+| 相对 Website B93 基线 3668 | **+1** |
+| 已知重复跳过 | **15** |
+| 再播种剩余 | **98** |
+| 队列剩余 | **98** |
+
+### 种子状态
+
+| 项 | 数值 |
+|---|---:|
+| 排空上轮队列 | **85** |
+| 档案再挖 fresh | **104**（入本轮核验 **35**） |
+| VDWF mitglieder 直播 HTML | **ok** |
+| Fakuma Ausstellerliste 直播 HTML | **ok** |
+| 直播页新域名候选 | **29** |
+
+### 方法
+
+1. 排空上轮 **85** + 档案 ICP fresh **35** → 共 **120** Impressum  
+2. 同步拉取 VDWF Mitglieder / Fakuma 展商列表（非 WLW）再播种  
+3. append-dedupe（合并前重读 **3668/2510**）；多数命中已在库（known **15**）  
+4. WLW 跳过
+
+### 本轨新增邮箱（共 1）
+
+- `ivonne.schulze@frank-formenbau.de`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 收益仍低：大量 formenbau 域名邮箱此前已以其它 domain key 入库
+- 见 `data/germany_raw/batch92dir_merge_log.json` / `batch92dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch92dir_impressum.json`
+- `data/germany_raw/batch92dir_verified.json` / `batch92dir_hits.json`
+- `data/germany_raw/batch92dir_merge_log.json` / `batch92dir_reseed.json`
+
+### 状态
+
+Batch92dir 已合并；队列剩余 **98**（VDWF/Fakuma live + archive）供 Batch93dir。
+
+---
+
 ## 目录/展会轨 Batch91dir
 
 > 合并前重读 CSV（Website B92 后基线 **3654** / **2506**）。合并后基线供 Website B93：**3657** / **2509**。
@@ -132,6 +298,72 @@ Batch91dir 已合并；队列剩余 **85** 供 Batch92dir。
 ### 状态
 
 Batch90dir 已合并；队列剩余 **120** 供 Batch91dir。
+
+---
+
+## Website/named Kontakt Batch 94
+
+> 合并前重读 CSV（目录 Batch92dir 后基线 **3669** / **2511**）。
+
+### 累计（Batch 94 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3681** |
+| high / medium | **3441** / **240** |
+| 唯一域名 | **2514** |
+| 含电话 / 含城市 | **3196** / **3303** |
+| 非 .de 邮箱 | **973** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3444** |
+| design_studio | **137** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch 94）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+12**（high **12** / medium **0**） |
+| 相对 Batch92dir 基线 3669/2511 | **+12** / **+3** 域名 |
+| master 可选跳过 | **0** |
+| 质量剔除 | **13** |
+
+### 方法
+
+1. 重读确认 Batch92dir 后 **3669/2511**
+2. Expand 空；thin multi named Kontakt + Web 定向
+3. 命中：Haselbeck Greil；**Orthey** 新域名×2（.de/.com）Team×7；Ortmann Mould Engineering sourcing；ENDERS vertrieb@；Weis & Gutjahr GF×2
+4. 质量门：Büroleitung/Buchhaltung/Einkauf/Verwaltung/EDV；HTML-comment；cloak invent；Stanz/Umform
+
+### 本轨新增邮箱（共 12）
+
+- `richard.greil@haselbeck.de` · Deggendorf · Richard Greil · Technischer Vertrieb · high
+- `j.orthey@ortheymold.de` · Nister · Johannes Orthey · GF · high · **新域名**
+- `c.kraemer@ortheymold.de` · Nister · Chris Kraemer · Projektleitung · high
+- `t.gross@ortheymold.de` · Nister · Thomas Groß · Kfm. Leitung · high
+- `k.karl@ortheymold.de` · Nister · Kathrin Karl · Vertrieb · high
+- `m.troeger@ortheymold.de` · Nister · Marko Tröger · Projektleitung · high
+- `info@ortheymold.de` · Nister · high · **新域名**
+- `info@ortheymold.com` · Nister · high · **新域名**
+- `tobi.ortmann@ortmann-mould-eng.com` · sourcing · high · **新域名**
+- `vertrieb@enders-konstruktion.de` · Trebur · design_studio · high
+- `weis@weis-gutjahr.de` · Vörstetten · Daniel Weis · GF · high
+- `gutjahr@weis-gutjahr.de` · Vörstetten · Christian Gutjahr · GF · high
+
+### 产物
+
+- `data/germany_raw/batch94_new_verified.json` / `batch94_candidates_final.json`
+- `data/germany_raw/batch94_quality_drops.json` / `batch94_merge_log.json`
+- `data/germany_raw/batch95_queue_note.txt`
+
+### 状态
+
+Batch 94 已合并；下轮 Batch 95（Website）/ Batch93dir（目录）。
 
 ---
 
@@ -270,28 +502,28 @@ Batch 92 已合并；下轮 Batch 93（Website）/ Batch91dir（目录）。
 
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 93）
+## 1. 累计交付数量（如实，至 Batch 94）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3668** |
-| 本轮净增（相对目录 Batch91dir 合并后基线 3657） | **+11** |
-| 本轮因已在 master/targets 跳过 | **1** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **9** |
-| 其中 high / medium | **3429** / **239** |
-| 唯一域名 | **2510** |
-| 非 .de 邮箱（累计） | **971** |
-| 含电话 / 含城市 | **3184** / **3292** |
-| 本轮新域名贡献 | **1**（rsdpolytec.de） |
+| 去重后邮箱总数（累计） | **3681** |
+| 本轮净增（相对目录 Batch92dir 合并后基线 3669） | **+12** |
+| 本轮因已在 master/targets 跳过 | **0** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **13** |
+| 其中 high / medium | **3441** / **240** |
+| 唯一域名 | **2514** |
+| 非 .de 邮箱（累计） | **973** |
+| 含电话 / 含城市 | **3196** / **3303** |
+| 本轮新域名贡献 | **3**（ortheymold.de / ortheymold.com / ortmann-mould-eng.com） |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3433** |
-| design_studio | **136** |
+| overseas_peer_overflow | **3444** |
+| design_studio | **137** |
 | oem_buyer | **69** |
-| sourcing | **30** |
+| sourcing | **31** |
 
 ---
 
@@ -337,10 +569,10 @@ Batch 92 已合并；下轮 Batch 93（Website）/ Batch91dir（目录）。
 
 ---
 
-## 3. 下轮（Batch 94）提示
+## 3. 下轮（Batch 95）提示
 
-Expand empty; DE tooling singles exhausted. Prefer named Kontakt on remaining ~100 thin multi Spritzguss/Formenbau peers. Watch Batch92dir. Avoid Stanz/Umform, Assistentin/Buchhaltung/Einkauf/Personal/Verwaltung/Versand/Sekretariat, Europages-only invent, cloak invent, HTML-comment-only (Stüwe), Sauer stale invent.
+Expand empty; DE tooling singles exhausted. Prefer named Kontakt on remaining ~100 thin multi Spritzguss/Formenbau peers. Watch Batch93dir. Avoid Stanz/Umform, Assistentin/Buchhaltung/Einkauf/Personal/Verwaltung/Versand/Sekretariat, Europages-only invent, cloak invent, HTML-comment-only (Stüwe), Sauer stale invent.
 
 ---
 
-_报告更新：2026-10-21 02:02 Asia/Hong_Kong_
+_报告更新：2026-10-21 02:06 Asia/Hong_Kong_
