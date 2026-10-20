@@ -135,6 +135,71 @@ Batch90dir 已合并；队列剩余 **120** 供 Batch91dir。
 
 ---
 
+## Website/named Kontakt Batch 93
+
+> 合并前重读 CSV（目录 Batch91dir 后基线 **3657** / **2509**）。
+
+### 累计（Batch 93 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3668** |
+| high / medium | **3429** / **239** |
+| 唯一域名 | **2510** |
+| 含电话 / 含城市 | **3184** / **3292** |
+| 非 .de 邮箱 | **971** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3433** |
+| design_studio | **136** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch 93）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+11**（high **11** / medium **0**） |
+| 相对 Batch91dir 基线 3657/2509 | **+11** / **+1** 域名 |
+| master 可选跳过 | **1**（info@ds-werkzeugbau.de） |
+| 质量剔除 | **9** |
+
+### 方法
+
+1. 重读确认 Batch91dir 后 **3657/2509**
+2. Expand 空；thin multi named Kontakt + Web 定向
+3. 命中：**RSD Polytec** 新域名（GF/Betriebsleiter/Vertrieb/Formenbau×7）；Hehnke Vertrieb+GF+anfrage@；OPUS kontakt@
+4. 质量门：Stüwe HTML-comment；Sutter Buchhaltung；Jama invent；Flex-Punkt 错垂；cloak
+
+### 本轨新增邮箱（共 11）
+
+- `martin.rasenberger@rsdpolytec.de` · Efringen-Kirchen · Martin Rasenberger · GF · high · **新域名**
+- `nico.rasenberger@rsdpolytec.de` · Bad Säckingen · Nico Rasenberger · Betriebsleiter · high
+- `felix.thoma@rsdpolytec.de` · Efringen-Kirchen · Felix Thoma · Vertrieb · high
+- `thomas.tremmel@rsdpolytec.de` · Bad Säckingen · Thomas Tremmel · Formenbau · high
+- `peter.wolf@rsdpolytec.de` · Bad Säckingen · Peter Wolf · Vertrieb · high
+- `info@rsdpolytec.de` · Efringen-Kirchen · high
+- `juergen.klausmann@rsdpolytec.de` · Bad Säckingen · high
+- `m.hilpert@hehnke.de` · Steinbach-Hallenberg · Martin Hilpert · Vertrieb · high
+- `t.herrmann@hehnke.de` · Steinbach-Hallenberg · Torsten Herrmann · GF · high
+- `anfrage@hehnke.de` · Steinbach-Hallenberg · high
+- `kontakt@opus-mold.de` · Schönau · high
+
+### 产物
+
+- `data/germany_raw/batch93_new_verified.json` / `batch93_candidates_final.json`
+- `data/germany_raw/batch93_quality_drops.json` / `batch93_merge_log.json`
+- `data/germany_raw/batch94_queue_note.txt`
+
+### 状态
+
+Batch 93 已合并；下轮 Batch 94（Website）/ Batch92dir（目录）。
+
+---
+
 ## Website/named Kontakt Batch 92
 
 > 合并前重读 CSV（目录 Batch90dir 后基线 **3646** / **2505**）。Batch91dir 合并时未出现。
@@ -205,25 +270,25 @@ Batch 92 已合并；下轮 Batch 93（Website）/ Batch91dir（目录）。
 
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 92）
+## 1. 累计交付数量（如实，至 Batch 93）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3654** |
-| 本轮净增（相对目录 Batch90dir 合并后基线 3646） | **+8** |
-| 本轮因已在 master/targets 跳过 | **3** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **15** |
-| 其中 high / medium | **3416** / **238** |
-| 唯一域名 | **2506** |
-| 非 .de 邮箱（累计） | **970** |
-| 含电话 / 含城市 | **3172** / **3278** |
-| 本轮新域名贡献 | **1**（wiegelmann-gmbh.de） |
+| 去重后邮箱总数（累计） | **3668** |
+| 本轮净增（相对目录 Batch91dir 合并后基线 3657） | **+11** |
+| 本轮因已在 master/targets 跳过 | **1** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **9** |
+| 其中 high / medium | **3429** / **239** |
+| 唯一域名 | **2510** |
+| 非 .de 邮箱（累计） | **971** |
+| 含电话 / 含城市 | **3184** / **3292** |
+| 本轮新域名贡献 | **1**（rsdpolytec.de） |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3419** |
+| overseas_peer_overflow | **3433** |
 | design_studio | **136** |
 | oem_buyer | **69** |
 | sourcing | **30** |
@@ -272,10 +337,10 @@ Batch 92 已合并；下轮 Batch 93（Website）/ Batch91dir（目录）。
 
 ---
 
-## 3. 下轮（Batch 93）提示
+## 3. 下轮（Batch 94）提示
 
-Expand empty; DE tooling singles exhausted. Prefer named Kontakt on remaining thin multi-email Spritzguss/Formenbau peers (Ganser/Nelles/Saur/Heim/Rausch/Härer/Battenberger already thin). Watch Batch91dir. Avoid Stanz/Umform, Assistentin/Buchhaltung/Einkauf/Personal/Verwaltung/Versand/Sekretariat, Europages-only invent, cloak invent, Sauer stale-search invent.
+Expand empty; DE tooling singles exhausted. Prefer named Kontakt on remaining ~100 thin multi Spritzguss/Formenbau peers. Watch Batch92dir. Avoid Stanz/Umform, Assistentin/Buchhaltung/Einkauf/Personal/Verwaltung/Versand/Sekretariat, Europages-only invent, cloak invent, HTML-comment-only (Stüwe), Sauer stale invent.
 
 ---
 
-_报告更新：2026-10-21 01:56 Asia/Hong_Kong_
+_报告更新：2026-10-21 02:02 Asia/Hong_Kong_
