@@ -1,0 +1,127 @@
+{
+  "keep": [
+    {
+      "company": "Meding GmbH",
+      "domain": "meding.com",
+      "email": "info@meding.com",
+      "email_source_url": "https://www.meding.com/impressum",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 2353 9158-0",
+      "city": "Halver",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch133: NEW domain; DE Impressum Kruppstraße 8, 58553 Halver HRB 3882 AG Iserlohn USt DE125799600 GF Meike Reiffenrath-Friedhoff + Jan Matti Reiffenrath; in-house Werkzeugbau + Spritzguss for Medizintechnik/Kosmetik/Dosierhilfen (EN ISO 13485); plain info@ on Impressum"
+    },
+    {
+      "company": "Henry Technologies GmbH",
+      "domain": "henry-technologies.de",
+      "email": "info@henry-technologies.de",
+      "email_source_url": "https://www.henry-technologies.de/impressum",
+      "contact_name": "Bastian Michel",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 36969 5494-0",
+      "city": "Merkers",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch133: NEW domain; DE Impressum Planstraße C Nr. 2, 36460 Merkers/Krayenberggemeinde HRB500143 AG Jena USt DE814649353 GF Bastian Michel; Spritzgießen + Rotationsformen + Teilebearbeitung (Agrar/Nutzfahrzeug/Automotive); plain info@ on Impressum"
+    },
+    {
+      "company": "Henry Technologies GmbH",
+      "domain": "henry-technologies.de",
+      "email": "vertrieb@henry-technologies.de",
+      "email_source_url": "https://www.henry-technologies.de/de/kontakt",
+      "contact_name": "",
+      "job_title": "Vertrieb",
+      "phone": "+49 36969 5494-10",
+      "city": "Merkers",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch133: NEW role mailbox; plain vertrieb@ on Kontakt page; same DE Impressum as info@; Spritzgießen peer/OEM plastics"
+    },
+    {
+      "company": "Henry Technologies GmbH",
+      "domain": "henry-technologies.de",
+      "email": "technik@henry-technologies.de",
+      "email_source_url": "https://www.henry-technologies.de/de/kontakt",
+      "contact_name": "",
+      "job_title": "Produktentwicklung",
+      "phone": "+49 36969 5494-57",
+      "city": "Merkers",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch133: NEW role mailbox; plain technik@ on Kontakt page; same DE Impressum as info@; Produktentwicklung / technical Spritzguss contact (plain technik@ on Kontakt)"
+    },
+    {
+      "company": "Painpoint Kunststofftechnik GmbH",
+      "domain": "painpoint-kunststofftechnik.de",
+      "email": "info@painpoint-kunststofftechnik.de",
+      "email_source_url": "https://painpoint-kunststofftechnik.de/impressum",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 160 2477072",
+      "city": "Dinkelsbühl",
+      "icp_tag": "design_studio",
+      "confidence": "high",
+      "notes": "Batch133: NEW domain; DE Impressum Feuchtwanger Straße 5, 91550 Dinkelsbühl HRB 8587 AG Ansbach USt DE451347405; CAD/Konstruktion + Prototyping + Produktentwicklung mit Spritzguss-Partnernetz; plain info@ on Impressum"
+    }
+  ],
+  "drops_summary": [
+    {
+      "item": "Formacon j.sancar@ / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de / Auer / Mohr / Walter / Preisner / Pour",
+      "reason": "SKIP still dead/403/unreachable — carry recovery"
+    },
+    {
+      "item": "Finke Formenbau info@finke-formenbau.de / info@finke-anwendungstechnik.de",
+      "reason": "SKIP JS crypt decodeURIComponent cloak only (not plain mailto) — prior plain-only rule"
+    },
+    {
+      "item": "Beck Plastics mail@beck-plastics.de / vertrieb@beck-brehm.de",
+      "reason": "SKIP Joomla base64 first/last cloak — plain-only"
+    },
+    {
+      "item": "Weber Formenbau Weidenberg info@",
+      "reason": "SKIP JS/HTML-entity cloak only"
+    },
+    {
+      "item": "sgwk.de",
+      "reason": "DROP wrong host (SG Wasser sports club); real SGWK plastics = spritzgusswerkzeug-konstruktion.de still medium pending postal Impressum"
+    },
+    {
+      "item": "WS Neustadt info[at]WSNeustadt.de",
+      "reason": "SKIP (at) obfuscation invent; ICP fit (Spritzgusswerkzeuge) but no plain mailto"
+    },
+    {
+      "item": "Langer Group named VCard/mailto beyond info@",
+      "reason": "SKIP named roles not published as plain mailto (E-Mail senden buttons only)"
+    },
+    {
+      "item": "PFAFF johannes.kuhn@ / albert.rasch@",
+      "reason": "DROP Personal / Einkauf"
+    },
+    {
+      "item": "PFAFF christian.reischmann@",
+      "reason": "DROP AT-only (PFAFF Automation Dornbirn)"
+    },
+    {
+      "item": "Rausch d.marx@ / l.schuck@",
+      "reason": "DROP Buchhaltung/Verwaltung / Einkauf"
+    },
+    {
+      "item": "lmbk.de / forma-baumgarten",
+      "reason": "SKIP dead/unreachable hosts"
+    },
+    {
+      "item": "precision-forming / pre-form.de",
+      "reason": "DROP likely Umform/metal Precision Forming (not Spritzguss-Formenbau primary)"
+    },
+    {
+      "item": "umformtechnik-stade.de",
+      "reason": "DROP Umform-primary"
+    },
+    {
+      "item": "HeiForm / Heinze / MS Formen / spritzgiessformen / wedo",
+      "reason": "SKIP/DROP dead/403/casino carry"
+    }
+  ]
+}

@@ -1,3 +1,62 @@
+## Website/named Kontakt Batch 133
+
+> 合并前重读 CSV（任务启动口径 B132 后 **4543** / **3176** domains ~**3186** hosts；写前 live 仍 **4543** / **3176** domains ~**3186** hosts）。本批按 live 合并，网站轨净增 **+5** → **4548** / **3179** domains (~**3189** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4548** |
+| high / medium | **4267** / **281** |
+| 唯一域名（domain 列） | **3179** |
+| 唯一邮箱主机（@host） | **3189** |
+| 含电话 / 含城市 | **3926** / **4032** |
+| 非 .de 邮箱 | **1207** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4164** |
+| design_studio | **200** |
+| oem_buyer | **148** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+5**（相对写时基线 4543）
+
+- `info@meding.com` — Meding GmbH (Halver) — `oem_buyer` / high
+- `info@henry-technologies.de` — Henry Technologies GmbH — Bastian Michel (Geschäftsführer) (Merkers) — `overseas_peer_overflow` / high
+- `vertrieb@henry-technologies.de` — Henry Technologies GmbH (Merkers) — `overseas_peer_overflow` / high
+- `technik@henry-technologies.de` — Henry Technologies GmbH (Merkers) — `overseas_peer_overflow` / high
+- `info@painpoint-kunststofftechnik.de` — Painpoint Kunststofftechnik GmbH (Dinkelsbühl) — `design_studio` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@ / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de / Auer / Mohr / Walter / Preisner / Pour` — SKIP still dead/403/unreachable — carry recovery
+- `Finke Formenbau info@finke-formenbau.de / info@finke-anwendungstechnik.de` — SKIP JS crypt decodeURIComponent cloak only (not plain mailto) — prior plain-only rule
+- `Beck Plastics mail@beck-plastics.de / vertrieb@beck-brehm.de` — SKIP Joomla base64 first/last cloak — plain-only
+- `Weber Formenbau Weidenberg info@` — SKIP JS/HTML-entity cloak only
+- `sgwk.de` — DROP wrong host (SG Wasser sports club); real SGWK plastics = spritzgusswerkzeug-konstruktion.de still medium pending postal Impressum
+- `WS Neustadt info[at]WSNeustadt.de` — SKIP (at) obfuscation invent; ICP fit (Spritzgusswerkzeuge) but no plain mailto
+- `Langer Group named VCard/mailto beyond info@` — SKIP named roles not published as plain mailto (E-Mail senden buttons only)
+- `PFAFF johannes.kuhn@ / albert.rasch@` — DROP Personal / Einkauf
+- `PFAFF christian.reischmann@` — DROP AT-only (PFAFF Automation Dornbirn)
+- `Rausch d.marx@ / l.schuck@` — DROP Buchhaltung/Verwaltung / Einkauf
+- `lmbk.de / forma-baumgarten` — SKIP dead/unreachable hosts
+- `precision-forming / pre-form.de` — DROP likely Umform/metal Precision Forming (not Spritzguss-Formenbau primary)
+
+### 产物
+
+- `data/germany_raw/batch133_new_verified.json`
+- `data/germany_raw/batch133_quality_drops.json`
+- `data/germany_raw/batch133_merge_log.json`
+- `data/germany_raw/batch133_candidates_final.json`
+- `data/germany_raw/batch134_queue_note.txt`
+
+_报告更新：2026-10-21 Asia/Hong_Kong_
+
+---
+
 ## Website/named Kontakt Batch 132
 
 > 合并前重读 CSV（任务启动口径 B131 后 **4523** / **3162** domains ~**3172** hosts；写前 live 已抬升至 **4538** / **3174** domains ~**3184** hosts，疑似并行 Directory 轨）。本批按 live 合并，网站轨净增 **+5** → **4543** / **3176** domains (~**3186** hosts)。
