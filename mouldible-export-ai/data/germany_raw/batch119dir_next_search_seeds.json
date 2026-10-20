@@ -1,0 +1,43 @@
+{
+  "cities_remaining_hint": [
+    "Overath",
+    "Rösrath",
+    "Troisdorf",
+    "Sankt Augustin",
+    "Bonn",
+    "Meckenheim",
+    "Rheinbach",
+    "Euskirchen",
+    "Mechernich",
+    "Schleiden",
+    "Simmerath",
+    "Monschau",
+    "Aachen",
+    "Stolberg",
+    "Eschweiler",
+    "Würselen",
+    "Alsdorf",
+    "Herzogenrath",
+    "Übach-Palenberg",
+    "Geilenkirchen",
+    "Heinsberg",
+    "Erkelenz",
+    "Hückelhoven",
+    "Wegberg",
+    "Niederkrüchten",
+    "Schwalmtal",
+    "Viersen",
+    "Willich",
+    "Tönisvorst",
+    "Kempen"
+  ],
+  "keywords": [
+    "Formenbau",
+    "Spritzgusswerkzeuge",
+    "Präzisionsformenbau",
+    "Kunststoffspritzguss",
+    "Werkzeugbau Spritzguss"
+  ],
+  "domains_queued": 7,
+  "note": "Avoid Druckguss/Stanz; GS exhausted; Rheinland cities next"
+}

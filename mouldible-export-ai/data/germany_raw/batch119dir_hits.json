@@ -1,0 +1,23 @@
+{
+  "batch": "119dir",
+  "n_emails": 10,
+  "n_domains": 10,
+  "emails": [
+    "sales@jcb-plastics.com",
+    "kontakt@praeziform.de",
+    "info@httooling.de",
+    "info@stemmle-kunststofftechnik.de",
+    "info@trowista.de",
+    "info@brueckner-kunststoffspritzerei.de",
+    "info@precisionmould-germany.com",
+    "220pferber@megatec-gmbh.de",
+    "info@brinkmann-gmbh.de",
+    "info@wds-werkzeugbau.de"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:handwerkerteam.de",
+    "offdomain:info@weborbis-webdesign.de<-praezisions-formenbau-werkzeugbau.de",
+    "offdomain:max@beispiel.de<-werkzeugbau-berger.com",
+    "exclude_dom:dashandwerk.de"
+  ]
+}

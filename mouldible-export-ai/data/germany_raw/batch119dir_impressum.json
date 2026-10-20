@@ -1,0 +1,276 @@
+[
+  {
+    "domain": "jcb-plastics.com",
+    "ok": true,
+    "emails": [
+      "sales@jcb-plastics.com"
+    ],
+    "source_url": "https://www.jcb-plastics.com/impressum",
+    "phone": "+49-02241252030",
+    "city": "Troisdorf",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "praeziform.de",
+    "ok": true,
+    "emails": [
+      "kontakt@praeziform.de"
+    ],
+    "source_url": "https://www.praeziform.de/impressum",
+    "phone": "+49-024084577",
+    "city": "Aachen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "handwerkerteam.de",
+    "ok": true,
+    "emails": [
+      "info@handwerkerteam.de"
+    ],
+    "source_url": "https://www.handwerkerteam.de/impressum",
+    "phone": "+49-0221638070",
+    "city": "Köln",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "httooling.de",
+    "ok": true,
+    "emails": [
+      "info@httooling.de"
+    ],
+    "source_url": "https://www.httooling.de/impressum",
+    "phone": "+49-22022850880",
+    "city": "Bergisch Gladbach",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "stemmle-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@stemmle-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.stemmle-kunststofftechnik.de/",
+    "phone": "+49-072292389",
+    "city": "Rastatt",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "bks-spritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "formenbau-gmbh.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kompetenzzentrum-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@trowista.de"
+    ],
+    "source_url": "https://www.kompetenzzentrum-kunststoff.de/impressum",
+    "phone": "+49-2241896020",
+    "city": "Troisdorf",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "bastians-kunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ihr-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "brueckner-kunststoffspritzerei.de",
+    "ok": true,
+    "emails": [
+      "info@brueckner-kunststoffspritzerei.de"
+    ],
+    "source_url": "https://www.brueckner-kunststoffspritzerei.de/",
+    "phone": "",
+    "city": "OT Medingen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "perfektinform.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "praezisions-formenbau-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@bm-formenbau.de",
+      "info@weborbis-webdesign.de"
+    ],
+    "source_url": "https://www.praezisions-formenbau-werkzeugbau.de/impressum",
+    "phone": "+49-98416890700",
+    "city": "Bad Windsheim",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "precisionmould-germany.com",
+    "ok": true,
+    "emails": [
+      "info@precisionmould-germany.com"
+    ],
+    "source_url": "https://www.precisionmould-germany.com/",
+    "phone": "+49-15754364245",
+    "city": "Monheim a",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "kup-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-berger.com",
+    "ok": true,
+    "emails": [
+      "info@wzb-berger.de",
+      "max@beispiel.de"
+    ],
+    "source_url": "https://www.werkzeugbau-berger.com/impressum",
+    "phone": "+49-5258797810",
+    "city": "Salzkotten-Scharmede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "spritzgusswerkzeuge.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "megatec-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "zentrale@megatec-gmbh.de",
+      "220pferber@megatec-gmbh.de",
+      "pferber@megatec-gmbh.de",
+      "szoellig@megatec-gmbh.de",
+      "mschubert@megatec-gmbh.de"
+    ],
+    "source_url": "https://www.megatec-kunststofftechnik.de/kontakt",
+    "phone": "+49-2351379335",
+    "city": "Lüdenscheid T",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-brinkmann.de",
+    "ok": true,
+    "emails": [
+      "info@brinkmann-gmbh.de"
+    ],
+    "source_url": "https://www.werkzeugbau-brinkmann.de/impressum",
+    "phone": "+49-02333",
+    "city": "EnnepetalGermany",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "wds-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@wds-werkzeugbau.de"
+    ],
+    "source_url": "https://www.wds-werkzeugbau.de/impressum",
+    "phone": "",
+    "city": "Remscheid",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "dashandwerk.de",
+    "ok": true,
+    "emails": [
+      "info@dashandwerk.de"
+    ],
+    "source_url": "https://www.dashandwerk.de/impressum",
+    "phone": "",
+    "city": "Aachen Telefon",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "wmv-werkzeug.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "lt-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "wm-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

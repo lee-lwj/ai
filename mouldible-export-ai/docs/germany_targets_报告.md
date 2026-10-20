@@ -910,6 +910,75 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch119dir
+
+> 合并前重读 CSV（Website B114 后直播基线 **4237** / **2955**；指令预期 4237）。合并后基线：**4247** / **2965**。
+
+### 累计（Batch119dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4247** |
+| high / medium | **3974** / **273** |
+| 唯一域名 | **2965** |
+| 含电话 / 含城市 | **3664** / **3737** |
+| 非 .de 邮箱 | **1143** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3946** |
+| design_studio | **172** |
+| oem_buyer | **94** |
+| sourcing | **35** |
+
+### 本轨成果（Batch119dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **24** |
+| 有邮箱命中 | **14** |
+| 本轨净增邮箱 | **10**（high **7** / medium **3**） |
+| 相对基线 4237/2955 | **+10** / **+10** 域名 |
+| 域名队列剩余 | **7** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B118 域名队列 | 有效（via b118_domain_queue） |
+| NRW 中等城 × 关键词 DDG/Bing | 有效（via search） |
+| Europages DE | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+| Druckguss / Stanz / HR locals | 质量剔除 |
+
+### 本轨新增邮箱（共 10）
+
+- `sales@jcb-plastics.com` (high)
+- `kontakt@praeziform.de` (high)
+- `info@httooling.de` (high)
+- `info@stemmle-kunststofftechnik.de` (high)
+- `info@trowista.de` (medium)
+- `info@brueckner-kunststoffspritzerei.de` (high)
+- `info@precisionmould-germany.com` (high)
+- `220pferber@megatec-gmbh.de` (medium)
+- `info@brinkmann-gmbh.de` (medium)
+- `info@wds-werkzeugbau.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch119dir_*.json`
+- `data/germany_raw/batch119dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch119dir 已合并；gsbiz **0**；域名队列 **7** 供 Batch120dir。
+
+---
+
 ## 目录/展会轨 Batch118dir
 
 > 合并前重读 CSV（基线 **4227** / **2946**）。合并后基线：**4234** / **2953**。
