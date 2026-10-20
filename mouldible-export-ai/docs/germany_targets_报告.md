@@ -92,6 +92,94 @@
 
 ---
 
+## 目录/展会轨 Batch83dir
+
+> 合并前重读 CSV（Website B83 后基线 **3333** / **2327**）。合并后基线供 Website B84：**3368** / **2349**。
+
+### 累计（Batch83dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3368** |
+| high / medium | **3154** / **214** |
+| 唯一域名 | **2349** |
+| 含电话 / 含城市 | **2958** / **3070** |
+| 非 .de 邮箱 | **821** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3137** |
+| design_studio | **132** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch83dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **117** |
+| 有邮箱命中 | **46** |
+| 本轨净增邮箱 | **35**（high **33** / medium **2**） |
+| 相对 Website B83 基线 3333 | **+35** |
+| Fakuma/VDWF 再播种剩余 | **21** |
+| 队列剩余 | **21** |
+
+### 方法
+
+1. 清理上轮 26 个 VDWF 再播种（剔 youtu.be/fb.me/pressebox 等噪音）→ 12 可用  
+2. 再播种：VDWF `data-www` 未核验域名 + Fakuma unused → 共核验 **117**  
+3. append-dedupe（合并前重读 **3333/2327**）；同域 high / 品牌相关 medium；丢弃 off-domain 与截断垃圾邮箱  
+4. WLW / Europages / Gelbe Seiten 本轮不依赖（CAPTCHA/consent）
+
+### 本轨新增邮箱（节选前 25 / 共 35）
+
+- `brackenheim@haerterei.com`
+- `bochum@haerterei.com`
+- `chemnitz@haerterei.com`
+- `weimar@haerterei.com`
+- `info@hirschmann-automotive.com`
+- `mail@konsens.de`
+- `info@mcu-gmbh.de`
+- `buchhaltung@mcu-gmbh.de`
+- `info@nachreiner-werkzeuge.de`
+- `info@polytalent.de`
+- `mail@kunststoff-institut.de`
+- `mumme@kunststoff-institut.de`
+- `info@badico-trading.com`
+- `info@bbsautomation.com`
+- `info.blaichach@bbsautomation.com`
+- `info.hallbergmoos@bbsautomation.com`
+- `info.stuttgart@bbsautomation.com`
+- `info.caravaggio@bbsautomation.com`
+- `info.poggibonsi@bbsautomation.com`
+- `info.atlanta@bbsautomation.com`
+- `info.chicago@bbsautomation.com`
+- `info@belaser.de`
+- `info@bohler.de`
+- `info.bosch.iam@bosch.com`
+- `info@byk.com`
+… 另有 10 个，见 `data/germany_raw/batch83dir_hits.json`
+
+### 阻塞 / 备注
+
+- WLW 公司页 CAPTCHA — 跳过
+- Fakuma 域名命中率偏低（多数 no_email / 死站）
+- 见 `data/germany_raw/batch83dir_merge_log.json` / `batch83dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch83dir_impressum.json`
+- `data/germany_raw/batch83dir_verified.json` / `batch83dir_hits.json`
+- `data/germany_raw/batch83dir_merge_log.json` / `batch83dir_reseed.json`
+
+### 状态
+
+Batch83dir 已合并；队列剩余 **21**（Fakuma unused）供 Batch84dir。
+
+---
+
 ## 目录/展会轨 Batch82dir（VDWF）
 
 > 合并前重读 CSV（Website B82 后基线 **3042** / **2119**）。合并后基线供 Website B83：**3320** / **2326**。
