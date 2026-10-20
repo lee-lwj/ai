@@ -697,6 +697,109 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch110dir
+
+> 合并前重读 CSV（Website B109 后基线 **4108** / **2854**；非 4103）。合并后基线：**4136** / **2871**。
+
+### 累计（Batch110dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4136** |
+| high / medium | **3875** / **261** |
+| 唯一域名 | **2871** |
+| 含电话 / 含城市 | **3562** / **3634** |
+| 非 .de 邮箱 | **1131** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3854** |
+| design_studio | **168** |
+| oem_buyer | **80** |
+| sourcing | **34** |
+
+### 本轨成果（Batch110dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **45** |
+| 有邮箱命中 | **19** |
+| 本轨净增邮箱 | **28**（high **28** / medium **0**） |
+| 相对基线 4108/2854 | **+28** / **+17** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **4** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B109dir gsbiz | **21** |
+| 扩展 | formenbau/spritzguss p5–11 + niche（Erodieren/Blasformen）+ Europages；niche 补 **67** gsbiz |
+| 本轮核验队列 | **45**（42+ resume；3 超时 forced no_email） |
+| 超时强制 no_email | hellerkunststoffe.de, kvr-radeburg.de, psg-online.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **4**（cached ajax） |
+
+### 方法
+
+1. 排空 gsbiz **21** + 扩展 → Impressum（`.json` out_path；resume `.jsonl`）  
+2. 合并前重读 **4108/2854**（保留 B109 行）  
+3. 质量剔除：portal/webmail/off-domain  
+4. 再播种：gsbiz 余 **4**
+
+### 本轨新增邮箱（共 28）
+
+- `info@crt-goering.de` (high)
+- `info@cnc-maske.de` (high)
+- `info@buettner-praezisionswerk.de` (high)
+- `e.buettner@buettner-praezisionswerk.de` (high)
+- `d.dedauw@buettner-praezisionswerk.de` (high)
+- `a.vorsatz@buettner-praezisionswerk.de` (high)
+- `m.poempner@buettner-praezisionswerk.de` (high)
+- `j.grossmann@buettner-praezisionswerk.de` (high)
+- `ch.lierkamp@buettner-praezisionswerk.de` (high)
+- `f.knoechel@buettner-praezisionswerk.de` (high)
+- `info@boela.de` (high)
+- `kontakt@erotool.com` (high)
+- `info@fhdunker.de` (high)
+- `info@froetek.de` (high)
+- `info@hebach.de` (high)
+- `info@firma-wennrich.de` (high)
+- `info@inden-gmbh.de` (high)
+- `info@lqm-heers.de` (high)
+- `info@lueco-plastic.de` (high)
+- `info@nowack.de` (high)
+- `info@ow-feinwerk.de` (high)
+- `info@prae-aero.de` (high)
+- `info@spohrgmbh.de` (high)
+- `info@schmitz-cnc.de` (high)
+- `t.schmitz@schmitz-cnc.de` (high)
+- `m.senger@schmitz-cnc.de` (high)
+- `m.mestekemper@schmitz-cnc.de` (high)
+- `av@schmitz-cnc.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 3 域名超时 → forced no_email
+- GS bundesweit 重复率高；靠 niche 类目补量
+- 见 `data/germany_raw/batch110dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch110dir_impressum.json`
+- `data/germany_raw/batch110dir_verified.json` / `batch110dir_hits.json`
+- `data/germany_raw/batch110dir_merge_log.json` / `batch110dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch110dir 已合并；域名队列 **0**；gsbiz 余 **4** 供 Batch111dir。
+
+---
+
 ## 目录/展会轨 Batch109dir
 
 > 合并前重读 CSV（基线 **4078** / **2827**）。合并后基线：**4103** / **2849**。
