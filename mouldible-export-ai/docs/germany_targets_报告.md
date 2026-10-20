@@ -1,62 +1,56 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 85）
+## 1. 累计交付数量（如实，至 Batch 86）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3429** |
-| 本轮净增（相对目录 Batch84dir 合并后基线 3419） | **+10** |
+| 去重后邮箱总数（累计） | **3435** |
+| 本轮净增（相对基线 3429） | **+6** |
 | 本轮因已在 master/targets 跳过 | **0** |
 | 本轮质量剔除（死站/错垂/cloak 等） | **10** |
-| 其中 high / medium | **3210** / **219** |
+| 其中 high / medium | **3216** / **219** |
 | 唯一域名 | **2386** |
-| 非 .de 邮箱（累计） | **851** |
-| 含电话 / 含城市 | **3010** / **3126** |
-| 本轮新域名贡献 | **2** |
+| 非 .de 邮箱（累计） | **852** |
+| 含电话 / 含城市 | **3016** / **3132** |
+| 本轮新域名贡献 | **0** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3197** |
+| overseas_peer_overflow | **3203** |
 | design_studio | **133** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 85 · Website/named Kontakt）
+## 2. 本轮方法（Batch 86 · Website/named Kontakt）
 
-1. **基线**：目录 Batch84dir 合并后 **重读 CSV** → **3419 / 2384**（非用户提示的 3382），再合并本轮。
-2. **Expand 队列**：仍空；wave1 singles（Söhner/Sonnenberg 等命中，后者错垂剔除）。
+1. **基线**：重读 CSV → **3429 / 2386**（Batch85dir 尚未合并）。
+2. **Expand 队列**：仍空；wave1/2 singles 低产（Conformtec/IFU/HASE 错垂剔除）。
 3. **Named Kontakt / Web 定向**：
-   - Finke Gruppe Altenbeken（Semykin Formenbau + Alexander Finke Zerspanung + Tillmann/Johlen Anwendungstechnik；空格混淆但 live-seen）
-   - SUK Schwerin（Weber/Ulbrich GF + Schmidt Vertrieb；Einkauf 剔除）
-   - Söhner Kunststofftechnik（Frank/Zeranski/Heinen 区域 Vertrieb；自有 Werkzeugbau）
-4. **质量门**：Sonnenberg Beton-/Bau-/Baumaschinen-Formenbau；Nachreiner Zerspanung；Spörle craft；Assistentin；Einkauf；Fakuma-only；cloak。
+   - Braunform Bahlingen：Christian Himmelsbach Leitung Vertrieb
+   - Kunststofftechnik Schedel Falkenstein（schedel-formteile.de Ansprechpartner → @schedel-gmbh.de）：Schedel GF + Hofmann Vertriebsleitung + Blechschmidt/Wolf/Pinkes Formteile Vertrieb
+4. **质量门**：Assistentin/Marketing；Blech（HASE）；Löten（Conformtec）；IFU Umform-Institut；Sauer Andrzejczuk 无法 live 验证；cloak；third-party only。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 singles | ~60 | **+3** Söhner；Sonnenberg 错垂剔除 |
-| named Web（Finke/SUK/Wefo/Müller…） | 多页 | **+7** Finke×4 + SUK×3；Wefo/Müller 已入库 |
+| wave1/2 singles | ~80 | **0** 可用（错垂/垃圾 scrape） |
+| named Web（Braunform/Schedel/HASE/Sauer…） | 多页 | **+6** Braunform×1 + Schedel×5 |
 
-### 本轮新增（+10）
+### 本轮新增（+6）
 
-- `andrej.semykin@finke-gruppe.de` · Altenbeken-Buke · Andrej Semykin · high
-- `alexander.finke@finke-gruppe.de` · Altenbeken-Buke · Alexander Finke · high
-- `rene.tillmann@finke-gruppe.de` · Altenbeken-Buke · René Tillmann · high
-- `florian.johlen@finke-gruppe.de` · Altenbeken-Buke · Florian Johlen · high
-- `jan.weber@suk-schwerin.de` · Schwerin · Jan Weber · high
-- `christopher.ulbrich@suk-schwerin.de` · Schwerin · Christopher Ulbrich · high
-- `a.schmidt@suk-schwerin.de` · Schwerin · Andreas Schmidt · high
-- `m.frank@soehner.de` · Schwaigern · Maximilian Frank · high
-- `s.zeranski@soehner.de` · Schwaigern · Stefan Zeranski · high
-- `w.heinen@soehner.de` · Schwaigern · Werner Heinen · high
+- `christian.himmelsbach@braunform.com` · Bahlingen · Christian Himmelsbach · high
+- `markus.schedel@schedel-gmbh.de` · Falkenstein · Markus Schedel · high
+- `daniel.hofmann@schedel-gmbh.de` · Falkenstein · Daniel Hofmann · high
+- `kevin.blechschmidt@schedel-gmbh.de` · Falkenstein · Kevin Blechschmidt · high
+- `yvonne.wolf@schedel-gmbh.de` · Falkenstein · Yvonne Wolf · high
+- `anett.pinkes@schedel-gmbh.de` · Falkenstein · Anett Pinkes · high
 
 ### 本轮新域名
 
-- `finke-gruppe.de`
-- `suk-schwerin.de`
+（无）
 
 ### skipped-already-known（0）
 
@@ -64,7 +58,7 @@
 
 ### 质量剔除（节选）
 
-**10**：Sonnenberg Beton/Bau；Nachreiner Zerspanung；Spörle craft；SUK Einkauf；Wefo Assistentin；Sander Fakuma-only；Croner/FBB cloak；Müller 已入库。
+**10**：Schedel Assistentin/Marketing；HASE Blech；Conformtec Löten；IFU Institut；Sauer 无法 live 验证；Techniform third-party；Voigtform cloak；wws garbage。
 
 ---
 
@@ -72,17 +66,104 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch85_new_verified.json`
-- `data/germany_raw/batch85_expand_results.json`
-- `data/germany_raw/batch85_merge_log.json`
-- `data/germany_raw/batch85_candidates.json` / `batch85_probe_queue.json`
-- `data/germany_raw/batch85_quality_drops.json`
+- `data/germany_raw/batch86_new_verified.json`
+- `data/germany_raw/batch86_expand_results.json`
+- `data/germany_raw/batch86_merge_log.json`
+- `data/germany_raw/batch86_candidates.json` / `batch86_probe_wave1.json`
+- `data/germany_raw/batch86_quality_drops.json`
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B86 继续 named Kontakt；Watch Batch85dir；cloak 勿 invent。
+**应有尽有 — 尚未完成。** Expand 仍空。B87 继续 named Kontakt；Watch Batch85dir/86dir；cloak 勿 invent。
+
+---
+
+## 目录/展会轨 Batch85dir
+
+> 合并前重读 CSV（Website B86 后基线 **3435** / **2386**）。合并后基线供 Website B87：**3462** / **2404**。
+
+### 累计（Batch85dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3462** |
+| high / medium | **3241** / **221** |
+| 唯一域名 | **2404** |
+| 含电话 / 含城市 | **3031** / **3148** |
+| 非 .de 邮箱 | **878** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3230** |
+| design_studio | **133** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch85dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **60** |
+| 有邮箱命中 | **23** |
+| 本轨净增邮箱 | **27**（high **25** / medium **2**） |
+| 相对 Website B86 基线 3435 | **+27** |
+| master ICP 再播种剩余 | **150** |
+| 队列剩余 | **150** |
+
+### 方法
+
+1. 排空上轮 **60** 个 master/pool leftover 域名 → Impressum/Kontakt  
+2. append-dedupe（合并前重读 **3435/2386** = Website B86）  
+3. 再播种：master ICP `.de/.at/.ch` → 队列 **150**  
+4. WLW 跳过（CAPTCHA）
+
+### 本轨新增邮箱（节选前 25 / 共 27）
+
+- `info@d-plast.ch`
+- `info@eph-elektronik.com`
+- `kevin.szvitok@eph-elektronik.com`
+- `info@formreich.ch`
+- `info@fatra.cz`
+- `contact@geficca.fr`
+- `geocad@geocad.es`
+- `david@geocad.es`
+- `joao.silva@geocad.es`
+- `jack.zhao@geocad.es`
+- `juan.martinez@geocad.es`
+- `info@kessler-ag.ch`
+- `info@kvl-gmbh.com`
+- `kontakt@layertech.pl`
+- `office@maplan.at`
+- `helpdesk@maplan.at`
+- `guss@mettec.at`
+- `office@mettec.at`
+- `geral@natigam.pt`
+- `info@ocellrings.com`
+- `info@perezlinares.com`
+- `info@pinsundmehr.de`
+- `32info@pfwag.ch`
+- `info@pfwag.ch`
+- `info@piu.nl`
+… 另有 2 个，见 `data/germany_raw/batch85dir_hits.json`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch85dir_merge_log.json` / `batch85dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch85dir_impressum.json`
+- `data/germany_raw/batch85dir_verified.json` / `batch85dir_hits.json`
+- `data/germany_raw/batch85dir_merge_log.json` / `batch85dir_reseed.json`
+
+### 状态
+
+Batch85dir 已合并；队列剩余 **150**（master ICP）供 Batch86dir。
 
 ---
 
