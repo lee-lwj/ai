@@ -1,3 +1,48 @@
+## Website/named Kontakt Batch 106
+
+> 合并前重读 CSV（Batch107dir 后基线 **4044** / **2816**；中途 Batch106dir 后曾为 4012/2769；初值 3985/2744）。
+
+### 累计（Batch 106 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4048** |
+| high / medium | **3789** / **259** |
+| 唯一域名 | **2818** |
+| 含电话 / 含城市 | **3479** / **3560** |
+| 非 .de 邮箱 | **1115** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3780** |
+| design_studio | **159** |
+| oem_buyer | **75** |
+| sourcing | **34** |
+
+### 本批净增 **+4**
+
+- `konstruktion@fm-kunststoffteile.de` — Franz Moderegger GmbH / Fm Kunststoffteile (Bischofswiesen) — `design_studio` / high
+- `info@awm-tec.de` — Arnstädter Werkzeug- und Maschinenbau GmbH (AWM) (Arnstadt) — `overseas_peer_overflow` / high
+- `anfrage-wzb@awm-tec.de` — Arnstädter Werkzeug- und Maschinenbau GmbH (AWM) (Arnstadt) — `overseas_peer_overflow` / high
+- `info@leweku.de` — LeWeKu Kunststofftechnik GmbH (Hallerndorf) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `info@formenbau-olinger.de` — DROP — general Formen-/Modellbau + Dreh/Fräs/Erodieren, not Spritzgießwerkzeuge-primary; site dating "bis (2020)" stale
+- `jens.rabin@rabin-werkzeugbau.de` — DROP Druckguss/Umform/Blechumform co-branded with Spritz
+- `info@rommel-formen.de` — DROP — rommel-formen.de Impressum redirects to HAAS Metallguss (not Formenbau peer)
+- `info@schroeder-heidler.de` — SKIP master-optional
+- `info@jordan-spritzguss.de` — SKIP master-optional; jordan-spritzguss.de unreachable
+- `info@wzb-humme.de` — SKIP — secondary domain; Impressum primary info@werkzeugbau-humme.de already known
+- `c.zils@formenbau-gf.de` — DROP Karriere/Personal
+- `info@wagenknecht-werkzeugbau.de` — DROP Stanz-/Umform co-primary branding
+- `lahme named contacts (no role)` — SKIP — Kontakt lists many names without titles; cannot quality-gate Assistentin/Buchhaltung
+- `info@wb-gmbh.de` — SKIP master-optional
+
+---
+
 ## Website/named Kontakt Batch 105
 
 > 合并前重读 CSV（Batch105dir 后基线 **3982** / **2741**；中途 Batch104dir 后曾为 3967/2726；初值 3947/2706）。
