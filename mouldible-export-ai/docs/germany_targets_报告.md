@@ -1,78 +1,72 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 79）
+## 1. 累计交付数量（如实，至 Batch 80）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **2824** |
-| 本轮净增（相对目录 Batch79dir 合并后基线 2808） | **+16** |
-| 本轮因已在 master/targets 跳过 | **0** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **11** |
-| 其中 high / medium | **2652** / **172** |
-| 唯一域名 | **1950** |
-| 非 .de 邮箱（累计） | **620** |
-| 含电话 / 含城市 | **2494** / **2596** |
-| 本轮新域名贡献 | **2** |
+| 去重后邮箱总数（累计） | **2924** |
+| 本轮净增（相对目录 Batch80dir 合并后基线 2912） | **+12** |
+| 本轮因已在 master/targets 跳过 | **1** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **9** |
+| 其中 high / medium | **2748** / **176** |
+| 唯一域名 | **2032** |
+| 非 .de 邮箱（累计） | **646** |
+| 含电话 / 含城市 | **2580** / **2682** |
+| 本轮新域名贡献 | **1** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **2596** |
+| overseas_peer_overflow | **2696** |
 | design_studio | **129** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 79 · Website/named Kontakt）
+## 2. 本轮方法（Batch 80 · Website/named Kontakt）
 
-1. **基线**：目录 Batch79dir 合并后 **重读 CSV** → **2808 / 1948**，再合并本轮。
-2. **Expand 队列**：仍空；wave1 ~60 + wave2 部分 single-email peers → 几乎无新 named（junk/DPO only）。
+1. **基线**：目录 Batch80dir 合并后 **重读 CSV** → **2912 / 2031**，再合并本轮。
+2. **Expand 队列**：仍空；wave1 ~55 unprobed tooling singles → 3 promising domains after gate。
 3. **Named Kontakt / Web 定向**：
-   - HAAG Präzisionsformen Schorndorf Ansprechpartner（info@ + Rainer/Steffen Vertrieb + Andreas Projektmanagement）
-   - OPUS Schönau `info@opus-mold.de`（Kontakt+Impressum）
-   - Zimmermann/ziform Gladenbach `jens.meier@` Vertrieb/Projektleitung
-   - Haselbeck Deggendorf 补 Stefan Ruh / Andreas Thoma（已有 Geiger）
-   - WESKO Stollberg Ansprechpartner ×8（GF/Sales/Vertrieb/Werkzeugbau/Spritzguss/Technik；Finanzen/Personal 剔除）
-4. **质量门**：Einkauf/Buchhaltung/Personal；cloak（FBB/ABAS/Hack/Croner/RFK）；dead Cloudflare（buck-formenbau）；无角色；DPO。
+   - Sauer & Sohn Dieburg Formentechnik（info@ + Schultheis GF + Schneider；Lambracht 等页面 404/redirect 本轮不取）
+   - Werkzeugbau Berger Salzkotten（Neubert/Haacke GF + Klocke/Berhorst Projekt + J.Berger Konstruktion；Einkauf 剔除）
+   - Dressel Kunststofftechnik Selb（Lang/S.Dressel GF + Kiesl Prok. + A.Dressel Vertrieb；Bewerbung 剔除）
+   - Schröder+Heidler `info@` → **master skip**（已有 vertrieb@）
+4. **质量门**：Einkauf/Bewerbung；doettling.de 现为 Beratung/Mediation（非 Werkzeugbau）；formtechnik-gmbh.de 为 Blech/Umform；Croner/FBB cloak。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1/2 single-email peers | ~110 | **+0** usable |
-| named Kontakt / 定向 Web | HAAG·OPUS·ziform·Haselbeck·WESKO | **+16** |
+| wave1 single-email peers | ~55 | **+9**（Berger+Dressel） |
+| named Web（Sauer/Schröder/Formtechnik） | 多页 | **+3** Sauer；Schröder master-skip；Formtechnik 错垂剔除 |
 
-### 本轮新增（+16）
+### 本轮新增（+12）
 
-- `info@haag-formen.de` · Schorndorf ·   · high
-- `rainer.haag@haag-formen.de` · Schorndorf · Rainer Haag · high
-- `steffen.kientz@haag-formen.de` · Schorndorf · Steffen Kientz · high
-- `andreas.haag@haag-formen.de` · Schorndorf · Andreas Haag · high
-- `info@opus-mold.de` · Schönau ·   · high
-- `jens.meier@ziform.com` · Gladenbach · Jens Meier · high
-- `stefan.ruh@haselbeck.de` · Deggendorf · Stefan Ruh · high
-- `andreas.thoma@haselbeck.de` · Deggendorf · Andreas Thoma · high
-- `andreas.ebert@wesko-gmbh.de` · Stollberg · Dr. Andreas Ebert · high
-- `kai.reisner@wesko-gmbh.de` · Stollberg · Kai Reisner · high
-- `felix.vogel@wesko-gmbh.de` · Stollberg · Felix Vogel · high
-- `florian.patzer@wesko-gmbh.de` · Stollberg · Florian Patzer · high
-- `heiko.uhlmann@wesko-gmbh.de` · Stollberg · Heiko Uhlmann · high
-- `heiko.lehm@wesko-gmbh.de` · Stollberg · Heiko Lehm · high
-- `andre.haertel@wesko-gmbh.de` · Stollberg · André Härtel · high
-- `norman.mueller@wesko-gmbh.de` · Stollberg · Norman Müller · high
+- `info@sauerundsohn.de` · Dieburg ·   · high
+- `b.schultheis@sauerundsohn.de` · Dieburg · Benjamin Schultheis · high
+- `r.schneider@sauerundsohn.de` · Dieburg · Ralph Schneider · high
+- `m.neubert@wzb-berger.de` · Salzkotten-Scharmede · Michael Neubert · high
+- `m.haacke@wzb-berger.de` · Salzkotten-Scharmede · Marius Haacke · high
+- `n.klocke@wzb-berger.de` · Salzkotten-Scharmede · Norbert Klocke · high
+- `f.berhorst@wzb-berger.de` · Salzkotten-Scharmede · Florian Berhorst · high
+- `j.berger@wzb-berger.de` · Salzkotten-Scharmede · Jens Berger · high
+- `d.lang@dressel-kt.de` · Selb · Daniel Lang · high
+- `s.dressel@dressel-kt.de` · Selb · Susanne Dressel · high
+- `t.kiesl@dressel-kt.de` · Selb · Tina Kiesl · high
+- `a.dressel@dressel-kt.de` · Selb · Annette Dressel · high
 
 ### 本轮新域名
 
-- `haag-formen.de`
-- `opus-mold.de`
+- `sauerundsohn.de`
 
-### skipped-already-known（0）
+### skipped-already-known（1）
 
-（无）
+`info@schroeder-heidler.de`
 
 ### 质量剔除（节选）
 
-**11**：WESKO Finanzen/Personal/无角色；Thenhausen Einkauf/Buchhaltung；Haselbeck Greil 未在本轮页面；buck-formenbau Cloudflare 520；FBB/ABAS/Hack/Croner/RFK cloak；wave junk/DPO…
+**9**：Berger Einkauf；Dressel Bewerbung；doettling Beratung（非 Werkzeugbau）；formtechnik-gmbh Blech/Umform；Sauer Formenbau named 页面不可达；Croner/FBB cloak…
 
 ---
 
@@ -80,19 +74,41 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch79_new_verified.json`
-- `data/germany_raw/batch79_expand_results.json`
-- `data/germany_raw/batch79_merge_log.json`
-- `data/germany_raw/batch79_candidates.json` / `batch79_probe_wave1.json`
-- `data/germany_raw/batch79_quality_drops.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B80：empty expand）
+- `data/germany_raw/batch80_new_verified.json`
+- `data/germany_raw/batch80_expand_results.json`
+- `data/germany_raw/batch80_merge_log.json`
+- `data/germany_raw/batch80_candidates.json` / `batch80_probe_wave1.json`
+- `data/germany_raw/batch80_quality_drops.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B81：empty expand）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空；single-email peers 探针饱和。B80 继续 named Kontakt（剩余 peers；cloak 观察；buck-formenbau 若站恢复可重试）。
+**应有尽有 — 尚未完成。** Expand 仍空。B81 继续 named Kontakt；cloak 观察；Sauer Formenbau named 若页面恢复可补；doettling.de 域名需复核（现站非 Werkzeugbau）。
 
+
+---
+
+## 目录/展会轨 Batch80dir
+
+> 合并前重读 CSV（Website B79 后基线 **2824** / **1950**）。合并后基线供 Website B80：**2912** / **2031**。
+
+### 累计（Batch80dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2912** |
+| 唯一域名 | **2031** |
+| 本轨净增（相对 2824） | **+88** |
+
+### 本轨要点
+
+见 `data/germany_raw/batch80dir_merge_log.json` / `batch80dir_hits.json`。
+
+### 状态
+
+Batch80dir 已合并；Website Batch 80 在其上再合并 **+12** → 累计 **2924 / 2032**。
 
 ---
 
