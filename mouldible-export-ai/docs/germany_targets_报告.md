@@ -92,6 +92,93 @@
 
 ---
 
+## 目录/展会轨 Batch84dir
+
+> 合并前重读 CSV（Website B84 后基线 **3382** / **2349**）。合并后基线供 Website B85：**3419** / **2384**。
+
+### 累计（Batch84dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3419** |
+| high / medium | **3200** / **219** |
+| 唯一域名 | **2384** |
+| 含电话 / 含城市 | **3000** / **3116** |
+| 非 .de 邮箱 | **851** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3187** |
+| design_studio | **133** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch84dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **100** |
+| 有邮箱命中 | **43** |
+| 本轨净增邮箱 | **37**（high **35** / medium **2**） |
+| 相对 Website B84 基线 3382 | **+37** |
+| 再播种剩余 | **60** |
+| 队列剩余 | **60** |
+
+### 方法
+
+1. 排空上轮 ~21 Fakuma unused（剔协会/展会/畸形域名）→ 16 可用  
+2. 再播种：VDWF extras + Europages 缓存站 + master ICP `.de` → 共核验 **100**  
+3. append-dedupe（合并前重读 **3382/2349**）；同域 high / 品牌相关 medium  
+4. WLW 跳过（CAPTCHA）
+
+### 本轨新增邮箱（节选前 25 / 共 37）
+
+- `office@simcon.com`
+- `infohrde@synventive.com`
+- `info@topas.com`
+- `info@ifu-online.de`
+- `info@kolibri.de.com`
+- `info@hohlgmbh.com`
+- `info@kunststoff-meyer.com`
+- `info@ak-kunststoffspritzguss.com`
+- `info@oks-germany.com`
+- `info@iesgmbh.com`
+- `info@pfaffgmbh.com`
+- `info@schuemann-gmbh.com`
+- `info@moeller-gmbh.com`
+- `fkb@fkb-gmbh.com`
+- `info@abs-gmbh.com`
+- `info@baum-gmbh.com`
+- `info@braun-gmbh.com`
+- `info@si-tech-gmbh.com`
+- `info@wethje-gmbh.com`
+- `fredrik.sporrong@materialise.com`
+- `proyectos@materialise.com`
+- `contato@materialise.com`
+- `info@sagerbeton.de`
+- `baufakturaschulungenbuchungsseite@huonker.de`
+- `mateo.adam@glory-injectionplastique.fr`
+… 另有 12 个，见 `data/germany_raw/batch84dir_hits.json`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch84dir_merge_log.json` / `batch84dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch84dir_impressum.json`
+- `data/germany_raw/batch84dir_verified.json` / `batch84dir_hits.json`
+- `data/germany_raw/batch84dir_merge_log.json` / `batch84dir_reseed.json`
+
+### 状态
+
+Batch84dir 已合并；队列剩余 **60**（master/pool leftover）供 Batch85dir。
+
+---
+
 ## 目录/展会轨 Batch83dir
 
 > 合并前重读 CSV（Website B83 后基线 **3333** / **2327**）。合并后基线供 Website B84：**3368** / **2349**。
