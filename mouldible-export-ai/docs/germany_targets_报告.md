@@ -1,3 +1,67 @@
+## Website/named Kontakt Batch 128
+
+> 合并前重读 CSV（任务初口径 **4456** / **3130** domains ~**3140** hosts；Directory Batch133dir 未再抬升）。本批按 live 合并，网站轨净增 **+10** → **4466** / **3133** domains (~**3144** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4466** |
+| high / medium | **4186** / **280** |
+| 唯一域名（domain 列） | **3133** |
+| 唯一邮箱主机（@host） | **3144** |
+| 含电话 / 含城市 | **3850** / **3951** |
+| 非 .de 邮箱 | **1186** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4108** |
+| design_studio | **193** |
+| oem_buyer | **130** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+10**（相对写时基线 4456）
+
+- `alex.basistow@abas-werkzeugbau.de` — ABAS Werkzeug & Formenbau GmbH (Fulda) — `overseas_peer_overflow` / high — Alex Basistow (GF)
+- `alexander.hamm@abas-werkzeugbau.de` — ABAS (Fulda) — `overseas_peer_overflow` / high — Alexander Hamm (Leitung Produktion)
+- `willi.sawatzky@abas-werkzeugbau.de` — ABAS (Fulda) — `overseas_peer_overflow` / high — Willi Sawatzky (Leitung Konstruktion)
+- `info@vema-gmbh.de` — VEMA plastineers² GmbH (Krauchenwies-Göggingen) — `oem_buyer` / high — Werner/Christian Veser
+- `info@kb-das.de` — Konstruktionsbüro David Schuster (Pfofeld-Rehenbühl) — `design_studio` / high — David Schuster
+- `info@eberle-spritzgiesstechnik.de` — Eberle Spritzgiesstechnik GmbH (Niedernhall) — `oem_buyer` / high — Frank Eberle
+- `info@kt-breitungen.de` — Kunststofftechnik Breitungen GmbH & Co. KG (Breitungen) — `oem_buyer` / high
+- `corinna.holland-moritz@kt-breitungen.de` — KTB Breitungen — `oem_buyer` / high — Corinna Holland-Moritz (GF & QM)
+- `ronny.knott@kt-breitungen.de` — KTB Breitungen — `oem_buyer` / high — Ronny Knott (GF & Leiter Produktion)
+- `sven.sauerbrey@kt-breitungen.de` — KTB Breitungen — `overseas_peer_overflow` / high — Sven Sauerbrey (Leiter Werkzeugbau)
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `ABAS andreas.boschmann@` — DROP Kaufmännische Leitung
+- `ABAS karl.menrad@ / viktor.sawatzky@` — SKIP invent / orphan JS
+- `Finke Formenbau plain mailto` — SKIP no plain company-site mailto
+- `CAD-KON / Reddikowsky / Dobener / ck-form` — SKIP dead / Aufmass off-ICP
+- `invent g.helm@lh` — SKIP invent
+- `Beck Plastics / beck-brehm` — SKIP joomla cloak (plain-only hint)
+- `formenbau-rapp / auer / kb-sprung / heise / mohr / hochstadter / jordan` — SKIP 403/dead
+- `h.wirth@werkzeugbau-wirth` — DROP Bewerbung-only
+- `KTB auftragsbearbeitung@ / versand@` — DROP Buchhaltung / Versand
+- `wetec.de / wetec-bauteilfertigung` — DROP non-ICP (Elektronikhandel / CNC-Ersatzteil)
+- `FINI / Kroeger named` — SKIP already known
+
+### 产物
+
+- `data/germany_raw/batch128_new_verified.json`
+- `data/germany_raw/batch128_quality_drops.json`
+- `data/germany_raw/batch128_merge_log.json`
+- `data/germany_raw/batch128_candidates_final.json`
+- `data/germany_raw/batch129_queue_note.txt`
+
+_报告更新：2026-10-21 05:55 Asia/Hong_Kong_
+
+---
+
 ## Website/named Kontakt Batch 127
 
 > 合并前重读 CSV（任务初口径 **4429** / **3119**；Directory Batch132dir steering → 写时 live **4450** / **3136**）。本批按 live 合并，网站轨净增 **+6** → 瞬时 **4456** / **3140**。

@@ -1,0 +1,10 @@
+# Batch 129 queue note (Website / named Kontakt)
+
+Baseline after B128: live **4466** emails / **3133** domains (~**3144** hosts) (B128 website net +10 from 4456; Directory Batch133dir had not raised further before this merge).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch133dir+ / Batch134dir — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers (BWF Holzkirchen / WETEC Bauteilfertigung pattern).
+- B128 KEEP: ABAS alex.basistow@ + alexander.hamm@ + willi.sawatzky@ (Fulda); VEMA info@ (Krauchenwies); KB-DAS info@ (Pfofeld); Eberle info@ (Niedernhall); KTB info@ + holland-moritz@ + knott@ + sauerbrey@ (Breitungen).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); Finke plain mailto if published on company site; CAD-KON plastics named if .de recovers; Reddikowsky/Dobener/ck-form if live; g.helm@ only if published; Beck Plastics if plain mailto; Formenbau Rapp / Auer / kb-sprung if 403 clears; Heise/Detlef Mohr/Hochstadter if sites recover; Jordan Spritzguss if jordan-spritzguss.de recovers; FINI named beyond known t-online; ABAS Karl Menrad only if mailto published (currently tel-only).
