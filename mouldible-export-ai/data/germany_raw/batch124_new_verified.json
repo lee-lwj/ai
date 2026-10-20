@@ -1,0 +1,67 @@
+[
+  {
+    "company": "pauser + weinkauf Vertrieb GmbH",
+    "domain": "pauser-weinkauf.de",
+    "email": "mp@pauser-weinkauf.de",
+    "email_source_url": "https://pauser-weinkauf.de/de/",
+    "contact_name": "Matthias Pauser",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 951 94443-41",
+    "city": "Bamberg",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch124: NEW domain; live /de/ §5 TMG Impressum+Kontakt mailto; Rennsteig 12, 96052 Bamberg; GF Christian/Matthias Pauser; Spritzgusswerkzeugkonstruktion + Faltkerne CAD design studio"
+  },
+  {
+    "company": "Merkel-Czeschner GmbH",
+    "domain": "merkel-czeschner.de",
+    "email": "info@merkel-czeschner.de",
+    "email_source_url": "https://merkel-czeschner.de/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 7245 80563-0",
+    "city": "Au am Rhein",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch124: NEW domain; live Impressum §TMG Oberwaldstr. 4, 76474 Au am Rhein HRB 520419 Mannheim; GF Felix/Florian Weber; Spritzguss OEM + Werkzeugbau/Formenbau/CAD-Konstruktion peer"
+  },
+  {
+    "company": "icotek Kunststofftechnik GmbH",
+    "domain": "icotek-kunststofftechnik.de",
+    "email": "info@icotek-kunststofftechnik.de",
+    "email_source_url": "https://icotek-kunststofftechnik.de/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 7971 9773-0",
+    "city": "Gaildorf",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch124: NEW domain; live Impressum §5 DDG Steinbeisstraße 1, 74405 Gaildorf HRB 1109 Schwäbisch Hall; GF Detlev/Lucas Bethke; Spritzguss 1K/2K/3K + eigener Werkzeug-/Formenbau (not icotek.com)"
+  },
+  {
+    "company": "Fischer Formenbau GmbH",
+    "domain": "fischer-formenbau.de",
+    "email": "fischer.wzb@t-online.de",
+    "email_source_url": "https://www.fischer-formenbau.de/impressum/",
+    "contact_name": "Udo Fischer",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 8721 10700",
+    "city": "Eggenfelden",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch124: NEW domain; live Impressum §5 TMG Landshuter Strasse 144, 84307 Eggenfelden HRB 5696 Landshut; GF Udo Fischer; published t-online mailto on same domain; Spritzgießwerkzeuge peer tooling since 1984"
+  },
+  {
+    "company": "Plastolen Kunststoffformen GmbH",
+    "domain": "plastolen-kf.de",
+    "email": "info@plastolen-kf.de",
+    "email_source_url": "https://www.plastolen-kf.de/impressum.html",
+    "contact_name": "Reinald Weiss",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 9851 55438-0",
+    "city": "Dinkelsbühl",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch124: NEW domain; live Impressum Mail info(@)plastolen-kf.de decoded same-domain; Friedleinstr. 3, 91550 Dinkelsbühl HRB 5162 Ansbach; Spritzgieß-/Duroplastwerkzeuge peer (also Druckguss tools — not foundry-primary)"
+  }
+]

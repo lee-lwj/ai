@@ -1,0 +1,124 @@
+{
+  "batch": 124,
+  "keep": [
+    {
+      "company": "pauser + weinkauf Vertrieb GmbH",
+      "domain": "pauser-weinkauf.de",
+      "email": "mp@pauser-weinkauf.de",
+      "email_source_url": "https://pauser-weinkauf.de/de/",
+      "contact_name": "Matthias Pauser",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 951 94443-41",
+      "city": "Bamberg",
+      "icp_tag": "design_studio",
+      "confidence": "high",
+      "notes": "Batch124: NEW domain; live /de/ §5 TMG Impressum+Kontakt mailto; Rennsteig 12, 96052 Bamberg; GF Christian/Matthias Pauser; Spritzgusswerkzeugkonstruktion + Faltkerne CAD design studio"
+    },
+    {
+      "company": "Merkel-Czeschner GmbH",
+      "domain": "merkel-czeschner.de",
+      "email": "info@merkel-czeschner.de",
+      "email_source_url": "https://merkel-czeschner.de/impressum/",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 7245 80563-0",
+      "city": "Au am Rhein",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch124: NEW domain; live Impressum §TMG Oberwaldstr. 4, 76474 Au am Rhein HRB 520419 Mannheim; GF Felix/Florian Weber; Spritzguss OEM + Werkzeugbau/Formenbau/CAD-Konstruktion peer"
+    },
+    {
+      "company": "icotek Kunststofftechnik GmbH",
+      "domain": "icotek-kunststofftechnik.de",
+      "email": "info@icotek-kunststofftechnik.de",
+      "email_source_url": "https://icotek-kunststofftechnik.de/impressum/",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 7971 9773-0",
+      "city": "Gaildorf",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch124: NEW domain; live Impressum §5 DDG Steinbeisstraße 1, 74405 Gaildorf HRB 1109 Schwäbisch Hall; GF Detlev/Lucas Bethke; Spritzguss 1K/2K/3K + eigener Werkzeug-/Formenbau (not icotek.com)"
+    },
+    {
+      "company": "Fischer Formenbau GmbH",
+      "domain": "fischer-formenbau.de",
+      "email": "fischer.wzb@t-online.de",
+      "email_source_url": "https://www.fischer-formenbau.de/impressum/",
+      "contact_name": "Udo Fischer",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 8721 10700",
+      "city": "Eggenfelden",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch124: NEW domain; live Impressum §5 TMG Landshuter Strasse 144, 84307 Eggenfelden HRB 5696 Landshut; GF Udo Fischer; published t-online mailto on same domain; Spritzgießwerkzeuge peer tooling since 1984"
+    },
+    {
+      "company": "Plastolen Kunststoffformen GmbH",
+      "domain": "plastolen-kf.de",
+      "email": "info@plastolen-kf.de",
+      "email_source_url": "https://www.plastolen-kf.de/impressum.html",
+      "contact_name": "Reinald Weiss",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 9851 55438-0",
+      "city": "Dinkelsbühl",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch124: NEW domain; live Impressum Mail info(@)plastolen-kf.de decoded same-domain; Friedleinstr. 3, 91550 Dinkelsbühl HRB 5162 Ansbach; Spritzgieß-/Duroplastwerkzeuge peer (also Druckguss tools — not foundry-primary)"
+    }
+  ],
+  "drops": [
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site still unreachable (curl 0 / WebFetch 500) — never invent from SERP snippet; carry recovery"
+    },
+    {
+      "item": "FLICKS-CAD Wolfgang Flickschuh",
+      "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto"
+    },
+    {
+      "item": "Finke Formenbau plain mailto / JS-split",
+      "reason": "SKIP no new plain company-site mailto beyond known finke-gruppe named"
+    },
+    {
+      "item": "ABAS Fulda named beyond info@",
+      "reason": "SKIP Cloudflare 526 — only known info@"
+    },
+    {
+      "item": "CAD-KON named beyond team_cad-kon@t-online / webmaster@",
+      "reason": "SKIP only known team_; DROP webmaster"
+    },
+    {
+      "item": "Reddikowsky / Dobener",
+      "reason": "SKIP sites dead / unreachable"
+    },
+    {
+      "item": "invent g.helm@lh-konstruktion.de",
+      "reason": "SKIP invent — only info@ published"
+    },
+    {
+      "item": "rommel-formen.de → Haas Metallguss",
+      "reason": "DROP Druckguss/Metallguss-primary (off-ICP)"
+    },
+    {
+      "item": "WIBRA Formenbau info@ / named",
+      "reason": "SKIP already known on wibra-formenbau.de"
+    },
+    {
+      "item": "ck-form.de",
+      "reason": "SKIP site unreachable (curl 0 / WebFetch 500)"
+    },
+    {
+      "item": "kaysan.t@r-weiss.de on Plastolen Impressum",
+      "reason": "DROP DSB/third-party Datenschutz"
+    },
+    {
+      "item": "info@icotek.biz",
+      "reason": "SKIP secondary brand mailbox; keep primary impressum info@icotek-kunststofftechnik.de only"
+    },
+    {
+      "item": "Gerken continuum",
+      "reason": "DROP Stanz/Umform continuum avoid"
+    }
+  ]
+}

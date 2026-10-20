@@ -1,3 +1,52 @@
+## Website/named Kontakt Batch 124
+
+> 合并前重读 CSV（任务口径 **4356** / **3047**；Directory Batch130dir 未抬升 live）。本批按 live 合并，网站轨净增 **+5** → 瞬时 **4361** / **3052**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4361** |
+| high / medium | **4081** / **280** |
+| 唯一域名 | **3052** |
+| 含电话 / 含城市 | **3765** / **3848** |
+| 非 .de 邮箱 | **1163** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4023** |
+| design_studio | **186** |
+| oem_buyer | **117** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+5**（相对写时基线 4356）
+
+- `mp@pauser-weinkauf.de` — pauser + weinkauf Vertrieb GmbH (Bamberg) — `design_studio` / high — Matthias Pauser
+- `info@merkel-czeschner.de` — Merkel-Czeschner GmbH (Au am Rhein) — `oem_buyer` / high
+- `info@icotek-kunststofftechnik.de` — icotek Kunststofftechnik GmbH (Gaildorf) — `oem_buyer` / high
+- `fischer.wzb@t-online.de` — Fischer Formenbau GmbH (Eggenfelden) — `overseas_peer_overflow` / high — Udo Fischer
+- `info@plastolen-kf.de` — Plastolen Kunststoffformen GmbH (Dinkelsbühl) — `overseas_peer_overflow` / high — Reinald Weiss
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@formacon.de` — SKIP site still unreachable — never invent; carry recovery
+- `FLICKS-CAD` — SKIP phone-only / E-Mail anzeigen cloak
+- `Finke Formenbau plain mailto` — SKIP no new plain beyond known finke-gruppe named
+- `ABAS Fulda named` — SKIP Cloudflare 526 / only known info@
+- `CAD-KON named beyond team_cad-kon@ / webmaster@` — SKIP known; DROP webmaster
+- `Reddikowsky / Dobener` — SKIP dead sites
+- `invent g.helm@lh` — SKIP invent
+- `rommel-formen.de → Haas Metallguss` — DROP Druckguss/Metallguss-primary
+- `WIBRA` — SKIP already known
+- `ck-form.de` — SKIP unreachable
+- `kaysan.t@r-weiss.de` — DROP DSB/third-party on Plastolen Impressum
+- `info@icotek.biz` — SKIP secondary brand; keep primary impressum only
+- `Gerken continuum` — DROP Stanz/Umform avoid
+
+---
+
 ## Website/named Kontakt Batch 123
 
 > 合并前重读 CSV（任务口径 **4333** / **3026**；Directory Batch129dir→写时 live **4351** / **3042**；steering 确认后再读）。本批按 live 合并，网站轨净增 **+5** → 瞬时 **4356** / **3047**。

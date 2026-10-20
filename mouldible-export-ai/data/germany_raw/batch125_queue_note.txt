@@ -1,0 +1,10 @@
+# Batch 125 queue note (Website / named Kontakt)
+
+Baseline after B124: live **4361** emails / **3052** domains (B124 website net +5 from 4356; Directory Batch130dir did not raise baseline this run).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch131dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only.
+- B124 KEEP: pauser+weinkauf mp@ (Bamberg); Merkel-Czeschner info@ (Au am Rhein); icotek Kunststofftechnik info@ (Gaildorf); Fischer Formenbau fischer.wzb@t-online (Eggenfelden); Plastolen info@ (Dinkelsbühl).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); FLICKS plain email if revealed; ABAS named beyond info@ when Cloudflare clears; Finke plain mailto if published; CAD-KON other named beyond team_cad-kon@t-online; Reddikowsky/Dobener if sites recover; ck-form.de if live; g.helm@ only if published.
