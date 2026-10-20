@@ -1,67 +1,62 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 84）
+## 1. 累计交付数量（如实，至 Batch 85）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3382** |
-| 本轮净增（相对目录 Batch83dir 合并后基线 3368） | **+14** |
+| 去重后邮箱总数（累计） | **3429** |
+| 本轮净增（相对目录 Batch84dir 合并后基线 3419） | **+10** |
 | 本轮因已在 master/targets 跳过 | **0** |
 | 本轮质量剔除（死站/错垂/cloak 等） | **10** |
-| 其中 high / medium | **3165** / **217** |
-| 唯一域名 | **2349** |
-| 非 .de 邮箱（累计） | **821** |
-| 含电话 / 含城市 | **2972** / **3084** |
-| 本轮新域名贡献 | **0** |
+| 其中 high / medium | **3210** / **219** |
+| 唯一域名 | **2386** |
+| 非 .de 邮箱（累计） | **851** |
+| 含电话 / 含城市 | **3010** / **3126** |
+| 本轮新域名贡献 | **2** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3151** |
-| design_studio | **132** |
+| overseas_peer_overflow | **3197** |
+| design_studio | **133** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 84 · Website/named Kontakt）
+## 2. 本轮方法（Batch 85 · Website/named Kontakt）
 
-1. **基线**：目录 Batch83dir 合并后 **重读 CSV** → **3368 / 2349**（非用户提示的 3333），再合并本轮。
-2. **Expand 队列**：仍空；wave1 ~55 tooling singles + wave2 余量（多数无 named 或已吸收）。
+1. **基线**：目录 Batch84dir 合并后 **重读 CSV** → **3419 / 2384**（非用户提示的 3382），再合并本轮。
+2. **Expand 队列**：仍空；wave1 singles（Söhner/Sonnenberg 等命中，后者错垂剔除）。
 3. **Named Kontakt / Web 定向**：
-   - Formenbau Staiger（Udo Staiger GF + Sebastian Weisser Betriebsleitung）
-   - Werkzeugbau Ehlenbröker（Markus GF + Eickmeier Drahterosion + Grötsch HSC + Wiebe medium）
-   - Moldsystem Jörg Wolfrum；Tsetinis `anfrage@`；Kiefer `info@kiefer-wzb.de`
-   - SPIES Formenbau Melle（Henseler Betriebsleitung + Wittenbrock AV + `info@spies-formenbau.de`）
-   - Müller MF `mueller@`；Eckerle Roland Blank
-4. **质量门**：Kaufmännisch/HR（Anke Ehlenbröker）；Stanz/Umform（Flüss、Ladwig）；Magazin；shop@；marketing@；dsb@；Versand/Logistik；cloak（Hack ROT13 / Croner 401 / RFK 无 plaintext named）。
+   - Finke Gruppe Altenbeken（Semykin Formenbau + Alexander Finke Zerspanung + Tillmann/Johlen Anwendungstechnik；空格混淆但 live-seen）
+   - SUK Schwerin（Weber/Ulbrich GF + Schmidt Vertrieb；Einkauf 剔除）
+   - Söhner Kunststofftechnik（Frank/Zeranski/Heinen 区域 Vertrieb；自有 Werkzeugbau）
+4. **质量门**：Sonnenberg Beton-/Bau-/Baumaschinen-Formenbau；Nachreiner Zerspanung；Spörle craft；Assistentin；Einkauf；Fakuma-only；cloak。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1/2 singles | ~70 | Staiger / Ehlenbröker / Moldsystem / Tsetinis / Kiefer |
-| named Web（Spies / Müller / Eckerle…） | 多页 | **+4** Spies + Müller + Blank；Walter/WIBRA/GHD 已由 Batch83dir 入库 |
+| wave1 singles | ~60 | **+3** Söhner；Sonnenberg 错垂剔除 |
+| named Web（Finke/SUK/Wefo/Müller…） | 多页 | **+7** Finke×4 + SUK×3；Wefo/Müller 已入库 |
 
-### 本轮新增（+14）
+### 本轮新增（+10）
 
-- `udo.staiger@formenbaustaiger.de` · Königsfeld-Neuhausen · Udo Staiger · high
-- `sebastian.weisser@formenbaustaiger.de` · Königsfeld-Neuhausen · Sebastian Weisser · high
-- `m.ehlenbroeker@wzb-ehlenbroeker.de` · Hille · Markus Ehlenbröker · high
-- `a.eickmeier@wzb-ehlenbroeker.de` · Hille · Andreas Eickmeier · high
-- `o.groetsch@wzb-ehlenbroeker.de` · Hille · Olaf Grötsch · high
-- `j.wiebe@wzb-ehlenbroeker.de` · Hille · Johann Wiebe · medium
-- `joerg.wolfrum@moldsystem.de` · Cadolzburg · Jörg Wolfrum · high
-- `anfrage@tsetinistooling.de` · Karlsruhe ·   · high
-- `info@kiefer-wzb.de` · Pfullingen · Ralf / Mario Kiefer · high
-- `a.henseler@spies-formenbau.de` · Melle · Andreas Henseler · high
-- `j.wittenbrock@spies-formenbau.de` · Melle · Jens Wittenbrock · high
-- `info@spies-formenbau.de` · Melle ·   · high
-- `mueller@mueller-mf.de` · Memmingen · David Müller · medium
-- `r.blank@eckerle-gmbh.de` · Beilngries · Roland Blank · medium
+- `andrej.semykin@finke-gruppe.de` · Altenbeken-Buke · Andrej Semykin · high
+- `alexander.finke@finke-gruppe.de` · Altenbeken-Buke · Alexander Finke · high
+- `rene.tillmann@finke-gruppe.de` · Altenbeken-Buke · René Tillmann · high
+- `florian.johlen@finke-gruppe.de` · Altenbeken-Buke · Florian Johlen · high
+- `jan.weber@suk-schwerin.de` · Schwerin · Jan Weber · high
+- `christopher.ulbrich@suk-schwerin.de` · Schwerin · Christopher Ulbrich · high
+- `a.schmidt@suk-schwerin.de` · Schwerin · Andreas Schmidt · high
+- `m.frank@soehner.de` · Schwaigern · Maximilian Frank · high
+- `s.zeranski@soehner.de` · Schwaigern · Stefan Zeranski · high
+- `w.heinen@soehner.de` · Schwaigern · Werner Heinen · high
 
 ### 本轮新域名
 
-（无 — 全部落在已有域名）
+- `finke-gruppe.de`
+- `suk-schwerin.de`
 
 ### skipped-already-known（0）
 
@@ -69,7 +64,7 @@
 
 ### 质量剔除（节选）
 
-**10**：Ehlenbröker Kaufmännisch/HR；Flüss Stanz；Ladwig Stanz/Umform；Marktspiegel；Messingzangen；ham shop@；ompg marketing@；polar dsb@；Wartenfelser Personal/Logistik；Hack/Croner/RFK cloak。
+**10**：Sonnenberg Beton/Bau；Nachreiner Zerspanung；Spörle craft；SUK Einkauf；Wefo Assistentin；Sander Fakuma-only；Croner/FBB cloak；Müller 已入库。
 
 ---
 
@@ -77,18 +72,17 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch84_new_verified.json`
-- `data/germany_raw/batch84_expand_results.json`
-- `data/germany_raw/batch84_merge_log.json`
-- `data/germany_raw/batch84_candidates.json` / `batch84_probe_wave1.json` / `batch84_probe_wave2.json`
-- `data/germany_raw/batch84_quality_drops.json`
-- `data/germany_raw/batch84_probe_queue.json`
+- `data/germany_raw/batch85_new_verified.json`
+- `data/germany_raw/batch85_expand_results.json`
+- `data/germany_raw/batch85_merge_log.json`
+- `data/germany_raw/batch85_candidates.json` / `batch85_probe_queue.json`
+- `data/germany_raw/batch85_quality_drops.json`
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B85 继续 named Kontakt on remaining unprobed tooling singles；优先 web-search+WebFetch。Watch Batch84dir。Cloak：Hack/Croner/FBB/RFK 仍勿 invent。
+**应有尽有 — 尚未完成。** Expand 仍空。B86 继续 named Kontakt；Watch Batch85dir；cloak 勿 invent。
 
 ---
 
