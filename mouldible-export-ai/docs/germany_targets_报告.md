@@ -1,3 +1,69 @@
+## Website/named Kontakt Batch 135
+
+> 合并前重读 CSV（任务启动口径 B134 后 **4553** / **3182** domains ~**3191** hosts；写前 live 仍 **4553** / **3182** domains ~**3191** hosts）。本批按 live 合并，网站轨净增 **+9** → **4562** / **3188** domains (~**3197** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4562** |
+| high / medium | **4280** / **282** |
+| 唯一域名（domain 列） | **3188** |
+| 唯一邮箱主机（@host） | **3197** |
+| 含电话 / 含城市 | **3940** / **4046** |
+| 非 .de 邮箱 | **1214** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4170** |
+| design_studio | **202** |
+| oem_buyer | **154** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+9**（相对写时基线 4553）
+
+- `info@hs-solingen.de` — Hermann & Schmachtenberg GmbH — Karl-Wilfried Schmachtenberg / Geschäftsführer (Solingen) — `oem_buyer` / high
+- `c-schmalenbach@online.de` — Carsten Schmalenbach Kunststoffspritzguß — Carsten Schmalenbach / Inhaber (Wuppertal) — `oem_buyer` / high
+- `hello@verworrn.de` — Verworrn Design — Nils Verworrn / Ingenieur & Gründer (Viersen) — `design_studio` / medium
+- `mail@snk-studio.com` — SNK design studio — Kaho Ho / Inhaberin (Leverkusen) — `design_studio` / high
+- `info@werkzeugbau-herrmann.de` — Herrmann Werkzeug- und Formenbau e.K. — (general) (Radevormwald) — `overseas_peer_overflow` / high
+- `thermoplast@fietz.com` — Fietz Thermoplast GmbH — (general) (Radevormwald) — `oem_buyer` / high
+- `s.triebs@fietz.com` — Fietz Thermoplast GmbH — Sebastian Triebs / Geschäftsführung (Radevormwald) — `oem_buyer` / high
+- `m.walder@fietz.com` — Fietz Thermoplast GmbH — Marcel Walder / Geschäftsführung (Radevormwald) — `oem_buyer` / high
+- `s.lee@fietz.com` — Fietz Thermoplast GmbH — Stephan Lee / Technischer Vertriebsleiter (Radevormwald) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de / Auer / Mohr / Walter / Preisner / Pour / HeiForm / Heinze / MS Formen / WS Neustadt` — SKIP still dead/403/unreachable — carry recovery
+- `finke-gruppe.de` — SKIP JS crypt_id email only (no plain mailto)
+- `beck-plastics.de mail@` — SKIP Joomla cloak-only (decoded but rule skip)
+- `sgwk.de` — DROP wrong vertical — football club SG Wasser/Kollmarsreute e.V. (queue SGWK Formenbau still pending elsewhere)
+- `wipa-wuppertal.de info@` — DROP wrong vertical — Weiterbildung/Sprachkurse (not Formenbau); wipa-formenbau.de host dead
+- `wipa-formenbau.de` — SKIP dead host
+- `mkunststofftechnik.de / info@gefunden.net` — DROP placeholder Impressum SEO farm (Christoph Gotzmann c/o Gefunden; street/PLZ 'bitte ergänzen')
+- `e-form.eu info@` — DROP Formkästen/foundry moulding boxes (Sandguss-adjacent)
+- `ks-werkzeugtechnik.de info@` — DROP CNC/Sägen/Bohrer tooling accessories wrong vertical
+- `wischemann-group.de / info@wischemann.de` — DROP Thermoform-Tiefzieh-primary
+- `aku-kunststoff24.de / aku-plast.de` — SKIP Cloudflare cfemail cloak-only
+- `hematec-werkzeugbau.de` — SKIP unreadable/binary response still
+- `fietz.com info@ / a.muehle@ / m.feldsieper@ / c.ventura@ / t.kluge@` — DROP Polyform Dreh-/Frästechnik Zerspanung-primary arm
+- `polychromos@fietz.com / bewerbungen@fietz.com` — DROP Masterbatch / Personal
+- `skdesign-koeln.de` — SKIP graphic design studio not plastics CAD/Spritzguss peer
+
+### 产物
+
+- `data/germany_raw/batch135_new_verified.json`
+- `data/germany_raw/batch135_quality_drops.json`
+- `data/germany_raw/batch135_merge_log.json`
+- `data/germany_raw/batch135_candidates_final.json`
+- `data/germany_raw/batch136_queue_note.txt`
+
+_报告更新：2026-10-21 07:02:45 Asia/Hong_Kong_
+
+---
+
 ## Website/named Kontakt Batch 134
 
 > 合并前重读 CSV（任务启动口径 B133 后 **4548** / **3179** domains ~**3189** hosts；写前 live 仍 **4548** / **3179** domains ~**3189** hosts）。本批按 live 合并，网站轨净增 **+5** → **4553** / **3182** domains (~**3191** hosts)。
