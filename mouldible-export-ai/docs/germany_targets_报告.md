@@ -1,3 +1,82 @@
+## 目录/展会轨 Batch132dir
+
+> 合并前重读 CSV（直播基线 **4429** / **3108**；Website Batch126 steering +4）。合并后基线：**4450** / **3126**（hosts ~3136）。
+
+### 累计（Batch132dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4450** |
+| high / medium | **4170** / **280** |
+| 唯一域名 | **3126** |
+| 含电话 / 含城市 | **3834** / **3935** |
+| 非 .de 邮箱 | **1184** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4101** |
+| design_studio | **191** |
+| oem_buyer | **123** |
+| sourcing | **35** |
+
+### 本轨成果（Batch132dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **207** |
+| 有邮箱命中 | **69** |
+| 本轨净增邮箱 | **21**（high **21** / medium **0**） |
+| 相对基线 4429/3108 | **+21** / **+18** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B131 域名队列 | 空 |
+| Allgäu/Oberland/Chiemgau/Bayerischer Wald 微城 × kw | 有效（150 城，DDG/Bing 598 + Maps/EP/GS） |
+| Bing Maps / Europages / Gelbe Seiten | 部分（maps 72 / ep 18 / gs 15） |
+| WebSearch 具名解析 | GERG/Förster/Frank/Pfaff/Vorbach/OptiCAMMS/ERBIWA/List/Osbra/Siller/MB/Günther 等 |
+| Fakuma/VDWF / WLW | 未用 / 跳过 |
+| 产量 | 207 候选核验 / 69 命中 / 质量门后 **+21**；剔 Blechumform/Druckguss/Galvanik/玻璃/橡胶/SEA-freelancer/协会/Verwaltung |
+
+### 本轨新增邮箱（共 21）
+
+- `info@kve-kunststofftechnik.de` (high, overseas_peer_overflow) · Teisendorf
+- `info@kurz-gerhard.de` (high, overseas_peer_overflow) · Kaufbeuren-Neugablonz
+- `info@hitex-ag.de` (high, overseas_peer_overflow) · Tittmoning
+- `info@erbiwa.com` (high, overseas_peer_overflow) · Lindenberg im Allgäu
+- `info@gerg.de` (high, overseas_peer_overflow) · Hohenthann
+- `info@angermaiergmbh.de` (high, overseas_peer_overflow) · Bad Aibling
+- `info@waltergmbh.eu` (high, overseas_peer_overflow) · Oberstdorf
+- `info@formenbau-olinger.de` (high, overseas_peer_overflow) · Zwiesel
+- `info@hummel-kunststofftechnik.de` (high, overseas_peer_overflow) · Schonach
+- `office@sperrer-gmbh.de` (high, overseas_peer_overflow) · Freilassing
+- `info@siller-technik.com` (high, overseas_peer_overflow) · Brannenburg
+- `martin.siller@siller-technik.com` (high, overseas_peer_overflow) · Brannenburg
+- `johanna.siller@siller-technik.com` (high, overseas_peer_overflow) · Brannenburg
+- `info@coregenion.de` (high, overseas_peer_overflow) · Viechtach
+- `info@heinzsimon.de` (high, overseas_peer_overflow) · Kaufbeuren
+- `hello@gadgetto-manufacturing.com` (high, overseas_peer_overflow) · München
+- `info@draexlmaier.com` (high, oem_buyer) · Vilsbiburg
+- `werkzeugbau@fischer.de` (high, overseas_peer_overflow) · ?
+- `info@hergil.de` (high, overseas_peer_overflow) · Schwaigern
+- `tobias.gilbert@hergil.de` (high, overseas_peer_overflow) · Schwaigern
+- `akzentrale@ak-kunststoff.de` (high, overseas_peer_overflow) · Isernhagen
+
+### 产物
+
+- `data/germany_raw/batch132dir_*.json`
+- `data/germany_raw/batch132dir_next_search_seeds.json`
+
+### 状态
+
+Batch132dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch133dir（下一城带：Lüneburger Heide/Elbe-Weser/Ostfriesland）。全国目录轨饱和仍高，本带仍挖出 **+21** 新邮（含 KVE Teisendorf、Hitex Tittmoning、ERBIWA Lindenberg、Angermaier Bad Aibling、Olinger Zwiesel、Siller Brannenburg、Heinz Simon Kaufbeuren、DRÄXLMAIER Vilsbiburg OEM、Walter Oberstdorf、WeForm/Coregenion Viechtach 等）。多数带内大户已在库（opticamms/frank/pfaff/mueller-mf/list/stocker/langer/vorbach/mb-spritz）。
+
+---
 ## Website/named Kontakt Batch 126
 
 > 合并前重读 CSV（任务初口径 **4399** / **3080**；Directory Batch131dir steering → 写时 live **4425** / **3116**）。本批按 live 合并，网站轨净增 **+4** → 瞬时 **4429** / **3119**。
