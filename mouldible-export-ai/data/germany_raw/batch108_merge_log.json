@@ -1,0 +1,72 @@
+{
+  "batch": 108,
+  "timestamp_hk": "2026-10-21 03:28 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4052/2820 (B107 close 4052/2820; no Batch108dir mid-merge).",
+  "baseline": {
+    "emails": 4052,
+    "domains": 2820
+  },
+  "net_new": 5,
+  "new_totals": {
+    "emails": 4057,
+    "domains": 2822,
+    "high": 3798,
+    "medium": 259,
+    "non_de": 1115,
+    "icp": {
+      "overseas_peer_overflow": 3780,
+      "design_studio": 165,
+      "oem_buyer": 78,
+      "sourcing": 34
+    },
+    "with_phone": 3488,
+    "with_city": 3569
+  },
+  "added_domains": [
+    "burms.de",
+    "jell-konstruktion.de"
+  ],
+  "added_emails": [
+    "info@jell-konstruktion.de",
+    "anfrage@aboutjell.de",
+    "holwarth@haenel-praezision.de",
+    "info@embayer.de",
+    "info@burms.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@krauss-web.de",
+      "reason": "SKIP invent — Impressum shows mailto∂ krauss-web.de obfuscation; mailto@ already known junk; do not invent info@"
+    },
+    {
+      "item": "daniel.faltus@embayer.de",
+      "reason": "DROP Personal/HR jobs mailbox"
+    },
+    {
+      "item": "info@wds-werkzeugbau.de",
+      "reason": "DROP Thermoform/Siegel packaging (prior continuum)"
+    },
+    {
+      "item": "info@sundermeier-werkzeugbau.de",
+      "reason": "DROP Druckguss/Stanz co-primary"
+    },
+    {
+      "item": "info@konstruktion-weides.de / weides@arcor.de",
+      "reason": "DROP Druckguss co + personal arcor mailbox"
+    },
+    {
+      "item": "info@ck-form.de",
+      "reason": "DROP unreachable"
+    },
+    {
+      "item": "rfk-formenbau Druckguss tags",
+      "reason": "SKIP already-known; Druckguss co on site"
+    },
+    {
+      "item": "croner-formenbau.de",
+      "reason": "SKIP already-known; site 401/thin"
+    }
+  ]
+}

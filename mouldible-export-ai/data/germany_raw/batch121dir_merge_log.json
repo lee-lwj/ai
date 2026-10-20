@@ -1,0 +1,60 @@
+{
+  "batch": "121dir",
+  "label": "目录/展会轨 Batch121dir",
+  "csv_before": 4260,
+  "csv_after": 4267,
+  "net_new_emails": 7,
+  "high": 7,
+  "medium": 0,
+  "impressum_checked": 17,
+  "impressum_ok": 9,
+  "stats": {
+    "added_cand": 7,
+    "brand_related_medium": 2,
+    "dup_email": 2,
+    "no_hit": 8
+  },
+  "queue_remaining_domains": 5,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 167,
+    "queued_from_b120": 8,
+    "cities_used": 59,
+    "source_ok_pages": {
+      "maps": 25,
+      "search": 118,
+      "ep": 24
+    },
+    "queue": 17,
+    "queue_via": {
+      "b120_domain_queue": 8,
+      "search": 10,
+      "ep": 14
+    },
+    "sources": {
+      "queue": 8,
+      "email": 1,
+      "web": 23
+    },
+    "method": "B120 domain queue + Niederrhein/Ruhr/Sauerland × kw DDG/Bing/Maps + Europages DE; skip WLW; drop Druckguss/Stanz/foreign EP",
+    "queue_verified": 17,
+    "queue_filtered_from": 32
+  },
+  "baseline_note": "Re-read CSV before merge (4260/2972); steering expected 4260; Website B116 not yet landed or already equal",
+  "steering_expected_before": 4260,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "NRW/Rheinland/Ruhr search saturation"
+  ],
+  "domains_after": 2979,
+  "domains_before": 2972,
+  "sources": "B120 domain queue + Niederrhein/Ruhr/Sauerland × kw DDG/Bing/Maps + Europages DE; skip WLW; drop Druckguss/Stanz/foreign EP",
+  "expand_worked": {
+    "b120_domain_queue": 8,
+    "search": 10,
+    "ep": 14
+  },
+  "quality_note": "Dropped Druckguss/Stanz/portal/HR/off-domain/foreign EP; brand_related medium (noelle-kst, faltbox←formex)",
+  "quality_drops_sample": []
+}

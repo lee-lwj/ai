@@ -1,0 +1,58 @@
+[
+  {
+    "item": "Formacon j.sancar@ / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de / Auer / Mohr / Walter / Preisner / Pour",
+    "reason": "SKIP still dead/403/unreachable — carry recovery"
+  },
+  {
+    "item": "Finke Formenbau info@finke-formenbau.de / info@finke-anwendungstechnik.de",
+    "reason": "SKIP JS crypt decodeURIComponent cloak only (not plain mailto) — prior plain-only rule"
+  },
+  {
+    "item": "Beck Plastics mail@beck-plastics.de / vertrieb@beck-brehm.de",
+    "reason": "SKIP Joomla base64 first/last cloak — plain-only"
+  },
+  {
+    "item": "Weber Formenbau Weidenberg info@",
+    "reason": "SKIP JS/HTML-entity cloak only"
+  },
+  {
+    "item": "sgwk.de",
+    "reason": "DROP wrong host (SG Wasser sports club); real SGWK plastics = spritzgusswerkzeug-konstruktion.de still medium pending postal Impressum"
+  },
+  {
+    "item": "WS Neustadt info[at]WSNeustadt.de",
+    "reason": "SKIP (at) obfuscation invent; ICP fit (Spritzgusswerkzeuge) but no plain mailto"
+  },
+  {
+    "item": "Langer Group named VCard/mailto beyond info@",
+    "reason": "SKIP named roles not published as plain mailto (E-Mail senden buttons only)"
+  },
+  {
+    "item": "PFAFF johannes.kuhn@ / albert.rasch@",
+    "reason": "DROP Personal / Einkauf"
+  },
+  {
+    "item": "PFAFF christian.reischmann@",
+    "reason": "DROP AT-only (PFAFF Automation Dornbirn)"
+  },
+  {
+    "item": "Rausch d.marx@ / l.schuck@",
+    "reason": "DROP Buchhaltung/Verwaltung / Einkauf"
+  },
+  {
+    "item": "lmbk.de / forma-baumgarten",
+    "reason": "SKIP dead/unreachable hosts"
+  },
+  {
+    "item": "precision-forming / pre-form.de",
+    "reason": "DROP likely Umform/metal Precision Forming (not Spritzguss-Formenbau primary)"
+  },
+  {
+    "item": "umformtechnik-stade.de",
+    "reason": "DROP Umform-primary"
+  },
+  {
+    "item": "HeiForm / Heinze / MS Formen / spritzgiessformen / wedo",
+    "reason": "SKIP/DROP dead/403/casino carry"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "company": "CAD Solutions Neumayr",
+    "domain": "cad-solutions.cc",
+    "email": "neumayr@cad-solutions.cc",
+    "email_source_url": "https://www.cad-solutions.cc/",
+    "contact_name": "Martin Neumayr",
+    "job_title": "Inhaber / Spritzgusskonstruktion & Produktentwicklung",
+    "phone": "+49 160 93814117",
+    "city": "Hirschau",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch111: NEW domain; live home+Impressum neumayr@; Serien-/Prototypenwerkzeuge Spritzgusskonstruktion; DE BY Hirschau USt-ID DE266698690"
+  },
+  {
+    "company": "Fischer Formenbau / Tarek Fischer",
+    "domain": "fischer-werkzeugbau.de",
+    "email": "info@fischer-werkzeugbau.de",
+    "email_source_url": "https://www.fischer-werkzeugbau.de/impressum",
+    "contact_name": "Tarek Fischer",
+    "job_title": "Inhaber / Konstruktion & Fertigung Spritzgusswerkzeuge",
+    "phone": "+49 151 42335790",
+    "city": "Taunusstein",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch111: NEW domain; live Impressum+home info@; CAD-Konstruktion CNC Fräsen Senk-/Drahterodieren Spritzgusswerkzeuge; DE HE Taunusstein Familie seit 1960"
+  },
+  {
+    "company": "Hofmann Erodiertechnik GmbH / Hofmann die Werkzeugentwickler",
+    "domain": "hofmann-wze.de",
+    "email": "info@hofmann-wze.de",
+    "email_source_url": "https://www.hofmann-werkzeugentwickler.de/impressum/",
+    "contact_name": "",
+    "job_title": "Werkzeugbau Spritzgussformen / HSC Erodieren",
+    "phone": "+49 9252 35757-0",
+    "city": "Helmbrechts",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch111: NEW domain; live Impressum+home info[at]; Spritzgussformen + Stanz co (Spritz explicit peer); DE BY Helmbrechts HRB 6194"
+  },
+  {
+    "company": "Hofmann Erodiertechnik GmbH / Hofmann die Werkzeugentwickler",
+    "domain": "hofmann-wze.de",
+    "email": "mh@hofmann-wze.de",
+    "email_source_url": "https://www.hofmann-werkzeugentwickler.de/",
+    "contact_name": "Markus Herrmannsdörfer",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 9252 35757-20",
+    "city": "Helmbrechts",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch111: named Kontakt live mh[at]; GF; Spritzgussformen peer"
+  },
+  {
+    "company": "Hofmann Erodiertechnik GmbH / Hofmann die Werkzeugentwickler",
+    "domain": "hofmann-wze.de",
+    "email": "felix.meister@hofmann-wze.de",
+    "email_source_url": "https://www.hofmann-werkzeugentwickler.de/",
+    "contact_name": "Felix Meister",
+    "job_title": "Projektleiter",
+    "phone": "+49 9252 35757-14",
+    "city": "Helmbrechts",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch111: named Kontakt live; Projektleiter Spritzguss/Werkzeug"
+  },
+  {
+    "company": "HPF / Friedrich & Partner Werkzeug- und Formenbau",
+    "domain": "fus-werkzeugbau.de",
+    "email": "info@fus-werkzeugbau.de",
+    "email_source_url": "https://www.fus-werkzeugbau.de/ansprechpartner.html",
+    "contact_name": "",
+    "job_title": "Werkzeug- & Formenbau / Kunststoffverarbeitung",
+    "phone": "+49 35934 78988-0",
+    "city": "Großdubrau",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch111: NEW mailbox on known domain (mail@/named already known); Konstruktion Formenbau Spritzguss; DE SN Großdubrau; kathrin/nadine untitled reception skipped"
+  }
+]

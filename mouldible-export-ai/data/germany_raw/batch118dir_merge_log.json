@@ -1,0 +1,54 @@
+{
+  "batch": "118dir",
+  "label": "目录/展会轨 Batch118dir",
+  "csv_before": 4227,
+  "csv_after": 4234,
+  "net_new_emails": 7,
+  "high": 5,
+  "medium": 2,
+  "impressum_checked": 36,
+  "impressum_ok": 23,
+  "stats": {
+    "qual_exclude": 4,
+    "added_cand": 7,
+    "brand_related_medium": 4,
+    "dup_email": 15,
+    "qual_offdomain_drop": 1,
+    "no_hit": 13
+  },
+  "queue_remaining_domains": 11,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 82,
+    "queued_from_b117": 15,
+    "source_ok_pages": {
+      "search": 35,
+      "maps": 35,
+      "ep": 6
+    },
+    "queue": 38,
+    "queue_via": {
+      "b117_domain_queue": 4,
+      "search": 34
+    },
+    "sources": {
+      "queue": 4,
+      "email": 4,
+      "web": 30
+    },
+    "method": "B117 domain queue + city×kw DDG/Bing + Europages DE; skip WLW; drop Druckguss-primary"
+  },
+  "baseline_note": "Re-read CSV before merge (4227/2946)",
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted"
+  ],
+  "domains_after": 2953,
+  "domains_before": 2946,
+  "sources": "B117 domain queue + city×kw DDG/Bing + Europages DE; skip WLW; drop Druckguss-primary",
+  "expand_worked": {
+    "b117_domain_queue": 4,
+    "search": 34
+  },
+  "quality_note": "Dropped Druckguss/heizung/tierformen/portal/off-domain/marketing; www. stripped; brand_related medium kept"
+}

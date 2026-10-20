@@ -1,0 +1,78 @@
+[
+  {
+    "item": "Formacon j.sancar@formacon.de",
+    "reason": "SKIP site still unreachable (curl 000) — SERP snippet only; never invent; carry recovery"
+  },
+  {
+    "item": "ABAS andreas.boschmann@",
+    "reason": "DROP Kaufmännische Leitung (Kaufm./Verwaltung)"
+  },
+  {
+    "item": "ABAS karl.menrad@ invent",
+    "reason": "SKIP invent — mailkarlsingle has tel only, no JS mailto setter"
+  },
+  {
+    "item": "ABAS viktor.sawatzky@ orphan JS",
+    "reason": "SKIP stale/orphan JS var without current Ansprechpartner card"
+  },
+  {
+    "item": "Finke Formenbau plain mailto",
+    "reason": "SKIP redirects to finke-gruppe; no plain company-site mailto; HTML-entity cloak only"
+  },
+  {
+    "item": "CAD-KON plastics named / mail@cad-kon.com",
+    "reason": "SKIP cad-kon.de dead; cad-kon.com mail@ Aufmass/off-ICP prior pattern"
+  },
+  {
+    "item": "Reddikowsky / Dobener / ck-form.de",
+    "reason": "SKIP sites still dead (curl 000) — SERP invent avoid"
+  },
+  {
+    "item": "invent g.helm@lh-konstruktion.de",
+    "reason": "SKIP invent — only info@ published"
+  },
+  {
+    "item": "Beck Plastics Magstadt mail@ / vertrieb@beck-brehm",
+    "reason": "SKIP joomla-hidden-mail cloak / hint plain-mailto only"
+  },
+  {
+    "item": "formenbau-rapp.de / auer-formenbau / kb-sprung.de",
+    "reason": "SKIP 403/unreachable"
+  },
+  {
+    "item": "heise-formenbau / detlefmohr-cad / hochstadter-formenbau",
+    "reason": "SKIP sites unreachable (curl 000)"
+  },
+  {
+    "item": "jordan-spritzguss.de",
+    "reason": "SKIP site unreachable"
+  },
+  {
+    "item": "h.wirth@werkzeugbau-wirth.com",
+    "reason": "DROP Bewerbung-only mailbox on Unternehmen careers section"
+  },
+  {
+    "item": "FINI Technology finigmbh@t-online.de",
+    "reason": "SKIP already known; no new same-domain mailbox"
+  },
+  {
+    "item": "KTB auftragsbearbeitung@",
+    "reason": "DROP Auftragsbearbeitung/Buchhaltung/Mahnwesen"
+  },
+  {
+    "item": "KTB versand@",
+    "reason": "DROP Lager & Versand"
+  },
+  {
+    "item": "wetec.de info@",
+    "reason": "DROP Werkzeughandel/Elektronikfertigung distributor — not Spritzguss/Formenbau ICP"
+  },
+  {
+    "item": "wetec-bauteilfertigung.de info@",
+    "reason": "DROP CNC-Fräs/Drahtero Ersatzteilfertigung — no Spritzguss/Formenbau primary"
+  },
+  {
+    "item": "Kroeger named Kontakt",
+    "reason": "SKIP already known (hjkroeger/jkroeger/tbraemswig/msieve/jfangmann)"
+  }
+]

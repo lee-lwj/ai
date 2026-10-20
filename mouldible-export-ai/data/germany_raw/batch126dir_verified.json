@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Ikw Kunststofftechnik (DE)",
+    "domain": "ikw-kunststofftechnik.de",
+    "email": "info@ikw-kunststofftechnik.de",
+    "email_source_url": "https://www.ikw-kunststofftechnik.de/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 (0)8677-91588-0",
+    "city": "Burghausen",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch126dir Oberbayern/Schwaben/Allgäu)"
+  },
+  {
+    "company": "Halbich Kunststoffe (DE)",
+    "domain": "halbich-kunststoffe.de",
+    "email": "info@halbich-kunststoffe.de",
+    "email_source_url": "https://halbich-kunststoffe.de/impressum.html",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 8341 623 19",
+    "city": "Kaufbeuren",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch126dir Oberbayern/Schwaben/Allgäu)"
+  },
+  {
+    "company": "Gaebert Kunststoff (DE)",
+    "domain": "gaebert-kunststoff.de",
+    "email": "info@gaebert-kunststoffteile.de",
+    "email_source_url": "https://gaebert-kunststoff.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "",
+    "city": "Erligheim Vertreten durch",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "medium",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch126dir Oberbayern/Schwaben/Allgäu)"
+  },
+  {
+    "company": "Kwm Kunststoffe (DE)",
+    "domain": "kwm-kunststoffe.de",
+    "email": "info@kwm.de",
+    "email_source_url": "https://www.kwm-kunststoffe.de/impressum.html",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 (0) 7337 96020",
+    "city": "Merklingen",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "medium",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch126dir Oberbayern/Schwaben/Allgäu)"
+  }
+]

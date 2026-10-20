@@ -1,0 +1,33 @@
+{
+  "n_domains": 7,
+  "n_gsbiz": 0,
+  "domain_queue": [
+    "formenbau.com",
+    "driess-kunststoffe.de",
+    "werkzeugbauberger.de",
+    "tooliss.de",
+    "vvk-kunststofftechnik.de",
+    "haberl-kunststofftechnik.at",
+    "hartfelder-cnc.de"
+  ],
+  "next_search_seeds": "data/germany_raw/batch119dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "b118_domain_queue",
+    "ddg_bing_nrw_midcities",
+    "europages_partial"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:handwerkerteam.de",
+    "offdomain:info@weborbis-webdesign.de<-praezisions-formenbau-werkzeugbau.de",
+    "offdomain:max@beispiel.de<-werkzeugbau-berger.com",
+    "exclude_dom:dashandwerk.de"
+  ],
+  "queue_via": {
+    "b118_domain_queue": 2,
+    "search": 22
+  }
+}

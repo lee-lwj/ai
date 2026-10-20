@@ -1,0 +1,16 @@
+{
+  "batch": "120dir",
+  "n_emails": 6,
+  "n_domains": 6,
+  "emails": [
+    "info@plastec-technology.com",
+    "info@singold-kunststoff.de",
+    "info@ks-engineering-tools.de",
+    "info@spritzgusswerkzeuge.de",
+    "info@werkzeugbau-hotz.de",
+    "info@schneider-technologies.de"
+  ],
+  "quality_drops_sample": [
+    "portal_email:info@weborbis-webdesign.de"
+  ]
+}

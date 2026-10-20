@@ -1,0 +1,50 @@
+[
+  {
+    "item": "gereon.starke@ (first miss then re-seen)",
+    "reason": "KEEP after &#64; unescape re-verify on homepage"
+  },
+  {
+    "item": "info@weborbis-webdesign.de",
+    "reason": "DROP Werbeagentur (BM Impressum web designer)"
+  },
+  {
+    "item": "poststelle@datenschutz-bayern.de / poststelle@lra-ed.de",
+    "reason": "DROP third-party Behörde on Impressum"
+  },
+  {
+    "item": "sh@kreativstudio-hohmann.de / hallo@dieatemraeuber.de / info@7bytes.de",
+    "reason": "DROP agency / photo / web designer third-party"
+  },
+  {
+    "item": "bewerbung@spindler-formenbau.de / bewerbung@stolz-seng.de",
+    "reason": "DROP Bewerbung/HR"
+  },
+  {
+    "item": "dsb@stolz-seng.de",
+    "reason": "DROP Datenschutzbeauftragter"
+  },
+  {
+    "item": "warenausgang@p-w-f.de",
+    "reason": "DROP Versand/Warenausgang"
+  },
+  {
+    "item": "info.h@nel-praezision.de",
+    "reason": "DROP cloak parse artifact (Hänel)"
+  },
+  {
+    "item": "Gollmer kontakt third-party (stolz-industries / mks-sales / atr-solutions / mf-couplings)",
+    "reason": "DROP third-party sales partners on Gollmer kontakt (carry-forward)"
+  },
+  {
+    "item": "Meissner Formentechnologie",
+    "reason": "DROP Sand-/Kokillen-/Druckguss-primary"
+  },
+  {
+    "item": "Riedl / Frank / Bergmann / Happ / W&W / Fenkl / Marquart / Saur / Kaut / Kaspareth / Berger / KB-Hein / Voth / WTL / Spies / Stolz-Seng / Otto / EDEGS / OptiCAMMS / Gärtner / BM / Spindler / Hänel / CAD studios",
+    "reason": "SKIP already known"
+  },
+  {
+    "item": "Finke/ccoffice/Formacon/Krauss mailto∂",
+    "reason": "SKIP cloak / phone-only / dead (carry forward to B122)"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "domain": "joysonplastec.de",
+    "ok": true,
+    "emails": [
+      "info@joysonplastec.com"
+    ],
+    "source_url": "https://joysonplastec.de/impressum/",
+    "phone": "+499736900",
+    "city": "Bad Kissingen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "praezisionstools.de",
+    "ok": true,
+    "emails": [
+      "info@praezisionstools.de"
+    ],
+    "source_url": "https://praezisionstools.de/impressum.html",
+    "phone": "+49 351 4219125",
+    "city": "Leipzig",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "terraplastik.de",
+    "ok": true,
+    "emails": [
+      "info@terraplastik.de",
+      "martin.bauer@terraplastik.de"
+    ],
+    "source_url": "https://www.terraplastik.de/Impressum",
+    "phone": "+49 (0) 68 61",
+    "city": "Merzig",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "all-in-plastics.de",
+    "ok": true,
+    "emails": [
+      "info@allinplastics.com"
+    ],
+    "source_url": "https://all-in-plastics.de/impressum/",
+    "phone": "+49 9351 6059060",
+    "city": "Gemünden am Main Handelsregister",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "former-fab.de",
+    "ok": true,
+    "emails": [
+      "info@former-fab.de",
+      "bewerbung@former-fab.de"
+    ],
+    "source_url": "https://www.former-fab.de/impressum/",
+    "phone": "+49 351 8507 2160",
+    "city": "Freital Geschäftsführer",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "praezisionstechnik-dresden.de",
+    "ok": true,
+    "emails": [
+      "info@praezisionstechnik-dresden.de"
+    ],
+    "source_url": "https://praezisionstechnik-dresden.de/impressum",
+    "phone": "Tel.: 0155 / 667 56 187",
+    "city": "Dresden",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "swissplast.com",
+    "ok": true,
+    "emails": [
+      "sekretariat@swissplast.com",
+      "sekretariat.spag@swissplast.com"
+    ],
+    "source_url": "https://www.swissplast.com/impressum",
+    "phone": "",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "riplast.de",
+    "ok": true,
+    "emails": [
+      "info@riplast.de"
+    ],
+    "source_url": "https://riplast.de/impressum/",
+    "phone": "+49 2776 92297-0",
+    "city": "Bad Endbach-Hartenrod Telefon",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "werkzeugbau-glauchau.de",
+    "ok": true,
+    "emails": [
+      "info@werkzeugbau-glauchau.de"
+    ],
+    "source_url": "https://werkzeugbau-glauchau.de/impressum/",
+    "phone": "",
+    "city": "Glauchau",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "kretschmar-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "w-ktk-mouldtec.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "frankenplastik.de",
+    "ok": true,
+    "emails": [
+      "info@frankenplastik.de"
+    ],
+    "source_url": "https://frankenplastik.de/kontakt",
+    "phone": "Tel: 0911 / 78 707-0",
+    "city": "Fürth",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "hoppekunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "lmb-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@blau-group.com"
+    ],
+    "source_url": "https://blau-group.com/impressum/",
+    "phone": "+49218282600",
+    "city": "Grevenbroich",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "lmbkunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "gothaplast.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "frank-formen.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststofforum.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "wuensch-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "polyformnext.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "joysonplastec.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

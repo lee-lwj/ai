@@ -1,0 +1,77 @@
+{
+  "batch": 117,
+  "timestamp_hk": "2026-10-21 04:23 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write after Batch122dir steer: 4279 emails / 2999 domains (parent: 4279/2988 hosts~2999). Never use 4271.",
+  "baseline": {
+    "emails": 4279,
+    "domains": 2999
+  },
+  "net_new": 2,
+  "website_batch_end_snapshot": {
+    "emails": 4281,
+    "domains": 3001
+  },
+  "new_totals": {
+    "emails": 4281,
+    "domains": 3001,
+    "high": 4007,
+    "medium": 274,
+    "non_de": 1146,
+    "icp": {
+      "overseas_peer_overflow": 3967,
+      "design_studio": 177,
+      "oem_buyer": 102,
+      "sourcing": 35
+    },
+    "with_phone": 3694,
+    "with_city": 3769
+  },
+  "added_domains": [
+    "baer-cad.de",
+    "hiltel-formentechnik.com"
+  ],
+  "added_emails": [
+    "info@baer-cad.de",
+    "info@hiltel-formentechnik.com"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@ke-services.de",
+      "reason": "DROP wrong vertical — Entrümpelung/Umzüge Herford (LinkedIn false friend)"
+    },
+    {
+      "item": "info@wk-konstruktion.de / w.kraus@",
+      "reason": "DROP generic Konstruktion Stolberg — no Spritz/Formenbau ICP on site"
+    },
+    {
+      "item": "bewerbung@spindler-formenbau.de",
+      "reason": "DROP Bewerbung/HR"
+    },
+    {
+      "item": "info@zi-systeme.de / info@sauer-tooldesign.de / info@kb-hiemer.de",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "zegla/jama named contacts",
+      "reason": "SKIP phones only — no named emails live; info@ already known"
+    },
+    {
+      "item": "reddikowsky / rommel-formen / formenbau-rapp",
+      "reason": "SKIP dead/403 — never invent"
+    },
+    {
+      "item": "info@thb-konstruktionsbuero.de",
+      "reason": "SKIP site unreachable — never invent"
+    },
+    {
+      "item": "info@gerken-konstruktionen.de",
+      "reason": "DROP Stanz-/Umform-primary continuum"
+    },
+    {
+      "item": "info@saur-formenbau.de",
+      "reason": "SKIP — saur-wzb.de info@ already known"
+    }
+  ]
+}

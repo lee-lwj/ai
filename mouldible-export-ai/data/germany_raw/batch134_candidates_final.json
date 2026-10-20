@@ -1,0 +1,71 @@
+{
+  "keep": [
+    {
+      "company": "Martin Oberholz / Oberholz Werkzeugbau Kunststofftechnik",
+      "domain": "oberholz-werkzeugbau-kunststofftechnik.de",
+      "email": "moberholz@gmx.de",
+      "email_source_url": "https://www.oberholz-werkzeugbau-kunststofftechnik.de/impressum",
+      "contact_name": "Martin Oberholz",
+      "job_title": "Inhaber",
+      "phone": "+49 2351 458739",
+      "city": "Lüdenscheid",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch134: NEW domain; DE Impressum Schlachthausstr. 6 A 58511 Lüdenscheid Inhaber Martin Oberholz; plain mailto moberholz@gmx.de on Impressum+home; Spritzgussformen + Kunststoffverarbeitung + Konstruktion; DE-proven soft-domain gmx"
+    },
+    {
+      "company": "JB Formenbau / Josef Böhmer",
+      "domain": "jb-formenbau.de",
+      "email": "info@jb-formenbau.de",
+      "email_source_url": "https://formenbau-velbert.de/impressum",
+      "contact_name": "Josef Böhmer",
+      "job_title": "Inhaber / Geschäftsführer",
+      "phone": "+49 2051 252507",
+      "city": "Velbert",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch134: NEW domain (formenbau-velbert.de host); DE Impressum Bessemerstr.13 42551 Velbert USt DE812436129 Einzelunternehmen; plain mailto info@jb-formenbau.de; Spritzgießwerkzeuge für Kunststoffe (auch Druckgieß Zink/Alu co-offer, not Guss-primary)"
+    },
+    {
+      "company": "Erich Menn Werkzeugbau GmbH & Co.KG",
+      "domain": "menn-werkzeugbau.de",
+      "email": "emwbau@t-online.de",
+      "email_source_url": "https://www.menn-werkzeugbau.de/impressum/",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 2759 2145094",
+      "city": "Bad Berleburg-Aue",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch134: NEW domain; DE Impressum Pulvermühle 4 57319 Bad Berleburg-Aue HRB7983/HRA7936 AG Siegen USt DE247036682; plain mailto emwbau@t-online.de; Spritzgussformen für Kunststoffindustrie seit 1979; DE-proven soft-domain t-online"
+    },
+    {
+      "company": "Zimmermann Formen- und Werkzeugbau GmbH (Ziform)",
+      "domain": "ziform.com",
+      "email": "michael.neumann@ziform.com",
+      "email_source_url": "https://www.ziform.de/kontakt/",
+      "contact_name": "Dr. Michael Neumann",
+      "job_title": "Geschäftsleitung",
+      "phone": "+49 6462 209100",
+      "city": "Gladenbach",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch134: NEW named mailbox beyond info@/jens.meier@; plain mailto on Kontakt; same DE Impressum Blaumühlenweg 5 35075 Gladenbach as prior ziform rows; Spritzguss Formen-/Werkzeugbau peer"
+    },
+    {
+      "company": "Zimmermann Formen- und Werkzeugbau GmbH (Ziform)",
+      "domain": "ziform.com",
+      "email": "matthias.schneider@ziform.com",
+      "email_source_url": "https://www.ziform.de/kontakt/",
+      "contact_name": "Matthias Schneider",
+      "job_title": "Geschäftsführung",
+      "phone": "+49 6462 209300",
+      "city": "Gladenbach",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch134: NEW named mailbox beyond info@/jens.meier@; plain mailto on Kontakt; same DE Impressum Blaumühlenweg 5 35075 Gladenbach as prior ziform rows; Spritzguss Formen-/Werkzeugbau peer"
+    }
+  ],
+  "drops_summary_count": 38,
+  "batch": 134
+}

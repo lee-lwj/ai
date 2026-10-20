@@ -1,0 +1,58 @@
+{
+  "batch": "112dir",
+  "label": "目录/展会轨 Batch112dir",
+  "csv_before": 4160,
+  "csv_after": 4171,
+  "net_new_emails": 11,
+  "high": 11,
+  "medium": 0,
+  "impressum_checked": 31,
+  "impressum_ok": 15,
+  "stats": {
+    "added_cand": 11,
+    "qual_exclude": 6,
+    "no_hit": 16,
+    "qual_offdomain_drop": 8
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 11,
+  "seed_status": {
+    "gsbiz_drained": 9,
+    "jobs": 75,
+    "source_ok_pages": {
+      "ajax": 17,
+      "ep": 9,
+      "search": 24
+    },
+    "new_gsbiz_ids": 36,
+    "expand_fetched": 36,
+    "queue": 31,
+    "queue_via": {
+      "gsbiz": 10,
+      "ajax": 9,
+      "gsbiz_web": 3,
+      "ep": 9
+    },
+    "sources": {
+      "email": 19,
+      "web": 12
+    },
+    "remain_gsbiz": 0,
+    "method": "Drain 9 gsbiz + GS niche/regions + Europages DE p1-3 + DDG/Bing regional; skip Örtliche/Kompass/WLW"
+  },
+  "baseline_note": "Re-read CSV before merge (4160/2893)",
+  "blockers": [
+    "WLW skipped",
+    "Örtliche/Kompass skipped by design"
+  ],
+  "domains_after": 2902,
+  "domains_before": 2893,
+  "sources": "Drain 9 gsbiz + GS niche/regions + Europages DE p1-3 + DDG/Bing regional; skip Örtliche/Kompass/WLW",
+  "expand_worked": {
+    "gsbiz": 10,
+    "ajax": 9,
+    "gsbiz_web": 3,
+    "ep": 9
+  },
+  "quality_note": "Dropped jpg-false/webmail/off-domain/foreign; kept brand_related medium"
+}

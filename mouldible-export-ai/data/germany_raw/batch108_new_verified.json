@@ -1,0 +1,67 @@
+[
+  {
+    "company": "JELL GmbH & Co. KG",
+    "domain": "jell-konstruktion.de",
+    "email": "info@jell-konstruktion.de",
+    "email_source_url": "https://aboutjell.de/impressum/",
+    "contact_name": "Thaddäus Jell / Gerhard Jell",
+    "job_title": "Geschäftsführer / CAD Werkzeugkonstruktion Spritzgussformen",
+    "phone": "+49 8051 98460",
+    "city": "Bernau am Chiemsee",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch108: NEW domain on aboutjell.de Impressum (info [at] aboutjell.de / info@jell-konstruktion.de); Spritzgussformen-Konstruktion 2K/3K/4K IML IMD MuCell; DE Bayern"
+  },
+  {
+    "company": "JELL GmbH & Co. KG",
+    "domain": "aboutjell.de",
+    "email": "anfrage@aboutjell.de",
+    "email_source_url": "https://aboutjell.de/kontakt/",
+    "contact_name": "",
+    "job_title": "Anfragen / Konstruktion & Werkzeugbau",
+    "phone": "+49 8051 98460",
+    "city": "Bernau am Chiemsee",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch108: named Anfrage live on Kontakt; same JELL CAD/Werkzeugkonstruktion Spritzgussformen peer; info@aboutjell.de already known"
+  },
+  {
+    "company": "Hänel Präzisionsformenbau GmbH",
+    "domain": "haenel-praezision.de",
+    "email": "holwarth@haenel-praezision.de",
+    "email_source_url": "https://haenel-praezision.de/",
+    "contact_name": "Jörg Holwarth",
+    "job_title": "Konstruktionsleiter",
+    "phone": "+49 911 506367-0",
+    "city": "Neuendettelsau",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch108: named Konstruktionsleiter live on home; Spritzgießwerkzeuge Präzisionsformenbau; holzwarth@ already known typo-variant"
+  },
+  {
+    "company": "E.M.Bayer GmbH & Co. KG",
+    "domain": "embayer.de",
+    "email": "info@embayer.de",
+    "email_source_url": "https://www.embayer.de/",
+    "contact_name": "Wilhelm Meier",
+    "job_title": "Geschäftsführung / Formenbau Spritzguss",
+    "phone": "+49 9179 5072",
+    "city": "Freystadt",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch108: info@ live in footer Impressum block on home; Formenbau+Kunststoff-Spritzguss Automotive/Elektro Freystadt; bernhard.schmidt@ already known"
+  },
+  {
+    "company": "BURMS – 3D Druck Jena GmbH & Co. KG",
+    "domain": "burms.de",
+    "email": "info@burms.de",
+    "email_source_url": "https://www.burms.de/policies/legal-notice",
+    "contact_name": "",
+    "job_title": "Spritzerei / Werkzeugmanagement",
+    "phone": "+49 36424 788101",
+    "city": "Kahla",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch108: NEW domain; Impressum+Spritzgießwerkzeuge page live; Spritzerei + Werkzeugbeschaffung/Wartung/Lager (>2000 Formen) Kahla; also 3D-Druck branded"
+  }
+]

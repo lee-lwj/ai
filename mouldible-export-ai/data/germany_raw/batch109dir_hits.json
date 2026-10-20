@@ -1,0 +1,32 @@
+{
+  "batch": "109dir",
+  "n_emails": 25,
+  "n_domains": 22,
+  "emails": [
+    "info@1st-cut.de",
+    "mail@alois-mueller.de",
+    "info@garthe-stoltenhoff.de",
+    "info@filatech.de",
+    "info@i-winterhalder.de",
+    "info@d-reinhardt.de",
+    "info@kueckundhoeck.de",
+    "info@kunstguss.net",
+    "post@koeckert.de",
+    "info@osbra.com",
+    "peter.mayer@osbra.com",
+    "info@praezision-mueller.de",
+    "info@plasticguss.de",
+    "info@pwg-leutkirch.de",
+    "info@siegle.de",
+    "mail@schuetz-berlin.de",
+    "info@stintmann.de",
+    "info@ppm-pforzheim.com",
+    "g.roth@ppm-pforzheim.com",
+    "d.mueller@ppm-pforzheim.com",
+    "info@tik-gmbh.com",
+    "info@wiederholt.com",
+    "info@wiro.com",
+    "info@wto.de",
+    "manz@wilhelm-manz.de"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "114dir",
+  "n_emails": 11,
+  "n_domains": 10,
+  "emails": [
+    "info@eurotech-kunststofftechnik.de",
+    "info@dlkunststofftechnik.de",
+    "info@gh-kunststofftechnik.de",
+    "info@kunststofftechnik-hennigsdorf.de",
+    "info@borchert-fuhrmann.de",
+    "info@isomer.de",
+    "info@hf-fischer.de",
+    "info@rotasin.de",
+    "mail@schnorr.de",
+    "automotive@schnorr.de",
+    "stark@stark-leisten.de"
+  ]
+}

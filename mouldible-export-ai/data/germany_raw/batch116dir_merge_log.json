@@ -1,0 +1,54 @@
+{
+  "batch": "116dir",
+  "label": "目录/展会轨 Batch116dir",
+  "csv_before": 4204,
+  "csv_after": 4219,
+  "net_new_emails": 15,
+  "high": 12,
+  "medium": 3,
+  "impressum_checked": 29,
+  "impressum_ok": 15,
+  "stats": {
+    "no_hit": 14,
+    "added_cand": 15,
+    "brand_related_medium": 5,
+    "dup_email": 4,
+    "qual_offdomain_drop": 1,
+    "qual_exclude": 1
+  },
+  "queue_remaining_domains": 12,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 116,
+    "queued_from_b115": 24,
+    "source_ok_pages": {
+      "maps": 52,
+      "search": 52,
+      "ep": 6
+    },
+    "queue": 29,
+    "queue_via": {
+      "b115_domain_queue": 20,
+      "search": 9
+    },
+    "sources": {
+      "queue": 20,
+      "email": 6,
+      "web": 3
+    },
+    "method": "B115 domain queue + city×kw DDG/Bing (seed cities) + Europages DE; skip WLW"
+  },
+  "baseline_note": "Re-read CSV before merge (4204/2928)",
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted"
+  ],
+  "domains_after": 2938,
+  "domains_before": 2928,
+  "sources": "B115 domain queue + city×kw DDG/Bing (seed cities) + Europages DE; skip WLW",
+  "expand_worked": {
+    "b115_domain_queue": 20,
+    "search": 9
+  },
+  "quality_note": "Dropped portal/tierformen/off-domain; kept same-domain high + brand_related medium"
+}

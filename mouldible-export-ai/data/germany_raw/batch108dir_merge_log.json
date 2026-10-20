@@ -1,0 +1,43 @@
+{
+  "batch": "108dir",
+  "label": "目录/展会轨 Batch108dir",
+  "csv_before": 4057,
+  "csv_after": 4078,
+  "net_new_emails": 21,
+  "high": 21,
+  "medium": 0,
+  "impressum_checked": 55,
+  "impressum_ok": 27,
+  "stats": {
+    "added_cand": 21,
+    "qual_offdomain_drop": 3,
+    "no_hit": 28,
+    "qual_exclude": 5
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 50,
+  "reseed_source": "Gelbe Seiten gsbiz ids remaining 50",
+  "seed_status": {
+    "gsbiz_drained": 32,
+    "ajax_pages": 105,
+    "ajax_new_ids": 140,
+    "expand_fetched": 90,
+    "queue": 55,
+    "new_gsbiz_ids_remaining": 50,
+    "sources": {
+      "email": 55,
+      "web": 2
+    },
+    "method": "Drain 32 gsbiz + GS BW/BY/HE/NRW cities + spritz/thermo/elastomer cats; WLW skipped",
+    "dropped_pre_verify": 1
+  },
+  "baseline_note": "Re-read CSV before merge (4057/2806); Website B106–B108 already landed",
+  "blockers": [
+    "WLW CAPTCHA — skipped",
+    "onlinehome.de + werto-plast.de forced no_email (timeout)"
+  ],
+  "domains_after": 2827,
+  "domains_before": 2806,
+  "sources": "Drain 32 gsbiz + GS BW/BY/HE/NRW cities + spritz/thermo/elastomer cats; WLW skipped",
+  "quality_note": "Dropped portal/presse/thyssenkrupp/formbeton/off-domain/msn/onlinehome; kept brand_related medium"
+}

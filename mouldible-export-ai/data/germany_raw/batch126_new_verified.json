@@ -1,0 +1,54 @@
+[
+  {
+    "company": "CAD-CAM Technologie Andreas Rudolph",
+    "domain": "cad-rudolph.de",
+    "email": "andreas.rudolph@cad-rudolph.de",
+    "email_source_url": "http://cad-rudolph.de/impressum/",
+    "contact_name": "Andreas Rudolph",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 7382 936478",
+    "city": "Römerstein-Zainingen",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch126: NEW domain; live Impressum+footer same-domain mailto; Gruorner Weg 12, 72587 Römerstein-Zainingen; GF Andreas Rudolph Steuernr 89351/66607; Spritzgusswerkzeuge CAD/CAM Konstruktion (NX/Tebis/VX) + Elektroden peer design studio"
+  },
+  {
+    "company": "SOLSEC GmbH",
+    "domain": "solsec.de",
+    "email": "info@solsec.de",
+    "email_source_url": "https://www.solsec.de/impressum/",
+    "contact_name": "Alexander Stotz / Ioannis Choumetis",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 8821 752750",
+    "city": "Bobingen",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch126: NEW domain; live §5 Impressum+Engineering Kontakt; Ziegeleistraße 12, 86399 Bobingen HRB 42428 AG Augsburg USt DE460973164; GF Alexander Stotz & Ioannis Choumetis; Spritzguss-Werkzeugkonstruktion CATIA V5 primary (Mehrkomponenten/IMD) peer design studio; also lists Druckguss among secondary tool types"
+  },
+  {
+    "company": "Karl Kühnlein GmbH",
+    "domain": "kuehnlein-gmbh.de",
+    "email": "info@kuehnlein-gmbh.de",
+    "email_source_url": "https://www.kuehnlein-gmbh.de/impressum",
+    "contact_name": "Klaus Kühnlein",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 8145 9966-0",
+    "city": "Mammendorf",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch126: NEW domain; live Impressum mailto; Oskar-von-Miller-Str. 10, 82291 Mammendorf HRB 46371 AG München; GF Klaus Kühnlein / Dipl.-Ing.(FH) Heike Fink; Gummi/Elastomer/Kunststoff Spritzgussfertigung + hausinterner Formen-/Werkzeugbau OEM peer"
+  },
+  {
+    "company": "Kläger Spritzguss GmbH & Co. KG",
+    "domain": "klaeger.de",
+    "email": "info@klaeger.de",
+    "email_source_url": "https://klaeger.de/kontakt/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 7443 9633-0",
+    "city": "Dornstetten",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch126: NEW general Kontakt mailbox on known domain; live Kontakt+Impressum same-domain; Hochgerichtstraße 33, 72280 Dornstetten; Kunststoff-Spritzguss + Formenbau (Multi-cavity/PIM) peer; named contacts already known — adding published info@"
+  }
+]

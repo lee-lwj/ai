@@ -1,0 +1,58 @@
+[
+  {
+    "domain": "metra-kunststoffdesign.de",
+    "ok": true,
+    "emails": [
+      "info@metra-kunststoffdesign.de"
+    ],
+    "source_url": "https://www.metra-kunststoffdesign.de/impressum",
+    "phone": "",
+    "city": "Erkner",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "thermokon.de",
+    "ok": true,
+    "emails": [
+      "email@thermokon.de"
+    ],
+    "source_url": "https://www.thermokon.de/impressum",
+    "phone": "0049/10126",
+    "city": "Mittenaar-Offenbach",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formen-musterbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kneer-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "rskunststoffgmbh.de",
+    "ok": true,
+    "emails": [
+      "info@rskunststoffgmbh.de"
+    ],
+    "source_url": "https://rskunststoffgmbh.de/kontakt/",
+    "phone": "+49 (0) 2332 60605",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  }
+]

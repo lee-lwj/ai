@@ -1,0 +1,81 @@
+{
+  "batch": "130dir",
+  "label": "目录/展会轨 Batch130dir",
+  "csv_before": 4361,
+  "csv_after": 4391,
+  "net_new_emails": 30,
+  "high": 30,
+  "medium": 0,
+  "impressum_checked": 80,
+  "impressum_ok": 38,
+  "stats": {
+    "added_cand": 30,
+    "qual_exclude": 7,
+    "no_hit": 42,
+    "already_known_skips": 8
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 200,
+    "queued_from_b129": 0,
+    "cities_used": 93,
+    "source_ok_pages": {
+      "maps": 31,
+      "search": 259,
+      "ep": 15,
+      "gs": 10,
+      "fakuma": 0
+    },
+    "queue": 80,
+    "queue_via": {
+      "search": 80
+    },
+    "sources": {
+      "web": 80
+    },
+    "csv_peek_at_harvest": 4356,
+    "method": "Sauerland/Siegerland/Westerwald/Taunus + Lahn-Dill/Märkisch micro × kw DDG/Bing/Maps + Europages/GS/BVMF; skip WLW; high quality",
+    "queue_verified": 80
+  },
+  "baseline_note": "Re-read CSV before merge (4361/~3052); steering after Website B124; never regress",
+  "steering_expected_before": 4361,
+  "blockers": [
+    "WLW skipped",
+    "GS websites JS-hidden",
+    "Fakuma not used",
+    "many belt majors already in CSV",
+    "jordan/goerdes/berens sites unreachable or no mailto"
+  ],
+  "domains_after": 3088,
+  "domains_before": 3052,
+  "sources": "Sauerland/Siegerland/Westerwald/Taunus + BVMF Westfalen-Süd + DDG/Bing/Maps/EP/GS; skip WLW; high quality",
+  "expand_worked": {
+    "search": 80
+  },
+  "quality_note": "Dropped metal Härte/Stanz/Kokille/Beton/Extrusion/event-cups; Brill Assistenz/Personal/Einkauf/FiBu; kept Stahl Technische Leitung + König Inside Sales",
+  "quality_drops_sample": [
+    "akma.de: DROP Extrusion profiles/tubes",
+    "formdimensionen.com: DROP Beton/Formwork",
+    "rest-gmbh.de: DROP Stanz-/Umform-primary",
+    "swf-siegen.de: DROP metal Härte-/Umformtechnik",
+    "m.hess@brillundadloff.de: DROP Assistenz der Geschäftsleitung",
+    "s.assmann@brillundadloff.de: DROP Personal / Einkauf",
+    "m.schmidt@brillundadloff.de: DROP Personal / FiBu"
+  ],
+  "cumulative": {
+    "emails": 4391,
+    "domains": 3088,
+    "high": 4111,
+    "medium": 280,
+    "tags": {
+      "overseas_peer_overflow": 4050,
+      "oem_buyer": 117,
+      "sourcing": 35,
+      "design_studio": 189
+    },
+    "phone": 3791,
+    "city": 3878,
+    "non_de": 1169
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "batch": 115,
+  "timestamp_hk": "2026-10-21 04:10 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4247 emails / 2976 domains (parent steered 4247/2965 hosts~2976 after Batch119dir; never 4237).",
+  "baseline": {
+    "emails": 4247,
+    "domains": 2976
+  },
+  "net_new": 7,
+  "website_batch_end_snapshot": {
+    "emails": 4254,
+    "domains": 2977
+  },
+  "new_totals": {
+    "emails": 4254,
+    "domains": 2977,
+    "high": 3981,
+    "medium": 273,
+    "non_de": 1143,
+    "icp": {
+      "overseas_peer_overflow": 3946,
+      "design_studio": 173,
+      "oem_buyer": 100,
+      "sourcing": 35
+    },
+    "with_phone": 3671,
+    "with_city": 3744
+  },
+  "added_domains": [
+    "khb-buebel.de"
+  ],
+  "added_emails": [
+    "ingo.guettler@r-hofmann.de",
+    "maxime.cerulus@r-hofmann.de",
+    "guenter.dorsch@r-hofmann.de",
+    "kai.kegelmann@r-hofmann.de",
+    "karl.leitinger@r-hofmann.de",
+    "ulrich.haas@r-hofmann.de",
+    "cad@khb-buebel.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "maximilian.koenig@r-hofmann.de",
+      "reason": "DROP Supply Chain Management / Service"
+    },
+    {
+      "item": "info@spritzgusswerkzeug-konstruktion.de",
+      "reason": "SKIP no Impressum/address — DE+AT claim only, mobile-only"
+    },
+    {
+      "item": "info@gerken-konstruktionen.de",
+      "reason": "DROP Stanz-/Umform-primary co (continuum Gerken)"
+    },
+    {
+      "item": "info@wa21.de on rethemeier.eu",
+      "reason": "DROP third-party/agency mailbox"
+    },
+    {
+      "item": "info@tool4tool.de",
+      "reason": "SKIP secondary — prefer impressum primary cad@khb-buebel.de"
+    },
+    {
+      "item": "info@rethemeier.eu / info@spritzguss.de / formzeug / croner / hwf",
+      "reason": "SKIP already known"
+    }
+  ]
+}

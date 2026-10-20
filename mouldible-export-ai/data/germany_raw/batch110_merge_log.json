@@ -1,0 +1,75 @@
+{
+  "batch": 110,
+  "timestamp_hk": "2026-10-21 03:40 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4136/2887 (Batch110dir → 4136 emails; parent steered 4136/2871 hosts~2887 — live domain count 2887).",
+  "baseline": {
+    "emails": 4136,
+    "domains": 2887
+  },
+  "net_new": 4,
+  "new_totals": {
+    "emails": 4140,
+    "domains": 2889,
+    "high": 3879,
+    "medium": 261,
+    "non_de": 1131,
+    "icp": {
+      "overseas_peer_overflow": 3854,
+      "design_studio": 168,
+      "oem_buyer": 83,
+      "sourcing": 35
+    },
+    "with_phone": 3566,
+    "with_city": 3638
+  },
+  "added_domains": [
+    "goletz-gmbh.de",
+    "kompetenzkunststoff.de"
+  ],
+  "added_emails": [
+    "info@goletz-gmbh.de",
+    "asommer@oelfke.de",
+    "jsommer@oelfke.de",
+    "info@kompetenzkunststoff.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "thorsten.meyer@meykon.net",
+      "reason": "DROP Feinguss + Blasformen/PET primary"
+    },
+    {
+      "item": "info@cad-konstruktionsbuero.de",
+      "reason": "DROP generic Maschinenbau CAD — not Spritzguss/Formenbau peer"
+    },
+    {
+      "item": "info@flicks-cad.de / Wolfgang Flickschuh",
+      "reason": "DROP cloak — Impressum shows E-Mail: Kontakt / E-Mail anzeigen only; never invent"
+    },
+    {
+      "item": "arichter@oelfke.de",
+      "reason": "DROP Verwaltung"
+    },
+    {
+      "item": "anfragen@mf-schwinn.de",
+      "reason": "DROP Schwinn Umform/Druckguss co-primary (prior continuum)"
+    },
+    {
+      "item": "info@jskonstruktion.de",
+      "reason": "DROP Gießerei/Modellbau/Kernkästen primary; Spritz listed secondary"
+    },
+    {
+      "item": "info@spritzgusswerkzeug-konstruktion.de",
+      "reason": "SKIP prior continuum"
+    },
+    {
+      "item": "office@formenbau-gmbh.at",
+      "reason": "SKIP AT country-box + Feinguss/Schmiede co"
+    },
+    {
+      "item": "bewerbung@spindler-formenbau.de",
+      "reason": "DROP HR/jobs mailbox"
+    }
+  ]
+}

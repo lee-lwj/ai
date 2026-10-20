@@ -1,0 +1,11 @@
+{
+  "batch": "127dir",
+  "n_emails": 3,
+  "n_domains": 3,
+  "emails": [
+    "info@1st-mould.de",
+    "info@mk-kunststofftechnik.com",
+    "info@mankeplast.de"
+  ],
+  "quality_drops_sample": []
+}

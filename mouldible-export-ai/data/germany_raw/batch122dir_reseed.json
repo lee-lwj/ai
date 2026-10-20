@@ -1,0 +1,32 @@
+{
+  "n_domains": 4,
+  "n_gsbiz": 0,
+  "domain_queue": [
+    "werkzeugbau-glauchau.de",
+    "terraplastik.de",
+    "hoppekunststoff.de",
+    "kretschmar-werkzeugbau.de"
+  ],
+  "next_search_seeds": "data/germany_raw/batch122dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "b121_domain_queue",
+    "ddg_bing_swf_owl_hessen_bw_bayern",
+    "maps",
+    "europages",
+    "fakuma_vdwf_search"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:walther-praezision.de"
+  ],
+  "queue_via": {
+    "b121_domain_queue": 5,
+    "search": 9,
+    "ep": 1
+  },
+  "cities_used": 87,
+  "supplemental_seed": "Sachsen/Thüringen/Franken cities×kw DDG/Bing (queue-only for B123)"
+}

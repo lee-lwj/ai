@@ -1,0 +1,99 @@
+{
+  "batch": 124,
+  "timestamp_hk": "2026-10-21 05:07 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4356 emails / 3047 domains (task 4356/3047; Directory Batch130dir may race — merged vs live).",
+  "baseline": {
+    "emails": 4356,
+    "domains": 3047
+  },
+  "net_new": 5,
+  "website_batch_end_snapshot": {
+    "emails": 4361,
+    "domains": 3052
+  },
+  "new_totals": {
+    "emails": 4361,
+    "domains": 3052,
+    "high": 4081,
+    "medium": 280,
+    "non_de": 1163,
+    "icp": {
+      "overseas_peer_overflow": 4023,
+      "oem_buyer": 117,
+      "sourcing": 35,
+      "design_studio": 186
+    },
+    "with_phone": 3765,
+    "with_city": 3848
+  },
+  "added_domains": [
+    "fischer-formenbau.de",
+    "icotek-kunststofftechnik.de",
+    "merkel-czeschner.de",
+    "pauser-weinkauf.de",
+    "plastolen-kf.de"
+  ],
+  "added_emails": [
+    "mp@pauser-weinkauf.de",
+    "info@merkel-czeschner.de",
+    "info@icotek-kunststofftechnik.de",
+    "fischer.wzb@t-online.de",
+    "info@plastolen-kf.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site still unreachable (curl 0 / WebFetch 500) — never invent from SERP snippet; carry recovery"
+    },
+    {
+      "item": "FLICKS-CAD Wolfgang Flickschuh",
+      "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto"
+    },
+    {
+      "item": "Finke Formenbau plain mailto / JS-split",
+      "reason": "SKIP no new plain company-site mailto beyond known finke-gruppe named"
+    },
+    {
+      "item": "ABAS Fulda named beyond info@",
+      "reason": "SKIP Cloudflare 526 — only known info@"
+    },
+    {
+      "item": "CAD-KON named beyond team_cad-kon@t-online / webmaster@",
+      "reason": "SKIP only known team_; DROP webmaster"
+    },
+    {
+      "item": "Reddikowsky / Dobener",
+      "reason": "SKIP sites dead / unreachable"
+    },
+    {
+      "item": "invent g.helm@lh-konstruktion.de",
+      "reason": "SKIP invent — only info@ published"
+    },
+    {
+      "item": "rommel-formen.de → Haas Metallguss",
+      "reason": "DROP Druckguss/Metallguss-primary (off-ICP)"
+    },
+    {
+      "item": "WIBRA Formenbau info@ / named",
+      "reason": "SKIP already known on wibra-formenbau.de"
+    },
+    {
+      "item": "ck-form.de",
+      "reason": "SKIP site unreachable (curl 0 / WebFetch 500)"
+    },
+    {
+      "item": "kaysan.t@r-weiss.de on Plastolen Impressum",
+      "reason": "DROP DSB/third-party Datenschutz"
+    },
+    {
+      "item": "info@icotek.biz",
+      "reason": "SKIP secondary brand mailbox; keep primary impressum info@icotek-kunststofftechnik.de only"
+    },
+    {
+      "item": "Gerken continuum",
+      "reason": "DROP Stanz/Umform continuum avoid"
+    }
+  ]
+}

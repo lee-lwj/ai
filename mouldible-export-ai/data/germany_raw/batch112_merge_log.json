@@ -1,0 +1,77 @@
+{
+  "batch": 112,
+  "timestamp_hk": "2026-10-21 03:58 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4192 emails / 2934 domains (parent steered 4192/2919 hosts~2934 after Batch114dir +11; never use 4177/4181).",
+  "baseline": {
+    "emails": 4192,
+    "domains": 2934
+  },
+  "net_new": 2,
+  "new_totals": {
+    "emails": 4194,
+    "domains": 2935,
+    "high": 3930,
+    "medium": 264,
+    "non_de": 1136,
+    "icp": {
+      "overseas_peer_overflow": 3900,
+      "design_studio": 170,
+      "oem_buyer": 89,
+      "sourcing": 35
+    },
+    "with_phone": 3616,
+    "with_city": 3691
+  },
+  "added_domains": [
+    "cadkon-design.com",
+    "fun-gmbh.eu"
+  ],
+  "added_emails": [
+    "team_cad-kon@t-online.de",
+    "info@fun-gmbh.eu"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "m.nagl@web.de",
+      "reason": "DROP personal web.de mailbox (FuN GF) — prefer company info@"
+    },
+    {
+      "item": "webmaster@cadkon-design.com",
+      "reason": "DROP webmaster technical contact"
+    },
+    {
+      "item": "c.zils / Bewerbungen continuum",
+      "reason": "DROP HR/Bewerbungen (prior queue)"
+    },
+    {
+      "item": "Gutekunst Formfedern",
+      "reason": "DROP Formfedern wrong ICP (prior queue)"
+    },
+    {
+      "item": "info@eberhardt-wk.de",
+      "reason": "DROP Stanz-/Umform-primary Werkzeugkonstruktion"
+    },
+    {
+      "item": "h.wirth@werkzeugbau-wirth.com",
+      "reason": "DROP Bewerbung/HR mailbox"
+    },
+    {
+      "item": "bewerbung@spindler-formenbau.de",
+      "reason": "DROP HR/Bewerbung"
+    },
+    {
+      "item": "terminbuchung@aboutjell.de",
+      "reason": "DROP appointment-booking only"
+    },
+    {
+      "item": "info@raba-tech.de / rabatech",
+      "reason": "SKIP unreachable 404"
+    },
+    {
+      "item": "ferratec / vogel / w-p-k / hwf / opticamms / kaspareth / edegs / frank / wtl / spindler / triwefo / khp / schwendemann / bayreuth / winkelmühle / ermet / croner / steiert / haenel / seeger / mueller / wefo / kon-form / schneider / km / formtech / benkert",
+      "reason": "SKIP already known"
+    }
+  ]
+}

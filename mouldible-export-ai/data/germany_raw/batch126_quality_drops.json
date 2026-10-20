@@ -1,0 +1,82 @@
+[
+  {
+    "item": "Formacon j.sancar@formacon.de",
+    "reason": "SKIP site still unreachable (curl 0 / WebFetch 500) — never invent from SERP; carry recovery"
+  },
+  {
+    "item": "FLICKS-CAD Wolfgang Flickschuh",
+    "reason": "SKIP phone-only / E-Mail: Kontakt cloak — no plain mailto"
+  },
+  {
+    "item": "Finke Formenbau plain mailto",
+    "reason": "SKIP no plain company-site mailto; Privacy cloak; known finke-gruppe named only"
+  },
+  {
+    "item": "ABAS Fulda named beyond info@",
+    "reason": "SKIP Cloudflare / no mailto on Ansprechpartner — only known info@"
+  },
+  {
+    "item": "CAD-KON named beyond team_cad-kon@t-online",
+    "reason": "SKIP only known team_; mail@cad-kon.com is Berlin Aufmass off-ICP"
+  },
+  {
+    "item": "Reddikowsky / Dobener",
+    "reason": "SKIP sites still dead / unreachable"
+  },
+  {
+    "item": "ck-form.de info@",
+    "reason": "SKIP site unreachable (curl 0 / WebFetch 500) — SERP-only invent avoid"
+  },
+  {
+    "item": "invent g.helm@lh-konstruktion.de",
+    "reason": "SKIP invent — only info@ published"
+  },
+  {
+    "item": "Conrad Formenbau und Druckguss",
+    "reason": "DROP Druckguss-primary (carry)"
+  },
+  {
+    "item": "THB Konstruktionsbüro info@thb-konstruktionsbuero.de",
+    "reason": "DROP Stanz/Umform-primary (Folgeverbund/Stanzbiege Bihler)"
+  },
+  {
+    "item": "BWF Werkzeug und Formenbau info@bwf-gmbh.de",
+    "reason": "DROP off-ICP — Alu CNC Kleinserien/mechanische Komponenten, not plastics Spritzguss Formenbau"
+  },
+  {
+    "item": "c.bosch@klaeger.de",
+    "reason": "DROP Beschaffung/Auftragsmanagement (Einkauf)"
+  },
+  {
+    "item": "i.brandner@klaeger.de",
+    "reason": "SKIP role unclear on Kontakt — avoid invent job"
+  },
+  {
+    "item": "antje.knoth@vorbach-formenbau.de",
+    "reason": "DROP Finanzen und Personal"
+  },
+  {
+    "item": "vorbach@vorbach-formenbau.de",
+    "reason": "SKIP not on live Kontakt (PDF-only / stale)"
+  },
+  {
+    "item": "job@haenel-praezision.de",
+    "reason": "DROP Bewerbung/HR"
+  },
+  {
+    "item": "beck-plastics.de",
+    "reason": "SKIP cloak / no plain mailto on Impressum"
+  },
+  {
+    "item": "formenbau-rapp.de / auer-formenbau-gmbh.de",
+    "reason": "SKIP 403/unreachable"
+  },
+  {
+    "item": "jsp-ims.com",
+    "reason": "DROP IT/CH-facing (Cavriago); Happ DE already known info@happ-gmbh.de"
+  },
+  {
+    "item": "Gerken continuum",
+    "reason": "DROP Stanz/Umform avoid"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "item": "maximilian.koenig@r-hofmann.de",
+    "reason": "DROP Supply Chain Management / Service"
+  },
+  {
+    "item": "info@spritzgusswerkzeug-konstruktion.de",
+    "reason": "SKIP no Impressum/address — DE+AT claim only, mobile-only"
+  },
+  {
+    "item": "info@gerken-konstruktionen.de",
+    "reason": "DROP Stanz-/Umform-primary co (continuum Gerken)"
+  },
+  {
+    "item": "info@wa21.de on rethemeier.eu",
+    "reason": "DROP third-party/agency mailbox"
+  },
+  {
+    "item": "info@tool4tool.de",
+    "reason": "SKIP secondary — prefer impressum primary cad@khb-buebel.de"
+  },
+  {
+    "item": "info@rethemeier.eu / info@spritzguss.de / formzeug / croner / hwf",
+    "reason": "SKIP already known"
+  }
+]

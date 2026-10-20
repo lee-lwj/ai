@@ -1,0 +1,192 @@
+[
+  {
+    "email": null,
+    "domain": "formacon.de",
+    "reason": "SKIP still dead/unreachable"
+  },
+  {
+    "email": null,
+    "domain": "cad-kon.de",
+    "reason": "SKIP still dead"
+  },
+  {
+    "email": null,
+    "domain": "reddikowsky.de",
+    "reason": "SKIP still dead"
+  },
+  {
+    "email": null,
+    "domain": "dobener.de",
+    "reason": "SKIP still dead"
+  },
+  {
+    "email": null,
+    "domain": "ck-form.de",
+    "reason": "SKIP still dead"
+  },
+  {
+    "email": null,
+    "domain": "formenbau-rapp.de",
+    "reason": "SKIP 403"
+  },
+  {
+    "email": null,
+    "domain": "auer-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "kb-sprung.de",
+    "reason": "SKIP 403"
+  },
+  {
+    "email": null,
+    "domain": "heise-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "detlef-mohr.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "hochstadter-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "jordan-spritzguss.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "preisner-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "pour-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "walter-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "heiform.de",
+    "reason": "SKIP 404"
+  },
+  {
+    "email": null,
+    "domain": "heinze-formenbau.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "ms-formen.de",
+    "reason": "SKIP dead"
+  },
+  {
+    "email": null,
+    "domain": "spritzgiessformen.de",
+    "reason": "DROP parked/redirect afp24 hijack-like"
+  },
+  {
+    "email": null,
+    "domain": "rommel-formen.de",
+    "reason": "DROP redirects to haas-metallguss.de (Metallguss wrong vertical)"
+  },
+  {
+    "email": "info@wf-werkzeugtechnik.de",
+    "domain": "wf-werkzeugtechnik.de",
+    "reason": "DROP wrong vertical — Spannzeuge/Fräswerkzeughalter CNC tooling accessories not Formenbau/Spritzguss"
+  },
+  {
+    "email": "gevelsberg@vollmann-group.com",
+    "domain": "vollmann-group.com",
+    "reason": "DROP Stanz-/Umformtechnik core (140kt Stahl vs 3kt Kunststoff)"
+  },
+  {
+    "email": null,
+    "domain": "finke-formenbau.de",
+    "reason": "SKIP JS decodeURIComponent cloak only; named already on finke-gruppe.de"
+  },
+  {
+    "email": null,
+    "domain": "beck-plastics.de",
+    "reason": "SKIP Joomla cloak only (Magstadt ICP fit)"
+  },
+  {
+    "email": null,
+    "domain": "weber-formenbau.com",
+    "reason": "SKIP Joomla cloak only (Weidenberg ICP fit)"
+  },
+  {
+    "email": null,
+    "domain": "wsneustadt.de",
+    "reason": "SKIP info[at] obfuscation invent; Spritzgusswerkzeuge ICP fit"
+  },
+  {
+    "email": null,
+    "domain": "spritzgusswerkzeug-konstruktion.de",
+    "reason": "SKIP postal Impressum still missing — medium upgrade pending"
+  },
+  {
+    "email": "info@bougies.de",
+    "domain": "formenmacher.de",
+    "reason": "DROP Thermoform/Silikon/Kerzen/Betonformen + Werbeagentur productions not Spritzguss"
+  },
+  {
+    "email": "info@rhe-we.de",
+    "domain": "rheder-werkzeugbau.de",
+    "reason": "DROP Zerspanung-primary (Drehen/Fräsen/Schleifen lead) + Stanz/Umform co-listed; Spritzgießwerkzeuge only SEO aside"
+  },
+  {
+    "email": "info@zindt-fb.de",
+    "domain": "zindt-formenbau.de",
+    "reason": "DROP EPS/EPP Partikelschaum-Formenbau (Schäumen) not thermoplastic Spritzguss"
+  },
+  {
+    "email": "info@meissner-formentechnologie.com",
+    "domain": "meissner-formentechnologie.com",
+    "reason": "DROP Sandguss/Kokillenguss/metal Formen + SLM primary; no Spritzguss confirmation"
+  },
+  {
+    "email": "a.mueller@mueller-werkzeugbau-gmbh.de",
+    "domain": "mueller-werkzeugbau-gmbh.de",
+    "reason": "DROP Buchhaltung (Anja Müller)"
+  },
+  {
+    "email": "k.sticker@mueller-werkzeugbau-gmbh.de",
+    "domain": "mueller-werkzeugbau-gmbh.de",
+    "reason": "DROP Einkauf und Fakturierung"
+  },
+  {
+    "email": "karen.assmann@ziform.com",
+    "domain": "ziform.com",
+    "reason": "DROP Personalwesen"
+  },
+  {
+    "email": "alexander.schiller@ziform.com",
+    "domain": "ziform.com",
+    "reason": "DROP Einkauf"
+  },
+  {
+    "email": "info@form-exclusiv.de",
+    "domain": "form-exclusiv.de",
+    "reason": "DROP Möbelmanufaktur wrong vertical"
+  },
+  {
+    "email": null,
+    "domain": "tilgert-formenbau.de",
+    "reason": "SKIP unreachable + JS cloak historically"
+  },
+  {
+    "email": null,
+    "domain": "hematec-werkzeugbau.de",
+    "reason": "SKIP compressed/unreadable Impressum no plain mailto"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "batch": 122,
+  "timestamp_hk": "2026-10-21 04:51 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4329 emails / 3023 domains (task steered 4324; Batch127dir→4327; Batch128dir→4329). Merge against live 4329.",
+  "baseline": {
+    "emails": 4329,
+    "domains": 3023
+  },
+  "net_new": 4,
+  "website_batch_end_snapshot": {
+    "emails": 4333,
+    "domains": 3026
+  },
+  "new_totals": {
+    "emails": 4333,
+    "domains": 3026,
+    "high": 4053,
+    "medium": 280,
+    "non_de": 1158,
+    "icp": {
+      "overseas_peer_overflow": 4003,
+      "design_studio": 183,
+      "oem_buyer": 112,
+      "sourcing": 35
+    },
+    "with_phone": 3740,
+    "with_city": 3820
+  },
+  "added_domains": [
+    "cad-kremer.de",
+    "plastium.com",
+    "ww-moltics.com"
+  ],
+  "added_emails": [
+    "waldemar.kremer@cad-kremer.de",
+    "info@plastium.com",
+    "m.costantino@plastium.com",
+    "info@ww-moltics.com"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "Finke Gruppe JS-split emails / info@finke-formenbau.de directory-only",
+      "reason": "SKIP cloak invent (JS-split spaces); no plain company-site mailto this run"
+    },
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site unreachable (curl 0 / WebFetch 500) — never invent; carry recovery"
+    },
+    {
+      "item": "ABAS Fulda named",
+      "reason": "SKIP only info@ known; Kontakt cloaked / no new plain named"
+    },
+    {
+      "item": "Krauss Calw mailto@krauss-web.de / krauss-formenbau (at)",
+      "reason": "SKIP already known / (at) already decoded known"
+    },
+    {
+      "item": "Gollmer third-party sales (stolz/mks/atr/mf-couplings)",
+      "reason": "DROP third-party on Gollmer kontakt"
+    },
+    {
+      "item": "w.schiffl@cad-schiffl.de",
+      "reason": "DROP off-ICP (Anlagenbau pipeXPRESS / CAD Schulung, not Formenbau)"
+    },
+    {
+      "item": "dialog@seiten-werk.com / info@tim-gatzky.de / support@cosmiclabs",
+      "reason": "DROP Werbeagentur/web designer third-party"
+    },
+    {
+      "item": "dsb@polar-form.de",
+      "reason": "DROP Datenschutzbeauftragter"
+    },
+    {
+      "item": "d.marx@ / l.schuck@ rausch-formenbau.de",
+      "reason": "DROP Buchhaltung/Verwaltung / Einkauf"
+    },
+    {
+      "item": "einkauf@triwefo.de / FLICKS-CAD phone-only / Gerken continuum",
+      "reason": "DROP Einkauf / phone-only invent / Gerken Stanz continuum"
+    },
+    {
+      "item": "placeholder info@company.com etc Heinrich Schmitt template",
+      "reason": "DROP template placeholders"
+    },
+    {
+      "item": "Scheidig/HHK/Klomfass/KuKo/WTL/WISA/Polar/FBB/Spies/Eder already known",
+      "reason": "SKIP already known"
+    }
+  ]
+}

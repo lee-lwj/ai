@@ -1,0 +1,38 @@
+{
+  "batch": "129dir",
+  "n_emails": 18,
+  "n_domains": 16,
+  "emails": [
+    "info@atplast.de",
+    "u.labusga@la-kunststoff.de",
+    "kontakt@jost-plastec.de",
+    "info@zeller-plastik.de",
+    "info@winkler-werkzeugbau.de",
+    "info@gartzke-kunststoffe.de",
+    "c.gartzke@gartzke-kunststoffe.de",
+    "k-galleske@gartzke-kunststoffe.de",
+    "info@rk-werkzeugbau.de",
+    "info@moldtecs.com",
+    "info@pohl-kunststofftechnik.de",
+    "info@memoplast.de",
+    "info@kunststoffspritzguss-service.de",
+    "info@ks-kunststoff.de",
+    "kontakt@k-form.com",
+    "info@formwerk.eu",
+    "info@rr-kunststoff.de",
+    "verkauf@gbm-kunststoff.com"
+  ],
+  "quality_drops_sample": [
+    "gfu-forming.de: DROP metal Rohr-/Stanz-Umform machines (non-ICP)",
+    "polyform.de: DROP mannequin/display foam forms (non-ICP)",
+    "formundfaser.de: DROP no plastics ICP; PLZ 24214 Lindau (SH) not Bodensee",
+    "dax-metallform.de: DROP Metallform/Stanz",
+    "nolte-werkzeugbau.com (Mayen Formenbau): DROP only verwaltung@ published (role policy)",
+    "verwaltung@bfw-formenbau.de: DROP Verwaltung",
+    "personalbuero@zeller-plastik.de: DROP Personal",
+    "info@weborbis-webdesign.de: DROP web designer on third-party impressum",
+    "vistlerplast.com: DROP no German Impressum signal",
+    "ozmetalplastik.com/nuovacplastica.com/inovamolde.com/repinjection.com/baxter-injection.com/haberl.at/troestl.at: DROP non-DE / no DE Impressum",
+    "cross-domain aliases already in CSV (saur-wzb, snw-formenbau, wzb-berger, dorn-tt, hoemberg, we-ku, formenbau-gf, bm-formenbau, praezisionsformenbau)"
+  ]
+}

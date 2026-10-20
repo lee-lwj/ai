@@ -1,0 +1,42 @@
+{
+  "batch": "109dir",
+  "label": "目录/展会轨 Batch109dir",
+  "csv_before": 4078,
+  "csv_after": 4103,
+  "net_new_emails": 25,
+  "high": 23,
+  "medium": 2,
+  "impressum_checked": 45,
+  "impressum_ok": 23,
+  "stats": {
+    "added_cand": 25,
+    "no_hit": 22,
+    "brand_related_medium": 2,
+    "qual_exclude": 3
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 21,
+  "reseed_source": "Gelbe Seiten gsbiz ids remaining 21",
+  "seed_status": {
+    "gsbiz_drained": 50,
+    "ajax_pages": 75,
+    "ajax_new_ids": 75,
+    "expand_fetched": 75,
+    "queue": 50,
+    "new_gsbiz_ids_remaining": 0,
+    "sources": {
+      "email": 52,
+      "web": 4
+    },
+    "method": "Drain 50 gsbiz + BW/BY cities + praezision/2k/silikon/LSR cats; WLW skipped",
+    "reseed_after": 21
+  },
+  "baseline_note": "Re-read CSV before merge (4078/2827)",
+  "blockers": [
+    "WLW CAPTCHA — skipped"
+  ],
+  "domains_after": 2849,
+  "domains_before": 2827,
+  "sources": "Drain 50 gsbiz + BW/BY cities + praezision/2k/silikon/LSR cats; WLW skipped",
+  "quality_note": "Dropped portal/IHK/the.net/off-domain/admin; kept same-domain high + brand_related medium"
+}

@@ -1,0 +1,10 @@
+# Batch 134 queue note (Website / named Kontakt)
+
+Baseline after B133: live **4548** emails / **3179** domains (~**3189** hosts) (B133 website net +5 from 4543).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch135dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers; Thermoform-Tiefzieh-primary (Senkel pattern); Zerspanung-only (Kaiser/Neueder pattern); CNC-Frästeile-only (Bärmann pattern); casino-hijacked hosts (wedo pattern).
+- B133 KEEP: Meding info@ (Halver); Henry info@+vertrieb@+technik@ (Merkers); Painpoint info@ (Dinkelsbühl design_studio).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); Finke plain mailto if published (JS crypt still only); CAD-KON plastics named if .de recovers; Reddikowsky/Dobener/ck-form if live; Beck/Bauer Willingen if plain mailto (Joomla cloak); Formenbau Rapp / Auer / kb-sprung if 403 clears; Heise/Detlef Mohr/Hochstadter-formenbau if sites recover; Jordan Spritzguss if recovers; WS Neustadt plain mailto upgrade; SGWK postal Impressum upgrade medium→high; preisner/pour/walter-formenbau host if plain Impressum recovers; HeiForm/Heinze when 403 clears; Weber Formenbau Weidenberg if plain (cloak now); MS Formen/spritzgiessformen Allgäu if site recovers; rommel-formen.de / wf-werkzeugtechnik.de verify if live with plain mailto; PFAFF moritz.hummel@ / alexander.reiners@ only if published with non-Personal/Einkauf DE role; Langer named only if plain mailto beyond info@; speculative NEW geographic (Ruhrgebiet/Bergisches Land/Niederrhein residual singles per dir seeds).

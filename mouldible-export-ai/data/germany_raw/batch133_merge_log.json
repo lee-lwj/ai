@@ -1,0 +1,33 @@
+{
+  "batch": 133,
+  "type": "website_named_kontakt",
+  "baseline_emails": 4543,
+  "baseline_domains_col": 3176,
+  "baseline_hosts": 3186,
+  "baseline_note": "live re-read before merge: 4543 unique emails / 3176 domain-col / 3186 hosts (task cited 4543 after B132)",
+  "added": 5,
+  "after_emails": 4548,
+  "after_domains_col": 3179,
+  "after_hosts": 3189,
+  "kept_emails": [
+    "info@meding.com",
+    "info@henry-technologies.de",
+    "vertrieb@henry-technologies.de",
+    "technik@henry-technologies.de",
+    "info@painpoint-kunststofftechnik.de"
+  ],
+  "skipped_dup": [],
+  "high": 4267,
+  "medium": 281,
+  "phone_n": 3926,
+  "city_n": 4032,
+  "non_de": 1207,
+  "icp_tag_counts": {
+    "overseas_peer_overflow": 4164,
+    "oem_buyer": 148,
+    "sourcing": 36,
+    "design_studio": 200
+  },
+  "timestamp_hkt": "2026-10-21 Asia/Hong_Kong",
+  "task_start_cited_emails": 4543
+}

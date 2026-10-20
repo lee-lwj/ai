@@ -1,0 +1,133 @@
+{
+  "batch": 123,
+  "keep": [
+    {
+      "company": "IRB Werkzeugbau GmbH",
+      "domain": "irb-werkzeugbau.de",
+      "email": "info@irb-werkzeugbau.de",
+      "email_source_url": "https://www.irb-werkzeugbau.de/impressum.php",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 6022 24272",
+      "city": "Kleinwallstadt",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch123: NEW domain; live Impressum §TMG IRB Werkzeugbau GmbH Plattenbergstraße 4, 63839 Kleinwallstadt; HRB 4681 Aschaffenburg; GF Reinhold/Bianca Büttner; Werkzeuge/Prototypen/Formen/Lehren peer tooling"
+    },
+    {
+      "company": "POLYTHERM Dipl.-Ing. Horst Sauer GmbH",
+      "domain": "polytherm-plastic.com",
+      "email": "info@polytherm-plastic.com",
+      "email_source_url": "https://polytherm-plastic.com/kontakt",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 6021 424868",
+      "city": "Aschaffenburg",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch123: NEW domain (.com DE-proven); live Kontakt/Home mailto; Impressum Hasenhägweg 79, 63741 Aschaffenburg HRB 2958; Spritzguss OEM + eigener Formenbau/Werkzeugbau peer"
+    },
+    {
+      "company": "CAD Konstruktionsbüro (Dennis Ptach)",
+      "domain": "cad-konstruktionsbuero.de",
+      "email": "info@cad-konstruktionsbuero.de",
+      "email_source_url": "https://cad-konstruktionsbuero.de/impressum/",
+      "contact_name": "Dennis Ptach",
+      "job_title": "Inhaber / CAD-Konstruktion Formenbau",
+      "phone": "",
+      "city": "Hamm",
+      "icp_tag": "design_studio",
+      "confidence": "high",
+      "notes": "Batch123: NEW domain; live Impressum §DDG Kleingewerbe Dennis Ptach, Paderborner Straße 13, 59075 Hamm; dedicated Formenbau CAD page (Formeinsätze/Trennebenen/Schieber)"
+    },
+    {
+      "company": "Johannes Menz GmbH",
+      "domain": "johannesmenz.de",
+      "email": "info@johannesmenz.de",
+      "email_source_url": "https://www.johannesmenz.de/impressum.html",
+      "contact_name": "Stephan Menz",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 36847 516100",
+      "city": "Steinbach-Hallenberg",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch123: NEW domain; live Impressum hex-entity email decoded on same domain; Stiller Berg 22-24, 98587 Steinbach-Hallenberg HRB 301266 Jena; Spritzgusswerkzeuge + Werkzeug-/Formenbau peer"
+    },
+    {
+      "company": "LH Werkzeug-Konstruktion GmbH",
+      "domain": "lh-konstruktion.de",
+      "email": "info@lh-konstruktion.de",
+      "email_source_url": "http://www.lh-konstruktion.de/pages/impressum.php",
+      "contact_name": "Georg Helm",
+      "job_title": "Geschäftsführer / Ansprechpartner",
+      "phone": "+49 9829 9120-0",
+      "city": "Flachslanden",
+      "icp_tag": "design_studio",
+      "confidence": "high",
+      "notes": "Batch123: NEW domain; live Impressum §5 TMG LH Werkzeug-Konstruktion GmbH Neustetter Str. 2, 91604 Flachslanden HRB 7372 Ansbach; Spritzguss-/2-5K-/Etagenwerkzeuge CAD Konstruktionsbüro (g.helm@ not published — only info@)"
+    }
+  ],
+  "drops": [
+    {
+      "item": "a.mueller@ / k.sticker@ mueller-werkzeugbau-gmbh.de",
+      "reason": "DROP Buchhaltung/Organisation/Personal / Einkauf und Fakturierung"
+    },
+    {
+      "item": "info@schuetze-seifert.de (+ fulda@/wuerzburg@/bm-fulda@)",
+      "reason": "DROP off-ICP Personaldienstleister (not Formenbau)"
+    },
+    {
+      "item": "info@masterformer.de",
+      "reason": "DROP off-ICP beauty/aesthetics medical-device wholesaler"
+    },
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site unreachable (curl 0 / WebFetch 500) — never invent; carry recovery"
+    },
+    {
+      "item": "FLICKS-CAD Wolfgang Flickschuh",
+      "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto on impressum"
+    },
+    {
+      "item": "Finke Formenbau / finke-formenbau.de / finke-gruppe Kontakt",
+      "reason": "SKIP no plain company-site mailto this run (redirects to gruppe; no published plain)"
+    },
+    {
+      "item": "ABAS Fulda named beyond info@",
+      "reason": "SKIP Cloudflare 526 / no new plain named beyond known info@"
+    },
+    {
+      "item": "webmaster@cadkon-design.com / g.helm@lh invent",
+      "reason": "DROP webmaster; SKIP invent g.helm@ (only info@ published)"
+    },
+    {
+      "item": "info@wenker-werkzeugbau.de / Dobener phone-only",
+      "reason": "SKIP Wenker redirects to known growzb.de; Dobener site dead phone-only"
+    },
+    {
+      "item": "zi-systeme / Rausch / Müller known / Gerken continuum",
+      "reason": "SKIP already known / Gerken Stanz continuum"
+    }
+  ],
+  "probed_domains_sample": [
+    "irb-werkzeugbau.de",
+    "polytherm-plastic.com",
+    "cad-konstruktionsbuero.de",
+    "johannesmenz.de",
+    "lh-konstruktion.de",
+    "formacon.de",
+    "flicks-cad.de",
+    "finke-formenbau.de",
+    "abas-werkzeugbau.de",
+    "cadkon-design.com",
+    "masterformer.de",
+    "schuetze-seifert.de",
+    "wenker-werkzeugbau.de",
+    "growzb.de",
+    "dobener.de",
+    "zi-systeme.de",
+    "reddikowsky-konstruktionen.de",
+    "roesch-cad.de",
+    "wzg-konstruktion.de"
+  ]
+}

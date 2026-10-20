@@ -1,0 +1,50 @@
+[
+  {
+    "item": "Finke Gruppe JS-split emails / info@finke-formenbau.de directory-only",
+    "reason": "SKIP cloak invent (JS-split spaces); no plain company-site mailto this run"
+  },
+  {
+    "item": "Formacon j.sancar@formacon.de",
+    "reason": "SKIP site unreachable (curl 0 / WebFetch 500) — never invent; carry recovery"
+  },
+  {
+    "item": "ABAS Fulda named",
+    "reason": "SKIP only info@ known; Kontakt cloaked / no new plain named"
+  },
+  {
+    "item": "Krauss Calw mailto@krauss-web.de / krauss-formenbau (at)",
+    "reason": "SKIP already known / (at) already decoded known"
+  },
+  {
+    "item": "Gollmer third-party sales (stolz/mks/atr/mf-couplings)",
+    "reason": "DROP third-party on Gollmer kontakt"
+  },
+  {
+    "item": "w.schiffl@cad-schiffl.de",
+    "reason": "DROP off-ICP (Anlagenbau pipeXPRESS / CAD Schulung, not Formenbau)"
+  },
+  {
+    "item": "dialog@seiten-werk.com / info@tim-gatzky.de / support@cosmiclabs",
+    "reason": "DROP Werbeagentur/web designer third-party"
+  },
+  {
+    "item": "dsb@polar-form.de",
+    "reason": "DROP Datenschutzbeauftragter"
+  },
+  {
+    "item": "d.marx@ / l.schuck@ rausch-formenbau.de",
+    "reason": "DROP Buchhaltung/Verwaltung / Einkauf"
+  },
+  {
+    "item": "einkauf@triwefo.de / FLICKS-CAD phone-only / Gerken continuum",
+    "reason": "DROP Einkauf / phone-only invent / Gerken Stanz continuum"
+  },
+  {
+    "item": "placeholder info@company.com etc Heinrich Schmitt template",
+    "reason": "DROP template placeholders"
+  },
+  {
+    "item": "Scheidig/HHK/Klomfass/KuKo/WTL/WISA/Polar/FBB/Spies/Eder already known",
+    "reason": "SKIP already known"
+  }
+]

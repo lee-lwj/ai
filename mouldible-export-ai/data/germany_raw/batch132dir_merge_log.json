@@ -1,0 +1,87 @@
+{
+  "batch": "132dir",
+  "label": "目录/展会轨 Batch132dir",
+  "csv_before": 4429,
+  "csv_after": 4450,
+  "net_new_emails": 21,
+  "high": 21,
+  "medium": 0,
+  "impressum_checked": 207,
+  "impressum_ok": 69,
+  "stats": {
+    "added_cand": 21,
+    "qual_exclude": 17,
+    "already_known_skips": 6
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 478,
+    "queued_from_b131": 0,
+    "cities_used": 150,
+    "source_ok_pages": {
+      "search": 598,
+      "maps": 72,
+      "ep": 18,
+      "gs": 15
+    },
+    "queue": 0,
+    "method": "Allgäu/Oberland/Chiemgau/Bayerischer Wald × kw DDG/Bing/Maps + Europages/GS + WebSearch name-resolve; skip WLW; high quality"
+  },
+  "baseline_note": "Re-read CSV before merge after Website B126 steering (4429/3108); never regress",
+  "steering_expected_before": 4429,
+  "blockers": [
+    "WLW skipped",
+    "DDG challenged mid-batch on name queries (anomaly/captcha)",
+    "Bing name queries returned US-law garbage (geo/bot)",
+    "MS Formen Wangen no live company Impressum email",
+    "Günther Spritzguss Kaufbeuren Impressum 404 — kept homepage published contact only",
+    "many belt majors already in CSV (opticamms/frank/pfaff/mueller-mf/list/stocker/langer/vorbach/mb-spritz…)"
+  ],
+  "domains_after": 3126,
+  "domains_before": 3108,
+  "hosts_after": 3136,
+  "hosts_before": 3119,
+  "sources": "Allgäu/Oberland/Chiemgau/Bayerischer Wald + DDG/Bing/Maps/EP/GS + WebSearch; skip WLW; high quality",
+  "quality_note": "Dropped Blechumform/Druckguss/Galvanik/glass/rubber/SEA-freelancer/Verwaltung/associations; kept dual Spritz+Blech (Walter Oberstdorf); Günther homepage contact OK",
+  "quality_drops_sample": [
+    "welcome@baer-gmbh.de: DROP Spanabhebende Metallbearbeitung-primary",
+    "info@robert-frank.de / hello@: DROP SEA-Freelancer digital (not tooling)",
+    "gk@g-and-k.de: DROP Präzisionsdruckguss",
+    "info@stahlform-pfronten.de: DROP Blech/Laserschneiden fab",
+    "info@huebner-ktb.de: DROP Galvanisierung/Oberflächentechnik",
+    "service@eisch.de: DROP glass-primary",
+    "info@kraiburg.com / rubber-compounds: DROP elastomer/rubber-primary (TPE already known)",
+    "antje.knoth@vorbach-formenbau.de: DROP Finanzen/Personal",
+    "presse@draexlmaier.com: DROP presse role",
+    "impressum@kroschke.de: DROP role/junk + signs retail",
+    "info@schwaben.ihk.de: DROP association",
+    "verbraucherservice@amoena.com: DROP medical apparel off-ICP",
+    "ute.schroeder@tenax.de: DROP Papiersackfabrik",
+    "kanzlei@wackerbauer.de: DROP law firm",
+    "ffb-formen@t-online.de / opticamms / frank-formenbau / pfaff / mueller-mf / list-cad-cam / stocker / spritzguss.de / langer / fischer-formtechnik / mreuss / vorbach named / mb-spritzgusstechnik: SKIP already known",
+    "MS Formen Wangen formenundplaste.de / spritzgiessformen.de: SKIP no live Impressum email (directory-only invent avoided)",
+    "jussel.com AT Lauterach: DROP non-DE",
+    "freeglass.de: DROP glass (prior rule)",
+    "simm-zinkdruckguss: DROP Druckguss",
+    "info@osbra.com: SKIP already known at merge",
+    "peter.mayer@osbra.com: SKIP already known at merge",
+    "info@guenther-spritzgusstechnik.de: SKIP already known at merge"
+  ],
+  "cumulative": {
+    "emails": 4450,
+    "domains": 3126,
+    "hosts": 3136,
+    "high": 4170,
+    "medium": 280,
+    "tags": {
+      "overseas_peer_overflow": 4101,
+      "oem_buyer": 123,
+      "sourcing": 35,
+      "design_studio": 191
+    },
+    "phone": 3834,
+    "city": 3935,
+    "non_de": 1184
+  }
+}

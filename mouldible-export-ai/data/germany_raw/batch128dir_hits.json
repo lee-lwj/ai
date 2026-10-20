@@ -1,0 +1,12 @@
+{
+  "batch": "128dir",
+  "n_emails": 2,
+  "n_domains": 2,
+  "emails": [
+    "info@metra-kunststoffdesign.de",
+    "info@rskunststoffgmbh.de"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:thermokon.de"
+  ]
+}

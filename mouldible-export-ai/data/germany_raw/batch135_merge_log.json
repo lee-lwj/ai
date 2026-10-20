@@ -1,0 +1,39 @@
+{
+  "batch": 135,
+  "before": {
+    "emails": 4553,
+    "domains": 3182,
+    "hosts": 3191
+  },
+  "after": {
+    "emails": 4562,
+    "domains": 3188,
+    "hosts": 3197
+  },
+  "net_new": 9,
+  "added_emails": [
+    "info@hs-solingen.de",
+    "c-schmalenbach@online.de",
+    "hello@verworrn.de",
+    "mail@snk-studio.com",
+    "info@werkzeugbau-herrmann.de",
+    "thermoplast@fietz.com",
+    "s.triebs@fietz.com",
+    "m.walder@fietz.com",
+    "s.lee@fietz.com"
+  ],
+  "confidence": {
+    "medium": 282,
+    "high": 4280
+  },
+  "icp_tag": {
+    "overseas_peer_overflow": 4170,
+    "oem_buyer": 154,
+    "sourcing": 36,
+    "design_studio": 202
+  },
+  "phones": 3940,
+  "cities": 4046,
+  "non_de": 1214,
+  "timestamp_hkt": "2026-10-21 07:02:45 Asia/Hong_Kong"
+}

@@ -1,0 +1,10 @@
+# Batch 126 queue note (Website / named Kontakt)
+
+Baseline after B125: live **4399** emails / **3080** domains (B125 website net +8 from 4391; Directory Batch130dir had raised 4361→4391 before this merge).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch131dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD.
+- B125 KEEP: Berg Technologie info@bergcad.de + info@bergcad.com (Bad Lippspringe); Alento service@ (Ebersberg); Haller named Düran/Danner/Wölfle/Weiß (Lahr); Stolz&Seng info@ (Donaueschingen).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); FLICKS plain email if revealed; ABAS named beyond info@ when Cloudflare clears; Finke plain mailto if published; CAD-KON other named beyond team_cad-kon@t-online; Reddikowsky/Dobener if sites recover; ck-form.de if live; g.helm@ only if published; Conrad only if plastics Formenbau clearly primary (currently Druckguss-primary drop).

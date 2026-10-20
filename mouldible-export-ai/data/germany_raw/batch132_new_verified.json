@@ -1,0 +1,67 @@
+[
+  {
+    "company": "Schmidt Plastics GmbH",
+    "domain": "schmidt-gmbh.com",
+    "email": "info@schmidt-gmbh.com",
+    "email_source_url": "https://www.schmidt-gmbh.com/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 5903 93579-0",
+    "city": "Emsbüren",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch132: NEW domain; DE Impressum Industriestr. 17, 48488 Emsbüren HRB 110519 AG Düsseldorf USt DE306307992; Kunststoff-Formenbau + Spritzguss/Kunststoffverarbeitung; plain info@ on Impressum"
+  },
+  {
+    "company": "Schröder + Heidler GmbH",
+    "domain": "schroeder-heidler.de",
+    "email": "info@schroeder-heidler.de",
+    "email_source_url": "https://www.schroeder-heidler.de/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 37342 8760",
+    "city": "Sehmatal-Neudorf",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch132: NEW general mailbox (vertrieb@ already in master); DE Impressum Gewerbegebiet 7, 09465 Sehmatal-Neudorf HRB 2365 Chemnitz GF Sahi Khader; in-house Spritzgusswerkzeuge + Serien-Spritzguss since 1991; plain Impressum mailto"
+  },
+  {
+    "company": "LS Formenbau (M. Daniel)",
+    "domain": "ls-formenbau.de",
+    "email": "info@ls-formenbau.de",
+    "email_source_url": "http://www.ls-formenbau.de/index-Dateien/Page347.htm",
+    "contact_name": "M. Daniel",
+    "job_title": "Inhaber",
+    "phone": "+49 4221 66604",
+    "city": "Delmenhorst",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch132: NEW domain; DE Impressum Dörpfeldstraße 16, 27749 Delmenhorst; multipurpose Formenbau explicitly including Spritzgießwerkzeuge (+ Modellbau/Blasformen etc.); plain published info@LS-Formenbau.de on company Impressum"
+  },
+  {
+    "company": "Designmachine XYZ GmbH",
+    "domain": "designmachine.io",
+    "email": "mp@designmachine.io",
+    "email_source_url": "https://www.designmachine.io/",
+    "contact_name": "Maciej Puzon",
+    "job_title": "Geschäftsführer / Studio Köln",
+    "phone": "+49 221 16913102",
+    "city": "Köln",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch132: NEW named GF mailbox; plain mp@ on company site (Studio Köln/NRW); Impressum GF Maciej Puzon + Maximilian Volk HRB 10955 Ingolstadt; Industriedesign/CAD/Design für Spritzguss (hello@ already known)"
+  },
+  {
+    "company": "Designmachine XYZ GmbH",
+    "domain": "designmachine.io",
+    "email": "mv@designmachine.io",
+    "email_source_url": "https://www.designmachine.io/",
+    "contact_name": "Maximilian Volk",
+    "job_title": "Geschäftsführer / Studio Kipfenberg",
+    "phone": "+49 8465 2558621",
+    "city": "Kipfenberg",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch132: NEW named GF mailbox; plain mv@ on company site (Studio Kipfenberg/Bayern); Impressum GF + redaktionell verantwortlich; Industriedesign/CAD/Design für Spritzguss"
+  }
+]

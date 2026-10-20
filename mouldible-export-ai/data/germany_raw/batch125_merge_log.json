@@ -1,0 +1,121 @@
+{
+  "batch": 125,
+  "timestamp_hk": "2026-10-21 05:18 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write after Batch130dir steer: 4391 emails / 3078 domains (parent said 4391/3088; live unique domains=3078).",
+  "baseline": {
+    "emails": 4391,
+    "domains": 3078
+  },
+  "net_new": 8,
+  "website_batch_end_snapshot": {
+    "emails": 4399,
+    "domains": 3080
+  },
+  "new_totals": {
+    "emails": 4399,
+    "domains": 3080,
+    "high": 4119,
+    "medium": 280,
+    "non_de": 1171,
+    "icp": {
+      "overseas_peer_overflow": 4056,
+      "oem_buyer": 119,
+      "sourcing": 35,
+      "design_studio": 189
+    },
+    "with_phone": 3799,
+    "with_city": 3886
+  },
+  "added_domains": [
+    "alento.eu",
+    "berg-technologie.com"
+  ],
+  "added_emails": [
+    "info@bergcad.de",
+    "info@bergcad.com",
+    "service@alento.eu",
+    "matthias.dueran@haller-lahr.de",
+    "oliver.danner@haller-lahr.de",
+    "ralf.woelfle@haller-lahr.de",
+    "alexander.weiss@haller-lahr.de",
+    "info@stolz-seng.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site still unreachable (curl 0) — never invent from SERP; carry recovery"
+    },
+    {
+      "item": "FLICKS-CAD Wolfgang Flickschuh",
+      "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto"
+    },
+    {
+      "item": "Finke Formenbau info@finke-formenbau.de / JS-split Privacy",
+      "reason": "SKIP no plain company-site mailto; Privacy spaced cloak; third-party directory invent avoid; known finke-gruppe named only"
+    },
+    {
+      "item": "ABAS Fulda named beyond info@",
+      "reason": "SKIP Cloudflare 526 — only known info@"
+    },
+    {
+      "item": "CAD-KON named beyond team_cad-kon@t-online",
+      "reason": "SKIP only known team_"
+    },
+    {
+      "item": "Reddikowsky / Dobener",
+      "reason": "SKIP sites still dead / unreachable"
+    },
+    {
+      "item": "ck-form.de",
+      "reason": "SKIP site unreachable"
+    },
+    {
+      "item": "invent g.helm@lh-konstruktion.de",
+      "reason": "SKIP invent — only info@ published"
+    },
+    {
+      "item": "Conrad Formenbau und Druckguss info@formenbau-conrad.de",
+      "reason": "DROP Druckguss-primary (Zink Druckguss emphasis; dual Formenbau+Druckguss casting)"
+    },
+    {
+      "item": "Sieberkon mail@sieberkon.info",
+      "reason": "DROP CH/AT-only (Marbach Schweiz / +41)"
+    },
+    {
+      "item": "spritzgusswerkzeug-konstruktion.de",
+      "reason": "DROP CH/AT-only (Österreich-facing; no DE Impressum)"
+    },
+    {
+      "item": "SCK Schneider CAD info@sck.de / Gernot.Schneider@sck.de",
+      "reason": "DROP off-ICP aerospace primary (Flugzeug-Bordküchen/Montagetechnik; not Spritzgussformenbau)"
+    },
+    {
+      "item": "miriam.koessler@haller-lahr.de",
+      "reason": "DROP Einkauf/Vertrieb role"
+    },
+    {
+      "item": "roland.hallmann@haller-lahr.de",
+      "reason": "DROP Finanzen/Personal"
+    },
+    {
+      "item": "schell-connect.com",
+      "reason": "DROP Stanz continuum / connector primary"
+    },
+    {
+      "item": "formenbau-pg.de",
+      "reason": "SKIP site unreachable"
+    },
+    {
+      "item": "RSP-Ingenieurbüro",
+      "reason": "SKIP site unreachable"
+    },
+    {
+      "item": "Gerken continuum",
+      "reason": "DROP Stanz/Umform avoid"
+    }
+  ],
+  "xlsx_updated": true,
+  "added_domains_note": "Truly NEW web domains only; haller-lahr.de and stolz-seng.de were already in CSV (named/info@ expands)"
+}

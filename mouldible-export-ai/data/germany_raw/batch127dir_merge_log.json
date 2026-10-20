@@ -1,0 +1,57 @@
+{
+  "batch": "127dir",
+  "label": "目录/展会轨 Batch127dir",
+  "csv_before": 4324,
+  "csv_after": 4327,
+  "net_new_emails": 3,
+  "high": 3,
+  "medium": 0,
+  "impressum_checked": 4,
+  "impressum_ok": 4,
+  "stats": {
+    "added_cand": 3,
+    "brand_related_medium": 1,
+    "dup_email": 1
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 288,
+    "queued_from_b126": 0,
+    "cities_used": 117,
+    "source_ok_pages": {
+      "maps": 28,
+      "search": 234,
+      "ep": 14,
+      "fakuma": 12
+    },
+    "queue": 4,
+    "queue_via": {
+      "search": 3,
+      "fakuma": 1
+    },
+    "sources": {
+      "email": 3,
+      "web": 1
+    },
+    "csv_peek_at_harvest": 4316,
+    "method": "Sachsen/Oberfranken + Thüringen border/Vogtland/Erzgebirge × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality",
+    "queue_verified": 4
+  },
+  "baseline_note": "Re-read CSV before merge (4324/3018); Website B121 landed (steering 4324/3029 hosts / 3018 domains); prior dir baseline was 4316",
+  "steering_expected_before": 4324,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "nationwide saturation — thin new-domain yield"
+  ],
+  "domains_after": 3021,
+  "domains_before": 3018,
+  "sources": "Sachsen/Oberfranken + Thüringen border/Vogtland/Erzgebirge × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality",
+  "expand_worked": {
+    "search": 3,
+    "fakuma": 1
+  },
+  "quality_note": "brand_related dressel-kt←dressel-spritzguss; high bar on associations/materials/accounting",
+  "quality_drops_sample": []
+}

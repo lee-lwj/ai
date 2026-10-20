@@ -1,0 +1,87 @@
+{
+  "batch": 123,
+  "timestamp_hk": "2026-10-21 05:01 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4351 emails / 3042 domains (task steered after Batch129dir +18 from 4333/3026). Merge against live 4351.",
+  "baseline": {
+    "emails": 4351,
+    "domains": 3042
+  },
+  "net_new": 5,
+  "website_batch_end_snapshot": {
+    "emails": 4356,
+    "domains": 3047
+  },
+  "new_totals": {
+    "emails": 4356,
+    "domains": 3047,
+    "high": 4076,
+    "medium": 280,
+    "non_de": 1163,
+    "icp": {
+      "overseas_peer_overflow": 4021,
+      "design_studio": 185,
+      "oem_buyer": 115,
+      "sourcing": 35
+    },
+    "with_phone": 3760,
+    "with_city": 3843
+  },
+  "added_domains": [
+    "irb-werkzeugbau.de",
+    "polytherm-plastic.com",
+    "cad-konstruktionsbuero.de",
+    "johannesmenz.de",
+    "lh-konstruktion.de"
+  ],
+  "added_emails": [
+    "info@irb-werkzeugbau.de",
+    "info@polytherm-plastic.com",
+    "info@cad-konstruktionsbuero.de",
+    "info@johannesmenz.de",
+    "info@lh-konstruktion.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "a.mueller@ / k.sticker@ mueller-werkzeugbau-gmbh.de",
+      "reason": "DROP Buchhaltung/Organisation/Personal / Einkauf und Fakturierung"
+    },
+    {
+      "item": "info@schuetze-seifert.de (+ fulda@/wuerzburg@/bm-fulda@)",
+      "reason": "DROP off-ICP Personaldienstleister (not Formenbau)"
+    },
+    {
+      "item": "info@masterformer.de",
+      "reason": "DROP off-ICP beauty/aesthetics medical-device wholesaler"
+    },
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site unreachable (curl 0 / WebFetch 500) — never invent; carry recovery"
+    },
+    {
+      "item": "FLICKS-CAD Wolfgang Flickschuh",
+      "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto on impressum"
+    },
+    {
+      "item": "Finke Formenbau / finke-formenbau.de / finke-gruppe Kontakt",
+      "reason": "SKIP no plain company-site mailto this run (redirects to gruppe; no published plain)"
+    },
+    {
+      "item": "ABAS Fulda named beyond info@",
+      "reason": "SKIP Cloudflare 526 / no new plain named beyond known info@"
+    },
+    {
+      "item": "webmaster@cadkon-design.com / g.helm@lh invent",
+      "reason": "DROP webmaster; SKIP invent g.helm@ (only info@ published)"
+    },
+    {
+      "item": "info@wenker-werkzeugbau.de / Dobener phone-only",
+      "reason": "SKIP Wenker redirects to known growzb.de; Dobener site dead phone-only"
+    },
+    {
+      "item": "zi-systeme / Rausch / Müller known / Gerken continuum",
+      "reason": "SKIP already known / Gerken Stanz continuum"
+    }
+  ]
+}

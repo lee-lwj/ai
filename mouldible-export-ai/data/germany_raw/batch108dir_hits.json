@@ -1,0 +1,28 @@
+{
+  "batch": "108dir",
+  "n_emails": 21,
+  "n_domains": 21,
+  "emails": [
+    "info@aptoplast.com",
+    "info@bayer-praezisionsteile.de",
+    "info@feintech-richter.de",
+    "info@g-k-schoen.de",
+    "info@hms-gmbh.eu",
+    "info@greineroffenburg.de",
+    "info@kern.de",
+    "info@cncform.de",
+    "info@koenig-automotive.de",
+    "info@hallerkt.de",
+    "sekretariat@komos.de",
+    "info@kostal-co.de",
+    "info@rmax-poliertechnik.de",
+    "info@rietzel-plexi.de",
+    "info@schreck-kunststofftechnik.com",
+    "office@richter-wolfgang.com",
+    "info@schulze-schulze.com",
+    "info@profiform-feinwerktechnik.de",
+    "info@kremm.de",
+    "info@uebelgoenne.de",
+    "fp@waltonphilipps.com"
+  ]
+}

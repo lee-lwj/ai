@@ -1,0 +1,45 @@
+{
+  "batch": "110dir",
+  "label": "目录/展会轨 Batch110dir",
+  "csv_before": 4108,
+  "csv_after": 4136,
+  "net_new_emails": 28,
+  "high": 28,
+  "medium": 0,
+  "impressum_checked": 45,
+  "impressum_ok": 19,
+  "stats": {
+    "added_cand": 28,
+    "no_hit": 26,
+    "dup_email": 1,
+    "qual_exclude": 1
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 4,
+  "reseed_source": "Gelbe Seiten gsbiz ids remaining 4",
+  "seed_status": {
+    "gsbiz_drained": 21,
+    "ajax_pages": 101,
+    "ajax_new_ids": 6,
+    "expand_fetched": 6,
+    "queue": 50,
+    "new_gsbiz_ids_remaining": 0,
+    "sources": {
+      "email": 50
+    },
+    "method": "Drain 21 gsbiz + formenbau/spritzguss p5-11 + werkzeugbau p4-8 + BW/BY/NRW cities; WLW skipped; + Europages DE + niche GS (senkerodieren/blasformen/etc)",
+    "extra_ep_pages": 11,
+    "extra_niche_gs": 14,
+    "extra_gsbiz_fetched": 67
+  },
+  "baseline_note": "Re-read CSV before merge (4108/2854); Website B109 +5 already landed",
+  "blockers": [
+    "WLW CAPTCHA — skipped",
+    "hellerkunststoffe/kvr-radeburg/psg-online forced no_email (timeout)",
+    "GS bundesweit pages largely exhausted; expanded niche+Europages"
+  ],
+  "domains_after": 2871,
+  "domains_before": 2854,
+  "sources": "Drain 21 gsbiz + formenbau/spritzguss p5-11 + werkzeugbau p4-8 + BW/BY/NRW cities; WLW skipped; + Europages DE + niche GS (senkerodieren/blasformen/etc)",
+  "quality_note": "Dropped portal/webmail/off-domain; kept same-domain high + brand_related medium"
+}

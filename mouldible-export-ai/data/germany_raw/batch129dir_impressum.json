@@ -1,0 +1,811 @@
+[
+  {
+    "domain": "saur-formenbau.de",
+    "ok": true,
+    "emails": [
+      "info@saur-wzb.de"
+    ],
+    "source_url": "https://www.saur-formenbau.de/impressum",
+    "phone": "tel:07133 901800",
+    "city": "Lauffen am Neckar",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "polyform.de",
+    "ok": true,
+    "emails": [
+      "service@polyform.de"
+    ],
+    "source_url": "https://www.polyform.de/impressum",
+    "phone": "+49575140080",
+    "city": "Rinteln",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gaertner-praezisionsformenbau.de",
+    "ok": true,
+    "emails": [
+      "info@praezisionsformenbau.de"
+    ],
+    "source_url": "https://www.gaertner-praezisionsformenbau.de/",
+    "phone": "",
+    "city": "",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "snw-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@snw-formenbau.de"
+    ],
+    "source_url": "https://www.snw-werkzeugbau.de/impressum/",
+    "phone": "+49(0)5222/9412-0",
+    "city": "Bad Salzuflen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "snw-formenbau.com",
+    "ok": true,
+    "emails": [
+      "info@snw-formenbau.de"
+    ],
+    "source_url": "https://www.snw-formenbau.com/impressum/",
+    "phone": "+49(0)5222/9412-0",
+    "city": "Bad Salzuflen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "rr-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@rr-kunststoff.de"
+    ],
+    "source_url": "https://www.rr-kunststoff.de/impressum/",
+    "phone": "+49 36651/39782",
+    "city": "Saalburg-Ebersdorf",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gfu-forming.de",
+    "ok": true,
+    "emails": [
+      "info@gfu-forming.de",
+      "service@gfu-forming.de",
+      "sales@gfu-forming.de"
+    ],
+    "source_url": "https://gfu-forming.de/impressum/",
+    "phone": "+49 6561 6949449",
+    "city": "Bitburg vertreten von Michael Roderich Am",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "praezisions-formenbau-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@bm-formenbau.de",
+      "info@weborbis-webdesign.de"
+    ],
+    "source_url": "https://praezisions-formenbau-werkzeugbau.de/impressum/",
+    "phone": "+49 9841 689070-0",
+    "city": "Bad Windsheim",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "nolte-werkzeugbau.com",
+    "ok": true,
+    "emails": [
+      "verwaltung@nolte-werkzeugbau.com"
+    ],
+    "source_url": "https://nolte-werkzeugbau.com/impressum/",
+    "phone": "+49 2652 93450-0",
+    "city": "Mayen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "atplast.de",
+    "ok": true,
+    "emails": [
+      "info@atplast.de"
+    ],
+    "source_url": "https://atplast.de/impressum/",
+    "phone": "+49 (0)6784 / 1419",
+    "city": "Idar-Oberstein",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbau-gf.com",
+    "ok": true,
+    "emails": [
+      "kontakt@formenbau-gf.de"
+    ],
+    "source_url": "https://www.formenbau-gf.com/Impressum/",
+    "phone": "tel:03735 - 9166-0",
+    "city": "Marienberg",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "la-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "u.labusga@la-kunststoff.de"
+    ],
+    "source_url": "https://www.la-kunststoff.de/impressum",
+    "phone": "+491728707079",
+    "city": "Birkenfeld",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gbm-kunststoff.eu",
+    "ok": true,
+    "emails": [
+      "verkauf@gbm-kunststoff.com"
+    ],
+    "source_url": "https://www.gbm-kunststoff.eu/about/",
+    "phone": "",
+    "city": "DUNS",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "driess-kunststoffe.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "formundfaser.de",
+    "ok": true,
+    "emails": [
+      "info@formundfaser.de"
+    ],
+    "source_url": "https://formundfaser.de/impressum/",
+    "phone": "+4943466020190",
+    "city": "Lindau Telefon",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "werkzeugbauberger.de",
+    "ok": true,
+    "emails": [
+      "info@wzb-berger.de"
+    ],
+    "source_url": "https://www.werkzeugbauberger.de/de/impressum",
+    "phone": "+495258797810",
+    "city": "Salzkotten-Scharmede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "jost-plastec.com",
+    "ok": true,
+    "emails": [
+      "kontakt@jost-plastec.de"
+    ],
+    "source_url": "https://jost-plastec.com/impressum/",
+    "phone": "+49 6132 71677-10",
+    "city": "Ingelheim am Rhein",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "metallformen.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "zeller-plastik.de",
+    "ok": true,
+    "emails": [
+      "info@zeller-plastik.de",
+      "personalbuero@zeller-plastik.de"
+    ],
+    "source_url": "https://zeller-plastik.de/impressum/",
+    "phone": "+49 6542 417 0",
+    "city": "Zell",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ihr-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "winkler-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@winkler-werkzeugbau.de"
+    ],
+    "source_url": "https://www.winkler-werkzeugbau.de/kontakt",
+    "phone": "+498923799307",
+    "city": "Taufkirchen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "werkzeugbau-berger.com",
+    "ok": true,
+    "emails": [
+      "info@wzb-berger.de"
+    ],
+    "source_url": "https://www.werkzeugbau-berger.com/de/impressum",
+    "phone": "+495258797810",
+    "city": "Salzkotten-Scharmede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-haas.de",
+    "ok": true,
+    "emails": [
+      "info@haas-werkzeugbau.de"
+    ],
+    "source_url": "https://werkzeugbau-haas.de/impressum/",
+    "phone": "",
+    "city": "Lossburg-Lombach",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "itm-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "bks-spritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ks-modell-formenbau.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "euro-forming.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "gartzke-kunststoffe.de",
+    "ok": true,
+    "emails": [
+      "info@gartzke-kunststoffe.de"
+    ],
+    "source_url": "https://www.gartzke-kunststoffe.de/kontakt/",
+    "phone": "+49 (5151) 82240-0",
+    "city": "Hameln",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "dax-metallform.de",
+    "ok": true,
+    "emails": [
+      "personal@dax-metallform.de",
+      "info@dax-metallform.de"
+    ],
+    "source_url": "https://www.dax-metallform.de/",
+    "phone": "",
+    "city": "Cochem",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "rk-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@rk-werkzeugbau.de"
+    ],
+    "source_url": "https://rk-werkzeugbau.de/impressum",
+    "phone": "+49 (0) 151 420 209 45",
+    "city": "Düsseldorf",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "spritzgusswerkzeug-reparatur.de",
+    "ok": true,
+    "emails": [
+      "info@geschwentner-form.de"
+    ],
+    "source_url": "https://www.spritzgusswerkzeug-reparatur.de/kontakt/",
+    "phone": "+49-7426-519730",
+    "city": "Deilingen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "moldtecs.com",
+    "ok": true,
+    "emails": [
+      "info@moldtecs.com"
+    ],
+    "source_url": "https://moldtecs.com/contact/",
+    "phone": "+49 3675 877 0",
+    "city": "Laval",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "weform.de",
+    "ok": true,
+    "emails": [
+      "info@coregenion.de"
+    ],
+    "source_url": "https://www.weform.de/imprint",
+    "phone": "tel:004999429453100",
+    "city": "Viechtach",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "pohl-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@pohl-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.pohl-kunststofftechnik.de/impressum/",
+    "phone": "+496627915660",
+    "city": "Nentershausen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbaunord.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "memoplast.de",
+    "ok": true,
+    "emails": [
+      "info@memoplast.de"
+    ],
+    "source_url": "https://memoplast.de/impressum/",
+    "phone": "+4922469169590",
+    "city": "Troisdorf",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "kunststoffspritzguss-service.de",
+    "ok": true,
+    "emails": [
+      "info@kunststoffspritzguss-service.de"
+    ],
+    "source_url": "https://www.kunststoffspritzguss-service.de/impressum",
+    "phone": "+49(0)42 42",
+    "city": "Syke",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "weku-kunststoffverarbeitung.de",
+    "ok": true,
+    "emails": [
+      "info@we-ku.de"
+    ],
+    "source_url": "https://weku-kunststoffverarbeitung.de/",
+    "phone": "",
+    "city": "",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "hoffmann-kunststoffe.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ks-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@ks-kunststoff.de"
+    ],
+    "source_url": "https://ks-kunststoff.de/impressum/",
+    "phone": "",
+    "city": "Zweibrücken Vertretungsberechtiger Geschä",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "k-form.com",
+    "ok": true,
+    "emails": [
+      "kontakt@k-form.com"
+    ],
+    "source_url": "https://www.k-form.com/impressum",
+    "phone": "+495734665650",
+    "city": "Minden",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "wuensch-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "troestl-kunststofftechnik.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "formwerk.eu",
+    "ok": true,
+    "emails": [
+      "info@formwerk.eu"
+    ],
+    "source_url": "https://www.formwerk.eu/impressum/",
+    "phone": "+49 3762-9565 0",
+    "city": "Neukirchen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "dorn-spritzguss.de",
+    "ok": true,
+    "emails": [
+      "info@dorn-tt.de"
+    ],
+    "source_url": "https://www.dorn-spritzguss.de/impressum",
+    "phone": "",
+    "city": "Tettnang-Hiltensweiler",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "proform-spritztechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "hoemberg-kunststoffspritzguss.de",
+    "ok": true,
+    "emails": [
+      "info@hoemberg-kunststofftechnik.de"
+    ],
+    "source_url": "https://hoemberg-kunststoffspritzguss.de/impressum/",
+    "phone": "+49 2351 786001",
+    "city": "",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "matthias-mod-form.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "modellbau-mueller.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "singer-kunststoffspritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "singer-spritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "bfw-formenbau.de",
+    "ok": true,
+    "emails": [
+      "verwaltung@bfw-formenbau.de"
+    ],
+    "source_url": "https://www.bfw-formenbau.de/impressum.html",
+    "phone": "Tel. (06042) 9645-0",
+    "city": "Büdingen-Lorbach",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "permolde.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "hmb-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "jenewein-modellbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "schlegel-kunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "inovamolde.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "baxter-injection.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "behringer-kunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "weinmueller-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "vistlerplast.com",
+    "ok": true,
+    "emails": [
+      "info@vistlerplast.com"
+    ],
+    "source_url": "https://vistlerplast.com/kontakt/",
+    "phone": "",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "nuovacplastica.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "mmh-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "vollmer-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ozmetalplastik.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kneer-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "emk-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "aku-kunststoff24.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "vvk-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "repinjection.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "siki-plastik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "lt-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "haberl-kunststofftechnik.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

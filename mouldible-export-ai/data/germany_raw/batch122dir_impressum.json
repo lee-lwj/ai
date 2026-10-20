@@ -1,0 +1,172 @@
+[
+  {
+    "domain": "walther-praezision.de",
+    "ok": true,
+    "emails": [
+      "info@walther-praezision.de"
+    ],
+    "source_url": "https://www.walther-praezision.de/impressum/",
+    "phone": "+49 (0)2129 / 567-0",
+    "city": "HaanDeutschland T",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbau-bockenem.de",
+    "ok": true,
+    "emails": [
+      "udo.orth@formenbau-bockenem.de",
+      "kontakt@formenbau-bockenem.de"
+    ],
+    "source_url": "https://www.formenbau-bockenem.de/impressum/",
+    "phone": "",
+    "city": "Bockenem Handelsregister",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "mela-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@mela-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.mela-kunststofftechnik.de/impressum/",
+    "phone": "Tel. 0561 8619771",
+    "city": "Kassel",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "beck-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "wzb@beck-formenbau.de"
+    ],
+    "source_url": "https://beck-kunststofftechnik.de/impressum",
+    "phone": "tel:0561829870",
+    "city": "Vellmar",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "deutsche-thermo.de",
+    "ok": true,
+    "emails": [
+      "info@deutsche-thermo.de",
+      "lv@deutsche-thermo.de"
+    ],
+    "source_url": "https://www.deutsche-thermo.de/impressum/",
+    "phone": "tel:004922196880410",
+    "city": "Köln Vertreten durch",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "toolmoulding.de",
+    "ok": true,
+    "emails": [
+      "info@toolmoulding.de"
+    ],
+    "source_url": "https://toolmoulding.de/impressum/",
+    "phone": "+49 (0) 5032 932 27 0",
+    "city": "Minden",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "hmb-formen.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "argeform.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "scheplast.de",
+    "ok": true,
+    "emails": [
+      "info@scheplast.de"
+    ],
+    "source_url": "https://scheplast.de/impressum/",
+    "phone": "",
+    "city": "Schwendi Handelsregister",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "stantool.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "itm-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "spritzgusstechnik.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "cnc-teschke.de",
+    "ok": true,
+    "emails": [
+      "info@cnc-teschke.de"
+    ],
+    "source_url": "https://cnc-teschke.de/",
+    "phone": "+49 (2265) 997 595 5",
+    "city": "Reichshof",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "schnepel-werkzeugbau.com",
+    "ok": true,
+    "emails": [
+      "info@schnepel-werkzeugbau.de"
+    ],
+    "source_url": "https://schnepel-werkzeugbau.com/",
+    "phone": "tel:0571 5 09 34 40",
+    "city": "Minden",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "polynisterplastik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

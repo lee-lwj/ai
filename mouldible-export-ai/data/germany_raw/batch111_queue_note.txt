@@ -1,0 +1,11 @@
+# Batch 111 queue note (Website / named Kontakt)
+
+Baseline after B110: **4140** emails / **2889** domains (from 4136/2887; B110 net +4).
+
+- Expand empty; DE tooling singles exhausted; thin multi named Kontakt low-yield.
+- Prefer web-search + WebFetch named Kontakt (konstruktion@/cad@/anfrage@/Konstruktionsleiter) + NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion.
+- Prefer DE-proven (Impressum DE / DE phone); treat non-DE EU country boxes cautiously.
+- Watch Directory Batch111dir / Batch112dir / map-reseed — re-read CSV before write.
+- Avoid: Stanz/Umform/Schnitt; Druckguss/Kokillen-primary; Thermoform/Siegel packaging; Rohstoff; Formkästen/Corian/Feuerfest; Composite/RTM-primary; Feinguss/Gießerei-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Assistentin/Versand/Lager-Logistik; cloak invent (ROT13/JS/mailto∂/E-Mail anzeigen); third-party agency footer; Liquidation/stale; master-optional skip; Metallguss redirects; unnamed role lists without titles; HR/jobs mailboxes; generic Maschinenbau CAD without Spritz/Formenbau.
+- Known skips this continuum: … + Meykon Feinguss/Blasform; cad-konstruktionsbuero generic Maschinenbau; Flicks-CAD cloak; JS Konstruktion Gießerei/Modellbau; Schwinn Umform; AT formenbau-gmbh Feinguss; arichter Verwaltung.
+- B110 KEEP: Goletz Kierspe; Oelfke asommer+jsommer; Kompetenz Kunststoff Niedereschach (sourcing).

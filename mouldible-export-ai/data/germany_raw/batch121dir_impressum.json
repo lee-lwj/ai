@@ -1,0 +1,190 @@
+[
+  {
+    "domain": "withoeft-werkzeuge.de",
+    "ok": true,
+    "emails": [
+      "post@withoeft-werkzeuge.de"
+    ],
+    "source_url": "https://withoeft-werkzeuge.de/index.php?id=29",
+    "phone": "+49 (0) 23 52 / 33 47 90",
+    "city": "ALTENA",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "jhwerkzeug.de",
+    "ok": true,
+    "emails": [
+      "info@jhwerkzeug.de"
+    ],
+    "source_url": "https://jhwerkzeug.de/impressum",
+    "phone": "+490704183342",
+    "city": "Mühlacker",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formex.de",
+    "ok": true,
+    "emails": [
+      "info@faltbox.de"
+    ],
+    "source_url": "https://faltbox.com/de/das-ist-walther/unsere-produktion/",
+    "phone": "+492832930790",
+    "city": "Kevelaer",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "koblenzer-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@koblenzer-werkzeugbau.de"
+    ],
+    "source_url": "https://www.koblenzer-werkzeugbau.de/impressum/",
+    "phone": "+49 (0)2 61 - 98 39 71-0",
+    "city": "Koblenz",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "werkzeugbau-schulz.de",
+    "ok": true,
+    "emails": [
+      "info@werkzeugbau-schulz.de"
+    ],
+    "source_url": "https://www.werkzeugbau-schulz.de/impressum/",
+    "phone": "Tel.: 030 - 474 110 20",
+    "city": "Berlin",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "horst-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@horst-kunststofftechnik.de"
+    ],
+    "source_url": "https://horst-kunststofftechnik.de/impressum/",
+    "phone": "+49 (0) 6425 8219 52",
+    "city": "Rauschenberg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "noelle-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@noelle-kst.de"
+    ],
+    "source_url": "https://noelle-kunststofftechnik.de/ihr-partner-fuer-werkzeugbau-und-spritzguss-im-sauerland",
+    "phone": "+49 291 99 12 0",
+    "city": "Meschede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "w-pressformenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-schmidt.com",
+    "ok": true,
+    "emails": [
+      "info@werkzeugbau-schmidt.com"
+    ],
+    "source_url": "https://www.werkzeugbau-schmidt.com/impressum/",
+    "phone": "+49277373535",
+    "city": "Haiger",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "herrmann-werkzeugbau.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-wolf.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststoffformenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "bannerkunststoff.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "cnc-connection-germany.de",
+    "ok": true,
+    "emails": [
+      "info@cnc-connection-germany.de"
+    ],
+    "source_url": "https://www.cnc-connection-germany.de/impressum.html",
+    "phone": "+4915781557172",
+    "city": "Koblenz",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "troestl-kunststofftechnik.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugschmiede24.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "emk-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

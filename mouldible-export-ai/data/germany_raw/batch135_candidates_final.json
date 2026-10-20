@@ -1,0 +1,123 @@
+{
+  "keep": [
+    {
+      "company": "Hermann & Schmachtenberg GmbH",
+      "domain": "hs-solingen.de",
+      "email": "info@hs-solingen.de",
+      "email_source_url": "https://www.hs-solingen.de/Impressum",
+      "contact_name": "Karl-Wilfried Schmachtenberg",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 212 818077",
+      "city": "Solingen",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch135: NEW domain; DE Impressum Bergerstraße 25 42657 Solingen HRB15058 AG Wuppertal USt DE120878479; plain mailto info@hs-solingen.de on Impressum+home; Kunststoff-Spritzgusstechnik seit 1972 (OEM buyer / hybrid Formenbau history)"
+    },
+    {
+      "company": "Carsten Schmalenbach Kunststoffspritzguß",
+      "domain": "cs-kleinserien.de",
+      "email": "c-schmalenbach@online.de",
+      "email_source_url": "https://www.cs-kleinserien.de/impressum/",
+      "contact_name": "Carsten Schmalenbach",
+      "job_title": "Inhaber",
+      "phone": "+49 202 8904482",
+      "city": "Wuppertal",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch135: NEW soft-domain online.de DE-proven; Impressum Mauerstr. 40 42285 Wuppertal; plain mailto c-schmalenbach@online.de on Impressum+Kontakt; Kunststoffspritzguß Kleinserien OEM buyer"
+    },
+    {
+      "company": "Verworrn Design",
+      "domain": "verworrn.de",
+      "email": "hello@verworrn.de",
+      "email_source_url": "https://www.verworrn.de/",
+      "contact_name": "Nils Verworrn",
+      "job_title": "Ingenieur & Gründer",
+      "phone": "+49 1578 8025148",
+      "city": "Viersen",
+      "icp_tag": "design_studio",
+      "confidence": "medium",
+      "notes": "Batch135: NEW domain; DE postal Im Winkel 2 41751 Viersen in schema.org LocalBusiness + homepage; plain mailto hello@verworrn.de; dedicated /impressum/ 404 so medium; CAD-Konstruktion / Industriedesign / Prototypenbau peer Köln-Düsseldorf-Niederrhein corridor"
+    },
+    {
+      "company": "SNK design studio",
+      "domain": "snk-studio.com",
+      "email": "mail@snk-studio.com",
+      "email_source_url": "https://snk-studio.com/impressum/",
+      "contact_name": "Kaho Ho",
+      "job_title": "Inhaberin",
+      "phone": "+49 176 22769917",
+      "city": "Leverkusen",
+      "icp_tag": "design_studio",
+      "confidence": "high",
+      "notes": "Batch135: NEW soft-domain .com DE-proven; Impressum Quettinger Straße 247 51381 Leverkusen USt DE360573013 AG Köln; plain Mail: mail@snk-studio.com on header/Impressum (also [at] obfuscation elsewhere); Design/CAD-Konstruktion/Kunststoff-Prototyping peer Köln corridor"
+    },
+    {
+      "company": "Herrmann Werkzeug- und Formenbau e.K.",
+      "domain": "werkzeugbau-herrmann.de",
+      "email": "info@werkzeugbau-herrmann.de",
+      "email_source_url": "https://werkzeugbau-herrmann.de/Home",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 2195 927488",
+      "city": "Radevormwald",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch135: NEW domain; DE postal Max-Planck-Straße 3 42477 Radevormwald USt DE231611192 published on Home with plain mailto info@werkzeugbau-herrmann.de; Thermo- und Duroplast Spritzgießwerkzeuge bis 500x400 mm Präzisionsformenbau peer"
+    },
+    {
+      "company": "Fietz Thermoplast GmbH",
+      "domain": "fietz.com",
+      "email": "thermoplast@fietz.com",
+      "email_source_url": "https://fietz.com/impressum",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 2195 91110",
+      "city": "Radevormwald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch135: NEW domain; DE Impressum Dahlienstraße 21 42477 Radevormwald HRB38033 AG Köln; plain thermoplast@fietz.com; Spritzgusstechnik (Fietz Gruppe) OEM buyer — Polyform CNC-Zerspanung / Polychromos Masterbatch arms skipped"
+    },
+    {
+      "company": "Fietz Thermoplast GmbH",
+      "domain": "fietz.com",
+      "email": "s.triebs@fietz.com",
+      "email_source_url": "https://fietz.com/kontakt",
+      "contact_name": "Sebastian Triebs",
+      "job_title": "Geschäftsführung",
+      "phone": "+49 2195 91110",
+      "city": "Radevormwald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch135: NEW named GF mailbox; plain mailto on Kontakt; same DE Impressum Thermoplast Dahlienstraße 21 42477 Radevormwald as thermoplast@"
+    },
+    {
+      "company": "Fietz Thermoplast GmbH",
+      "domain": "fietz.com",
+      "email": "m.walder@fietz.com",
+      "email_source_url": "https://fietz.com/kontakt",
+      "contact_name": "Marcel Walder",
+      "job_title": "Geschäftsführung",
+      "phone": "+49 2195 911118",
+      "city": "Radevormwald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch135: NEW named GF mailbox; plain mailto on Kontakt; same DE Impressum Thermoplast Dahlienstraße 21 42477 Radevormwald as thermoplast@"
+    },
+    {
+      "company": "Fietz Thermoplast GmbH",
+      "domain": "fietz.com",
+      "email": "s.lee@fietz.com",
+      "email_source_url": "https://fietz.com/kontakt",
+      "contact_name": "Stephan Lee",
+      "job_title": "Technischer Vertriebsleiter",
+      "phone": "+49 160 6641901",
+      "city": "Radevormwald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch135: NEW named Vertrieb mailbox; plain mailto on Kontakt Thermoplast Spritzgusstechnik; same DE Impressum Dahlienstraße 21 42477 Radevormwald"
+    }
+  ],
+  "drops_summary_count": 15,
+  "batch": 135
+}

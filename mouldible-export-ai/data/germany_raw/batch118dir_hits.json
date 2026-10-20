@@ -1,0 +1,14 @@
+{
+  "batch": "118dir",
+  "n_emails": 7,
+  "n_domains": 7,
+  "emails": [
+    "info@lmk-werkzeugbau.de",
+    "info@weku.de",
+    "info@werkzeugbau-reinartz.de",
+    "info@namac.de",
+    "info@bevaplast.de",
+    "info@geweku.de",
+    "info@inweku.com"
+  ]
+}

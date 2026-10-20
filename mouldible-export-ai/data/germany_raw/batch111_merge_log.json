@@ -1,0 +1,86 @@
+{
+  "batch": 111,
+  "timestamp_hk": "2026-10-21 03:48 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4171/2918 (Batch111dir → 4160 emails; parent steered 4160/2893 hosts~2909 — live domain count 2918).",
+  "baseline": {
+    "emails": 4171,
+    "domains": 2918
+  },
+  "net_new": 6,
+  "new_totals": {
+    "emails": 4177,
+    "domains": 2921,
+    "high": 3915,
+    "medium": 262,
+    "non_de": 1134,
+    "icp": {
+      "overseas_peer_overflow": 3885,
+      "design_studio": 169,
+      "oem_buyer": 88,
+      "sourcing": 35
+    },
+    "with_phone": 3601,
+    "with_city": 3674
+  },
+  "added_domains": [
+    "cad-solutions.cc",
+    "fischer-werkzeugbau.de",
+    "hofmann-wze.de"
+  ],
+  "added_emails": [
+    "neumayr@cad-solutions.cc",
+    "info@fischer-werkzeugbau.de",
+    "info@hofmann-wze.de",
+    "mh@hofmann-wze.de",
+    "felix.meister@hofmann-wze.de",
+    "info@fus-werkzeugbau.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@cad-eckes.de",
+      "reason": "DROP generic Maschinenbau/Metallbau CAD + Beschaffung/Einkauf — not Spritz/Formenbau peer"
+    },
+    {
+      "item": "info@werkzeugbauschmidt.de",
+      "reason": "DROP Stanz/Biege co-primary with Spritz"
+    },
+    {
+      "item": "info@gerken-konstruktionen.de",
+      "reason": "DROP Stanz/Umform primary (prior continuum Gerken)"
+    },
+    {
+      "item": "info@formenbau-conrad.de",
+      "reason": "DROP Druckguss-primary (Formenbau und Druckguss GmbH)"
+    },
+    {
+      "item": "info@3d-tooldesign.com",
+      "reason": "SKIP CH country-box Langnau (not DE-proven)"
+    },
+    {
+      "item": "steffen.schulz@kws-dresden.de",
+      "reason": "DROP Stanz/Umform/Folgeverbund-primary career; Spritz secondary"
+    },
+    {
+      "item": "gerd.hoelzel@hofmann-wze.de",
+      "reason": "DROP Leiter Konstruktion|Einkauf — Einkauf in title"
+    },
+    {
+      "item": "kathrin.friedrich@ / nadine.reichelt@ fus-werkzeugbau",
+      "reason": "DROP untitled reception/office (phone -0 only)"
+    },
+    {
+      "item": "mail@hilzensauer-cad-design.de",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "mold-engineering UnCryptMailto",
+      "reason": "DROP cloak invent"
+    },
+    {
+      "item": "info@korropol.com / korropol.de",
+      "reason": "DROP Composite/GFK/CFK primary"
+    }
+  ]
+}

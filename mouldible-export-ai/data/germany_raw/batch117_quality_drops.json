@@ -1,0 +1,38 @@
+[
+  {
+    "item": "info@ke-services.de",
+    "reason": "DROP wrong vertical — Entrümpelung/Umzüge Herford (LinkedIn false friend)"
+  },
+  {
+    "item": "info@wk-konstruktion.de / w.kraus@",
+    "reason": "DROP generic Konstruktion Stolberg — no Spritz/Formenbau ICP on site"
+  },
+  {
+    "item": "bewerbung@spindler-formenbau.de",
+    "reason": "DROP Bewerbung/HR"
+  },
+  {
+    "item": "info@zi-systeme.de / info@sauer-tooldesign.de / info@kb-hiemer.de",
+    "reason": "SKIP already known"
+  },
+  {
+    "item": "zegla/jama named contacts",
+    "reason": "SKIP phones only — no named emails live; info@ already known"
+  },
+  {
+    "item": "reddikowsky / rommel-formen / formenbau-rapp",
+    "reason": "SKIP dead/403 — never invent"
+  },
+  {
+    "item": "info@thb-konstruktionsbuero.de",
+    "reason": "SKIP site unreachable — never invent"
+  },
+  {
+    "item": "info@gerken-konstruktionen.de",
+    "reason": "DROP Stanz-/Umform-primary continuum"
+  },
+  {
+    "item": "info@saur-formenbau.de",
+    "reason": "SKIP — saur-wzb.de info@ already known"
+  }
+]

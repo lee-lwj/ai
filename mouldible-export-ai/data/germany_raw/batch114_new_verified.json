@@ -1,0 +1,41 @@
+[
+  {
+    "company": "Schneider Form GmbH",
+    "domain": "schneider-form.de",
+    "email": "m.lehr@schneider-form.de",
+    "email_source_url": "https://www.spritzgiessen-next.de/",
+    "contact_name": "Markus Lehr",
+    "job_title": "Innovationsmanagement",
+    "phone": "+49 7021 8080-0",
+    "city": "Dettingen unter Teck",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch114: NEW named on known domain; live on Schneider Form Spritzgießen-Next page; company Impressum DE BW Dettingen HRB 230164 Spritzguss/Formenbau (Druckguss co secondary)"
+  },
+  {
+    "company": "Ingenieurbüro Helge Feddersen / CAD4U",
+    "domain": "cad4u.de",
+    "email": "info@cad4u.de",
+    "email_source_url": "https://www.cad4u.de/impressum/",
+    "contact_name": "Helge Feddersen",
+    "job_title": "Inhaber / 3D-CAD Konstruktion Spritzguss Formenbau",
+    "phone": "+49 8031 9003961",
+    "city": "Rosenheim",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch114: NEW domain cad4u.de; live Impressum+home mailto/plaintext info@; SolidWorks Konstruktion inkl. Spritzguss/Werkzeugbau/Formenbau; DE BY Rosenheim USt DE233443572"
+  },
+  {
+    "company": "FFB Förster Formenbau / Inh. Andreas Kunert",
+    "domain": "foerster-formenbau.de",
+    "email": "ffb-formen@t-online.de",
+    "email_source_url": "https://www.foerster-formenbau.de/navid.6/impressum.htm",
+    "contact_name": "Andreas Kunert",
+    "job_title": "Inhaber / Kunststoffspritzwerkzeuge CAD-CAM",
+    "phone": "+49 8061 4608",
+    "city": "Bad Aibling",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch114: NEW mailbox t-online for FFB; live Impressum+home; Kunststoffspritzwerkzeuge + CAD-CAM VISI (Vulkanisier/Gummi co secondary); DE BY Bad Aibling"
+  }
+]

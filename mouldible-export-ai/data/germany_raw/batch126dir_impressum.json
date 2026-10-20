@@ -1,0 +1,128 @@
+[
+  {
+    "domain": "modell-formenbau.eu",
+    "ok": true,
+    "emails": [
+      "bundesverband@modell-formenbau.eu",
+      "utz@modell-formenbau.eu"
+    ],
+    "source_url": "https://www.modell-formenbau.eu/impressum",
+    "phone": "+49 (0)361 / 56 24 591",
+    "city": "Erfurt",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ikw-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@ikw-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.ikw-kunststofftechnik.de/impressum/",
+    "phone": "+49 (0)8677-91588-0",
+    "city": "Burghausen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "snw-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@snw-formenbau.de"
+    ],
+    "source_url": "https://www.snw-werkzeugbau.de/impressum/",
+    "phone": "+49(0)5222/9412-0",
+    "city": "Bad Salzuflen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "selzer-formenbau.de",
+    "ok": true,
+    "emails": [
+      "info@formenbau-borchert.de"
+    ],
+    "source_url": "https://selzer-formenbau.de/impressum",
+    "phone": "+49235126622",
+    "city": "Lüdenscheid Vertreten durch",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "halbich-kunststoffe.de",
+    "ok": true,
+    "emails": [
+      "info@halbich-kunststoffe.de"
+    ],
+    "source_url": "https://halbich-kunststoffe.de/impressum.html",
+    "phone": "+49 8341 623 19",
+    "city": "Kaufbeuren",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gaebert-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@gaebert-kunststoffteile.de"
+    ],
+    "source_url": "https://gaebert-kunststoff.de/impressum",
+    "phone": "",
+    "city": "Erligheim Vertreten durch",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "kwm-kunststoffe.de",
+    "ok": true,
+    "emails": [
+      "info@kwm.de",
+      "a.walter@sewa-solutions.de"
+    ],
+    "source_url": "https://www.kwm-kunststoffe.de/impressum.html",
+    "phone": "+49 (0) 7337 96020",
+    "city": "Merklingen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "karo-kunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "plastolen-kf.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "gaebert-kunststoffteile.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-mueller.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "batch": "113dir",
+  "n_emails": 4,
+  "n_domains": 4,
+  "emails": [
+    "sales@hoerauf.com",
+    "kontakt@merima.de",
+    "kluecher@geruschke.de",
+    "info@ttp-papenburg.de"
+  ]
+}

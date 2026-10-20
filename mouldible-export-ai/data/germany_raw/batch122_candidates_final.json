@@ -1,0 +1,54 @@
+[
+  {
+    "company": "CAD Kremer GmbH",
+    "domain": "cad-kremer.de",
+    "email": "waldemar.kremer@cad-kremer.de",
+    "email_source_url": "https://cad-kremer.de/",
+    "contact_name": "Waldemar Kremer",
+    "job_title": "Geschäftsführer / CAD-Konstruktion Spritzwerkzeuge",
+    "phone": "+49 176 60 80 25 30",
+    "city": "Zimmern ob Rottweil",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch122: NEW domain; live homepage plain email; Konstruktionsbüro Spritzwerkzeuge/Vorrichtungen/Greifer; VISI CAD; DE BW Immelwiesen 10, 78658 Zimmern ob Rottweil"
+  },
+  {
+    "company": "Plastium GmbH",
+    "domain": "plastium.com",
+    "email": "info@plastium.com",
+    "email_source_url": "https://www.plastium.com/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 7422 942-0",
+    "city": "Lauterbach",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch122: NEW domain (.com DE-proven); live Impressum §5 TMG Plastium GmbH Hornberger Str. 85, 78730 Lauterbach; HR Stuttgart; Spritzguss+Werkzeugbau/Formenbau OEM peer (2K/Insert/Montagespritzguss)"
+  },
+  {
+    "company": "Plastium GmbH",
+    "domain": "plastium.com",
+    "email": "m.costantino@plastium.com",
+    "email_source_url": "https://www.plastium.com/kontakt",
+    "contact_name": "Marco Costantino",
+    "job_title": "Kontakt / Ansprechpartner",
+    "phone": "+49 (0)7422 942-134",
+    "city": "Lauterbach",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch122: named Kontakt on /kontakt; same Plastium Spritzguss+Werkzeugbau peer"
+  },
+  {
+    "company": "WERNER WIRTH MOLTICS GmbH",
+    "domain": "ww-moltics.com",
+    "email": "info@ww-moltics.com",
+    "email_source_url": "https://www.ww-moltics.com/kontakt",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 40 878 86 89-0",
+    "city": "Hamburg",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch122: NEW domain (.com DE-proven Hamburg); live Kontakt Hellgrundweg 111, 22525 Hamburg; Formen-/Werkzeugbau Kunststoffspritzguss peer (Hoch-/Niederdruck, Konstruktion inhouse)"
+  }
+]

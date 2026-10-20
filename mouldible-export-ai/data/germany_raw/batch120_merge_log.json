@@ -1,0 +1,73 @@
+{
+  "batch": 120,
+  "timestamp_hk": "2026-10-21 04:33 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4303 emails / 3017 domains (task steered 4303/3006 hosts~3017). Watch Batch125dir.",
+  "baseline": {
+    "emails": 4303,
+    "domains": 3017
+  },
+  "net_new": 3,
+  "website_batch_end_snapshot": {
+    "emails": 4306,
+    "domains": 3018
+  },
+  "new_totals": {
+    "emails": 4306,
+    "domains": 3018,
+    "high": 4029,
+    "medium": 277,
+    "non_de": 1154,
+    "icp": {
+      "overseas_peer_overflow": 3982,
+      "design_studio": 179,
+      "oem_buyer": 110,
+      "sourcing": 35
+    },
+    "with_phone": 3718,
+    "with_city": 3794
+  },
+  "added_domains": [
+    "polynisterplastik.de"
+  ],
+  "added_emails": [
+    "info@polynisterplastik.de",
+    "marco.sittler@polynisterplastik.de",
+    "fabian.zoeller@polynisterplastik.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "andreas.heinbach@polynisterplastik.de",
+      "reason": "DROP Kaufmännische Leitung (admin/finance skew)"
+    },
+    {
+      "item": "info@gh-werkzeuge.de",
+      "reason": "SKIP partner mailbox on Polynister page; gh-werkzeuge.de site dead — never invent"
+    },
+    {
+      "item": "sabine.schlessmann@ / diana.heimpel@ / karina.hoeld@ / andrea.willmann@ dorn-tt.de",
+      "reason": "DROP Auftragsabwicklung / Buchhaltung"
+    },
+    {
+      "item": "renate.wirth@dorn-tt.de",
+      "reason": "SKIP QS-only secondary; ICP-fit Dorn GF/tech already known"
+    },
+    {
+      "item": "kontakt@mold-design.de",
+      "reason": "DROP Werbe-/Marketing-Design agency (not Formenbau ICP)"
+    },
+    {
+      "item": "info@formtech-gmbh.de",
+      "reason": "SKIP already in master"
+    },
+    {
+      "item": "Formtech/Kesterke/WeKonSo/Walter/HWF named",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "Finke/ccoffice/Formacon",
+      "reason": "SKIP cloak / phone-only / dead (carry forward)"
+    }
+  ]
+}

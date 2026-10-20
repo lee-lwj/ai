@@ -1,0 +1,59 @@
+{
+  "batch": "120dir",
+  "label": "目录/展会轨 Batch120dir",
+  "csv_before": 4254,
+  "csv_after": 4260,
+  "net_new_emails": 6,
+  "high": 5,
+  "medium": 1,
+  "impressum_checked": 24,
+  "impressum_ok": 8,
+  "stats": {
+    "brand_related_medium": 3,
+    "dup_email": 2,
+    "added_cand": 6,
+    "qual_exclude": 1,
+    "no_hit": 16
+  },
+  "queue_remaining_domains": 8,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 89,
+    "queued_from_b119": 7,
+    "source_ok_pages": {
+      "maps": 15,
+      "search": 60,
+      "ep": 14
+    },
+    "queue": 24,
+    "queue_via": {
+      "b119_domain_queue": 7,
+      "search": 4,
+      "ep": 13
+    },
+    "sources": {
+      "queue": 7,
+      "web": 17
+    },
+    "method": "B119 domain queue + Rheinland cities × kw DDG/Bing/Maps + Europages DE; skip WLW; drop Druckguss/Stanz"
+  },
+  "baseline_note": "Re-read CSV before merge (4254/2966); Website B115 had landed (steering 4254/2977 hosts / 2966 domains)",
+  "steering_expected_before": 4254,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "many queue domains no Impressum email"
+  ],
+  "domains_after": 2972,
+  "domains_before": 2966,
+  "sources": "B119 domain queue + Rheinland cities × kw DDG/Bing/Maps + Europages DE; skip WLW; drop Druckguss/Stanz",
+  "expand_worked": {
+    "b119_domain_queue": 7,
+    "search": 4,
+    "ep": 13
+  },
+  "quality_note": "Dropped Druckguss/Stanz/portal/webdesign/HR-locals/off-domain/foreign EP peers; brand_related medium kept",
+  "quality_drops_sample": [
+    "portal_email:info@weborbis-webdesign.de"
+  ]
+}

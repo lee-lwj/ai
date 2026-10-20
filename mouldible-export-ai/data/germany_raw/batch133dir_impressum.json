@@ -1,0 +1,433 @@
+[
+  {
+    "domain": "plas-tech.de",
+    "ok": true,
+    "emails": [
+      "info@plas-tech.de"
+    ],
+    "source_url": "https://www.plas-tech.de/kontakt/",
+    "phone": "+49 5143 912858",
+    "city": "Winsen/Aller",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ks-praezisionstechnik.de",
+    "ok": true,
+    "emails": [
+      "info@ks-praezisionstechnik.de"
+    ],
+    "source_url": "https://ks-praezisionstechnik.de/impressum/",
+    "phone": "+49 4941 699190",
+    "city": "Aurich",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "msw-winsen.de",
+    "ok": true,
+    "emails": [
+      "msw@msw-winsen.de"
+    ],
+    "source_url": "https://msw-winsen.de/",
+    "phone": "+49 4171 2759",
+    "city": "Winsen/Luhe",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "syntech-plastics.com",
+    "ok": true,
+    "emails": [
+      "info@syntech-plastics.com"
+    ],
+    "source_url": "https://syntech-plastics.com/impressum/",
+    "phone": "+49 5492 927900",
+    "city": "Steinfeld (Oldenburg)",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "syntech-plastics.com",
+    "ok": true,
+    "emails": [
+      "cengiz.karaoglu@syntech-plastics.com"
+    ],
+    "source_url": "https://syntech-plastics.com/",
+    "phone": "+49 5492 927900",
+    "city": "Steinfeld (Oldenburg)",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "syntech-plastics.com",
+    "ok": true,
+    "emails": [
+      "cueneyt.karaoglu@syntech-plastics.com"
+    ],
+    "source_url": "https://syntech-plastics.com/",
+    "phone": "+49 5492 927900",
+    "city": "Steinfeld (Oldenburg)",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "syntech-plastics.com",
+    "ok": true,
+    "emails": [
+      "hueseyin.karaoglu@syntech-plastics.com"
+    ],
+    "source_url": "https://syntech-plastics.com/",
+    "phone": "+49 5492 927900",
+    "city": "Steinfeld (Oldenburg)",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "roeders.com",
+    "ok": true,
+    "emails": [
+      "projekt.spritzguss@roeders.com"
+    ],
+    "source_url": "https://roeders.com/kontakt/",
+    "phone": "+49 5191 8090",
+    "city": "Soltau",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "roeders.com",
+    "ok": true,
+    "emails": [
+      "vertrieb.spritzguss@roeders.com"
+    ],
+    "source_url": "https://roeders.com/kontakt/",
+    "phone": "+49 5191 8090",
+    "city": "Soltau",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "roeders.com",
+    "ok": true,
+    "emails": [
+      "qualitaet.spritzguss@roeders.com"
+    ],
+    "source_url": "https://roeders.com/kontakt/",
+    "phone": "+49 5191 8090",
+    "city": "Soltau",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "blau-group.com",
+    "ok": true,
+    "emails": [
+      "info@blau-group.com"
+    ],
+    "source_url": "https://www.blau-group.com/impressum/",
+    "phone": "+49 2182 82600",
+    "city": "Grevenbroich / Leer",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "blau-group.com",
+    "ok": true,
+    "emails": [
+      "info.leer@blau-group.com"
+    ],
+    "source_url": "https://www.blau-group.com/kontakt/",
+    "phone": "+49 491 971050",
+    "city": "Leer",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "emco.de",
+    "ok": true,
+    "emails": [
+      "info@emco.de"
+    ],
+    "source_url": "https://www.emco-group.com/de/impressum/",
+    "phone": "+49 591 91400",
+    "city": "Lingen (Ems)",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "unicadgmbh.de",
+    "ok": true,
+    "emails": [
+      "mail@unicadgmbh.de"
+    ],
+    "source_url": "https://www.unicadgmbh.de/impressum",
+    "phone": "+49 5161 73451",
+    "city": "Walsrode",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "a-form.de",
+    "ok": true,
+    "emails": [
+      "info@a-form.de"
+    ],
+    "source_url": "https://www.a-form.de/impressum",
+    "phone": "+49 3733 55090",
+    "city": "Mildenau",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "becker-kunststofftechnik.com",
+    "ok": true,
+    "emails": [
+      "info@becker-kunststofftechnik.com"
+    ],
+    "source_url": "https://www.becker-kunststofftechnik.com/impressum",
+    "phone": "+49 2735 600270",
+    "city": "Neunkirchen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "keiels-formenbau.de",
+    "ok": true,
+    "emails": [
+      "formenbau@keiels.de"
+    ],
+    "source_url": "https://www.keiels-formenbau.de/impressum/",
+    "phone": "+49 2604 942141",
+    "city": "Attenhausen",
+    "status": "high",
+    "same_domain": false
+  },
+  {
+    "domain": "ksn-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@ksn-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.ksn-kunststofftechnik.de/impressum",
+    "phone": "",
+    "city": "Wertheim",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ksn-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "klaus.sadowski@ksn-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.ksn-kunststofftechnik.de/impressum",
+    "phone": "",
+    "city": "Wertheim",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "moldnex.de",
+    "ok": true,
+    "emails": [
+      "contact@moldnex.de"
+    ],
+    "source_url": "https://www.moldnex.de/",
+    "phone": "+49 171 6422125",
+    "city": "Frankenberg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "oberhofer-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@oberhofer-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.oberhofer-kunststofftechnik.de/impressum/",
+    "phone": "+49 6228 920000",
+    "city": "Schönau",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "geschwentner-form.de",
+    "ok": true,
+    "emails": [
+      "info@geschwentner-form.de"
+    ],
+    "source_url": "https://www.geschwentner-form.de/impressum",
+    "phone": "+49 7426 519730",
+    "city": "Deilingen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "geschwentner-form.de",
+    "ok": true,
+    "emails": [
+      "anfrage@geschwentner-form.de"
+    ],
+    "source_url": "https://www.geschwentner-form.de/",
+    "phone": "+49 7426 519730",
+    "city": "Deilingen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "geschwentner-form.de",
+    "ok": true,
+    "emails": [
+      "qs@geschwentner-form.de"
+    ],
+    "source_url": "https://www.geschwentner-form.de/",
+    "phone": "+49 7426 519730",
+    "city": "Deilingen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gerken-konstruktionen.de",
+    "ok": true,
+    "emails": [
+      "info@gerken-konstruktionen.de"
+    ],
+    "source_url": "https://www.gerken-konstruktionen.de/impressum",
+    "phone": "+49 5252 940711",
+    "city": "Bad Lippspringe",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "rowiform.com",
+    "ok": true,
+    "emails": [
+      "udo.roszak@rowiform.com"
+    ],
+    "source_url": "https://www.rowiform.com/impressum",
+    "phone": "+49 5222 3690990",
+    "city": "Bad Salzuflen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formen-zeven.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "bks-spritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "buck-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "formenbaunord.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "dmf-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "jinoplastics.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "hilz-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "aku-kunststoff24.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "ls-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "wm-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "permolde.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "spritzgusstechnik.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "polyformnext.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "simon-konstruktion.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "wuensch-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "atamould.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  },
+  {
+    "domain": "forma-baumgarten.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "status": "fail"
+  }
+]

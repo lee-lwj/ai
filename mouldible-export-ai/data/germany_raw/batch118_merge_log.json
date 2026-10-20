@@ -1,0 +1,78 @@
+{
+  "batch": 118,
+  "timestamp_hk": "2026-10-21 04:27 Asia/Hong_Kong",
+  "baseline_note": "Task steered 4281/3001; Directory Batch123dir merged mid-batch. Re-read at write: 4291 emails / 3010 domains. Merged against live (never 4281).",
+  "baseline_steered": {
+    "emails": 4281,
+    "domains": 3001
+  },
+  "baseline": {
+    "emails": 4291,
+    "domains": 3010
+  },
+  "net_new": 3,
+  "website_batch_end_snapshot": {
+    "emails": 4294,
+    "domains": 3012
+  },
+  "new_totals": {
+    "emails": 4294,
+    "domains": 3012,
+    "high": 4018,
+    "medium": 276,
+    "non_de": 1149,
+    "icp": {
+      "overseas_peer_overflow": 3978,
+      "design_studio": 179,
+      "oem_buyer": 102,
+      "sourcing": 35
+    },
+    "with_phone": 3706,
+    "with_city": 3782
+  },
+  "added_domains": [
+    "daut-imd.com",
+    "toolytech.de"
+  ],
+  "added_emails": [
+    "michael.beckmann@beckmann-cad.de",
+    "info@daut-imd.com",
+    "info@toolytech.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "a.fuerst@formzeug.de",
+      "reason": "DROP Lager-Logistikleiter (Versand/Lager)"
+    },
+    {
+      "item": "a.maier@wsuttergmbh.de",
+      "reason": "DROP Buchhaltung"
+    },
+    {
+      "item": "info@wa21.de on rethemeier.eu",
+      "reason": "DROP third-party/agency mailbox"
+    },
+    {
+      "item": "mail@sieberkon.info",
+      "reason": "DROP CH-only (Marbach CH)"
+    },
+    {
+      "item": "j.sancar@formacon.de",
+      "reason": "SKIP site unreachable — never invent from XING-only"
+    },
+    {
+      "item": "info@geiger-formenbau.de",
+      "reason": "SKIP invent — Impressum shows kontakt@ only (already known)"
+    },
+    {
+      "item": "HHK/Karthaus/EJ/Beckmann info@ / HWF named / Sutter named / Voth / KuKo / Scheidig / Grimm",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "m.mustermann@ on toolytech",
+      "reason": "DROP placeholder invent"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "domain": "werkzeugbauberger.de",
+    "ok": true,
+    "emails": [
+      "info@wzb-berger.de"
+    ],
+    "source_url": "https://www.werkzeugbauberger.de/de/impressum",
+    "phone": "+495258797810",
+    "city": "Salzkotten-Scharmede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "plastec-technology.com",
+    "ok": true,
+    "emails": [
+      "info@plastec-technology.com"
+    ],
+    "source_url": "https://www.plastec-technology.com/unternehmen/kontakt",
+    "phone": "+49 4323 9126-0",
+    "city": "Trappenkamp",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "praezisions-formenbau-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@bm-formenbau.de",
+      "info@weborbis-webdesign.de"
+    ],
+    "source_url": "https://praezisions-formenbau-werkzeugbau.de/impressum/",
+    "phone": "+49 9841 689070-0",
+    "city": "Bad Windsheim",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "singold-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@singold-kunststoff.de"
+    ],
+    "source_url": "https://www.singold-kunststoff.de/impressum",
+    "phone": "+49 (0) 8234 / 967 36-0",
+    "city": "Bobingen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ks-engineering-tools.de",
+    "ok": true,
+    "emails": [
+      "info@ks-engineering-tools.de"
+    ],
+    "source_url": "https://ks-engineering-tools.de/impressum",
+    "phone": "+49 7231 1546050",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "inovamolde.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "spritzgusswerkzeuge.de",
+    "ok": true,
+    "emails": [
+      "info@spritzgusswerkzeuge.de"
+    ],
+    "source_url": "https://www.spritzgusswerkzeuge.de/kontakt.html",
+    "phone": "",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "fischer-praezisionsteile.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "driess-kunststoffe.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-hotz.de",
+    "ok": true,
+    "emails": [
+      "info@werkzeugbau-hotz.de"
+    ],
+    "source_url": "https://www.werkzeugbau-hotz.de/impressum",
+    "phone": "+49 6261 / 17902",
+    "city": "Mosbach",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbau.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "formenbau-gmbh.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "mmh-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "baxter-injection.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "nuovacplastica.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "hartfelder-cnc.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "wmv-werkzeug.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "schneider-technologies.eu",
+    "ok": true,
+    "emails": [
+      "info@schneider-technologies.de"
+    ],
+    "source_url": "https://www.schneider-technologies.eu/",
+    "phone": "tel:0049272160680",
+    "city": "Lennestadt",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "tooliss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "wilhelm-plastic.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "meisterplast.ch",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "vvk-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "repinjection.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "haberl-kunststofftechnik.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

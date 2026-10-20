@@ -1,0 +1,62 @@
+[
+  {
+    "item": "Formacon / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de / Auer / Mohr / Walter / Preisner / Pour / HeiForm / Heinze / MS Formen / WS Neustadt",
+    "reason": "SKIP still dead/403/unreachable — carry recovery"
+  },
+  {
+    "item": "finke-gruppe.de",
+    "reason": "SKIP JS crypt_id email only (no plain mailto)"
+  },
+  {
+    "item": "beck-plastics.de mail@",
+    "reason": "SKIP Joomla cloak-only (decoded but rule skip)"
+  },
+  {
+    "item": "sgwk.de",
+    "reason": "DROP wrong vertical — football club SG Wasser/Kollmarsreute e.V. (queue SGWK Formenbau still pending elsewhere)"
+  },
+  {
+    "item": "wipa-wuppertal.de info@",
+    "reason": "DROP wrong vertical — Weiterbildung/Sprachkurse (not Formenbau); wipa-formenbau.de host dead"
+  },
+  {
+    "item": "wipa-formenbau.de",
+    "reason": "SKIP dead host"
+  },
+  {
+    "item": "mkunststofftechnik.de / info@gefunden.net",
+    "reason": "DROP placeholder Impressum SEO farm (Christoph Gotzmann c/o Gefunden; street/PLZ 'bitte ergänzen')"
+  },
+  {
+    "item": "e-form.eu info@",
+    "reason": "DROP Formkästen/foundry moulding boxes (Sandguss-adjacent)"
+  },
+  {
+    "item": "ks-werkzeugtechnik.de info@",
+    "reason": "DROP CNC/Sägen/Bohrer tooling accessories wrong vertical"
+  },
+  {
+    "item": "wischemann-group.de / info@wischemann.de",
+    "reason": "DROP Thermoform-Tiefzieh-primary"
+  },
+  {
+    "item": "aku-kunststoff24.de / aku-plast.de",
+    "reason": "SKIP Cloudflare cfemail cloak-only"
+  },
+  {
+    "item": "hematec-werkzeugbau.de",
+    "reason": "SKIP unreadable/binary response still"
+  },
+  {
+    "item": "fietz.com info@ / a.muehle@ / m.feldsieper@ / c.ventura@ / t.kluge@",
+    "reason": "DROP Polyform Dreh-/Frästechnik Zerspanung-primary arm"
+  },
+  {
+    "item": "polychromos@fietz.com / bewerbungen@fietz.com",
+    "reason": "DROP Masterbatch / Personal"
+  },
+  {
+    "item": "skdesign-koeln.de",
+    "reason": "SKIP graphic design studio not plastics CAD/Spritzguss peer"
+  }
+]

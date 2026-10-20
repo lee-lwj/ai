@@ -1,0 +1,51 @@
+{
+  "batch": "115dir",
+  "label": "目录/展会轨 Batch115dir",
+  "csv_before": 4194,
+  "csv_after": 4200,
+  "net_new_emails": 6,
+  "high": 6,
+  "medium": 0,
+  "impressum_checked": 16,
+  "impressum_ok": 10,
+  "stats": {
+    "dup_email": 4,
+    "added_cand": 6,
+    "no_hit": 6
+  },
+  "queue_remaining_domains": 24,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "gsbiz_drained": 1,
+    "jobs": 141,
+    "source_ok_pages": {
+      "maps": 63,
+      "search": 63,
+      "fairs": 1,
+      "chamber": 6
+    },
+    "queue": 16,
+    "queue_via": {
+      "search": 16
+    },
+    "sources": {
+      "email": 16
+    },
+    "method": "Drain last 1 gsbiz + city×kw DDG/Bing primary + fairs/chambers; skip WLW CAPTCHA",
+    "saturation": "GS exhausted; maps/search primary"
+  },
+  "baseline_note": "Re-read CSV before merge (4194/2921)",
+  "blockers": [
+    "WLW skipped",
+    "GS gsbiz exhausted",
+    "fairs/chambers thin"
+  ],
+  "domains_after": 2927,
+  "domains_before": 2921,
+  "sources": "Drain last 1 gsbiz + city×kw DDG/Bing primary + fairs/chambers; skip WLW CAPTCHA",
+  "expand_worked": {
+    "search": 16
+  },
+  "saturation_note": "Last gsbiz drained; primary yield from city×keyword DDG/Bing",
+  "quality_note": "Dropped newspaper/IHK/portal/off-domain; same-domain high only this batch"
+}

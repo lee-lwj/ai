@@ -1,0 +1,15 @@
+{
+  "batch": "121dir",
+  "n_emails": 7,
+  "n_domains": 7,
+  "emails": [
+    "post@withoeft-werkzeuge.de",
+    "info@jhwerkzeug.de",
+    "info@koblenzer-werkzeugbau.de",
+    "info@werkzeugbau-schulz.de",
+    "info@horst-kunststofftechnik.de",
+    "info@werkzeugbau-schmidt.com",
+    "info@cnc-connection-germany.de"
+  ],
+  "quality_drops_sample": []
+}

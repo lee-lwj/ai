@@ -1,0 +1,10 @@
+# Batch 132 queue note (Website / named Kontakt)
+
+Baseline after B131: live **4523** emails / **3161** domains (~**3172** hosts) (B131 website net +6 from 4517).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch135dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers; Thermoform-Tiefzieh-primary (Senkel pattern); Zerspanung-only (Kaiser/Neueder pattern).
+- B131 KEEP: SWK info@ + p.stammberger@ + t.psaar@ (Lübbenau); Kohlmeier contact@ (Vlotho); Plastform info@ (Hückeswagen Extrusionsblaswerkzeuge); GMTI gmtiug@aol.com (Arnbruck).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); Finke plain mailto if published; CAD-KON plastics named if .de recovers (cad-kon.com wrong-vertical CAFM); Reddikowsky/Dobener/ck-form if live; g.helm@ only if published; Beck Plastics / Bauer Willingen if plain mailto (Joomla cloak); Formenbau Rapp / Auer / kb-sprung if 403 clears; Heise/Detlef Mohr/Hochstadter-formenbau if sites recover; Jordan Spritzguss if recovers; FINI named beyond known t-online; ABAS Karl Menrad only if mailto; Jama named beyond info@ if plain mailto; SGWK (spritzgusswerkzeug-konstruktion.de) postal Impressum upgrade medium→high; wedo/preisner/pour/walter-formenbau host if plain Impressum recovers; speculative NEW geographic (Münsterland/Allgäu residual singles).

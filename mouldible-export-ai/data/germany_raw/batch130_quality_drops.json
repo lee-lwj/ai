@@ -1,0 +1,98 @@
+[
+  {
+    "item": "Formacon j.sancar@",
+    "reason": "SKIP site still unreachable (curl 000) — SERP snippet only; never invent; carry recovery"
+  },
+  {
+    "item": "Finke Formenbau plain mailto",
+    "reason": "SKIP redirects to finke-gruppe; known named already; no new plain company-site mailto beyond known"
+  },
+  {
+    "item": "CAD-KON plastics .de / Reddikowsky / Dobener / ck-form",
+    "reason": "SKIP sites still dead (curl 000)"
+  },
+  {
+    "item": "cad-kon.com mail@",
+    "reason": "DROP wrong vertical — Aufmaß/CAFM Facility CAD Berlin, not plastics mould CAD-KON"
+  },
+  {
+    "item": "formenbau-rapp / auer / kb-sprung / heise / mohr / hochstadter / jordan",
+    "reason": "SKIP 403/unreachable"
+  },
+  {
+    "item": "Beck Plastics / beck-brehm joomla-hidden-mail",
+    "reason": "SKIP cloak — base64 first/last only; plain-mailto-only hint not met"
+  },
+  {
+    "item": "bauer-werkzeugbau.de info@",
+    "reason": "SKIP Joomla cloak invent (addy='info'+'@'+'bauer-werkzeugbau'+'.'+'de') — ICP fit but no plain mailto"
+  },
+  {
+    "item": "ABAS karl.menrad@ / ansprechpartner",
+    "reason": "SKIP invent/tel-only — Ansprechpartner page no plain emails (Cloudflare/JS)"
+  },
+  {
+    "item": "JAMA named beyond info@",
+    "reason": "SKIP cloaked named roles — no plain mailto beyond known info@"
+  },
+  {
+    "item": "invent g.helm@",
+    "reason": "SKIP invent — not published"
+  },
+  {
+    "item": "plastform.de",
+    "reason": "SKIP binary/non-HTML response — no readable Impressum emails"
+  },
+  {
+    "item": "wtb/psg/gubesch.de/hofmann-formenbau/seidel-formenbau speculative",
+    "reason": "SKIP dead or already known (gubesch emails under gubesch-group.de)"
+  },
+  {
+    "item": "p-kolb.com kontakt@",
+    "reason": "DROP wrong vertical — Abbruch/Erd bau/Recycling, not plastics tooling"
+  },
+  {
+    "item": "weiro.de info@",
+    "reason": "DROP wrong vertical — Bauwagen/Bitumen-Spritzmaschinen"
+  },
+  {
+    "item": "beck-werkzeugbau.de info@",
+    "reason": "DROP Stanztechnik/Präzisionsstanzteile primary"
+  },
+  {
+    "item": "bellaform.com / b-plast2000.de / bsa-kunststofftechnik.de",
+    "reason": "DROP Extrusion-OEM / Recycling-Handel / Acryl-Polycarbonat-Verglasung"
+  },
+  {
+    "item": "cad-eckes.de / cad-schiffl.de",
+    "reason": "DROP Maschinenbau/Metallbau CAD / Anlagenbau-CAD training — not plastics mould"
+  },
+  {
+    "item": "BFW jbuecking@ / npehle@ / verwaltung@",
+    "reason": "DROP Kaufmännische Abteilung / Verwaltung/Lohnbuchhaltung / Verwaltung mailbox"
+  },
+  {
+    "item": "verwaltung@jestaedt.de on BFW pages",
+    "reason": "DROP third-party agency/footer"
+  },
+  {
+    "item": "werkzeugbau-heidel.de / werkzeugbau-kaiser.de / senkel-werkzeugbau.de",
+    "reason": "DROP Stanz/Folgeverbund-Umform / Zerspanung-primary / Thermoform-Tiefzieh primary"
+  },
+  {
+    "item": "karriere@scholz-htik.de",
+    "reason": "DROP Bewerbung/Karriere mailbox"
+  },
+  {
+    "item": "info@media-cafe.de on Rabin",
+    "reason": "DROP Werbeagentur third-party"
+  },
+  {
+    "item": "Müller a.mueller@ / k.sticker@",
+    "reason": "DROP Buchhaltung / Einkauf — other named already known"
+  },
+  {
+    "item": "Schwendemann/Hömberg/MKS/Zweidick/Krumpholz/Saur/Heim/Borchert alt domains",
+    "reason": "SKIP emails already in master under as-form.de / hoemberg-kunststofftechnik.de / mks-gmbh.de / zweidick.de / krumpholz-* / saur-wzb.de etc."
+  }
+]

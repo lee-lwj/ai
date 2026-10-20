@@ -1,0 +1,130 @@
+{
+  "batch": 128,
+  "timestamp_hk": "2026-10-21 05:55 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4456 emails / 3130 domain_col / 3140 email-hosts (post B127; Directory Batch133dir had not raised further before this merge).",
+  "baseline": {
+    "emails": 4456,
+    "domains_col": 3130,
+    "email_hosts": 3140
+  },
+  "net_new": 10,
+  "website_batch_end_snapshot": {
+    "emails": 4466,
+    "domains_col": 3133,
+    "email_hosts": 3144
+  },
+  "new_totals": {
+    "emails": 4466,
+    "domains_col": 3133,
+    "email_hosts": 3144,
+    "high": 4186,
+    "medium": 280,
+    "non_de": 1186,
+    "icp": {
+      "overseas_peer_overflow": 4108,
+      "oem_buyer": 130,
+      "sourcing": 35,
+      "design_studio": 193
+    },
+    "with_phone": 3850,
+    "with_city": 3951
+  },
+  "added_domains": [
+    "eberle-spritzgiesstechnik.de",
+    "kb-das.de",
+    "kt-breitungen.de",
+    "vema-gmbh.de"
+  ],
+  "added_emails": [
+    "alex.basistow@abas-werkzeugbau.de",
+    "alexander.hamm@abas-werkzeugbau.de",
+    "willi.sawatzky@abas-werkzeugbau.de",
+    "info@vema-gmbh.de",
+    "info@kb-das.de",
+    "info@eberle-spritzgiesstechnik.de",
+    "info@kt-breitungen.de",
+    "corinna.holland-moritz@kt-breitungen.de",
+    "ronny.knott@kt-breitungen.de",
+    "sven.sauerbrey@kt-breitungen.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "Formacon j.sancar@formacon.de",
+      "reason": "SKIP site still unreachable (curl 000) — SERP snippet only; never invent; carry recovery"
+    },
+    {
+      "item": "ABAS andreas.boschmann@",
+      "reason": "DROP Kaufmännische Leitung (Kaufm./Verwaltung)"
+    },
+    {
+      "item": "ABAS karl.menrad@ invent",
+      "reason": "SKIP invent — mailkarlsingle has tel only, no JS mailto setter"
+    },
+    {
+      "item": "ABAS viktor.sawatzky@ orphan JS",
+      "reason": "SKIP stale/orphan JS var without current Ansprechpartner card"
+    },
+    {
+      "item": "Finke Formenbau plain mailto",
+      "reason": "SKIP redirects to finke-gruppe; no plain company-site mailto; HTML-entity cloak only"
+    },
+    {
+      "item": "CAD-KON plastics named / mail@cad-kon.com",
+      "reason": "SKIP cad-kon.de dead; cad-kon.com mail@ Aufmass/off-ICP prior pattern"
+    },
+    {
+      "item": "Reddikowsky / Dobener / ck-form.de",
+      "reason": "SKIP sites still dead (curl 000) — SERP invent avoid"
+    },
+    {
+      "item": "invent g.helm@lh-konstruktion.de",
+      "reason": "SKIP invent — only info@ published"
+    },
+    {
+      "item": "Beck Plastics Magstadt mail@ / vertrieb@beck-brehm",
+      "reason": "SKIP joomla-hidden-mail cloak / hint plain-mailto only"
+    },
+    {
+      "item": "formenbau-rapp.de / auer-formenbau / kb-sprung.de",
+      "reason": "SKIP 403/unreachable"
+    },
+    {
+      "item": "heise-formenbau / detlefmohr-cad / hochstadter-formenbau",
+      "reason": "SKIP sites unreachable (curl 000)"
+    },
+    {
+      "item": "jordan-spritzguss.de",
+      "reason": "SKIP site unreachable"
+    },
+    {
+      "item": "h.wirth@werkzeugbau-wirth.com",
+      "reason": "DROP Bewerbung-only mailbox on Unternehmen careers section"
+    },
+    {
+      "item": "FINI Technology finigmbh@t-online.de",
+      "reason": "SKIP already known; no new same-domain mailbox"
+    },
+    {
+      "item": "KTB auftragsbearbeitung@",
+      "reason": "DROP Auftragsbearbeitung/Buchhaltung/Mahnwesen"
+    },
+    {
+      "item": "KTB versand@",
+      "reason": "DROP Lager & Versand"
+    },
+    {
+      "item": "wetec.de info@",
+      "reason": "DROP Werkzeughandel/Elektronikfertigung distributor — not Spritzguss/Formenbau ICP"
+    },
+    {
+      "item": "wetec-bauteilfertigung.de info@",
+      "reason": "DROP CNC-Fräs/Drahtero Ersatzteilfertigung — no Spritzguss/Formenbau primary"
+    },
+    {
+      "item": "Kroeger named Kontakt",
+      "reason": "SKIP already known (hjkroeger/jkroeger/tbraemswig/msieve/jfangmann)"
+    }
+  ]
+}

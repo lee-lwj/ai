@@ -1,0 +1,62 @@
+{
+  "batch": "125dir",
+  "label": "目录/展会轨 Batch125dir",
+  "csv_before": 4306,
+  "csv_after": 4312,
+  "net_new_emails": 6,
+  "high": 5,
+  "medium": 1,
+  "impressum_checked": 14,
+  "impressum_ok": 9,
+  "stats": {
+    "added_cand": 7,
+    "brand_related_medium": 8,
+    "no_hit": 5,
+    "qual_exclude": 1,
+    "dup_email": 6,
+    "post_fix_rechnungswesen": true
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 348,
+    "queued_from_b124": 0,
+    "cities_used": 144,
+    "source_ok_pages": {
+      "maps": 32,
+      "search": 288,
+      "ep": 16,
+      "fakuma": 12
+    },
+    "queue": 14,
+    "queue_via": {
+      "search": 13,
+      "fakuma": 1
+    },
+    "sources": {
+      "email": 4,
+      "web": 10
+    },
+    "csv_peek_at_harvest": 4303,
+    "method": "Rhein-Main/Pfalz/Saar + BW hinterland + Bayern east + ST/BB × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality bar",
+    "queue_verified": 14
+  },
+  "baseline_note": "Re-read CSV before merge (4306/3007); Website B120 landed (steering 4306/3018 hosts / 3007 domains); earlier B119 steering was 4303",
+  "steering_expected_before": 4306,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "nationwide saturation rising"
+  ],
+  "domains_after": 3013,
+  "domains_before": 3007,
+  "sources": "Rhein-Main/Pfalz/Saar + BW hinterland + Bayern east + ST/BB × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality bar",
+  "expand_worked": {
+    "search": 13,
+    "fakuma": 1
+  },
+  "quality_note": "Dropped plexiglas-polymers/roehm materials; brand_related hiendl/guethner/kindtner kept; DROPPED rechnungswesen@kindtner.de post-merge (accounting local)",
+  "quality_drops_sample": [
+    "exclude_dom:plexiglas-polymers.com"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "batch": 129,
+  "track": "website_named_kontakt",
+  "before": {
+    "emails": 4492,
+    "domains": 3151,
+    "hosts": 3161
+  },
+  "after": {
+    "emails": 4508,
+    "domains": 3154,
+    "hosts": 3164
+  },
+  "net_new": 16,
+  "added_emails": [
+    "info@barku.de",
+    "borchers@barku.de",
+    "niemann@barku.de",
+    "politzky@barku.de",
+    "ewald@barku.de",
+    "hagemeier@barku.de",
+    "ukley@barku.de",
+    "nagel@barku.de",
+    "holste@barku.de",
+    "stietz@barku.de",
+    "baehr@barku.de",
+    "meyer@barku.de",
+    "bening@barku.de",
+    "info@heinz-kueck.de",
+    "info@molds-and-parts.com",
+    "renate.wirth@dorn-tt.de"
+  ],
+  "new_domains": [
+    "barku.de",
+    "heinz-kueck.de",
+    "molds-and-parts.com"
+  ],
+  "baseline_note": "Re-read after Batch133dir steer: 4492/3151/~3161 before this merge",
+  "dup_skipped": []
+}

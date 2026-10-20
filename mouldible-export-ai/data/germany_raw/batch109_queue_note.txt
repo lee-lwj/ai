@@ -1,0 +1,10 @@
+# Batch 109 queue note (Website / named Kontakt)
+
+Baseline after B108: **4057** emails / **2822** domains (from 4052/2820; B108 net +5).
+
+- Expand empty; DE tooling singles exhausted; thin multi named Kontakt low-yield.
+- Prefer web-search + WebFetch named Kontakt (konstruktion@/cad@/anfrage@/Konstruktionsleiter) + NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion.
+- Prefer DE-proven (Impressum DE / DE phone); treat non-DE EU country boxes cautiously.
+- Watch Directory Batch109dir / Batch110dir / map-reseed — re-read CSV before write.
+- Avoid: Stanz/Umform/Schnitt; Druckguss/Kokillen-primary; Thermoform/Siegel packaging; Rohstoff; Formkästen/Corian/Feuerfest; Composite/RTM-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Assistentin/Versand/Lager-Logistik; cloak invent (ROT13/JS/mailto∂); third-party agency footer; Liquidation/stale; master-optional skip; Metallguss redirects; unnamed role lists without titles; HR/jobs mailboxes.
+- Known skips this continuum: Borchert Druckguss-co; Gerken Stanz; Sieber CH; spritzgusswerkzeug-konstruktion; ck-form dead; Percom; Meissner Kokillen; tecform-sp; Kieninger Buchhaltung; Olinger Modellbau-stale; Rabin Druckguss/Umform; Rommel→HAAS Metallguss; Humme secondary; Wagenknecht Stanz; WDS Thermoform/Siegel; Sundermeier Druckguss/Stanz-co; HGS Schnitt/Press-co; Hack ROT13; Rausch Buchhaltung/Einkauf; Krauss mailto∂ invent; Weides Druckguss/arcor; embayer daniel.faltus HR.

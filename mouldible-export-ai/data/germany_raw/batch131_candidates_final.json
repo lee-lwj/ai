@@ -1,0 +1,136 @@
+{
+  "keep": [
+    {
+      "company": "SWK Innovations GmbH & Co. KG",
+      "domain": "swk.berlin",
+      "email": "info@swk.berlin",
+      "email_source_url": "https://swk.berlin/impressum/",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 3542 887080",
+      "city": "Lübbenau / Spreewald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch131: NEW domain; DE Impressum Am Wäldchen 23, 03222 Lübbenau HRA 2773CB Cottbus; Formenbau + Spritzguss + Biokomposite; GF Petra Stammberger via SWK Beteiligungsgesellschaft mbH"
+    },
+    {
+      "company": "SWK Innovations GmbH & Co. KG",
+      "domain": "swk.berlin",
+      "email": "p.stammberger@swk.berlin",
+      "email_source_url": "https://swk.berlin/",
+      "contact_name": "Petra Stammberger",
+      "job_title": "Geschäftsleitung",
+      "phone": "+49 3542 8870829",
+      "city": "Lübbenau / Spreewald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch131: NEW named Kontakt plain mailto on company homepage; Geschäftsleitung"
+    },
+    {
+      "company": "SWK Innovations GmbH & Co. KG",
+      "domain": "swk.berlin",
+      "email": "t.psaar@swk.berlin",
+      "email_source_url": "https://swk.berlin/",
+      "contact_name": "Thomas Psaar",
+      "job_title": "Prokurist / technische Leitung",
+      "phone": "+49 3542 8870811",
+      "city": "Lübbenau / Spreewald",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch131: NEW named Kontakt plain mailto on company homepage; Prokurist + technische Leitung"
+    },
+    {
+      "company": "Gebr. Kohlmeier GmbH",
+      "domain": "km-vlotho.de",
+      "email": "contact@kohlmeier-vlotho.de",
+      "email_source_url": "https://km-vlotho.de/impressum/",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 5733 8711-0",
+      "city": "Vlotho",
+      "icp_tag": "oem_buyer",
+      "confidence": "high",
+      "notes": "Batch131: NEW domain km-vlotho.de (email host kohlmeier-vlotho.de); Impressum Möllberger Str. 26+28, 32602 Vlotho HRB 1200 Bad Oeynhausen; GF Martin/Lars Kohlmeier; Spritzgießwerkzeuge + technische Kunststoffteile Systemlieferant; plain mailto"
+    },
+    {
+      "company": "Plastform GmbH",
+      "domain": "plastform.de",
+      "email": "info@plastform.de",
+      "email_source_url": "https://www.plastform.de/impressum",
+      "contact_name": "",
+      "job_title": "",
+      "phone": "+49 2192 9369-0",
+      "city": "Hückeswagen",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch131: NEW domain; DE Impressum Stahlschmidtsbrücke 31, 42499 Hückeswagen HRB37510 AG Köln; Vertreten Alf/Kirsten/Gertrud Buchner; Extrusionsblaswerkzeuge für Kunststoffindustrie; plain Impressum email"
+    },
+    {
+      "company": "GMTI Golz Mould & Tools International UG",
+      "domain": "gmti.de",
+      "email": "gmtiug@aol.com",
+      "email_source_url": "https://www.gmti.de/kontakt.html",
+      "contact_name": "Bernhard Golz",
+      "job_title": "Geschäftsführer",
+      "phone": "+49 9945 9054220",
+      "city": "Arnbruck",
+      "icp_tag": "overseas_peer_overflow",
+      "confidence": "high",
+      "notes": "Batch131: NEW domain; Kontakt plain Mail gmtiug@aol.com; Impressum Schmiedau 2, 93471 Arnbruck HRB 12242 FF; Formenbau/Werkzeugbau + Spritzgussfertigung Kunststoff; DE address/phone proven (non-.de email host OK)"
+    }
+  ],
+  "drops": [
+    {
+      "item": "Formacon j.sancar@",
+      "reason": "SKIP site still unreachable from box (curl 000 / WebFetch 500) — never invent; carry recovery"
+    },
+    {
+      "item": "Finke Gruppe named",
+      "reason": "SKIP cloaked/spaced emails on company site; known named already in master"
+    },
+    {
+      "item": "CAD-KON .de / Reddikowsky / Dobener / ck-form / Rapp / Auer / kb-sprung / Heise / Hochstadter-formenbau / Jordan",
+      "reason": "SKIP dead/403/unreachable"
+    },
+    {
+      "item": "Beck Plastics / Bauer Willingen",
+      "reason": "SKIP Joomla cloak / (at) obfuscation — plain-only"
+    },
+    {
+      "item": "ABAS Menrad / JAMA named beyond info@ / invent g.helm@",
+      "reason": "SKIP invent/cloak/tel-only"
+    },
+    {
+      "item": "hochstaedter.de Folientunnel",
+      "reason": "DROP wrong vertical (agriculture Folientunnel, not Formenbau)"
+    },
+    {
+      "item": "neueder.de",
+      "reason": "DROP Zerspanung/CNC Maschinenbau-primary (Kaiser pattern)"
+    },
+    {
+      "item": "sgwk.de sports club",
+      "reason": "DROP wrong host — SGWK plastics = spritzgusswerkzeug-konstruktion.de (already medium, no postal Impressum yet)"
+    },
+    {
+      "item": "wedo-formenbau / weiss-form",
+      "reason": "SKIP wedo no plain mailto on company site; DROP weiss-form Umform primary + (at) cloak"
+    },
+    {
+      "item": "OM r.thomas@",
+      "reason": "DROP Verwaltung & Talent Management"
+    },
+    {
+      "item": "Vorbach stefan.neuhorn (dot)/(at)",
+      "reason": "SKIP obfuscation invent; info@ already known"
+    },
+    {
+      "item": "Möschl / BM alt host / Spindler bewerbung@",
+      "reason": "SKIP emails already in master / Bewerbung"
+    },
+    {
+      "item": "preisner / pour / walter-formenbau host",
+      "reason": "SKIP dead recovery probes"
+    }
+  ]
+}

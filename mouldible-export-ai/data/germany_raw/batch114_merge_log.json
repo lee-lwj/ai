@@ -1,0 +1,75 @@
+{
+  "batch": 114,
+  "timestamp_hk": "2026-10-21 04:07 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4234 emails / 2966 domains (parent steered 4234/2953 hosts~2966 after Batch118dir; never 4219/4227).",
+  "baseline": {
+    "emails": 4234,
+    "domains": 2966
+  },
+  "net_new": 3,
+  "website_batch_end_snapshot": {
+    "emails": 4237,
+    "domains": 2967
+  },
+  "new_totals": {
+    "emails": 4237,
+    "domains": 2967,
+    "high": 3967,
+    "medium": 270,
+    "non_de": 1141,
+    "icp": {
+      "overseas_peer_overflow": 3936,
+      "design_studio": 172,
+      "oem_buyer": 94,
+      "sourcing": 35
+    },
+    "with_phone": 3656,
+    "with_city": 3727
+  },
+  "added_domains": [
+    "cad4u.de",
+    "foerster-formenbau.de",
+    "schneider-form.de"
+  ],
+  "added_emails": [
+    "m.lehr@schneider-form.de",
+    "info@cad4u.de",
+    "ffb-formen@t-online.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@bauer-werkzeugbau.de / fg@ / kb@ JS entity cloak",
+      "reason": "DROP cloak invent — JS HTML-entity concat emails"
+    },
+    {
+      "item": "info@wepf.de / dgoh@ etc.",
+      "reason": "DROP Schlauch/Rohrleitungen — not Spritz/Formenbau ICP"
+    },
+    {
+      "item": "fthormann@spritzguss-bergmann.de",
+      "reason": "DROP Lager/Versand (Alexander Bertels)"
+    },
+    {
+      "item": "vschouwink@spritzguss-bergmann.de",
+      "reason": "DROP Buchhaltung"
+    },
+    {
+      "item": "info@sipka.de",
+      "reason": "SKIP dead site; Formenpolier + Druckguss co"
+    },
+    {
+      "item": "info@form-tec.de / info@formtech.de",
+      "reason": "DROP PV / Umform SPF false friends (prior continuum)"
+    },
+    {
+      "item": "steinhauser / eckerle / bama / quattro / weiland / gollmer / krupanek named",
+      "reason": "SKIP already known"
+    },
+    {
+      "item": "TBI Formenbau .at",
+      "reason": "SKIP AT country-box (not DE-proven)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "item": "Formacon j.sancar@",
+    "reason": "SKIP site still unreachable (curl 000) — SERP snippet only; never invent; carry recovery"
+  },
+  {
+    "item": "Finke Formenbau plain mailto / Ansprechpartner",
+    "reason": "SKIP redirects to finke-gruppe; only HTML-entity/cloak obfuscation — no plain company-site mailto beyond known"
+  },
+  {
+    "item": "CAD-KON / Reddikowsky / Dobener / ck-form",
+    "reason": "SKIP sites still dead (curl 000)"
+  },
+  {
+    "item": "formenbau-rapp / auer / kb-sprung / heise / mohr / hochstadter / jordan",
+    "reason": "SKIP 403/unreachable"
+  },
+  {
+    "item": "Beck Plastics mail@ / vertrieb@beck-brehm",
+    "reason": "SKIP joomla-hidden-mail cloak — plain-mailto-only hint not met"
+  },
+  {
+    "item": "ABAS karl.menrad@ invent",
+    "reason": "SKIP invent — tel-only card, no mailto setter"
+  },
+  {
+    "item": "invent g.helm@",
+    "reason": "SKIP invent — only info@ published on prior target"
+  },
+  {
+    "item": "info@wa21.de on rethemeier.eu",
+    "reason": "DROP Werbeagentur 21 third-party agency footer — company mailbox is info@rethemeier.eu (already known)"
+  },
+  {
+    "item": "BARKU wohlking@ / sekretariat@",
+    "reason": "DROP Finanzbuchhaltung/Personalwesen / Sekretariat"
+  },
+  {
+    "item": "BARKU preuss@ / marose@ / koch@ / bpolitzky@",
+    "reason": "DROP Purchasing / Einkauf"
+  },
+  {
+    "item": "Dorn sabine.schlessmann@ / diana.heimpel@ / karina.hoeld@ / andrea.willmann@",
+    "reason": "DROP Auftragsabwicklung / Buchhaltung"
+  },
+  {
+    "item": "Dorn Carmen Dorn Assistentin via info@",
+    "reason": "DROP Assistentin der GF (uses shared info@ already known)"
+  },
+  {
+    "item": "praezisions-formenbau-werkzeugbau.de BM alt domain",
+    "reason": "SKIP email info@bm-formenbau.de already known"
+  },
+  {
+    "item": "BWF Holzkirchen / Alu-CNC misnomer pattern",
+    "reason": "DROP non-ICP per queue avoid list"
+  },
+  {
+    "item": "FINI named beyond known",
+    "reason": "SKIP already known t-online / no new same-domain mailbox"
+  }
+]

@@ -1,0 +1,11 @@
+# Batch 113 queue note (Website / named Kontakt)
+
+Baseline after B112: **4194** emails / **2935** domains (from 4192/2934; B112 net +2).
+
+- Expand empty; DE tooling singles exhausted; thin multi named Kontakt low-yield; directory track far ahead (Batch114dir).
+- Prefer web-search + WebFetch named Kontakt (konstruktion@/cad@/anfrage@/Konstruktionsleiter/Projektleiter) + NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion.
+- Prefer DE-proven (Impressum DE / DE phone); treat non-DE EU/CH country boxes cautiously.
+- Watch Directory Batch115dir / Batch116dir / map-reseed — re-read CSV before write.
+- Avoid: Stanz/Umform/Schnitt-primary; Druckguss/Kokillen-primary; Thermoform/Siegel; Feinguss/Gießerei; Composite/GFK; Buchhaltung/Personal/Einkauf/Verwaltung/Assistentin/Versand; cloak invent; generic Maschinenbau CAD without Spritz/Formenbau; CH-only boxes; Bewerbung/HR; webmaster; personal web.de.
+- Known skips this continuum: … + cad-eckes generic Maschinenbau; Schmidt Stanz-co; Gerken Stanz/Umform; Conrad Druckguss; 3D tooldesign CH; KWS Schulz Umform; gerd.hoelzel Einkauf; FUS reception untitled; Korropol Composite; mold-engineering cloak; Eberhardt Stanz/Umform; Wirth h.wirth Bewerbung.
+- B112 KEEP: CAD-KON team_cad-kon@t-online.de (Dettingen); FuN info@fun-gmbh.eu (Rott am Inn).

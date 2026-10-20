@@ -1,0 +1,67 @@
+[
+  {
+    "company": "KB Kunststofftechnik Vertriebs GmbH",
+    "domain": "kb-kunststoff.de",
+    "email": "info@kb-kunststoff.de",
+    "email_source_url": "https://www.kb-kunststoff.de/impressum",
+    "contact_name": "Hartwig Langenberg",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 2261 9515 0",
+    "city": "Gummersbach",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch119: NEW domain; live Impressum; Konstruktion+Werkzeugbau+Spritzgießen Thermoplaste/2K; DE NW Gutenbergstraße 11, 51645 Gummersbach; HRB 38698 Köln; USt DE122539693"
+  },
+  {
+    "company": "Pfaff GmbH",
+    "domain": "pfaffgmbh.com",
+    "email": "c.pfaff@pfaffgmbh.com",
+    "email_source_url": "https://pfaffgmbh.com/kontakt",
+    "contact_name": "Corinna Pfaff",
+    "job_title": "Geschäftsführerin",
+    "phone": "+49 7681 49397-12",
+    "city": "Waldkirch",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch119: NEW named on known domain; live Kontakt; Spritzguss/Werkzeug peer; DE BW Spinnereistraße 4-6, 79183 Waldkirch; HRB 280289 Freiburg"
+  },
+  {
+    "company": "Pfaff GmbH",
+    "domain": "pfaffgmbh.com",
+    "email": "a.buff@pfaffgmbh.com",
+    "email_source_url": "https://pfaffgmbh.com/kontakt",
+    "contact_name": "Andreas Buff",
+    "job_title": "Technischer Leiter",
+    "phone": "+49 7681 49397-15",
+    "city": "Waldkirch",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch119: named Kontakt live; Technischer Leiter Spritzguss OEM peer"
+  },
+  {
+    "company": "Pfaff GmbH",
+    "domain": "pfaffgmbh.com",
+    "email": "o.salvat@pfaffgmbh.com",
+    "email_source_url": "https://pfaffgmbh.com/kontakt",
+    "contact_name": "Oliver Salvat",
+    "job_title": "Werkzeug- & Projektmanagement",
+    "phone": "+49 7681 49397-28",
+    "city": "Waldkirch",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch119: named Kontakt live; Werkzeug- & Projektmanagement"
+  },
+  {
+    "company": "Pfaff GmbH",
+    "domain": "pfaffgmbh.com",
+    "email": "h.seifried@pfaffgmbh.com",
+    "email_source_url": "https://pfaffgmbh.com/kontakt",
+    "contact_name": "Harald Seifried",
+    "job_title": "QMB / Leiter Validierung",
+    "phone": "+49 7681 49397-18",
+    "city": "Waldkirch",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch119: named Kontakt live; QMB/Validierung Spritzguss peer"
+  }
+]

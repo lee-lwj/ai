@@ -1,0 +1,83 @@
+{
+  "batch": 109,
+  "timestamp_hk": "2026-10-21 03:33 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4103/2865 (Batch109dir → 4103 emails; parent steered 4103/2849 — live domain count now 2865).",
+  "baseline": {
+    "emails": 4103,
+    "domains": 2865
+  },
+  "net_new": 5,
+  "new_totals": {
+    "emails": 4108,
+    "domains": 2870,
+    "high": 3847,
+    "medium": 261,
+    "non_de": 1130,
+    "icp": {
+      "overseas_peer_overflow": 3826,
+      "design_studio": 168,
+      "oem_buyer": 80,
+      "sourcing": 34
+    },
+    "with_phone": 3534,
+    "with_city": 3619
+  },
+  "added_domains": [
+    "cad-plast.de",
+    "ej-konstruktionsbuero.de",
+    "ewkon.de",
+    "kraemer-e.de",
+    "radtke-konstruktionen.de"
+  ],
+  "added_emails": [
+    "e.jakimenko@ej-konstruktionsbuero.de",
+    "info@cad-plast.de",
+    "info@radtke-konstruktionen.de",
+    "info@kraemer-e.de",
+    "info@ewkon.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@formenschmiede.com / Formenschmiede",
+      "reason": "DROP Silikon/Juwelier FormenSchmiede — not Spritzguss ICP"
+    },
+    {
+      "item": "info@selve.de",
+      "reason": "DROP Rollladen-primary (SELVE)"
+    },
+    {
+      "item": "kontakt@formenbau-bockenem.de / Bockenem",
+      "reason": "DROP Druckguss/Kokille-primary"
+    },
+    {
+      "item": "info@hkr-werkzeugtechnik.de / j.dittrich@",
+      "reason": "DROP unreachable / live verify fail"
+    },
+    {
+      "item": "kb-das.de David Schuster",
+      "reason": "DROP empty E-Mail field on home+Impressum — never invent"
+    },
+    {
+      "item": "info@midena-formenbau.de / info@rocolani.de",
+      "reason": "SKIP master-optional"
+    },
+    {
+      "item": "d.marx@ / l.schuck@ rausch-formenbau",
+      "reason": "DROP Buchhaltung/Verwaltung / Einkauf (info@+a.marx already known)"
+    },
+    {
+      "item": "werkzeuge@pakulla FAQ-only",
+      "reason": "SKIP invent — FAQ invent-ish; info@ already known"
+    },
+    {
+      "item": "info@spritzgusswerkzeug-konstruktion.de",
+      "reason": "SKIP prior continuum (non-DE country-box / known skip)"
+    },
+    {
+      "item": "h.radtke@radtke-konstruktionen.de",
+      "reason": "SKIP invent — only on third-party PDF directory; not live on own site"
+    }
+  ]
+}

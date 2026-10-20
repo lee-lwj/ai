@@ -1,0 +1,10 @@
+# Batch 133 queue note (Website / named Kontakt)
+
+Baseline after B132: live **4543** emails / **3176** domains (~**3186** hosts) (B132 website net +5 from 4538).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch135dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only; aerospace-primary CAD; Alu-CNC-only "Formenbau" misnomers; Thermoform-Tiefzieh-primary (Senkel pattern); Zerspanung-only (Kaiser/Neueder pattern); CNC-Frästeile-only (Bärmann pattern); casino-hijacked hosts (wedo pattern).
+- B132 KEEP: Schmidt Plastics info@ (Emsbüren); Schröder+Heidler info@ (Sehmatal-Neudorf); LS Formenbau info@ (Delmenhorst); Designmachine mp@ + mv@ (Köln/Kipfenberg GF).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); Finke plain mailto if published; CAD-KON plastics named if .de recovers; Reddikowsky/Dobener/ck-form if live; g.helm@ only if published; Beck Plastics / Bauer Willingen if plain mailto (Joomla cloak); Formenbau Rapp / Auer / kb-sprung if 403 clears; Heise/Detlef Mohr/Hochstadter-formenbau if sites recover; Jordan Spritzguss if recovers; FINI named beyond known t-online; ABAS Karl Menrad only if mailto; Jama named beyond info@ if plain mailto; SGWK postal Impressum upgrade medium→high; preisner/pour/walter-formenbau host if plain Impressum recovers; HeiForm/Heinze when 403 clears with plain mailto; Weber Formenbau Weidenberg if plain (cloak now); MS Formen/spritzgiessformen Allgäu if site recovers; speculative NEW geographic (Lüneburger Heide/Elbe-Weser/Ostfriesland residual singles per dir seeds).

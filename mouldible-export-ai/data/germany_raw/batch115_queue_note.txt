@@ -1,0 +1,10 @@
+# Batch 115 queue note (Website / named Kontakt)
+
+Baseline after B114 website (+ concurrent dir if any): live **4237** emails / **2967** domains (B114 website net +3 from 4234).
+
+- Expand empty; DE tooling singles exhausted; thin multi named Kontakt low-yield; directory track far ahead.
+- Prefer web-search + WebFetch named Kontakt (konstruktion@/cad@/anfrage@/Konstruktionsleiter/Projektleiter/Innovationsmanagement) + NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion.
+- Prefer DE-proven; treat AT/CH/EU non-DE cautiously.
+- Watch Directory Batch119dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform/Schnitt-primary; Druckguss/Kokillen-primary; Thermoform/Siegel; Feinguss; Composite/GFK; Buchhaltung/Personal/Einkauf/Verwaltung/Assistentin/Versand/Lager/Auftragsabwicklung; cloak invent (incl. JS HTML-entity concat); generic Maschinenbau CAD without Spritz/Formenbau; CH/AT-only; Bewerbung/HR; webmaster; personal web.de; PV/Umform SPF false friends; Schlauch/Rohr (Wepf).
+- B114 KEEP: Schneider Form m.lehr@; CAD4U info@cad4u.de; FFB Förster ffb-formen@t-online.de.

@@ -1,0 +1,282 @@
+[
+  {
+    "domain": "ads-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "akguen-kunststoff.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "beck-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "beosys.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "dtl-werkzeugbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "enkoma.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "form-exclusiv.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "formenbaunord.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "formenmacher.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "goldbecker.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "grote-form.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "haasis-formen.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "helco-helmig.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "hematec-werkzeugbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "hoemberg-kunststoffspritzguss.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "hoffmann-kunststoffe.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "in-form-vollendet.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "isk-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kampmeier.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kct-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kestermann-modellbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kiw-werkzeugtechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "ks-werkzeugtechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "ktec-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kunststoffspritzguss-werkzeugbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kunststofftechnik-mueller.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kunststofftechnik-schmid.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "kunststofftechnikgreiner.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "langer-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "mekuplast.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "menn-werkzeugbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "merschbrock.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "mtplastik.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "oke-group.com",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "oke.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "performanceplast.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "rheder-werkzeugbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "ruhrplast.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "saur-formenbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "schaber-spritzgusstechnik.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "schieffer-group.com",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "schieffer.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "skt-schreiber.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "spritzgusswerkzeug-konstruktion.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "usdform.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "vvk-kunststofftechnik.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "weischer.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "weko-werkzeugbau.de",
+    "ok": true,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "werkzeugbau-haas.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "werkzeugbau-meissner.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "werkzeugbauberger.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "wf-formprojekt.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "wibraformenbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "wischemann-kunststoff.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "ziform.de",
+    "ok": false,
+    "note": "batch134dir"
+  },
+  {
+    "domain": "zindt-formenbau.de",
+    "ok": false,
+    "note": "batch134dir"
+  }
+]

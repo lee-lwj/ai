@@ -1,0 +1,10 @@
+# Batch 124 queue note (Website / named Kontakt)
+
+Baseline after B123: live **4356** emails / **3047** domains (B123 website net +5 from 4351; steered after Directory 129dir 4333→4351 before merge).
+
+- Expand empty; prefer NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion named Kontakt.
+- Prefer DE-proven Impressum; skip cloak invent; phone-only; dead sites; third-party sales/agency.
+- Watch Directory Batch130dir+ — re-read CSV before write.
+- Avoid: Stanz/Umform; Druckguss/Guss-primary; Buchhaltung/Personal/Einkauf/Verwaltung/Versand/Bewerbung/Kaufm./DSB; Werbeagentur; Gerken continuum; CH/AT-only.
+- B123 KEEP: IRB info@ (Kleinwallstadt); Polytherm info@ (Aschaffenburg); CAD-Konstruktionsbüro Ptach info@ (Hamm); Johannes Menz info@ (Steinbach-Hallenberg); LH-Konstruktion info@ + Georg Helm named (Flachslanden).
+- Promising next: Formacon recovery when site live (j.sancar@ snippet only); Finke plain mailto if published; FLICKS plain email if revealed; ABAS named beyond info@ when Cloudflare clears; CAD-KON other named beyond team_cad-kon@t-online; Reddikowsky/Dobener if sites recover; g.helm@ only if published.

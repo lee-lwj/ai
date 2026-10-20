@@ -1,0 +1,412 @@
+[
+  {
+    "domain": "hauser-tierformen.de",
+    "ok": true,
+    "emails": [
+      "info@hauser-tierformen.de"
+    ],
+    "source_url": "https://www.hauser-tierformen.de/impressum",
+    "phone": "",
+    "city": "Singen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "lmk-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@lmk-werkzeugbau.de"
+    ],
+    "source_url": "https://www.lmk-werkzeugbau.de/kontakt",
+    "phone": "+49-095613194958",
+    "city": "Coburg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "stemmle-heizung.de",
+    "ok": true,
+    "emails": [
+      "info@stemmle-heizung.de"
+    ],
+    "source_url": "https://www.stemmle-heizung.de/impressum",
+    "phone": "+49-01638082433",
+    "city": "DIV",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "werkzeugbau-kunststoffspritzguss.de",
+    "ok": true,
+    "emails": [
+      "info@w-p-k.de",
+      "info@agentur-b-2.de"
+    ],
+    "source_url": "https://www.werkzeugbau-kunststoffspritzguss.de/impressum",
+    "phone": "+49-219568090",
+    "city": "Radevormwald",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-reinartz.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "troestl-kunststofftechnik.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "feist-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "formenbau-gmbh.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststoff-gummi.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "tools4everybody.de",
+    "ok": true,
+    "emails": [
+      "info@arminius.de"
+    ],
+    "source_url": "https://www.tools4everybody.de/impressum",
+    "phone": "+49-0523194550",
+    "city": "Detmold",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "weku.de",
+    "ok": true,
+    "emails": [
+      "info@weku.de"
+    ],
+    "source_url": "https://www.weku.de/impressum",
+    "phone": "+49-8319608690",
+    "city": "Kempten",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "spritzgusswerkzeuge.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-reinartz-solingen.de",
+    "ok": true,
+    "emails": [
+      "info@werkzeugbau-reinartz.de"
+    ],
+    "source_url": "https://www.werkzeugbau-reinartz-solingen.de/impressum",
+    "phone": "+49-0171",
+    "city": "Solingen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "bilsing-werkzeugbau.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ambergerwerkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@namac.de"
+    ],
+    "source_url": "https://www.ambergerwerkzeugbau.de/impressum",
+    "phone": "+49-966110520",
+    "city": "Sulzbach-Rosenberg",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "behringer-kunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "bevaplast.de",
+    "ok": true,
+    "emails": [
+      "info@bevaplast.de"
+    ],
+    "source_url": "https://www.bevaplast.de/impressum",
+    "phone": "",
+    "city": "Kleve",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbau-niemann.de",
+    "ok": true,
+    "emails": [
+      "info@formenbau-niemann.de"
+    ],
+    "source_url": "https://www.formenbau-niemann.de/impressum",
+    "phone": "+49-9351600400",
+    "city": "Gem",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "frank-formenbau-spritzguss.de",
+    "ok": true,
+    "emails": [
+      "info@frank-formenbau-spritzguss.de"
+    ],
+    "source_url": "https://www.frank-formenbau-spritzguss.de/impressum",
+    "phone": "+49-08652976570",
+    "city": "Berchtesgaden",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "schaller-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "forminplast.de",
+    "ok": true,
+    "emails": [
+      "info@forminplast.de"
+    ],
+    "source_url": "https://www.forminplast.de/impressum",
+    "phone": "+49-07123973880",
+    "city": "Metzingen Telefon",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gbm-kunststoff.eu",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "form-werbetechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "geweku.de",
+    "ok": true,
+    "emails": [
+      "info@geweku.de"
+    ],
+    "source_url": "https://www.geweku.de/impressum",
+    "phone": "+49-02353667959",
+    "city": "Halver",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "inweku.com",
+    "ok": true,
+    "emails": [
+      "info@inweku.com"
+    ],
+    "source_url": "https://www.inweku.com/impressum",
+    "phone": "+49-36847169330",
+    "city": "Steinbach-Hallenberg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "weku-kunststoffverarbeitung.de",
+    "ok": true,
+    "emails": [
+      "info@we-ku.de"
+    ],
+    "source_url": "https://www.weku-kunststoffverarbeitung.de/",
+    "phone": "",
+    "city": "",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "ghd-formenbau.de",
+    "ok": true,
+    "emails": [
+      "info@ghd-formenbau.de"
+    ],
+    "source_url": "https://www.ghd-formenbau.de/impressum",
+    "phone": "+49-09828",
+    "city": "Rügland",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "kunststoffweb.de",
+    "ok": true,
+    "emails": [
+      "info@kunststoffweb.de"
+    ],
+    "source_url": "https://www.kunststoffweb.de/impressum",
+    "phone": "+49-0617296060",
+    "city": "Bad Homburg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "hwf-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "vertrieb@hwf-werkzeugbau.de",
+      "info@hwf-werkzeugbau.de"
+    ],
+    "source_url": "https://www.hwf-werkzeugbau.de/impressum",
+    "phone": "+49-607130830",
+    "city": "Eppertshausen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "leweku.de",
+    "ok": true,
+    "emails": [
+      "info@leweku.de"
+    ],
+    "source_url": "https://www.leweku.de/",
+    "phone": "",
+    "city": "Hallerndorf",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "praezisionsformenbau.de",
+    "ok": true,
+    "emails": [
+      "info@praezisionsformenbau.de"
+    ],
+    "source_url": "https://www.praezisionsformenbau.de/impressum",
+    "phone": "",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "moldino.eu",
+    "ok": true,
+    "emails": [
+      "marketing@moldino.eu",
+      "info@moldino.eu",
+      "sgentile@moldino.eu"
+    ],
+    "source_url": "https://www.moldino.eu/impressum",
+    "phone": "+49-210324820",
+    "city": "Hilden",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "spritzguss-mueller.de",
+    "ok": true,
+    "emails": [
+      "info@spritzguss-mueller.de"
+    ],
+    "source_url": "https://www.spritzguss-mueller.de/impressum",
+    "phone": "+49-808693120",
+    "city": "Buchbach",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "spritzguss-werkzeug.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "spritzgussrauh.de",
+    "ok": true,
+    "emails": [
+      "info@spritzgussrauh.de"
+    ],
+    "source_url": "https://www.spritzgussrauh.de/impressum",
+    "phone": "+49-212816077",
+    "city": "Solingen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "schlegel-kunststoff.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

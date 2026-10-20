@@ -1,0 +1,41 @@
+[
+  {
+    "company": "Poly-Nister-Plastik GmbH & Co. KG",
+    "domain": "polynisterplastik.de",
+    "email": "info@polynisterplastik.de",
+    "email_source_url": "https://polynisterplastik.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49(0)2662 – 9469 00",
+    "city": "Streithausen",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch120: NEW domain; live Impressum; Spritzguss+Formenbau/Werkzeugbau OEM peer (2K/Insert); DE RP Hochstrasse 1, 57629 Streithausen; HR Montabaur; GF Marco Sittler"
+  },
+  {
+    "company": "Poly-Nister-Plastik GmbH & Co. KG",
+    "domain": "polynisterplastik.de",
+    "email": "marco.sittler@polynisterplastik.de",
+    "email_source_url": "https://polynisterplastik.de/",
+    "contact_name": "Marco Sittler",
+    "job_title": "Geschäftsführer",
+    "phone": "+49(0)2662-9469 0",
+    "city": "Streithausen",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch120: named Kontakt live on homepage; alleiniger Gesellschafter/GF"
+  },
+  {
+    "company": "Poly-Nister-Plastik GmbH & Co. KG",
+    "domain": "polynisterplastik.de",
+    "email": "fabian.zoeller@polynisterplastik.de",
+    "email_source_url": "https://polynisterplastik.de/",
+    "contact_name": "Fabian Zöller",
+    "job_title": "Technischer Leiter",
+    "phone": "+49 (0) 2662-9469 30",
+    "city": "Streithausen",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch120: named Kontakt live; Feinwerkmechanikermeister / Technischer Leiter"
+  }
+]

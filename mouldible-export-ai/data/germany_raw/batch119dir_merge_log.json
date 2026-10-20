@@ -1,0 +1,61 @@
+{
+  "batch": "119dir",
+  "label": "目录/展会轨 Batch119dir",
+  "csv_before": 4237,
+  "csv_after": 4247,
+  "net_new_emails": 10,
+  "high": 7,
+  "medium": 3,
+  "impressum_checked": 24,
+  "impressum_ok": 14,
+  "stats": {
+    "added_cand": 10,
+    "qual_exclude": 2,
+    "no_hit": 10,
+    "brand_related_medium": 9,
+    "dup_email": 6,
+    "qual_offdomain_drop": 2
+  },
+  "queue_remaining_domains": 7,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 82,
+    "queued_from_b118": 11,
+    "source_ok_pages": {
+      "maps": 35,
+      "search": 35,
+      "ep": 6
+    },
+    "queue": 24,
+    "queue_via": {
+      "b118_domain_queue": 2,
+      "search": 22
+    },
+    "sources": {
+      "queue": 2,
+      "email": 4,
+      "web": 18
+    },
+    "method": "B118 domain queue + NRW mid-cities × kw DDG/Bing + Europages DE; skip WLW; drop Druckguss/Stanz"
+  },
+  "baseline_note": "Re-read CSV before merge (4237/2955); Website B114 had landed (steering 4237/2967 hosts / 2955 domains)",
+  "steering_expected_before": 4237,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted"
+  ],
+  "domains_after": 2965,
+  "domains_before": 2955,
+  "sources": "B118 domain queue + NRW mid-cities × kw DDG/Bing + Europages DE; skip WLW; drop Druckguss/Stanz",
+  "expand_worked": {
+    "b118_domain_queue": 2,
+    "search": 22
+  },
+  "quality_note": "Dropped Druckguss/Stanz/portal/handwerk/HR-locals/off-domain; brand_related medium kept",
+  "quality_drops_sample": [
+    "exclude_dom:handwerkerteam.de",
+    "offdomain:info@weborbis-webdesign.de<-praezisions-formenbau-werkzeugbau.de",
+    "offdomain:max@beispiel.de<-werkzeugbau-berger.com",
+    "exclude_dom:dashandwerk.de"
+  ]
+}

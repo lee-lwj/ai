@@ -1,0 +1,55 @@
+{
+  "batch": "117dir",
+  "label": "目录/展会轨 Batch117dir",
+  "csv_before": 4219,
+  "csv_after": 4227,
+  "net_new_emails": 8,
+  "high": 7,
+  "medium": 1,
+  "impressum_checked": 18,
+  "impressum_ok": 10,
+  "stats": {
+    "added_cand": 8,
+    "no_hit": 8,
+    "brand_related_medium": 2,
+    "dup_email": 1,
+    "qual_exclude": 2
+  },
+  "queue_remaining_domains": 15,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 82,
+    "queued_from_b116": 12,
+    "source_ok_pages": {
+      "search": 35,
+      "maps": 35,
+      "ep": 6
+    },
+    "queue": 18,
+    "queue_via": {
+      "b116_domain_queue": 4,
+      "search": 13,
+      "maps": 1
+    },
+    "sources": {
+      "queue": 4,
+      "email": 5,
+      "web": 9
+    },
+    "method": "B116 domain queue + city×kw DDG/Bing + Europages DE; skip WLW; drop Druckguss-primary"
+  },
+  "baseline_note": "Re-read CSV before merge (4219/2938)",
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted"
+  ],
+  "domains_after": 2946,
+  "domains_before": 2938,
+  "sources": "B116 domain queue + city×kw DDG/Bing + Europages DE; skip WLW; drop Druckguss-primary",
+  "expand_worked": {
+    "b116_domain_queue": 4,
+    "search": 13,
+    "maps": 1
+  },
+  "quality_note": "Dropped Druckguss-primary/portal/off-domain/webmaster; kept same-domain high + brand_related medium"
+}

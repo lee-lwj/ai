@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Qm Formtechnik (DE)",
+    "domain": "qm-formtechnik.de",
+    "email": "michael.quast@qm-formtechnik.de",
+    "email_source_url": "https://www.qm-formtechnik.de/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 4161 7528815",
+    "city": "Buxtehude-Ovelgönne",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch124dir Nord/SH/MV/Harz)"
+  },
+  {
+    "company": "Zippel Werkzeugbau (DE)",
+    "domain": "zippel-werkzeugbau.de",
+    "email": "info@zippel-werkzeugbau.de",
+    "email_source_url": "https://www.zippel-werkzeugbau.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49533162509",
+    "city": "Wolfenbüttel",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch124dir Nord/SH/MV/Harz)"
+  },
+  {
+    "company": "Rm Kunststoffe (DE)",
+    "domain": "rm-kunststoffe.com",
+    "email": "mail@rm-plast.com",
+    "email_source_url": "https://rm-kunststoffe.com/impressum/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 571 3876 2439",
+    "city": "Lübbecke",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "medium",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch124dir Nord/SH/MV/Harz)"
+  },
+  {
+    "company": "Storm Kunststoff (DE)",
+    "domain": "storm-kunststoff.de",
+    "email": "info@storm-kunststoff.de",
+    "email_source_url": "https://www.storm-kunststoff.de/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 (0) 80 82 / 94 307",
+    "city": "Schwindegg",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch124dir Nord/SH/MV/Harz)"
+  }
+]
