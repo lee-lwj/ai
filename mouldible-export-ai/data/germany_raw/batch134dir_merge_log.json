@@ -1,0 +1,82 @@
+{
+  "batch": "134dir",
+  "label": "目录/展会轨 Batch134dir",
+  "csv_before": 4523,
+  "csv_after": 4538,
+  "net_new_emails": 15,
+  "high": 15,
+  "medium": 0,
+  "impressum_checked": 56,
+  "impressum_ok": 13,
+  "stats": {
+    "added_cand": 15,
+    "qual_exclude": 12,
+    "already_known_skips": 0
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 520,
+    "queued_from_b133": 0,
+    "cities_used": 164,
+    "source_ok_pages": {
+      "search": 630,
+      "maps": 105,
+      "ep": 0,
+      "gs": 2
+    },
+    "discovery_domains": 1001,
+    "ddg_challenge": 101,
+    "queue": 0,
+    "method": "Münsterland/Emsland/Teutoburger Wald × kw DDG/Bing/Maps + EP/GS + WebSearch name-resolve; skip WLW; high quality"
+  },
+  "baseline_note": "Re-read CSV before merge after Website B131 (4523/3162/~3172 hosts); never regress",
+  "steering_expected_before": 4523,
+  "blockers": [
+    "WLW skipped",
+    "DDG challenged mid-batch (ddg_challenge=101)",
+    "Europages pages empty (ok_pages.ep=0)",
+    "Gelbe Seiten nearly empty (ok_pages.gs=2)",
+    "grote-form.de unreachable SSL/timeout",
+    "samsondesign.de SSL handshake failure",
+    "impressum bulk scrape killed on werkzeugbau-haas hang; partial+manual verify used",
+    "belt majors already in CSV (bergmann/weischer/alwa/teegen/eundg/lammers/emco/rowiform)"
+  ],
+  "domains_after": 3174,
+  "domains_before": 3162,
+  "hosts_after": 3184,
+  "hosts_before": 3172,
+  "sources": "Münsterland/Emsland/Teutoburger Wald + DDG/Bing/Maps/EP/GS + WebSearch; skip WLW; high quality",
+  "quality_note": "Dropped Thermoform/GFK/CNC-Halbzeug/ERP-Software/Stanz-Umform/Gießmodell/Druckguss-primary; kept Spritzguss/Formenbau peers + OKE Hörstel + MT Plastik OWL",
+  "quality_drops_sample": [
+    "ks-werkzeugtechnik.de: DROP flags=['cnc'] city=Coesfeld",
+    "kct-kunststofftechnik.de: DROP CNC-Halbzeug/Zerspanung not Spritzguss (Schüttorf)",
+    "info@usdform.de: DROP Metallguss/USD Formteiltechnik",
+    "weischer.de: DROP PUR/Schäum/Vakuumformen (already known)",
+    "beosys.de / wellmann@: DROP ERP-Software not Formenbau",
+    "helco-helmig.de: DROP Thermoform/Tiefzieh primary",
+    "goldbecker.de: DROP GFK primary",
+    "kestermann-modellbau.de: DROP Gießerei-Modellbau (GIFA)",
+    "ebmeyer.eu / himmeldirk / jore: DROP Blech/Stanz/Umform",
+    "info@zindt-fb.dewww...: DROP malformed scrape artifact",
+    "miele/claas/harting OEM mega: SKIP this batch (need named Kontakt quality pass)",
+    "spritzgusswerkzeug-konstruktion.de: SKIP already in B130"
+  ],
+  "added_emails": [
+    "info@oke-group.com",
+    "info@oke.de",
+    "info@mtplastik.de",
+    "schmiedeskamp@mtplastik.de",
+    "info@merschbrock.de",
+    "info@kampmeier.de",
+    "info@schieffer.de",
+    "info@schaber-spritzgusstechnik.de",
+    "info@mekuplast.de",
+    "zoltan.jakab@mekuplast.de",
+    "info@ruhrplast.de",
+    "info@performanceplast.de",
+    "info@haasis-formen.de",
+    "info@weko-werkzeugbau.de",
+    "info@enkoma.de"
+  ]
+}

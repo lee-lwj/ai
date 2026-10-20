@@ -1,3 +1,131 @@
+## Website/named Kontakt Batch 132
+
+> 合并前重读 CSV（任务启动口径 B131 后 **4523** / **3162** domains ~**3172** hosts；写前 live 已抬升至 **4538** / **3174** domains ~**3184** hosts，疑似并行 Directory 轨）。本批按 live 合并，网站轨净增 **+5** → **4543** / **3176** domains (~**3186** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4543** |
+| high / medium | **4262** / **281** |
+| 唯一域名（domain 列） | **3176** |
+| 唯一邮箱主机（@host） | **3186** |
+| 含电话 / 含城市 | **3921** / **4027** |
+| 非 .de 邮箱 | **1206** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4161** |
+| design_studio | **199** |
+| oem_buyer | **147** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+5**（相对写时基线 4538）
+
+- `info@schmidt-gmbh.com` — Schmidt Plastics GmbH (Emsbüren) — `overseas_peer_overflow` / high
+- `info@schroeder-heidler.de` — Schröder + Heidler GmbH (Sehmatal-Neudorf) — `overseas_peer_overflow` / high
+- `info@ls-formenbau.de` — LS Formenbau / M. Daniel (Delmenhorst) — `overseas_peer_overflow` / high
+- `mp@designmachine.io` — Designmachine XYZ GmbH — Maciej Puzon (GF / Studio Köln) — `design_studio` / high
+- `mv@designmachine.io` — Designmachine XYZ GmbH — Maximilian Volk (GF / Studio Kipfenberg) — `design_studio` / high
+
+### 本批质量剔除（节选）
+
+- `Formacon / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de` — SKIP dead/403
+- `wedo-formenbau.de` — DROP casino hijack
+- `MS Formen / spritzgiessformen / eitech werkzeugbau host` — SKIP dead/parked/wrong vertical
+- `brigitte.zintel@ Guethner / s.manz@ Wibra / FUS Sekretariat / Müller Buchhaltung+Einkauf` — DROP Verwaltung/Sekretariat/Buchhaltung/Einkauf
+- `jonathan.franke@enesty.org` — DROP third-party agency
+- `formteile-baermann.de` — DROP CNC-Frästeile-only
+- `weber-formenbau.com / krauss-web ∂` — SKIP cloak/obfuscation
+- `VMT NL / mkmanufaktur Zerspanung / Heinze 403 / HeiForm dead / SGWK postal pending` — SKIP/DROP
+
+### 产物
+
+- `data/germany_raw/batch132_new_verified.json`
+- `data/germany_raw/batch132_quality_drops.json`
+- `data/germany_raw/batch132_merge_log.json`
+- `data/germany_raw/batch132_candidates_final.json`
+- `data/germany_raw/batch133_queue_note.txt`
+
+_报告更新：2026-10-21 Asia/Hong_Kong_
+
+---
+
+## 目录/展会轨 Batch134dir
+
+> 合并前重读 CSV（直播基线 **4523** / **3162**；Website Batch131 steering +6）。合并后基线：**4538** / **3174**（hosts ~3184）。
+
+### 累计（Batch134dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4538** |
+| high / medium | **4257** / **281** |
+| 唯一域名 | **3174** |
+| 含电话 / 含城市 | **3916** / **4022** |
+| 非 .de 邮箱 | **1203** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4158** |
+| design_studio | **197** |
+| oem_buyer | **147** |
+| sourcing | **36** |
+
+### 本轨成果（Batch134dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **56** |
+| 有邮箱命中（合格保留） | **13** |
+| 本轨净增邮箱 | **15**（high **15** / medium **0**） |
+| 相对基线 4523/3162 | **+15** / **+12** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B133 域名队列 | 空 |
+| Münsterland/Emsland/Teutoburger Wald 微城 × kw | 有效（DDG/Bing/Maps/EP/GS；discovery ~1001 domains） |
+| Bing Maps / Europages / Gelbe Seiten | 部分（maps 105 / ep 0 / gs 2） |
+| WebSearch 具名解析 | OKE Hörstel、MT Plastik、Merschbrock Verl、Kampmeier Delbrück、Schieffer Lippstadt 等 |
+| Fakuma/VDWF / WLW | 未用 / 跳过 |
+| 产量 | 质量门后 **+15**；剔 Thermoform/GFK/CNC-Halbzeug/ERP/Stanz-Umform |
+
+### 本轨新增邮箱（共 15）
+
+- `info@oke-group.com` (high, overseas_peer_overflow) · Hörstel
+- `info@oke.de` (high, overseas_peer_overflow) · Hörstel
+- `info@mtplastik.de` (high, overseas_peer_overflow) · Horn-Bad Meinberg
+- `schmiedeskamp@mtplastik.de` (high, overseas_peer_overflow) · Horn-Bad Meinberg
+- `info@merschbrock.de` (high, overseas_peer_overflow) · Verl
+- `info@kampmeier.de` (high, overseas_peer_overflow) · Delbrück
+- `info@schieffer.de` (high, overseas_peer_overflow) · Lippstadt
+- `info@schaber-spritzgusstechnik.de` (high, overseas_peer_overflow) · Loßburg
+- `info@mekuplast.de` (high, overseas_peer_overflow) · Walldorf
+- `zoltan.jakab@mekuplast.de` (high, overseas_peer_overflow) · Walldorf
+- `info@ruhrplast.de` (high, overseas_peer_overflow) · Sprockhövel
+- `info@performanceplast.de` (high, overseas_peer_overflow) · Ballhausen
+- `info@haasis-formen.de` (high, overseas_peer_overflow) · Balingen
+- `info@weko-werkzeugbau.de` (high, overseas_peer_overflow) · Kierspe
+- `info@enkoma.de` (high, overseas_peer_overflow) · Aerzen
+
+### 产物
+
+- `data/germany_raw/batch134dir_*.json`
+- `data/germany_raw/batch134dir_next_search_seeds.json`
+
+### 状态
+
+Batch134dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch135dir（下一城带：Ruhrgebiet/Bergisches Land/Niederrhein）。全国目录轨饱和仍高，本带仍挖出 **+15** 新邮（含 OKE Hörstel、MT Plastik Horn-Bad Meinberg、Merschbrock Verl、Kampmeier Delbrück、Schieffer Lippstadt、Ruhrplast Sprockhövel 等）。多数带内大户已在库（bergmann/weischer/alwa/teegen/eundg/lammers/emco）。
+
+---
 ## Website/named Kontakt Batch 131
 
 > 合并前重读 CSV（Directory 未抬升；直播基线仍 **4517** / **3157** domains ~**3168** hosts；任务初口径 4517/3158 与 domain 列差 1、hosts 一致）。本批按 live 合并，网站轨净增 **+6** → **4523** / **3161** domains (~**3172** hosts)。

@@ -1,0 +1,137 @@
+[
+  {
+    "domain": "oke-group.com",
+    "emails": [
+      "info@oke-group.com"
+    ],
+    "source_url": "https://www.oke-group.com/de/impressum/",
+    "city": "Hörstel",
+    "phone": "+49 5459 914-0"
+  },
+  {
+    "domain": "oke.de",
+    "emails": [
+      "info@oke.de"
+    ],
+    "source_url": "https://www.oke-group.com/de/kontakt/",
+    "city": "Hörstel",
+    "phone": "+49 5459 914-0"
+  },
+  {
+    "domain": "mtplastik.de",
+    "emails": [
+      "info@mtplastik.de"
+    ],
+    "source_url": "https://www.mtplastik.de/impressum/",
+    "city": "Horn-Bad Meinberg",
+    "phone": "+49 5233 7029860"
+  },
+  {
+    "domain": "mtplastik.de",
+    "emails": [
+      "schmiedeskamp@mtplastik.de"
+    ],
+    "source_url": "https://www.mtplastik.de/kontakt/",
+    "city": "Horn-Bad Meinberg",
+    "phone": "+49 5233 7029860"
+  },
+  {
+    "domain": "merschbrock.de",
+    "emails": [
+      "info@merschbrock.de"
+    ],
+    "source_url": "https://www.merschbrock.de/kontakt",
+    "city": "Verl",
+    "phone": "+49 5246 93593-0"
+  },
+  {
+    "domain": "kampmeier.de",
+    "emails": [
+      "info@kampmeier.de"
+    ],
+    "source_url": "https://www.kampmeier.de/impressum/",
+    "city": "Delbrück",
+    "phone": "+49 5250 932280"
+  },
+  {
+    "domain": "schieffer.de",
+    "emails": [
+      "info@schieffer.de"
+    ],
+    "source_url": "https://www.schieffer-group.com/impressum",
+    "city": "Lippstadt",
+    "phone": "+49 2941 755-0"
+  },
+  {
+    "domain": "schaber-spritzgusstechnik.de",
+    "emails": [
+      "info@schaber-spritzgusstechnik.de"
+    ],
+    "source_url": "https://www.schaber-spritzgusstechnik.de/",
+    "city": "Loßburg",
+    "phone": ""
+  },
+  {
+    "domain": "mekuplast.de",
+    "emails": [
+      "info@mekuplast.de"
+    ],
+    "source_url": "https://www.mekuplast.de/",
+    "city": "Walldorf",
+    "phone": "+49 6227 89928-0"
+  },
+  {
+    "domain": "mekuplast.de",
+    "emails": [
+      "zoltan.jakab@mekuplast.de"
+    ],
+    "source_url": "https://www.mekuplast.de/",
+    "city": "Walldorf",
+    "phone": "+49 6227 89928-0"
+  },
+  {
+    "domain": "ruhrplast.de",
+    "emails": [
+      "info@ruhrplast.de"
+    ],
+    "source_url": "https://www.ruhrplast.de/",
+    "city": "Sprockhövel",
+    "phone": ""
+  },
+  {
+    "domain": "performanceplast.de",
+    "emails": [
+      "info@performanceplast.de"
+    ],
+    "source_url": "https://www.performanceplast.de/",
+    "city": "Ballhausen",
+    "phone": "+49 1577 5700991"
+  },
+  {
+    "domain": "haasis-formen.de",
+    "emails": [
+      "info@haasis-formen.de"
+    ],
+    "source_url": "https://www.haasis-formen.de/",
+    "city": "Balingen",
+    "phone": ""
+  },
+  {
+    "domain": "weko-werkzeugbau.de",
+    "emails": [
+      "info@weko-werkzeugbau.de"
+    ],
+    "source_url": "https://www.weko-werkzeugbau.de/",
+    "city": "Kierspe",
+    "phone": ""
+  },
+  {
+    "domain": "enkoma.de",
+    "emails": [
+      "info@enkoma.de"
+    ],
+    "source_url": "https://www.enkoma.de/impressum",
+    "city": "Aerzen",
+    "phone": "+49 5154 7099-0"
+  }
+]

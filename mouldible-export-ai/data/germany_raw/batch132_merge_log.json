@@ -1,0 +1,33 @@
+{
+  "batch": 132,
+  "type": "website_named_kontakt",
+  "baseline_emails": 4538,
+  "baseline_domains_col": 3174,
+  "baseline_hosts": 3184,
+  "baseline_note": "live re-read before merge: 4538 unique emails / 3174 domain-col / 3184 hosts (task start cited 4523 after B131; concurrent dir lift likely)",
+  "added": 5,
+  "after_emails": 4543,
+  "after_domains_col": 3176,
+  "after_hosts": 3186,
+  "kept_emails": [
+    "info@schmidt-gmbh.com",
+    "info@schroeder-heidler.de",
+    "info@ls-formenbau.de",
+    "mp@designmachine.io",
+    "mv@designmachine.io"
+  ],
+  "skipped_dup": [],
+  "high": 4262,
+  "medium": 281,
+  "phone_n": 3921,
+  "city_n": 4027,
+  "non_de": 1206,
+  "icp_tag_counts": {
+    "overseas_peer_overflow": 4161,
+    "oem_buyer": 147,
+    "sourcing": 36,
+    "design_studio": 199
+  },
+  "timestamp_hkt": "2026-10-21 Asia/Hong_Kong",
+  "task_start_cited_emails": 4523
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "item": "Formacon j.sancar@ / Reddikowsky / Dobener / ck-form / Rapp / kb-sprung / Heise / Hochstadter / Jordan / CAD-KON .de",
+    "reason": "SKIP still dead/403/unreachable — carry recovery"
+  },
+  {
+    "item": "wedo-formenbau.de",
+    "reason": "DROP domain hijacked (casino spam affiliate); no Formenbau Impressum"
+  },
+  {
+    "item": "spritzgiessformen.de / formenundplaste.de (MS Formen Allgäu)",
+    "reason": "SKIP minimal/parked page or unreachable; no plain mailto"
+  },
+  {
+    "item": "eitech-werkzeugbau.com / eitech.de kundenservice@",
+    "reason": "SKIP werkzeugbau host unreachable; eitech.de = Spielwaren consumer sales (wrong vertical for peer)"
+  },
+  {
+    "item": "brigitte.zintel@guethner-gmbh.de",
+    "reason": "DROP Verwaltung (redundant role)"
+  },
+  {
+    "item": "s.manz@wibra-formenbau.de",
+    "reason": "DROP Kaufmännische Verwaltung"
+  },
+  {
+    "item": "kathrin.friedrich@ / nadine.reichelt@ fus-werkzeugbau",
+    "reason": "DROP Sekretariat"
+  },
+  {
+    "item": "jonathan.franke@enesty.org",
+    "reason": "DROP third-party Vertriebspartner agency"
+  },
+  {
+    "item": "a.mueller@ / k.sticker@ mueller-werkzeugbau-gmbh",
+    "reason": "DROP Buchhaltung / Einkauf+Fakturierung"
+  },
+  {
+    "item": "info@formteile-baermann.de",
+    "reason": "DROP wrong vertical (CNC-Frästeile/Plattenzuschnitte only, not Spritzguss-Formenbau)"
+  },
+  {
+    "item": "info@weber-formenbau.com",
+    "reason": "SKIP JS/HTML-entity cloak only — plain-only rule"
+  },
+  {
+    "item": "mailto ∂ krauss-web.de",
+    "reason": "SKIP obfuscation; krauss-formenbau.de already covered"
+  },
+  {
+    "item": "VMT products NL info@",
+    "reason": "DROP NL-primary (Heerde), not DE firm"
+  },
+  {
+    "item": "mkmanufaktur ks@",
+    "reason": "DROP Zerspanung/Additive primary + JS cloak on Impressum"
+  },
+  {
+    "item": "wfbm-oldenburg / Heinze Gruppe / HeiForm",
+    "reason": "SKIP no plain mailto / 403 / dead host"
+  },
+  {
+    "item": "SGWK postal Impressum",
+    "reason": "SKIP impressum still 404; keep medium pending"
+  },
+  {
+    "item": "Beck/Bauer/Finke cloak / ABAS invent / JAMA named",
+    "reason": "SKIP carry cloak/invent patterns"
+  }
+]
