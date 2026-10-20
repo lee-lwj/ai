@@ -652,6 +652,103 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch109dir
+
+> 合并前重读 CSV（基线 **4078** / **2827**）。合并后基线：**4103** / **2849**。
+
+### 累计（Batch109dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4103** |
+| high / medium | **3842** / **261** |
+| 唯一域名 | **2849** |
+| 含电话 / 含城市 | **3529** / **3614** |
+| 非 .de 邮箱 | **1130** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3826** |
+| design_studio | **165** |
+| oem_buyer | **78** |
+| sourcing | **34** |
+
+### 本轨成果（Batch109dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **45** |
+| 有邮箱命中 | **23** |
+| 本轨净增邮箱 | **25**（high **23** / medium **2**） |
+| 相对基线 4078/2827 | **+25** / **+22** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **21** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B108dir gsbiz | **50** |
+| 扩展 | BW/BY 城 + Präzision/2K/Silikon/LSR 类目；ajax **75** → 新 gsbiz **75**（全部取用） |
+| 本轮核验队列 | **45** |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | formenbau/spritzguss p3–4 + Ruhr 城 → gsbiz **21** |
+
+### 方法
+
+1. 排空 gsbiz **50** + GS 扩展 → Impressum（out_path `.json` 避免 `.jsonll`）  
+2. 合并前重读 **4078/2827**  
+3. 质量剔除：portal/IHK/the.net/off-domain/admin  
+4. 再播种：gsbiz 余 **21**
+
+### 本轨新增邮箱（共 25）
+
+- `info@1st-cut.de` (high)
+- `mail@alois-mueller.de` (high)
+- `info@garthe-stoltenhoff.de` (high)
+- `info@filatech.de` (high)
+- `info@i-winterhalder.de` (high)
+- `info@d-reinhardt.de` (high)
+- `info@kueckundhoeck.de` (high)
+- `info@kunstguss.net` (high)
+- `post@koeckert.de` (high)
+- `info@osbra.com` (medium)
+- `peter.mayer@osbra.com` (medium)
+- `info@praezision-mueller.de` (high)
+- `info@plasticguss.de` (high)
+- `info@pwg-leutkirch.de` (high)
+- `info@siegle.de` (high)
+- `mail@schuetz-berlin.de` (high)
+- `info@stintmann.de` (high)
+- `info@ppm-pforzheim.com` (high)
+- `g.roth@ppm-pforzheim.com` (high)
+- `d.mueller@ppm-pforzheim.com` (high)
+- `info@tik-gmbh.com` (high)
+- `info@wiederholt.com` (high)
+- `info@wiro.com` (high)
+- `info@wto.de` (high)
+- `manz@wilhelm-manz.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch109dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch109dir_impressum.json`
+- `data/germany_raw/batch109dir_verified.json` / `batch109dir_hits.json`
+- `data/germany_raw/batch109dir_merge_log.json` / `batch109dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch109dir 已合并；域名队列 **0**；gsbiz 余 **21** 供 Batch110dir。
+
+---
+
 ## 目录/展会轨 Batch108dir
 
 > 合并前重读 CSV（Website B106–B108 后基线 **4057** / **2806**）。合并后基线：**4078** / **2827**。
