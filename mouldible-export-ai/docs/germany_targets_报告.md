@@ -1,3 +1,44 @@
+## Website/named Kontakt Batch 120
+
+> 合并前重读 CSV（基线 **4303** / **3017**；任务口径 4303/3006 hosts~3017）。本批网站轨净增 **+3** → 瞬时 **4306** / **3018**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4306** |
+| high / medium | **4029** / **277** |
+| 唯一域名 | **3018** |
+| 含电话 / 含城市 | **3718** / **3794** |
+| 非 .de 邮箱 | **1154** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3982** |
+| design_studio | **179** |
+| oem_buyer | **110** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+3**（相对基线 4303）
+
+- `info@polynisterplastik.de` — Poly-Nister-Plastik GmbH & Co. KG (Streithausen) — `oem_buyer` / high
+- `marco.sittler@polynisterplastik.de` — Poly-Nister-Plastik GmbH & Co. KG (Streithausen) — `oem_buyer` / high
+- `fabian.zoeller@polynisterplastik.de` — Poly-Nister-Plastik GmbH & Co. KG (Streithausen) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `andreas.heinbach@polynisterplastik.de` — DROP Kaufmännische Leitung (admin/finance skew)
+- `info@gh-werkzeuge.de` — SKIP partner mailbox on Polynister page; gh-werkzeuge.de site dead — never invent
+- `sabine.schlessmann@ / diana.heimpel@ / karina.hoeld@ / andrea.willmann@ dorn-tt.de` — DROP Auftragsabwicklung / Buchhaltung
+- `renate.wirth@dorn-tt.de` — SKIP QS-only secondary; ICP-fit Dorn GF/tech already known
+- `kontakt@mold-design.de` — DROP Werbe-/Marketing-Design agency (not Formenbau ICP)
+- `info@formtech-gmbh.de` — SKIP already in master
+- `Formtech/Kesterke/WeKonSo/Walter/HWF named` — SKIP already known
+
+---
+
 ## Website/named Kontakt Batch 119
 
 > 合并前重读 CSV（任务口径 **4294** / **3012**；Directory Batch124dir 中途已合 → 写时 live **4298** / **3016**）。本批按 live 合并，网站轨净增 **+5** → 瞬时 **4303** / **3017**。

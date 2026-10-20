@@ -1,0 +1,34 @@
+[
+  {
+    "item": "andreas.heinbach@polynisterplastik.de",
+    "reason": "DROP Kaufmännische Leitung (admin/finance skew)"
+  },
+  {
+    "item": "info@gh-werkzeuge.de",
+    "reason": "SKIP partner mailbox on Polynister page; gh-werkzeuge.de site dead — never invent"
+  },
+  {
+    "item": "sabine.schlessmann@ / diana.heimpel@ / karina.hoeld@ / andrea.willmann@ dorn-tt.de",
+    "reason": "DROP Auftragsabwicklung / Buchhaltung"
+  },
+  {
+    "item": "renate.wirth@dorn-tt.de",
+    "reason": "SKIP QS-only secondary; ICP-fit Dorn GF/tech already known"
+  },
+  {
+    "item": "kontakt@mold-design.de",
+    "reason": "DROP Werbe-/Marketing-Design agency (not Formenbau ICP)"
+  },
+  {
+    "item": "info@formtech-gmbh.de",
+    "reason": "SKIP already in master"
+  },
+  {
+    "item": "Formtech/Kesterke/WeKonSo/Walter/HWF named",
+    "reason": "SKIP already known"
+  },
+  {
+    "item": "Finke/ccoffice/Formacon",
+    "reason": "SKIP cloak / phone-only / dead (carry forward)"
+  }
+]
