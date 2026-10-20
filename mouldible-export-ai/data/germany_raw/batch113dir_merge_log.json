@@ -1,0 +1,61 @@
+{
+  "batch": "113dir",
+  "label": "目录/展会轨 Batch113dir",
+  "csv_before": 4177,
+  "csv_after": 4181,
+  "net_new_emails": 4,
+  "high": 2,
+  "medium": 2,
+  "impressum_checked": 20,
+  "impressum_ok": 7,
+  "stats": {
+    "added_cand": 4,
+    "no_hit": 13,
+    "brand_related_medium": 5,
+    "dup_email": 3,
+    "qual_offdomain_drop": 1,
+    "qual_exclude": 2
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 30,
+  "seed_status": {
+    "gsbiz_drained": 11,
+    "jobs": 76,
+    "source_ok_pages": {
+      "ajax": 22,
+      "ep": 7,
+      "search": 24
+    },
+    "new_gsbiz_ids": 2,
+    "expand_fetched": 2,
+    "queue": 19,
+    "queue_via": {
+      "gsbiz": 9,
+      "search": 2,
+      "ajax": 1,
+      "ep": 7
+    },
+    "sources": {
+      "email": 11,
+      "web": 8
+    },
+    "remain_gsbiz": 0,
+    "method": "Drain 11 gsbiz + GS East/North regions + niche + Europages DE + DDG/Bing; skip Örtliche/Kompass/WLW"
+  },
+  "baseline_note": "Re-read CSV before merge (4177/2905); parent cited 4177/2921",
+  "blockers": [
+    "WLW/Örtliche/Kompass skipped",
+    "GS new ids nearly exhausted (only +2)",
+    "thin unique YEILD"
+  ],
+  "domains_after": 2909,
+  "domains_before": 2905,
+  "sources": "Drain 11 gsbiz + GS East/North regions + niche + Europages DE + DDG/Bing; skip Örtliche/Kompass/WLW",
+  "expand_worked": {
+    "gsbiz": 9,
+    "search": 2,
+    "ajax": 1,
+    "ep": 7
+  },
+  "quality_note": "Dropped metallbau/swiss/off-domain/portal; kept same-domain high + brand_related medium"
+}

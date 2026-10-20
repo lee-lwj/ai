@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Hoerauf (DE)",
+    "domain": "hoerauf.com",
+    "email": "sales@hoerauf.com",
+    "email_source_url": "https://www.hoerauf.com/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49-71629420",
+    "city": "Donzdorf",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch113dir multi-source)"
+  },
+  {
+    "company": "Merima (DE)",
+    "domain": "merima.de",
+    "email": "kontakt@merima.de",
+    "email_source_url": "https://www.merima.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "",
+    "city": "Brackenheim",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch113dir multi-source)"
+  },
+  {
+    "company": "Kg Werkzeugbau (DE)",
+    "domain": "kg-werkzeugbau.de",
+    "email": "kluecher@geruschke.de",
+    "email_source_url": "https://www.kg-werkzeugbau.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49-0512176110",
+    "city": "Hildesheim",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "medium",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch113dir multi-source)"
+  },
+  {
+    "company": "Ttp Kunststoffprofile (DE)",
+    "domain": "ttp-kunststoffprofile.de",
+    "email": "info@ttp-papenburg.de",
+    "email_source_url": "https://www.ttp-kunststoffprofile.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49-49619140",
+    "city": "Papenburg",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "medium",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch113dir multi-source)"
+  }
+]

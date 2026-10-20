@@ -787,6 +787,81 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch113dir
+
+> 合并前重读 CSV（基线 **4177** / **2905**；父指令约 4177/2921）。合并后基线：**4181** / **2909**。
+
+### 累计（Batch113dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4181** |
+| high / medium | **3917** / **264** |
+| 唯一域名 | **2909** |
+| 含电话 / 含城市 | **3604** / **3678** |
+| 非 .de 邮箱 | **1135** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3889** |
+| design_studio | **169** |
+| oem_buyer | **88** |
+| sourcing | **35** |
+
+### 本轨成果（Batch113dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **20** |
+| 有邮箱命中 | **7** |
+| 本轨净增邮箱 | **4**（high **2** / medium **2**） |
+| 相对基线 4177/2905 | **+4** / **+4** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| GS 东/北联邦州 + niche | 有效但新 gsbiz 仅 **2**（重叠高） |
+| Europages DE | 部分（via ep **7**） |
+| DDG/Bing | 部分（via search **2**） |
+| Örtliche / Kompass / WLW | 跳过 |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 gsbiz | **11** + 扩 **2** |
+| 多源 jobs | **76** |
+| 本轮核验 | **20** |
+| 再播种 | gsbiz **0** |
+
+### 本轨新增邮箱（共 4）
+
+- `sales@hoerauf.com` (high)
+- `kontakt@merima.de` (high)
+- `kluecher@geruschke.de` (medium)
+- `info@ttp-papenburg.de` (medium)
+
+### 阻塞 / 备注
+
+- GS 全国/区域页高度重叠，新 id 枯竭
+- 见 `data/germany_raw/batch113dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch113dir_*.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch113dir 已合并；域名队列 **0**；gsbiz 余 **0**。
+
+---
+
 ## 目录/展会轨 Batch112dir
 
 > 合并前重读 CSV（基线 **4160** / **2893**）。合并后基线：**4171** / **2902**。
