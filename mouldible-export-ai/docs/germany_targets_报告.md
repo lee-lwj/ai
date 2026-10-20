@@ -83,6 +83,93 @@
 
 ---
 
+## 目录/展会轨 Batch82dir
+
+> 合并前重读 CSV（Website B82 后基线 **3042** / **2119**）。合并后基线供 Website B83：**3320** / **2326**。
+
+### 累计（Batch82dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3320** |
+| high / medium | **3108** / **212** |
+| 唯一域名 | **2326** |
+| 含电话 / 含城市 | **2912** / **3025** |
+| 非 .de 邮箱 | **800** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3089** |
+| design_studio | **132** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch82dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **328** |
+| 有邮箱命中 | **235** |
+| 本轨净增邮箱 | **278**（high **254** / medium **24**） |
+| 相对 Website B82 基线 3042 | **+278** |
+| VDWF 再播种剩余 | **26** |
+| 队列剩余 | **26** |
+
+### 方法
+
+1. 排空上轮 **328** 个 VDWF 域名队列 → Impressum/Kontakt（WLW CAPTCHA，本轮不用 WLW 公司页）
+2. append-dedupe 入库（与 Website 轨并行，合并前重读 **3042/2119**）
+3. 质量过滤：同域 high；品牌相关异域 medium；丢弃 off-domain 广告/占位/混淆邮箱
+4. VDWF mitglieder 额外域名再播种 → 队列剩余 **26**（供 Batch83dir）
+
+### 本轨新增邮箱（节选前 25 / 共 278）
+
+- `mail@kellermanngmbh.de`
+- `info@cadkaiser.de`
+- `info@inevo.eu`
+- `mail@alte.de`
+- `info@harnischmacher.de`
+- `tooling@tsetinis.com`
+- `info@inwetec.de`
+- `anfrage@elektrodenfabrik.de`
+- `info@hotec-gmbh.de`
+- `anfragen@hotec-gmbh.de`
+- `info@laserkraftwerk.de`
+- `info@hydropneu.de`
+- `info@iket-horb.de`
+- `o.kessling@iket-horb.de`
+- `s.epple@iket-horb.de`
+- `b.rief@iket-horb.de`
+- `mail@polymold.de`
+- `info@wika-erodiertechnik.de`
+- `info@reutlingen-university.de`
+- `sabine.loebbe@reutlingen-university.de`
+- `daniela.goller@reutlingen-university.de`
+- `aniela.goller@reutlingen-university.de`
+- `maximilian.musch@reutlingen-university.de`
+- `rmz-leitung@reutlingen-university.de`
+- `info@cnc-sicks.de`
+… 另有 253 个，见 `data/germany_raw/batch82dir_hits.json`
+
+### 阻塞 / 备注
+
+- WLW 公司页 Human Verification CAPTCHA — Batch82dir 仅用 VDWF
+- 见 `data/germany_raw/batch82dir_merge_log.json` / `batch82dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch82dir_impressum.json`
+- `data/germany_raw/batch82dir_verified.json` / `batch82dir_hits.json`
+- `data/germany_raw/batch82dir_merge_log.json` / `batch82dir_reseed.json`
+
+### 状态
+
+Batch82dir 已合并；队列剩余 **26** VDWF 再播种域名供 Batch83dir。
+
+---
+
 ## 目录/展会轨 Batch81dir
 
 > 合并前重读 CSV（Website B80 后基线 **2924** / **2032**）。合并后基线供 Website B81：**3022** / **2117**。
