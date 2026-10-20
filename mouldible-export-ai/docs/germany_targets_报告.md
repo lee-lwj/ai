@@ -92,3 +92,89 @@
 ## 4. 状态
 
 **应有尽有 — 尚未完成。** Expand 仍空；named Kontakt 与 master-seed Impressum 核验仍有空间。B77 继续 website/named track（ABAS/Hack cloak 观察；RFK 有名无邮箱；剩余 single-email peers）。
+
+
+---
+
+## 目录/展会轨 Batch76dir
+
+> 续跑 `queue_directory_domains_remaining.txt`（352）；合并前重读 CSV（Website Batch76 后基线 **2168**）。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2519** |
+| high / medium | **2360** / **159** |
+| 唯一域名 | **1738** |
+| 含电话 / 含城市 | **2253** / **2348** |
+| 非 .de 邮箱 | **522** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **2291** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch76dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验域名 | **352**（队列排空） |
+| 有邮箱命中 | **260** |
+| 本轨净增邮箱 | **351**（high **316** / medium **35**） |
+| 相对 Website B76 基线 2168 | **+351** |
+| 质量剔除（已知/错垂/垃圾本地部分等） | known+qual（见 merge_log） |
+| 队列剩余（已排除已核验+已入库） | **77** |
+
+### 方法
+
+对队列 352 域名并行拉取 `/impressum` `/kontakt` 等路径，仅保留同域或相关域真实 mailto；与 Website Batch76 并行写入后 **re-read CSV → append-dedupe**。
+
+### 本轨新增邮箱（节选前 25 / 共 351）
+
+- `info@gc-heat.de`
+- `mail@fliegel.de`
+- `robotics@fpt.de`
+- `info@fimatech.de`
+- `info@fiberflon.com`
+- `sales@fiberflon.com`
+- `info@ganzelewski.de`
+- `info@fg-hachtel.com`
+- `info@goettfert.de`
+- `info@germantwinscrews.de`
+- `info@finke-colors.de`
+- `bitterle@fellereng.de`
+- `otterbein@fellereng.de`
+- `diehl@fellereng.de`
+- `order@fellereng.de`
+- `schardt@fellereng.de`
+- `dotterweich@fellereng.de`
+- `sales@fellereng.de`
+- `hotline@fellereng.de`
+- `info@groche.com`
+- `info@fiege-electronic.com`
+- `grafe@grafe.com`
+- `info@fuchs-umwelttechnik.com`
+- `info@hamos.com`
+- `info@hanshuonker.de`
+… 另有 326 个，见 `data/germany_raw/batch76dir_hits.json`
+
+### 本轨新域名（节选）
+
+`ak-form-reinigung.info`, `ams-systems.com`, `as-plast.at`, `aubryag.ch`, `bernhofer.at`, `biho.eu`, `feddem.com`, `fellereng.de`, `ferrofacta.com`, `fg-hachtel.com`, `fiberflon.com`, `fiege-electronic.com`, `fimatech.de`, `finke-colors.eu`, `fliegel.de`, `fpt.de`, `friedrichshuette.com`, `fuchs-umwelttechnik.com`, `ganzelewski.de`, `gbneuhaus.de`…
+
+### 产物
+
+- `data/germany_targets.csv` / `.xlsx`
+- `data/germany_raw/batch76dir_impressum.json`
+- `data/germany_raw/batch76dir_verified.json` / `batch76dir_hits.json`
+- `data/germany_raw/batch76dir_merge_log.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**77**）
+
+### 状态
+
+原 352 队列已排空并入库；剩余种子队列 **77**（含 WLW p6–12 再播种）（未核验且未入库）。Formenbau JS 阻断与 Europages CAPTCHA 仍在，续跑可扩 WLW/Fakuma 新页。
