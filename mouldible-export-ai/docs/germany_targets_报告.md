@@ -870,6 +870,73 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch117dir
+
+> 合并前重读 CSV（基线 **4219** / **2938**）。合并后基线：**4227** / **2946**。
+
+### 累计（Batch117dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4227** |
+| high / medium | **3959** / **268** |
+| 唯一域名 | **2946** |
+| 含电话 / 含城市 | **3647** / **3717** |
+| 非 .de 邮箱 | **1140** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3929** |
+| design_studio | **171** |
+| oem_buyer | **92** |
+| sourcing | **35** |
+
+### 本轨成果（Batch117dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **18** |
+| 有邮箱命中 | **10** |
+| 本轨净增邮箱 | **8**（high **7** / medium **1**） |
+| 相对基线 4219/2938 | **+8** / **+8** 域名 |
+| 域名队列剩余 | **15** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B116 域名队列 | 有效（via b116_domain_queue） |
+| 种子城 × 关键词 DDG/Bing | 有效（via search） |
+| Europages DE | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+| Druckguss | **质量剔除** |
+
+### 本轨新增邮箱（共 8）
+
+- `corina.kilian@tausan-tool.com` (high)
+- `info@krampe.de` (high)
+- `info@krampe-werkzeuge.de` (high)
+- `a.heim@heim-pt.de` (high)
+- `kontakt@afk-kunststoff.de` (high)
+- `info@khduschek.de` (medium)
+- `info@gfkabsi.de` (high)
+- `info@plexi-jaeger.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch117dir_*.json`
+- `data/germany_raw/batch117dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch117dir 已合并；gsbiz **0**；域名队列 **15** 供 Batch118dir。
+
+---
+
 ## 目录/展会轨 Batch116dir
 
 > 合并前重读 CSV（基线 **4204** / **2928**）。合并后基线：**4219** / **2938**。

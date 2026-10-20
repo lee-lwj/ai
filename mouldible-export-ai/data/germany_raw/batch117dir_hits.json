@@ -1,0 +1,15 @@
+{
+  "batch": "117dir",
+  "n_emails": 8,
+  "n_domains": 8,
+  "emails": [
+    "corina.kilian@tausan-tool.com",
+    "info@krampe.de",
+    "info@krampe-werkzeuge.de",
+    "a.heim@heim-pt.de",
+    "kontakt@afk-kunststoff.de",
+    "info@khduschek.de",
+    "info@gfkabsi.de",
+    "info@plexi-jaeger.de"
+  ]
+}

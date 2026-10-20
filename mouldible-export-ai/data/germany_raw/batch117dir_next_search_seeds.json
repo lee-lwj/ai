@@ -1,0 +1,43 @@
+{
+  "cities_remaining_hint": [
+    "Singen",
+    "Konstanz",
+    "Lörrach",
+    "Rastatt",
+    "Bruchsal",
+    "Ansbach",
+    "Amberg",
+    "Deggendorf",
+    "Kaufbeuren",
+    "Biberach",
+    "Weiden",
+    "Wetzlar",
+    "Neuwied",
+    "Pirmasens",
+    "Iserlohn",
+    "Gütersloh",
+    "Detmold",
+    "Kleve",
+    "Ratingen",
+    "Gummersbach",
+    "Heinsberg",
+    "Viersen",
+    "Emmerich",
+    "Moers",
+    "Wesel",
+    "Hilden",
+    "Leverkusen",
+    "Langenfeld",
+    "Remscheid",
+    "Solingen"
+  ],
+  "keywords": [
+    "Formenbau",
+    "Spritzgusswerkzeuge",
+    "Präzisionsformenbau",
+    "Kunststoffspritzguss",
+    "Werkzeugbau Spritzguss"
+  ],
+  "domains_queued": 15,
+  "note": "Avoid Druckguss-primary; GS exhausted"
+}
