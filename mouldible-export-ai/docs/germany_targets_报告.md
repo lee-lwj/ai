@@ -205,3 +205,90 @@ Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。Website Bat
 
 ---
 
+
+---
+
+## 目录/展会轨 Batch80dir
+
+> 续跑队列 ~118；合并前重读 CSV（Website B79 后基线 **2824** / **1950** 域名）。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2912** |
+| high / medium | **2736** / **176** |
+| 唯一域名 | **2031** |
+| 含电话 / 含城市 | **2568** / **2670** |
+| 非 .de 邮箱 | **646** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **2684** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch80dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **118** |
+| 有邮箱命中 | **87** |
+| 本轨净增邮箱 | **88**（high **84** / medium **4**） |
+| 相对 Website B79 基线 2824 | **+88** |
+| WLW 再播种（p37–44 + 扩类） | **119** |
+| 队列剩余 | **119** |
+
+### 方法
+
+1. 排空上轮 118 域名 → Impressum/Kontakt  
+2. append-dedupe（Website B79 并行后重读 CSV）  
+3. WLW p37–44 + kunststoffverarbeitung 等再播种
+
+### 本轨新增邮箱（节选前 25 / 共 88）
+
+- `info@3d-profi-druck.de`
+- `office@alu-tech-trade.at`
+- `info@2b-klebebaender.de`
+- `info@alpaco-lueck.de`
+- `wagner@beck-federn.de`
+- `info@amb-germany.de`
+- `info@all-in-optics.de`
+- `info@3ddesign24.de`
+- `info@mueller-ohlenrode.de`
+- `info@atr-solutions.de`
+- `ettingshausen@subtil-group.com`
+- `info@buerojetzt.de`
+- `info@buntenbach-cnc.de`
+- `info@aps-techgroup.de`
+- `mail@andreasweisegmbh.de`
+- `c.weise@andreasweisegmbh.de`
+- `office@modellbau-richter.at`
+- `mail@bb-plastpack.de`
+- `info@bb-plastpack.de`
+- `info@ayhan-online.de`
+- `info@asti-filter.de`
+- `info@atka.de`
+- `info@bohl.biz`
+- `info@altenis.de`
+- `info@almetec.de`
+… 另有 63 个，见 `data/germany_raw/batch80dir_hits.json`
+
+### 本轨新域名（节选）
+
+`2b-klebebaender.de`, `3d-profi-druck.de`, `3ddesign24.de`, `3pcorporate.com`, `aet-kunststoffe.de`, `all-in-optics.de`, `almetec.de`, `alpaco-lueck.de`, `altenis.de`, `alu-tech-trade.com`, `amb-germany.de`, `andreasweisegmbh.de`, `aps-techgroup.de`, `asti-filter.de`, `atka.de`, `atr-solutions.de`, `aupperle-gmbh.de`, `ayhan-online.de`, `bb-plastpack.de`, `beck-federn.de`…
+
+### 产物
+
+- `data/germany_targets.csv` / `.xlsx`
+- `data/germany_raw/batch80dir_impressum.json`
+- `data/germany_raw/batch80dir_verified.json` / `batch80dir_hits.json`
+- `data/germany_raw/batch80dir_merge_log.json` / `batch80dir_reseed.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**119**）
+
+### 状态
+
+Batch80dir 完成：**+88** 邮箱；队列 **119** 待下一批。
