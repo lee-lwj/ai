@@ -740,6 +740,102 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch111dir
+
+> 合并前重读 CSV（Website B110 后基线 **4140** / **2873**；非 4136）。合并后基线：**4160** / **2893**。
+
+### 累计（Batch111dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4160** |
+| high / medium | **3898** / **262** |
+| 唯一域名 | **2893** |
+| 含电话 / 含城市 | **3585** / **3658** |
+| 非 .de 邮箱 | **1132** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3874** |
+| design_studio | **168** |
+| oem_buyer | **83** |
+| sourcing | **35** |
+
+### 本轨成果（Batch111dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **38** |
+| 有邮箱命中 | **22** |
+| 本轨净增邮箱 | **20**（high **19** / medium **1**） |
+| 相对基线 4140/2873 | **+20** / **+20** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **9** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| Gelbe Seiten niche + 余 4 gsbiz | 有效（via gsbiz/ajax） |
+| Europages DE | 有效（via ep **12**；外国同行已滤） |
+| DDG/Bing HTML | 部分（via search **1**） |
+| Das Örtliche | 部分（有字节，贡献弱） |
+| Kompass DE | **无效**（0 bytes） |
+| Fakuma/Motek/K/VDWF | 弱/404；WLW 跳过 |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 gsbiz | **4** + niche 扩 **31** |
+| 多源 jobs | **80** |
+| 本轮核验 | **38** |
+| 超时强制 no_email | kunststoff-kaeppel.de, hartfelder-cnc.de, jura-plast.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz **9** |
+
+### 本轨新增邮箱（共 20）
+
+- `info@ks-kunststoffbau.de` (high)
+- `info@dmd-werkzeug.de` (high)
+- `office@agema-germany.de` (high)
+- `info@esm-mueller.de` (high)
+- `info@carlon.de` (high)
+- `info@kaufmann-zertech.de` (high)
+- `info@ma-kro.de` (high)
+- `info@poggengerd.de` (high)
+- `info@seipp-kehl.de` (high)
+- `info@winter-mechanik.de` (high)
+- `info@werimo.de` (high)
+- `r.mann@braungmbh.com` (medium)
+- `info@ito-plast.de` (high)
+- `info@kirsch-kunststofftechnik.de` (high)
+- `info@recknagel-praezisionsteile.de` (high)
+- `info@qin-form.de` (high)
+- `info@formpack.de` (high)
+- `vertrieb@krumbeck-kunststoff.de` (high)
+- `kontakt@finado-gmbh.de` (high)
+- `info@ha-beck.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过；Kompass 无内容；展会目录薄
+- 保留 B110：goletz-gmbh / oelfke / kompetenzkunststoff
+- 见 `data/germany_raw/batch111dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch111dir_*.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch111dir 已合并；域名队列 **0**；gsbiz 余 **9**。
+
+---
+
 ## 目录/展会轨 Batch110dir
 
 > 合并前重读 CSV（Website B109 后基线 **4108** / **2854**；非 4103）。合并后基线：**4136** / **2871**。

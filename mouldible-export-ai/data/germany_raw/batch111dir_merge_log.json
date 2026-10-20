@@ -1,0 +1,74 @@
+{
+  "batch": "111dir",
+  "label": "目录/展会轨 Batch111dir",
+  "csv_before": 4140,
+  "csv_after": 4160,
+  "net_new_emails": 20,
+  "high": 19,
+  "medium": 1,
+  "impressum_checked": 38,
+  "impressum_ok": 22,
+  "stats": {
+    "added_cand": 20,
+    "no_hit": 16,
+    "qual_offdomain_drop": 3,
+    "brand_related_medium": 1
+  },
+  "queue_remaining": 0,
+  "reseed_candidates": 9,
+  "seed_status": {
+    "gsbiz_drained": 4,
+    "jobs": 80,
+    "source_bytes": {
+      "ajax": 1601926,
+      "do": 380325,
+      "ep": 10098910,
+      "kompass": 0,
+      "search": 1472701,
+      "fairs": 196349
+    },
+    "source_ok_pages": {
+      "ajax": 9,
+      "do": 6,
+      "ep": 10,
+      "kompass": 0,
+      "search": 20,
+      "fairs": 1
+    },
+    "new_gsbiz_ids": 31,
+    "expand_fetched": 31,
+    "queue": 38,
+    "queue_via": {
+      "gsbiz_exp": 16,
+      "ajax": 8,
+      "search": 1,
+      "gsbiz": 1,
+      "ep": 12
+    },
+    "sources": {
+      "email": 26,
+      "web": 12
+    },
+    "remain_gsbiz": 0,
+    "method": "Drain 4 gsbiz + DasÖrtliche/Europages/Kompass/DDG-Bing/fairs/VDWF + niche GS; WLW skip-if-CAPTCHA",
+    "queue_filtered": true
+  },
+  "baseline_note": "Re-read CSV before merge (4140/2873); Website B110 +4 already landed",
+  "blockers": [
+    "WLW CAPTCHA — skipped",
+    "Kompass 0 bytes",
+    "Motek/fairs thin",
+    "jura-plast/kunststoff-kaeppel/hartfelder forced no_email"
+  ],
+  "domains_after": 2893,
+  "domains_before": 2873,
+  "sources": "Drain 4 gsbiz + DasÖrtliche/Europages/Kompass/DDG-Bing/fairs/VDWF + niche GS; WLW skip-if-CAPTCHA",
+  "expand_worked": {
+    "gsbiz_exp": 16,
+    "ajax": 8,
+    "search": 1,
+    "gsbiz": 1,
+    "ep": 12
+  },
+  "quality_note": "Dropped portal/off-domain/foreign EP; kept same-domain high + brand_related medium"
+}

@@ -1,0 +1,27 @@
+{
+  "batch": "111dir",
+  "n_emails": 20,
+  "n_domains": 20,
+  "emails": [
+    "info@ks-kunststoffbau.de",
+    "info@dmd-werkzeug.de",
+    "office@agema-germany.de",
+    "info@esm-mueller.de",
+    "info@carlon.de",
+    "info@kaufmann-zertech.de",
+    "info@ma-kro.de",
+    "info@poggengerd.de",
+    "info@seipp-kehl.de",
+    "info@winter-mechanik.de",
+    "info@werimo.de",
+    "r.mann@braungmbh.com",
+    "info@ito-plast.de",
+    "info@kirsch-kunststofftechnik.de",
+    "info@recknagel-praezisionsteile.de",
+    "info@qin-form.de",
+    "info@formpack.de",
+    "vertrieb@krumbeck-kunststoff.de",
+    "kontakt@finado-gmbh.de",
+    "info@ha-beck.de"
+  ]
+}
