@@ -1,0 +1,16 @@
+{
+  "batch": "126dir",
+  "n_emails": 4,
+  "n_domains": 4,
+  "emails": [
+    "info@ikw-kunststofftechnik.de",
+    "info@halbich-kunststoffe.de",
+    "info@gaebert-kunststoffteile.de",
+    "info@kwm.de"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:modell-formenbau.eu",
+    "offdomain:info@formenbau-borchert.de<-selzer-formenbau.de",
+    "non_icp_host:a.walter@sewa-solutions.de"
+  ]
+}

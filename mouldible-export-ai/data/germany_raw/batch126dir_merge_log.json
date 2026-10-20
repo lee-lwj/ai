@@ -1,0 +1,64 @@
+{
+  "batch": "126dir",
+  "label": "目录/展会轨 Batch126dir",
+  "csv_before": 4312,
+  "csv_after": 4316,
+  "net_new_emails": 4,
+  "high": 2,
+  "medium": 2,
+  "impressum_checked": 11,
+  "impressum_ok": 7,
+  "stats": {
+    "qual_exclude": 2,
+    "added_cand": 4,
+    "brand_related_medium": 3,
+    "dup_email": 1,
+    "qual_offdomain_drop": 1,
+    "no_hit": 4
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 308,
+    "queued_from_b125": 0,
+    "cities_used": 126,
+    "source_ok_pages": {
+      "maps": 30,
+      "search": 252,
+      "ep": 14,
+      "fakuma": 12
+    },
+    "queue": 11,
+    "queue_via": {
+      "search": 10,
+      "fakuma": 1
+    },
+    "sources": {
+      "email": 3,
+      "web": 8
+    },
+    "csv_peek_at_harvest": 4312,
+    "method": "Oberbayern/Schwaben/Niederbayern/Oberpfalz/Allgäu × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality bar",
+    "queue_verified": 11
+  },
+  "baseline_note": "Re-read CSV before merge (4312/3013); steering 4312; Website B121 not yet landed or equal",
+  "steering_expected_before": 4312,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "nationwide saturation"
+  ],
+  "domains_after": 3017,
+  "domains_before": 3013,
+  "sources": "Oberbayern/Schwaben/Niederbayern/Oberpfalz/Allgäu × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality bar",
+  "expand_worked": {
+    "search": 10,
+    "fakuma": 1
+  },
+  "quality_note": "Dropped modell-formenbau.eu (Bundesverband); selzer→borchert offdomain; sewa-solutions; brand_related snw/gaebert/kwm kept",
+  "quality_drops_sample": [
+    "exclude_dom:modell-formenbau.eu",
+    "offdomain:info@formenbau-borchert.de<-selzer-formenbau.de",
+    "non_icp_host:a.walter@sewa-solutions.de"
+  ]
+}
