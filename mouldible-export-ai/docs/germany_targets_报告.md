@@ -181,6 +181,83 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch98dir
+
+> 合并前重读 CSV（Website B99 后基线 **3816** / **2591**；非 3809）。合并后基线：**3846** / **2615**。
+
+### 累计（Batch98dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3846** |
+| high / medium | **3601** / **245** |
+| 唯一域名 | **2615** |
+| 含电话 / 含城市 | **3302** / **3373** |
+| 非 .de 邮箱 | **1092** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3602** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **33** |
+
+### 本轨成果（Batch98dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **80** |
+| 有邮箱命中 | **27** |
+| 本轨净增邮箱 | **30**（high **30** / medium **0**） |
+| 相对 Website B99 基线 3816/2591 | **+30** / **+24** 域名 |
+| 再播种剩余 | **22** |
+| 队列剩余 | **22** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空队列 | **80**（B97dir reseed：master_strict，已滤中国竞品） |
+| 超时强制 no_email | 7（pro-moulds / procnc / esteemold / itpmolding / mgrmold / smimolding / tdimolding） |
+| VDWF/Fakuma | 饱和 |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | master_strict 残池 **22**（接近耗尽） |
+
+### 方法
+
+1. 排空上轮 **80** → Impressum（ThreadPool JSONL）
+2. 合并前重读 **3816/2591** = Website B99
+3. 质量剔除：off-domain（z-group / magenta LLC）、webmaster；中国竞品已在种子层过滤
+4. 再播种：master_strict 残 → 队列 **22**
+
+### 本轨新增邮箱（共 30，节选）
+
+- `kanagata@ishida-mold.com` · `jmfalcao@moldplast.com` · `comercial@idealmolde.com`
+- `sales@emeraldtoolandmold.com` · `sales@underwoodmoldco.com` · `info@injectionplastic.com`
+- `sales@cncdynamics.com` · `sales@flashcutcnc.com` · `sales@ptms-mold.com`
+- 及其他 mould/CNC peer `.com`（见 `batch98dir_verified.json`）
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 7 域名超时 → forced no_email
+- master_strict 残池将尽（再播种仅 **22**）
+- 见 `data/germany_raw/batch98dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch98dir_impressum.json`
+- `data/germany_raw/batch98dir_verified.json` / `batch98dir_hits.json`
+- `data/germany_raw/batch98dir_merge_log.json` / `batch98dir_reseed.json`
+
+### 状态
+
+Batch98dir 已合并；队列剩余 **22**（master_strict 残）供 Batch99dir。
+
+---
+
 ## 目录/展会轨 Batch97dir
 
 > 合并前重读 CSV（Website B98 后基线 **3779** / **2561**；非 3775）。合并后基线：**3809** / **2589**。
