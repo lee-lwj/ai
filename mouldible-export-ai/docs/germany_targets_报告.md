@@ -102,3 +102,91 @@
 ## 4. 状态
 
 **应有尽有 — 尚未完成。** Expand 仍空；master-seed DE peers 大多死站。B78 继续 named Kontakt（剩余 single-email peers；ABAS/Hack/Croner/RFK cloak 观察）。
+
+
+---
+
+## 目录/展会轨 Batch78dir
+
+> 续跑队列 ~123；合并前重读 CSV（Website B77 后基线 **2612** / **1793** 域名）。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2706** |
+| high / medium | **2537** / **169** |
+| 唯一域名 | **1867** |
+| 含电话 / 含城市 | **2401** / **2495** |
+| 非 .de 邮箱 | **586** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **2478** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch78dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **123** |
+| 有邮箱命中 | **76** |
+| 本轨净增邮箱 | **94**（high **84** / medium **10**） |
+| 相对 Website B77 基线 2612 | **+94** |
+| WLW 再播种候选（p21–28 + 扩类） | **111** |
+| 队列剩余 | **110** |
+
+### 方法
+
+1. 排空上轮 123 域名队列 → Impressum/Kontakt  
+2. append-dedupe 入库（与 Website 轨并行，合并前重读）  
+3. WLW formenbau/spritzguss/werkzeugbau/kunststofftechnik 等 **p21–28** 再播种
+
+### 本轨新增邮箱（节选前 25 / 共 94）
+
+- `info@alexander-magnettechnik.de`
+- `info@agathon.ch`
+- `info@cnc-dreherei.de`
+- `t.allenstein@cnc-dreherei.de`
+- `r.allenstein@cnc-dreherei.de`
+- `k.allenstein@cnc-dreherei.de`
+- `a.bettermann@cnc-dreherei.de`
+- `n.hardt@cnc-dreherei.de`
+- `office@alu-future.com`
+- `info@alumina.systems`
+- `info@ama-maschinen.de`
+- `info@abp-blech.de`
+- `info@alptec.de`
+- `info@aaubry.ch`
+- `info@amsler-frey.ch`
+- `office@aewwzb.at`
+- `office@wiba.co.at`
+- `info@federn-weigel.de`
+- `info@normdreh.de`
+- `vertrieb@addiprint3d.de`
+- `technik@addiprint3d.de`
+- `vertrieb@asp-germany.de`
+- `info@adkom.de`
+- `info@aw-color.de`
+- `info@bedra.com`
+… 另有 69 个，见 `data/germany_raw/batch78dir_hits.json`
+
+### 本轨新域名（节选）
+
+`aaubry.ch`, `abp-blech.de`, `addiprint3d.de`, `adkom.de`, `adnandogangroup.com`, `aewwzb.at`, `agathon.ch`, `alexander-magnettechnik.de`, `alkaz.pl`, `allenstein-cnc-dreherei.de`, `alptec.de`, `alu-future.com`, `alumina.systems`, `ama-maschinen.de`, `amsler-frey.ch`, `asd-bochum.de`, `asp-germany.de`, `atcweb.at`, `atositalia.com`, `aundl-kunststoff.de`…
+
+### 产物
+
+- `data/germany_targets.csv` / `.xlsx`
+- `data/germany_raw/batch78dir_impressum.json`
+- `data/germany_raw/batch78dir_verified.json` / `batch78dir_hits.json`
+- `data/germany_raw/batch78dir_merge_log.json` / `batch78dir_reseed.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**110**）
+
+### 状态
+
+Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。
