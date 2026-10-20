@@ -1,3 +1,63 @@
+## Website/named Kontakt Batch 130
+
+> 合并前重读 CSV（Directory Batch134dir 尚未抬升；直播基线仍 **4508** / **3154** domains ~**3164** hosts；任务初口径 4508 有效）。本批按 live 合并，网站轨净增 **+9** → **4517** / **3158** domains (~**3168** hosts)。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4517** |
+| high / medium | **4236** / **281** |
+| 唯一域名（domain 列） | **3158** |
+| 唯一邮箱主机（@host） | **3168** |
+| 含电话 / 含城市 | **3899** / **4001** |
+| 非 .de 邮箱 | **1198** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4141** |
+| design_studio | **197** |
+| oem_buyer | **143** |
+| sourcing | **36** |
+
+### 本批网站轨净增 **+9**（相对写时基线 4508）
+
+- `mbuecking@bfw-formenbau.de` — BFW Formen und Werkzeugbau GmbH — Marvin Bücking (Geschäftsführung) — `overseas_peer_overflow` / high
+- `mwiegand@bfw-formenbau.de` — BFW Formen und Werkzeugbau GmbH — Mathias Wiegand (CAD/CAM, Blasformen) — `overseas_peer_overflow` / high
+- `mmarhenke@bfw-formenbau.de` — BFW Formen und Werkzeugbau GmbH — Michael Marhenke-Richter (CAD/CAM, EDV) — `overseas_peer_overflow` / high
+- `apick@bfw-formenbau.de` — BFW Formen und Werkzeugbau GmbH — Alexander Pick (CNC-Fertigung) — `overseas_peer_overflow` / high
+- `tknaf@bfw-formenbau.de` — BFW Formen und Werkzeugbau GmbH — Thomas Knaf (Erodieren) — `overseas_peer_overflow` / high
+- `aschaefer@bfw-formenbau.de` — BFW Formen und Werkzeugbau GmbH — Alexander Schäfer (CNC-Drehen) — `overseas_peer_overflow` / high
+- `info@scholz-htik.de` — Scholz GmbH & Co. KG (High Tech in Kunststoff) — `oem_buyer` / high
+- `jens.rabin@rabin-werkzeugbau.de` — Rabin Werkzeugbau e.K. — Jens Rabin (Inhaber / Dipl.-Ing.) — `overseas_peer_overflow` / high
+- `info@spritzgusswerkzeug-konstruktion.de` — Spritzgusswerkzeug-Konstruktion (externes Konstruktionsbüro) — `design_studio` / medium
+
+### 本批质量剔除（节选）
+
+- `Formacon j.sancar@` — SKIP site still unreachable — never invent; carry recovery
+- `Finke / CAD-KON .de / Reddikowsky / Dobener / ck-form / Rapp / Auer / kb-sprung / Heise / Mohr / Hochstadter / Jordan` — SKIP dead/403
+- `Beck Plastics / Bauer Werkzeugbau` — SKIP Joomla cloak (plain-only)
+- `ABAS Menrad / JAMA named / invent g.helm@` — SKIP invent/cloak/tel-only
+- `cad-kon.com` — DROP wrong vertical (Aufmaß/CAFM)
+- `p-kolb / weiro / beck-werkzeugbau / bellaform / b-plast2000 / bsa / cad-eckes / cad-schiffl` — DROP wrong vertical
+- `BFW jbuecking@ / npehle@ / verwaltung@` — DROP Kaufm./Verwaltung/Buchhaltung
+- `Heidel / Kaiser / Senkel` — DROP Stanz-Umform / Zerspanung / Thermoform-primary
+- `Schwendemann/Hömberg/MKS/Zweidick/...` alt hosts — SKIP emails already in master
+
+### 产物
+
+- `data/germany_raw/batch130_new_verified.json`
+- `data/germany_raw/batch130_quality_drops.json`
+- `data/germany_raw/batch130_merge_log.json`
+- `data/germany_raw/batch130_candidates_final.json`
+- `data/germany_raw/batch131_queue_note.txt`
+
+_报告更新：2026-10-21 06:15 Asia/Hong_Kong_
+
+---
+
 ## Website/named Kontakt Batch 129
 
 > 合并前重读 CSV（Directory Batch133dir 已抬升至 **4492** / **3151** domains ~**3161** hosts；任务初口径 4466 已过时）。本批按 live 合并，网站轨净增 **+16** → **4508** / **3154** domains (~**3164** hosts)。

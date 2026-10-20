@@ -1,0 +1,49 @@
+{
+  "batch": 130,
+  "track": "website_named_kontakt",
+  "before": {
+    "emails": 4508,
+    "domains": 3154,
+    "hosts": 3164
+  },
+  "after": {
+    "emails": 4517,
+    "domains": 3158,
+    "hosts": 3168
+  },
+  "net_new": 9,
+  "added_emails": [
+    "mbuecking@bfw-formenbau.de",
+    "mwiegand@bfw-formenbau.de",
+    "mmarhenke@bfw-formenbau.de",
+    "apick@bfw-formenbau.de",
+    "tknaf@bfw-formenbau.de",
+    "aschaefer@bfw-formenbau.de",
+    "info@scholz-htik.de",
+    "jens.rabin@rabin-werkzeugbau.de",
+    "info@spritzgusswerkzeug-konstruktion.de"
+  ],
+  "new_domains": [
+    "bfw-formenbau.de",
+    "rabin-werkzeugbau.de",
+    "scholz-htik.de",
+    "spritzgusswerkzeug-konstruktion.de"
+  ],
+  "baseline_note": "Re-read immediately before merge: still 4508/3154/~3164 (Directory Batch134dir had not raised yet)",
+  "dup_skipped": [],
+  "confidence_after": {
+    "medium": 281,
+    "high": 4236
+  },
+  "icp_after": {
+    "overseas_peer_overflow": 4141,
+    "oem_buyer": 143,
+    "sourcing": 36,
+    "design_studio": 197
+  },
+  "phone_city_after": {
+    "phone": 3899,
+    "city": 4001
+  },
+  "non_de_after": 1198
+}
