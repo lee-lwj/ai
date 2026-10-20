@@ -1,0 +1,43 @@
+{
+  "cities_remaining_hint": [
+    "Remscheid",
+    "Solingen",
+    "Wuppertal",
+    "Hagen",
+    "Ennepetal",
+    "Gevelsberg",
+    "Schwelm",
+    "Mettmann",
+    "Erkrath",
+    "Haan",
+    "Hilden",
+    "Langenfeld",
+    "Monheim",
+    "Leverkusen",
+    "Bergisch Gladbach",
+    "Overath",
+    "Rösrath",
+    "Troisdorf",
+    "Sankt Augustin",
+    "Bonn",
+    "Meckenheim",
+    "Rheinbach",
+    "Euskirchen",
+    "Mechernich",
+    "Schleiden",
+    "Simmerath",
+    "Monschau",
+    "Aachen",
+    "Stolberg",
+    "Eschweiler"
+  ],
+  "keywords": [
+    "Formenbau",
+    "Spritzgusswerkzeuge",
+    "Präzisionsformenbau",
+    "Kunststoffspritzguss",
+    "Werkzeugbau Spritzguss"
+  ],
+  "domains_queued": 11,
+  "note": "Avoid Druckguss-primary; GS exhausted; NRW mid-cities next"
+}

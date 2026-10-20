@@ -870,6 +870,72 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch118dir
+
+> 合并前重读 CSV（基线 **4227** / **2946**）。合并后基线：**4234** / **2953**。
+
+### 累计（Batch118dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4234** |
+| high / medium | **3964** / **270** |
+| 唯一域名 | **2953** |
+| 含电话 / 含城市 | **3653** / **3724** |
+| 非 .de 邮箱 | **1141** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3936** |
+| design_studio | **171** |
+| oem_buyer | **92** |
+| sourcing | **35** |
+
+### 本轨成果（Batch118dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **36** |
+| 有邮箱命中 | **23** |
+| 本轨净增邮箱 | **7**（high **5** / medium **2**） |
+| 相对基线 4227/2946 | **+7** / **+7** 域名 |
+| 域名队列剩余 | **11** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B117 域名队列 | 有效 |
+| 种子城 × 关键词 DDG/Bing | 有效（via search） |
+| Europages DE | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+| Druckguss / 加热暖通 / 门户 | 质量剔除 |
+
+### 本轨新增邮箱（共 7）
+
+- `info@lmk-werkzeugbau.de` (high)
+- `info@weku.de` (high)
+- `info@werkzeugbau-reinartz.de` (medium)
+- `info@namac.de` (medium)
+- `info@bevaplast.de` (high)
+- `info@geweku.de` (high)
+- `info@inweku.com` (high)
+
+### 产物
+
+- `data/germany_raw/batch118dir_*.json`
+- `data/germany_raw/batch118dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch118dir 已合并；gsbiz **0**；域名队列 **11** 供 Batch119dir。
+
+---
+
 ## 目录/展会轨 Batch117dir
 
 > 合并前重读 CSV（基线 **4219** / **2938**）。合并后基线：**4227** / **2946**。

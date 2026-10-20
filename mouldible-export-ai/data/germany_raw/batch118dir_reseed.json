@@ -1,0 +1,32 @@
+{
+  "n_domains": 11,
+  "n_gsbiz": 0,
+  "domain_queue": [
+    "stemmle-kunststofftechnik.de",
+    "driess-kunststoffe.de",
+    "formenbau.com",
+    "lt-kunststofftechnik.de",
+    "mks-spritzguss.de",
+    "ozmetalplastik.com",
+    "werkzeugbauberger.de",
+    "tooliss.de",
+    "haberl-kunststofftechnik.at",
+    "hartfelder-cnc.de",
+    "vvk-kunststofftechnik.de"
+  ],
+  "next_search_seeds": "data/germany_raw/batch118dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "b117_domain_queue",
+    "ddg_bing_city_kw",
+    "europages_partial"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted"
+  ],
+  "quality": "Dropped Druckguss/heizung/tierformen/portal/marketing@; www. normalized",
+  "queue_via": {
+    "b117_domain_queue": 4,
+    "search": 34
+  }
+}
