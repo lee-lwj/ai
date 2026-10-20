@@ -1,0 +1,22 @@
+{
+  "batch": "123dir",
+  "n_emails": 10,
+  "n_domains": 9,
+  "emails": [
+    "info@joysonplastec.com",
+    "info@praezisionstools.de",
+    "info@terraplastik.de",
+    "martin.bauer@terraplastik.de",
+    "info@allinplastics.com",
+    "info@former-fab.de",
+    "info@praezisionstechnik-dresden.de",
+    "info@riplast.de",
+    "info@werkzeugbau-glauchau.de",
+    "info@frankenplastik.de"
+  ],
+  "quality_drops_sample": [
+    "hr_local:bewerbung@former-fab.de",
+    "exclude_dom:swissplast.com",
+    "offdomain:info@blau-group.com<-lmb-kunststofftechnik.de"
+  ]
+}

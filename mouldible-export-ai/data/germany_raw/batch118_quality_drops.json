@@ -1,0 +1,34 @@
+[
+  {
+    "item": "a.fuerst@formzeug.de",
+    "reason": "DROP Lager-Logistikleiter (Versand/Lager)"
+  },
+  {
+    "item": "a.maier@wsuttergmbh.de",
+    "reason": "DROP Buchhaltung"
+  },
+  {
+    "item": "info@wa21.de on rethemeier.eu",
+    "reason": "DROP third-party/agency mailbox"
+  },
+  {
+    "item": "mail@sieberkon.info",
+    "reason": "DROP CH-only (Marbach CH)"
+  },
+  {
+    "item": "j.sancar@formacon.de",
+    "reason": "SKIP site unreachable — never invent from XING-only"
+  },
+  {
+    "item": "info@geiger-formenbau.de",
+    "reason": "SKIP invent — Impressum shows kontakt@ only (already known)"
+  },
+  {
+    "item": "HHK/Karthaus/EJ/Beckmann info@ / HWF named / Sutter named / Voth / KuKo / Scheidig / Grimm",
+    "reason": "SKIP already known"
+  },
+  {
+    "item": "m.mustermann@ on toolytech",
+    "reason": "DROP placeholder invent"
+  }
+]

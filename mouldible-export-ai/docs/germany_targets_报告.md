@@ -1,3 +1,44 @@
+## Website/named Kontakt Batch 118
+
+> 合并前重读 CSV（任务口径 **4281** / **3001**；Directory Batch123dir 中途已合 → 写时 live **4291** / **3010**）。本批按 live 合并，网站轨净增 **+3** → 瞬时 **4294** / **3012**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4294** |
+| high / medium | **4018** / **276** |
+| 唯一域名 | **3012** |
+| 含电话 / 含城市 | **3706** / **3782** |
+| 非 .de 邮箱 | **1149** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3978** |
+| design_studio | **179** |
+| oem_buyer | **102** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+3**（相对写时基线 4291；相对任务口径 4281 为 +13 含目录）
+
+- `michael.beckmann@beckmann-cad.de` — Konstruktionsbüro Beckmann GmbH (Altdorf) — `design_studio` / high
+- `info@daut-imd.com` — Vitali Daut IMD (Bad Windsheim) — `design_studio` / high
+- `info@toolytech.de` — ToolyTech UG (Jena) — `overseas_peer_overflow` / high
+
+### 本批质量剔除（节选）
+
+- `a.fuerst@formzeug.de` — DROP Lager-Logistikleiter (Versand/Lager)
+- `a.maier@wsuttergmbh.de` — DROP Buchhaltung
+- `info@wa21.de on rethemeier.eu` — DROP third-party/agency mailbox
+- `mail@sieberkon.info` — DROP CH-only (Marbach CH)
+- `j.sancar@formacon.de` — SKIP site unreachable — never invent from XING-only
+- `info@geiger-formenbau.de` — SKIP invent — Impressum shows kontakt@ only (already known)
+- `HHK/Karthaus/EJ/Beckmann info@ / HWF named / Sutter named / Voth / KuKo / Scheidig / Grimm` — SKIP already known
+
+---
+
 ## Website/named Kontakt Batch 117
 
 > 合并前重读 CSV（基线 **4279** / **2999**；Batch122dir 后父代理口径 4279/2988 hosts~2999）。勿用 4271。本批网站轨净增 **+2** → 瞬时 **4281** / **3001**；live 现为 **4281** / **3001**。
@@ -1033,6 +1074,76 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch123dir
+
+> 合并前重读 CSV（Website B117 后直播基线 **4281** / **2990**；指令预期 4281）。合并后基线：**4291** / **2999**。
+
+### 累计（Batch123dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4291** |
+| high / medium | **4015** / **276** |
+| 唯一域名 | **2999** |
+| 含电话 / 含城市 | **3703** / **3779** |
+| 非 .de 邮箱 | **1148** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3977** |
+| design_studio | **177** |
+| oem_buyer | **102** |
+| sourcing | **35** |
+
+### 本轨成果（Batch123dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **21** |
+| 有邮箱命中 | **11** |
+| 本轨净增邮箱 | **10**（high **8** / medium **2**） |
+| 相对基线 4281/2990 | **+10** / **+9** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B122 域名队列 | 有效（4） |
+| Sachsen/Thüringen/Franken/Ost × kw | 有效（104 城，search 208） |
+| Bing Maps | 部分（30） |
+| Europages DE | 有效（18） |
+| Fakuma/VDWF 公开搜索 | 部分（6） |
+| WLW / GS | 跳过 / 耗尽 |
+
+### 本轨新增邮箱（共 10）
+
+- `info@joysonplastec.com` (medium)
+- `info@praezisionstools.de` (high)
+- `info@terraplastik.de` (high)
+- `martin.bauer@terraplastik.de` (high)
+- `info@allinplastics.com` (medium)
+- `info@former-fab.de` (high)
+- `info@praezisionstechnik-dresden.de` (high)
+- `info@riplast.de` (high)
+- `info@werkzeugbau-glauchau.de` (high)
+- `info@frankenplastik.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch123dir_*.json`
+- `data/germany_raw/batch123dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch123dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch124dir（主靠 Nord 城种子）（下一城带：Nord/SH/MV/Harz）。
 
 ---
 

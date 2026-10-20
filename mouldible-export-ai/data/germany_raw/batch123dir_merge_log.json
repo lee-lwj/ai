@@ -1,0 +1,65 @@
+{
+  "batch": "123dir",
+  "label": "目录/展会轨 Batch123dir",
+  "csv_before": 4281,
+  "csv_after": 4291,
+  "net_new_emails": 10,
+  "high": 8,
+  "medium": 2,
+  "impressum_checked": 21,
+  "impressum_ok": 11,
+  "stats": {
+    "brand_related_medium": 2,
+    "added_cand": 10,
+    "qual_exclude": 2,
+    "no_hit": 10,
+    "qual_offdomain_drop": 1
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 262,
+    "queued_from_b122": 4,
+    "cities_used": 104,
+    "source_ok_pages": {
+      "maps": 30,
+      "search": 208,
+      "ep": 18,
+      "fakuma": 6
+    },
+    "queue": 23,
+    "queue_via": {
+      "b122_domain_queue": 4,
+      "search": 16,
+      "fakuma": 3
+    },
+    "sources": {
+      "queue": 4,
+      "email": 4,
+      "web": 15
+    },
+    "method": "B122 domain queue + Sachsen/Thüringen/Franken/east-south × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; drop Druckguss/Stanz/foundry/couplings",
+    "queue_verified": 21
+  },
+  "baseline_note": "Re-read CSV before merge (4281/2990); Website B117 landed (steering 4281/3001 hosts / 2990 domains)",
+  "steering_expected_before": 4281,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "NRW/BW saturation; east expanding"
+  ],
+  "domains_after": 2999,
+  "domains_before": 2990,
+  "sources": "B122 domain queue + Sachsen/Thüringen/Franken/east-south × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; drop Druckguss/Stanz/foundry/couplings",
+  "expand_worked": {
+    "b122_domain_queue": 4,
+    "search": 16,
+    "fakuma": 3
+  },
+  "quality_note": "Dropped swissplast CH + Sekretariat/Bewerbung HR; offdomain blau-group←lmb; brand_related allinplastics/joysonplastec kept",
+  "quality_drops_sample": [
+    "hr_local:bewerbung@former-fab.de",
+    "exclude_dom:swissplast.com",
+    "offdomain:info@blau-group.com<-lmb-kunststofftechnik.de"
+  ]
+}

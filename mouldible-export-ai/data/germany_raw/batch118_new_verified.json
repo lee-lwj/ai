@@ -1,0 +1,41 @@
+[
+  {
+    "company": "Konstruktionsbüro Beckmann GmbH",
+    "domain": "beckmann-cad.de",
+    "email": "michael.beckmann@beckmann-cad.de",
+    "email_source_url": "https://beckmann-cad.de/kontakt",
+    "contact_name": "Michael Beckmann",
+    "job_title": "Ansprechpartner / Inhaber-Kontakt",
+    "phone": "+49 9187 4092010",
+    "city": "Altdorf",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch118: NEW named on known domain; live Kontakt mailto; Spritzgusswerkzeuge CAD (2K/IMD/GID/PUR/Faser); DE BY Fischbacher Str. 1, 90518 Altdorf"
+  },
+  {
+    "company": "Vitali Daut IMD",
+    "domain": "daut-imd.com",
+    "email": "info@daut-imd.com",
+    "email_source_url": "https://daut-imd.com/impressum",
+    "contact_name": "Vitali Daut",
+    "job_title": "Inhaber",
+    "phone": "+49 9841 9199402",
+    "city": "Bad Windsheim",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch118: NEW domain; live Impressum/Kontakt; Konstruktion Spritzgusswerkzeuge / IMD; DE BY Schwarzallee 4, 91438 Bad Windsheim; USt-IdNr. DE328898298; non-.de domain DE-proven"
+  },
+  {
+    "company": "ToolyTech UG",
+    "domain": "toolytech.de",
+    "email": "info@toolytech.de",
+    "email_source_url": "https://www.toolytech.de/impressum",
+    "contact_name": "Robert Schaller",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 3641 9286330",
+    "city": "Jena",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch118: NEW domain; live Impressum; Werkzeugöffner/Werkzeugwender für Spritzgussformen peer tooling; DE TH Lutherstraße 48, 07743 Jena; HRB 120585 Amtsgericht Jena"
+  }
+]

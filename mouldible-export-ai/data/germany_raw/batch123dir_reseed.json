@@ -1,0 +1,30 @@
+{
+  "n_domains": 0,
+  "n_gsbiz": 0,
+  "domain_queue": [],
+  "next_search_seeds": "data/germany_raw/batch123dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "b122_domain_queue",
+    "ddg_bing_sachsen_thueringen_franken_east",
+    "maps",
+    "europages",
+    "fakuma_vdwf_search"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted"
+  ],
+  "quality_drops_sample": [
+    "hr_local:bewerbung@former-fab.de",
+    "exclude_dom:swissplast.com",
+    "offdomain:info@blau-group.com<-lmb-kunststofftechnik.de"
+  ],
+  "queue_via": {
+    "b122_domain_queue": 4,
+    "search": 16,
+    "fakuma": 3
+  },
+  "cities_used": 104,
+  "supplemental_seed": "Nord/SH/MV/Harz cities×kw DDG/Bing (queue-only for B124)",
+  "note": "Nord pages saturated with known domains; B124 should expand via batch123dir_next_search_seeds cities primarily"
+}
