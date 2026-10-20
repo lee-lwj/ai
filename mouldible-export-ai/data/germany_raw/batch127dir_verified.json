@@ -1,0 +1,41 @@
+[
+  {
+    "company": "1St Mould (DE)",
+    "domain": "1st-mould.de",
+    "email": "info@1st-mould.de",
+    "email_source_url": "https://www.1st-mould.de/de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+493529526710",
+    "city": "Pirna",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch127dir Sachsen/Vogtland/Erzgebirge)"
+  },
+  {
+    "company": "Mk Kunststofftechnik (DE)",
+    "domain": "mk-kunststofftechnik.com",
+    "email": "info@mk-kunststofftechnik.com",
+    "email_source_url": "https://www.mk-kunststofftechnik.com/contact",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 123 1234567",
+    "city": "Blankenheim",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch127dir Sachsen/Vogtland/Erzgebirge)"
+  },
+  {
+    "company": "Mankeplast (DE)",
+    "domain": "mankeplast.de",
+    "email": "info@mankeplast.de",
+    "email_source_url": "https://mankeplast.de/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "",
+    "city": "Verl",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch127dir Sachsen/Vogtland/Erzgebirge)"
+  }
+]

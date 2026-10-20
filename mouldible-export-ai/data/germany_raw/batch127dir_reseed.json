@@ -1,0 +1,24 @@
+{
+  "n_domains": 0,
+  "n_gsbiz": 0,
+  "domain_queue": [],
+  "next_search_seeds": "data/germany_raw/batch127dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "ddg_bing_sachsen_vogtland_erzgebirge",
+    "maps",
+    "europages",
+    "fakuma_vdwf_search"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted",
+    "empty_b126_domain_queue"
+  ],
+  "quality_drops_sample": [],
+  "queue_via": {
+    "search": 3,
+    "fakuma": 1
+  },
+  "cities_used": 117,
+  "supplemental_seed": "Lausitz/Brandenburg/MV east cities×kw (queue for B128)"
+}

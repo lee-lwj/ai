@@ -1213,6 +1213,65 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch127dir
+
+> 合并前重读 CSV（Website B121 后直播基线 **4324** / **3018**；指令预期 4324；目录轨原基线 4316）。合并后基线：**4327** / **3021**。
+
+### 累计（Batch127dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4327** |
+| high / medium | **4047** / **280** |
+| 唯一域名 | **3021** |
+| 含电话 / 含城市 | **3735** / **3815** |
+| 非 .de 邮箱 | **1155** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4001** |
+| design_studio | **181** |
+| oem_buyer | **110** |
+| sourcing | **35** |
+
+### 本轨成果（Batch127dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **4** |
+| 有邮箱命中 | **4** |
+| 本轨净增邮箱 | **3**（high **3** / medium **0**） |
+| 相对基线 4324/3018 | **+3** / **+3** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B126 域名队列 | 空 |
+| Sachsen/Oberfranken + Vogtland/Erzgebirge/Thüringen × kw | 有效（117 城，search 234） |
+| Bing Maps / Europages / Fakuma | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+| 产量 | 全国饱和，新域名稀薄（本批仅 4 候选） |
+
+### 本轨新增邮箱（共 3）
+
+- `info@1st-mould.de` (high)
+- `info@mk-kunststofftechnik.com` (high)
+- `info@mankeplast.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch127dir_*.json`
+- `data/germany_raw/batch127dir_next_search_seeds.json`
+
+### 状态
+
+Batch127dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch128dir（下一城带：Lausitz/Brandenburg/MV 东）。
+
 ## 目录/展会轨 Batch126dir
 
 > 合并前重读 CSV（直播基线 **4312** / **3013**；指令预期 4312）。合并后基线：**4316** / **3017**。

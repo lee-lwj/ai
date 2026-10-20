@@ -1,0 +1,50 @@
+[
+  {
+    "domain": "1st-mould.de",
+    "ok": true,
+    "emails": [
+      "info@1st-mould.de"
+    ],
+    "source_url": "https://www.1st-mould.de/de/impressum",
+    "phone": "+493529526710",
+    "city": "Pirna",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "dressel-spritzguss.de",
+    "ok": true,
+    "emails": [
+      "info@dressel-kt.de"
+    ],
+    "source_url": "https://dressel-kt.de/impressum",
+    "phone": "+49 9287 88286-0",
+    "city": "Selb",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "mk-kunststofftechnik.com",
+    "ok": true,
+    "emails": [
+      "info@mk-kunststofftechnik.com"
+    ],
+    "source_url": "https://www.mk-kunststofftechnik.com/contact",
+    "phone": "+49 123 1234567",
+    "city": "Blankenheim",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "mankeplast.de",
+    "ok": true,
+    "emails": [
+      "info@mankeplast.de"
+    ],
+    "source_url": "https://mankeplast.de/",
+    "phone": "",
+    "city": "Verl",
+    "status": "high",
+    "same_domain": true
+  }
+]
