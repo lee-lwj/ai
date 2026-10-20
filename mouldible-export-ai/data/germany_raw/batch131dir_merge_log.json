@@ -1,0 +1,89 @@
+{
+  "batch": "131dir",
+  "label": "目录/展会轨 Batch131dir",
+  "csv_before": 4399,
+  "csv_after": 4425,
+  "net_new_emails": 26,
+  "high": 26,
+  "medium": 0,
+  "impressum_checked": 127,
+  "impressum_ok": 54,
+  "stats": {
+    "added_cand": 26,
+    "qual_exclude": 15,
+    "no_hit": 73,
+    "already_known_skips": 17
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 220,
+    "queued_from_b130": 0,
+    "cities_used": 149,
+    "source_ok_pages": {
+      "search": 300,
+      "maps": 61,
+      "ep": 15,
+      "gs": 12
+    },
+    "queue": 99,
+    "method": "Rhön/Spessart/Odenwald/Frankenwald + Kinzig/Main micro × kw DDG/Bing/Maps + Europages/GS; skip WLW; high quality"
+  },
+  "baseline_note": "Re-read CSV before merge after Website B125 steering (4399/3080); never regress",
+  "steering_expected_before": 4399,
+  "blockers": [
+    "WLW skipped",
+    "GS websites JS-hidden",
+    "ABAS Fulda email JS-injected (.mailinfo) — not published plaintext",
+    "PDM Formenbau Mosbach no own website found",
+    "many belt majors already in CSV"
+  ],
+  "domains_after": 3105,
+  "domains_before": 3080,
+  "hosts_after": 3116,
+  "sources": "Rhön/Spessart/Odenwald/Frankenwald/Kinzig + DDG/Bing/Maps/EP/GS; skip WLW; high quality",
+  "quality_note": "Dropped Blechumform/Extrusion/glass/Formdrehteile/Verwaltung/obfuscated/AT-only/retail-design; kept dual Spritz+Druckguss tooling (SNW); ABAS JS-email skipped",
+  "quality_drops_sample": [
+    "info@saur-wzb.de: SKIP already known",
+    "formwerk.com: DROP quality/vertical",
+    "info@s-gmbh.de: SKIP already known",
+    "info@snw-formenbau.de: SKIP already known",
+    "info@bm-formenbau.de: SKIP already known",
+    "info@weborbis-webdesign.de: DROP role/junk",
+    "info@werkzeugbau-wirth.com: SKIP already known",
+    "freeglass.de: DROP quality/vertical",
+    "verwaltung@bfw-formenbau.de: DROP Verwaltung-only",
+    "info@mueller-werkzeugbau-gmbh.de: SKIP already known",
+    "kontakt@kindtner.de: SKIP already known",
+    "vertrieb@kindtner.de: SKIP already known",
+    "sergej.drozdov@kindtner.de: SKIP already known",
+    "daniel.koczor@kindtner.de: SKIP already known",
+    "roland.jazdz@kindtner.de: SKIP already known",
+    "rechnungswesen@kindtner.de: DROP role/junk",
+    "bollinger-k-technik.com: DROP quality/vertical",
+    "info@ziform.com: SKIP already known",
+    "bwf-group.com: DROP quality/vertical",
+    "sennewald-gmbh.de: DROP quality/vertical",
+    "leiss-gmbh.de: DROP quality/vertical",
+    "obt-bearbeitungstechnik.com: DROP quality/vertical",
+    "webmaster@strathmann-gmbh.de: DROP role/junk",
+    "sfbgroup.de: DROP quality/vertical",
+    "legal@gealan.de: DROP role/junk"
+  ],
+  "cumulative": {
+    "emails": 4425,
+    "domains": 3105,
+    "hosts": 3116,
+    "high": 4145,
+    "medium": 280,
+    "tags": {
+      "overseas_peer_overflow": 4080,
+      "oem_buyer": 121,
+      "sourcing": 35,
+      "design_studio": 189
+    },
+    "phone": 3819,
+    "city": 3911,
+    "non_de": 1177
+  }
+}

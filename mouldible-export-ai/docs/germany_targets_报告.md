@@ -1406,6 +1406,90 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+
+## 目录/展会轨 Batch131dir
+
+> 合并前重读 CSV（直播基线 **4399** / **3080**；Website Batch125 后 steering）。合并后基线：**4425** / **3105**（hosts ~3116）。
+
+### 累计（Batch131dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4425** |
+| high / medium | **4145** / **280** |
+| 唯一域名 | **3105** |
+| 含电话 / 含城市 | **3819** / **3911** |
+| 非 .de 邮箱 | **1177** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4080** |
+| design_studio | **189** |
+| oem_buyer | **121** |
+| sourcing | **35** |
+
+### 本轨成果（Batch131dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **127** |
+| 有邮箱命中 | **54** |
+| 本轨净增邮箱 | **26**（high **26** / medium **0**） |
+| 相对基线 4399/3080 | **+26** / **+25** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B130 域名队列 | 空 |
+| Rhön/Spessart/Odenwald/Frankenwald/Kinzig 微城 × kw | 有效（149 城，DDG 300 + Bing/Maps/EP/GS） |
+| Bing Maps / Europages / Gelbe Seiten | 部分（maps 61 / ep 15 / gs 12；GS 站链 JS 隐藏） |
+| Fakuma/VDWF / WLW | 未用 / 跳过 |
+| 产量 | 127 候选核验 / 54 命中 / 质量门后 **+26**；剔 Blechumform/Extrusion/玻璃/Formdrehteile/Verwaltung/混淆邮箱/AT-only；ABAS Fulda JS-邮箱跳过 |
+
+### 本轨新增邮箱（共 26）
+
+- `info@formwerk.org` (high, overseas_peer_overflow) · Erbach
+- `info@schick-kunststoffverarbeitung.de` (high, overseas_peer_overflow) · Groß-Umstadt
+- `info@jb-werkzeugbau.de` (high, overseas_peer_overflow) · Ludwigsstadt
+- `info@vogel-kunststofftechnik.com` (high, overseas_peer_overflow) · Burgthann-Ezelsdorf
+- `info@laudenbach-formtechnik.de` (high, overseas_peer_overflow) · Gosheim
+- `info@gela-werkzeugbau.de` (high, overseas_peer_overflow) · Rohrdorf-Achenmühle
+- `info.kunststofftechnik@warema.de` (high, overseas_peer_overflow) · Marktheidenfeld
+- `info@vogel-kunststoffverarbeitung.de` (high, overseas_peer_overflow) · Lampertswalde
+- `info@gealan.com` (high, oem_buyer) · Oberkotzau
+- `info@kurt-aue.com` (high, overseas_peer_overflow) · Garbsen
+- `info@weich-gmbh.de` (high, overseas_peer_overflow) · Neustadt
+- `info@pro-tech.de` (high, overseas_peer_overflow) · Neustadt
+- `bossler.support@bossler-wzb.com` (high, overseas_peer_overflow) · Kümmersbruck
+- `internet@uralan.de` (high, overseas_peer_overflow) · ?
+- `info@wiesmayer.de` (high, overseas_peer_overflow) · Neustadt an der Donau
+- `info@formica-gmbh.com` (high, overseas_peer_overflow) · Bad Salzungen
+- `post@dplusl.de` (high, overseas_peer_overflow) · Heidenau
+- `info@strathmann-gmbh.de` (high, overseas_peer_overflow) · Rödinghausen
+- `motzener@kunststoff-gummi.de` (high, overseas_peer_overflow) · Mittenwalde
+- `service@hebragmbh.de` (high, overseas_peer_overflow) · Alfeld
+- `info@hebragmbh.de` (high, overseas_peer_overflow) · Alfeld
+- `info@gealan.de` (high, oem_buyer) · Oberkotzau
+- `info@kst-stoecker.de` (high, overseas_peer_overflow) · Nümbrecht
+- `info@mueller-kunststofftechnik.de` (high, overseas_peer_overflow) · Hagenow
+- `info@haas-werkzeugbau.de` (high, overseas_peer_overflow) · Loßburg-Lombach
+- `modelle@harmsen-modellbau.de` (high, overseas_peer_overflow) · Petersberg
+
+### 产物
+
+- `data/germany_raw/batch131dir_*.json`
+- `data/germany_raw/batch131dir_next_search_seeds.json`
+
+### 状态
+
+Batch131dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch132dir（下一城带：Allgäu/Oberland/Chiemgau/Bayerischer Wald）。全国目录轨饱和仍高，本带仍挖出 **+26** 新邮（含 formwerk Erbach、Schick Groß-Umstadt、WAREMA Marktheidenfeld、Harmsen Petersberg、JB Ludwigsstadt、GEALAN Oberkotzau 等）。
+
+---
 ## 目录/展会轨 Batch130dir
 
 > 合并前重读 CSV（直播基线 **4361** / **3052**；Website Batch124 后 steering）。合并后基线：**4391** / **3088**。
