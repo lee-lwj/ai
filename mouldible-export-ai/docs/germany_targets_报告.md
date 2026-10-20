@@ -1,3 +1,142 @@
+## Website/named Kontakt Batch 95
+
+> 合并前重读 CSV（目录 Batch93dir 后基线 **3702** / **2527**；用户从 B94 后 3681/2514 转向）。
+
+### 累计（Batch 95 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3715** |
+| high / medium | **3473** / **242** |
+| 唯一域名 | **2530** |
+| 含电话 / 含城市 | **3228** / **3329** |
+| 非 .de 邮箱 | **988** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3473** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch 95）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+13**（high **13** / medium **0**） |
+| 相对 Batch93dir 基线 3702/2527 | **+13** / **+3** 域名 |
+| master 可选重叠 | **2**（info@formenbau-klomfass.de、info@modelltechnik.de — 仍写入 germany_targets） |
+| 质量剔除 | **13** |
+
+### 方法
+
+1. 重读确认 Batch93dir 后 **3702/2527**
+2. Expand 空；DE tooling singles 已尽；thin multi named Kontakt + Web 定向
+3. 命中：Karl s.karl@；**Erwes-Reifenberg** 新域名×2；babyplast Marc Tesche GF；**PETA Formenbau** 新域名×3；Klomfass info@；**ModellTechnik** design_studio×5
+4. 质量门：Buchhaltung/Personal；Stanz/Umform（Schwinn）；cloak invent；第三方无公司 mailto；收购收购 stale
+
+### 本轨新增邮箱（共 13）
+
+- `s.karl@karl-formenbau.de` · Untermeitingen · Sebastian Karl · Zerspanung/Programmierung · high · **新域名列** karl-formenbau.de
+- `info@erwes-reifenberg.de` · Finnentrop · Präzisions-Formenbau · high · **新域名**
+- `j.erwes@erwes-reifenberg.de` · Finnentrop · John Rudolf Erwes · GF · high
+- `marc.tesche@babyplast.de` · Kierspe · Marc Tesche · GF · high
+- `peta@peta-formenbau.de` · Bad Soden-Salmünster · high · **新域名**
+- `alexander.wolf@peta-formenbau.de` · Alexander Wolf · GF Gesellschafter · high
+- `manfred.ullrich@peta-formenbau.de` · Manfred Ullrich · GF Gesellschafter · high
+- `info@formenbau-klomfass.de` · Heiligenhaus · high
+- `info@modelltechnik.de` · Waltershausen · design_studio · high
+- `sales@modelltechnik.de` · Waltershausen · Vertrieb · design_studio · high
+- `formenbau@modelltechnik.de` · Waltershausen · Formenbau · design_studio · high
+- `technikum@modelltechnik.de` · Waltershausen · Kunststoff-Technikum · design_studio · high
+- `prototyping@modelltechnik.de` · Waltershausen · Prototyping · design_studio · high
+
+### 产物
+
+- `data/germany_raw/batch95_new_verified.json` / `batch95_candidates_final.json`
+- `data/germany_raw/batch95_quality_drops.json` / `batch95_merge_log.json`
+- `data/germany_raw/batch96_queue_note.txt`
+
+### 状态
+
+Batch 95 已合并；下轮 Batch 96（Website）/ Batch94dir（目录）。队列剩余 thin multi ~90–100 + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch94dir
+
+> 合并前重读 CSV（Website B95 后基线 **3715** / **2530**）。合并后基线供 Website B96：**3717** / **2532**。
+
+### 累计（Batch94dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3717** |
+| high / medium | **3474** / **243** |
+| 唯一域名 | **2532** |
+| 含电话 / 含城市 | **3226** / **3326** |
+| 非 .de 邮箱 | **988** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3475** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch94dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **98** |
+| 有邮箱命中 | **24** |
+| 本轨净增邮箱 | **2**（high **1** / medium **1**） |
+| 相对 Website B95 基线 3715 | **+2** |
+| 再播种剩余 | **9** |
+| 队列剩余 | **9** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空队列 | **98**（已剔 *-messe / schall-messen 等） |
+| VDWF re-extract 新域名 | **3** |
+| Fakuma re-extract 新域名 | **6** |
+
+### 方法
+
+1. 排空上轮 **98** VDWF/Fakuma live 域名（预过滤展会门户）→ Impressum  
+2. append-dedupe（合并前重读 **3715/2530** = Website B95）  
+3. 质量剔除：媒体/高校非 ICP（perglermedia、th-deg）  
+4. WLW 跳过；直播页再提取剩余极少
+
+### 本轨新增邮箱（共 2）
+
+- `support@dcam.de`
+- `info.de@zeiss.com`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- VDWF/Fakuma live 再提取接近饱和（队列仅余 **9**）
+- 见 `data/germany_raw/batch94dir_merge_log.json` / `batch94dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch94dir_impressum.json`
+- `data/germany_raw/batch94dir_verified.json` / `batch94dir_hits.json`
+- `data/germany_raw/batch94dir_merge_log.json` / `batch94dir_reseed.json`
+
+### 状态
+
+Batch94dir 已合并；队列剩余 **9** 供 Batch95dir。
+
+---
+
 ## 目录/展会轨 Batch93dir
 
 > 合并前重读 CSV（Website B94 后基线 **3681** / **2514**）。合并后基线供 Website B95：**3702** / **2527**。
