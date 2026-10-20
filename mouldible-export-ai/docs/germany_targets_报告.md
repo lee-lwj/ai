@@ -1,72 +1,65 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 81）
+## 1. 累计交付数量（如实，至 Batch 82）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3035** |
-| 本轮净增（相对目录 Batch81dir 合并后基线 3022） | **+13** |
-| 本轮因已在 master/targets 跳过 | **2** |
+| 去重后邮箱总数（累计） | **3042** |
+| 本轮净增（相对基线 3035；Batch82dir 合并时尚未入库） | **+7** |
+| 本轮因已在 master/targets 跳过 | **0** |
 | 本轮质量剔除（死站/错垂/cloak 等） | **8** |
-| 其中 high / medium | **2847** / **188** |
-| 唯一域名 | **2118** |
-| 非 .de 邮箱（累计） | **686** |
-| 含电话 / 含城市 | **2669** / **2778** |
+| 其中 high / medium | **2854** / **188** |
+| 唯一域名 | **2119** |
+| 非 .de 邮箱（累计） | **692** |
+| 含电话 / 含城市 | **2676** / **2785** |
 | 本轮新域名贡献 | **1** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **2807** |
+| overseas_peer_overflow | **2814** |
 | design_studio | **129** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 81 · Website/named Kontakt）
+## 2. 本轮方法（Batch 82 · Website/named Kontakt）
 
-1. **基线**：目录 Batch81dir 合并后 **重读 CSV** → **3022 / 2117**，再合并本轮。
-2. **Expand 队列**：仍空；wave1 ~55 unprobed tooling/Kunststoff singles。
+1. **基线**：合并前 **重读 CSV** → **3035 / 2118**（Batch82dir VDWF 本轮写时尚未合并）。
+2. **Expand 队列**：仍空；wave1 ~55 + extra 6 singles → 2 promising（Hippe plant；Hombach anfrage 未再现）。
 3. **Named Kontakt / Web 定向**：
-   - Auer Kunststofftechnik Olching（Peter Auer GF + Grundmann/Binzer Verkauf + Geiger）
-   - D+S Werkzeugbau VS-Schwenningen（Daume GF/Prok. + Teras Vertrieb + Aldinger + Rosenberg Projekt + Beck Fertigung；`info@` master-skip）
-   - Autenrieth Heroldstatt（Schilling/Müller Vertrieb + Lehner Auftragsbearbeitung；`steffen@` master-skip）
-4. **质量门**：Kortenbach Stanz/Umform；AW-Color Farbkonzentrate；Bernauer Laminate；Formzeug Logistik；Bergmann phones-only；Croner/FBB cloak。
+   - Schweiger tooling Uffing（info@ + Halupczok Sales + A.Schweiger CSO + Stoffel CEO + Knoflach/Nagl Prok.；Einkauf/Lager 剔除；@rathgeber.at / @vdwf.de 剔除）
+   - Hippe `hildesheim@` 第二厂址（已有 spremberg@）
+4. **质量门**：协会邮箱；Einkauf/Lager；master（stefan.kind）；cloak。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 singles | ~55 | **+7**（Auer+Autenrieth） |
-| named Web（D+S/Kortenbach/Formzeug…） | 多页 | **+6** D+S；其余 skip/drop |
+| wave1/extra singles | ~61 | **+1**（Hippe） |
+| named Web（Schweiger/VDWF/Kind-tec） | 多页 | **+6** Schweiger；VDWF/Kind skip |
 
-### 本轮新增（+13）
+### 本轮新增（+7）
 
-- `peter.auer@auer-kunststofftechnik.de` · Olching · Peter Auer · high
-- `oliver.grundmann@auer-kunststofftechnik.de` · Olching · Oliver Grundmann · high
-- `sandra.binzer@auer-kunststofftechnik.de` · Olching · Sandra Binzer · high
-- `christine.geiger@auer-kunststofftechnik.de` · Olching · Christine Geiger · high
-- `j.daume@ds-werkzeugbau.de` · Villingen-Schwenningen · Jörg Daume · high
-- `h.daume@ds-werkzeugbau.de` · Villingen-Schwenningen · Heike Daume · high
-- `j.teras@ds-werkzeugbau.de` · Villingen-Schwenningen · Jürgen Teras · high
-- `l.aldinger@ds-werkzeugbau.de` · Villingen-Schwenningen · Laura Aldinger · high
-- `j.rosenberg@ds-werkzeugbau.de` · Villingen-Schwenningen · Jan Rosenberg · high
-- `m.beck@ds-werkzeugbau.de` · Villingen-Schwenningen · Martin Beck · high
-- `j.schilling@autenrieth-kunststofftechnik.de` · Heroldstatt ·   · high
-- `m.lehner@autenrieth-kunststofftechnik.de` · Heroldstatt ·   · high
-- `r.mueller@autenrieth-kunststofftechnik.de` · Heroldstatt · Ronald Müller · high
+- `info@schweiger.tools` · Uffing am Staffelsee ·   · high
+- `m.halupczok@schweiger.tools` · Uffing am Staffelsee · Matthias Halupczok · high
+- `a.schweiger@schweiger.tools` · Uffing am Staffelsee · Anton Schweiger · high
+- `k.stoffel@schweiger.tools` · Uffing am Staffelsee · Dr. Kai Konstantin Stoffel · high
+- `a.knoflach@schweiger.tools` · Uffing am Staffelsee · Andreas Knoflach · high
+- `p.nagl@schweiger.tools` · Uffing am Staffelsee · Philipp Nagl · high
+- `hildesheim@hippe.de` · Hildesheim ·   · high
 
 ### 本轮新域名
 
-- `ds-werkzeugbau.de`
+- `schweiger.tools`
 
-### skipped-already-known（2）
+### skipped-already-known（0）
 
-`info@ds-werkzeugbau.de`, `steffen@autenrieth-kunststofftechnik.de`
+（无）
 
 ### 质量剔除（节选）
 
-**8**：Kortenbach Stanz/Umform；AW-Color；Bernauer Laminate；Formzeug Logistik；Bergmann 无邮箱；Croner/FBB cloak…
+**8**：Schweiger Einkauf/Lager；Rathgeber AT；VDWF 协会；Kind-tec master；Hombach anfrage 未验证…
 
 ---
 
@@ -74,18 +67,18 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch81_new_verified.json`
-- `data/germany_raw/batch81_expand_results.json`
-- `data/germany_raw/batch81_merge_log.json`
-- `data/germany_raw/batch81_candidates.json` / `batch81_probe_wave1.json`
-- `data/germany_raw/batch81_quality_drops.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B82：empty expand）
+- `data/germany_raw/batch82_new_verified.json`
+- `data/germany_raw/batch82_expand_results.json`
+- `data/germany_raw/batch82_merge_log.json`
+- `data/germany_raw/batch82_candidates.json` / `batch82_probe_wave1.json`
+- `data/germany_raw/batch82_quality_drops.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B83）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B82 继续 named Kontakt；cloak 观察；Bergmann 若公开邮箱可补。
+**应有尽有 — 尚未完成。** Expand 仍空。若 Batch82dir（VDWF）随后合并，下轮重读基线。B83 继续 named Kontakt。
 
 
 ---
