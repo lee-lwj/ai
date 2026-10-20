@@ -1,56 +1,72 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 86）
+## 1. 累计交付数量（如实，至 Batch 87）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **3435** |
-| 本轮净增（相对基线 3429） | **+6** |
+| 去重后邮箱总数（累计） | **3480** |
+| 本轮净增（相对目录 Batch85dir 合并后基线 3462） | **+18** |
 | 本轮因已在 master/targets 跳过 | **0** |
 | 本轮质量剔除（死站/错垂/cloak 等） | **10** |
-| 其中 high / medium | **3216** / **219** |
-| 唯一域名 | **2386** |
-| 非 .de 邮箱（累计） | **852** |
-| 含电话 / 含城市 | **3016** / **3132** |
+| 其中 high / medium | **3258** / **222** |
+| 唯一域名 | **2404** |
+| 非 .de 邮箱（累计） | **896** |
+| 含电话 / 含城市 | **3049** / **3166** |
 | 本轮新域名贡献 | **0** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3203** |
+| overseas_peer_overflow | **3248** |
 | design_studio | **133** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 86 · Website/named Kontakt）
+## 2. 本轮方法（Batch 87 · Website/named Kontakt）
 
-1. **基线**：重读 CSV → **3429 / 2386**（Batch85dir 尚未合并）。
-2. **Expand 队列**：仍空；wave1/2 singles 低产（Conformtec/IFU/HASE 错垂剔除）。
+1. **基线**：目录 Batch85dir 合并后 **重读 CSV** → **3462 / 2404**（非用户提示的 3435）。
+2. **Expand 队列**：仍空；wave1 singles 命中 Mack/Lercher/HWB/Niggemann/FFT（后者错垂剔除）。
 3. **Named Kontakt / Web 定向**：
-   - Braunform Bahlingen：Christian Himmelsbach Leitung Vertrieb
-   - Kunststofftechnik Schedel Falkenstein（schedel-formteile.de Ansprechpartner → @schedel-gmbh.de）：Schedel GF + Hofmann Vertriebsleitung + Blechschmidt/Wolf/Pinkes Formteile Vertrieb
-4. **质量门**：Assistentin/Marketing；Blech（HASE）；Löten（Conformtec）；IFU Umform-Institut；Sauer Andrzejczuk 无法 live 验证；cloak；third-party only。
+   - FOBOHA Haslach `sales-china@`
+   - Frank & Liebergeld Ruhla（GF/Prokurist/Werkzeugmacher；Buchhaltung/DSB 剔除）
+   - mack Kunststofftechnik Ulm（GF/Betriebsleiter/CAD-CAM；Assistentin/Auftragsabwicklung 剔除）
+   - Lercher Werkzeugbau Klaus AT（Werkzeugbau/Spritzguss/Projekt；HR/Front/Buchhaltung 剔除）
+   - HWB Horitschon AT（GF Vertrieb + Produktion + Konstruktion；Buchhaltung/EDV 剔除）
+   - Niggemann Formenbau Werdohl（Udo/Thomas GF）
+4. **质量门**：FFT Umform/Karosserie；XIFA Rohstoffvertrieb；Bulte FR fasteners；Meyer 未 live；Buchhaltung/HR/Assistentin/EDV。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1/2 singles | ~80 | **0** 可用（错垂/垃圾 scrape） |
-| named Web（Braunform/Schedel/HASE/Sauer…） | 多页 | **+6** Braunform×1 + Schedel×5 |
+| wave1 singles | ~55 | Mack/Lercher/HWB/Niggemann（FFT 剔除） |
+| named Web（Foboha/Liebergeld/Xifa…） | 多页 | Foboha+Liebergeld；Xifa 错垂 |
 
-### 本轮新增（+6）
+### 本轮新增（+18）
 
-- `christian.himmelsbach@braunform.com` · Bahlingen · Christian Himmelsbach · high
-- `markus.schedel@schedel-gmbh.de` · Falkenstein · Markus Schedel · high
-- `daniel.hofmann@schedel-gmbh.de` · Falkenstein · Daniel Hofmann · high
-- `kevin.blechschmidt@schedel-gmbh.de` · Falkenstein · Kevin Blechschmidt · high
-- `yvonne.wolf@schedel-gmbh.de` · Falkenstein · Yvonne Wolf · high
-- `anett.pinkes@schedel-gmbh.de` · Falkenstein · Anett Pinkes · high
+- `sales-china@foboha.com` · Haslach ·    · high
+- `ines.liebergeld-winges@frank-liebergeld.com` · Ruhla · Ines Liebergeld-Winges · high
+- `stev.buttke@frank-liebergeld.com` · Ruhla · Stev Buttke · high
+- `tino.baacke@frank-liebergeld.com` · Ruhla · Tino Baacke · high
+- `bernd.liebergeld@frank-liebergeld.com` · Ruhla · Bernd Liebergeld · medium
+- `e.mack@mack-kunststoff.com` · Ulm · Elmar Mack · high
+- `f.hartmann@mack-kunststoff.com` · Ulm · Florian Hartmann · high
+- `h.weber@mack-kunststoff.com` · Ulm · Heiko Weber · high
+- `achim.summer@lercher.at` · Klaus · Achim Summer · high
+- `juergen.lercher@lercher.at` · Klaus · Jürgen Lercher · high
+- `andreas.thaler@lercher.at` · Klaus · Andreas Thaler · high
+- `adrian.willidal@lercher.at` · Klaus · Adrian Willidal · high
+- `manuel.salzgeber@lercher.at` · Klaus · Manuel Salzgeber · high
+- `christian.mayerhofer@hwb.co.at` · Horitschon · Christian Mayerhofer · high
+- `bernhard.hahn@hwb.co.at` · Horitschon · Bernhard Hahn · high
+- `ralph.hueller@hwb.co.at` · Horitschon · Ralph Hueller · high
+- `udo.niggemann@niggemann.net` · Werdohl · Udo Niggemann · high
+- `t.niggemann@niggemann.net` · Werdohl · Thomas Niggemann · high
 
 ### 本轮新域名
 
-（无）
+（无 — 全部落在已有域名）
 
 ### skipped-already-known（0）
 
@@ -58,7 +74,7 @@
 
 ### 质量剔除（节选）
 
-**10**：Schedel Assistentin/Marketing；HASE Blech；Conformtec Löten；IFU Institut；Sauer 无法 live 验证；Techniform third-party；Voigtform cloak；wws garbage。
+**10**：Liebergeld Buchhaltung/DSB；Mack Assistentin/Auftragsabwicklung；Lercher HR；HWB Buchhaltung/EDV；FFT Blech-Umform；XIFA Rohstoff；Bulte FR；Meyer 未 live。
 
 ---
 
@@ -66,17 +82,17 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch86_new_verified.json`
-- `data/germany_raw/batch86_expand_results.json`
-- `data/germany_raw/batch86_merge_log.json`
-- `data/germany_raw/batch86_candidates.json` / `batch86_probe_wave1.json`
-- `data/germany_raw/batch86_quality_drops.json`
+- `data/germany_raw/batch87_new_verified.json`
+- `data/germany_raw/batch87_expand_results.json`
+- `data/germany_raw/batch87_merge_log.json`
+- `data/germany_raw/batch87_candidates.json` / `batch87_probe_wave1.json`
+- `data/germany_raw/batch87_quality_drops.json`
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B87 继续 named Kontakt；Watch Batch85dir/86dir；cloak 勿 invent。
+**应有尽有 — 尚未完成。** Expand 仍空。B88 继续 named Kontakt；Watch Batch86dir/87dir；cloak 勿 invent。
 
 ---
 
