@@ -355,6 +355,97 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch102dir
+
+> 合并前重读 CSV（基线 **3903** / **2668**；Website B103 未改写或同值）。合并后基线：**3920** / **2685**。
+
+### 累计（Batch102dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3920** |
+| high / medium | **3674** / **246** |
+| 唯一域名 | **2685** |
+| 含电话 / 含城市 | **3365** / **3436** |
+| 非 .de 邮箱 | **1106** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3662** |
+| design_studio | **155** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch102dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **46** |
+| 有邮箱命中 | **22** |
+| 本轨净增邮箱 | **17**（high **17** / medium **0**） |
+| 相对基线 3903/2668 | **+17** / **+17** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **56** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B101dir gsbiz | **80** |
+| 扩展 gsbiz | +约 40 新 ids |
+| ajax/城市 | Formenbau pos 160–220；Bochum/Essen/Wuppertal 等 |
+| 本轮核验队列 | **46** |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **56**（域名队列空） |
+
+### 方法
+
+1. 排空 `queue_gsbiz_ids_remaining.txt` **80** + ajax/城市扩展 → **46** 域名 Impressum  
+2. 合并前重读 **3903/2668**  
+3. 质量剔除：pumpen/metallguss/bakbau/kennzeichnungs、off-domain  
+4. 再播种：新 gsbiz ids → **56**
+
+### 本轨新增邮箱（共 17）
+
+- `info@rp-kunststofftechnik.de`
+- `info@clausen-kunststoff.de`
+- `markus@3d-druck-ww.de`
+- `info@tks-aue.de`
+- `info@idesa-gmbh.de`
+- `mail@thorwarth-grebe.de`
+- `info@an-gmbh.de`
+- `service@weide-gmbh.de`
+- `info@risse-warstein.de`
+- `tristar@tristar-technik.de`
+- `info@tiefbohren-graf-klett.de`
+- `info@boric.de`
+- `info@print4use.de`
+- `info@formtechnik-gmbh.de`
+- `mail@s-form.de`
+- `info@formo.de`
+- `info@herms-produktentwicklung.de`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- Spritzguss ajax 深分页已空（242B）
+- 见 `data/germany_raw/batch102dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch102dir_impressum.json`
+- `data/germany_raw/batch102dir_verified.json` / `batch102dir_hits.json`
+- `data/germany_raw/batch102dir_merge_log.json` / `batch102dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch102dir 已合并；域名队列 **0**；gsbiz 余 **56** 供 Batch103dir。
+
+---
+
 ## 目录/展会轨 Batch101dir
 
 > 合并前重读 CSV（Website B102 后基线 **3897** / **2662**；非 3893）。合并后基线：**3903** / **2668**。
