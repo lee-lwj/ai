@@ -1,0 +1,11 @@
+# Batch 114 queue note (Website / named Kontakt)
+
+Baseline after B113 website + concurrent dir: live **4219** emails / **2951** domains (B113 website net +4 from 4200; KEEP retained).
+
+- Expand empty; DE tooling singles exhausted; thin multi named Kontakt low-yield; directory track far ahead.
+- Prefer web-search + WebFetch named Kontakt (konstruktion@/cad@/anfrage@/Konstruktionsleiter/Projektleiter/Technischer Leiter) + NEW-domain Präzisionsformenbau/Spritzguss/CAD-Konstruktion.
+- Prefer DE-proven (Impressum DE / DE phone); treat non-DE EU/CH country boxes cautiously.
+- Watch Directory Batch115dir+ / map-reseed — re-read CSV before write (concurrent dir may move baseline again).
+- Avoid: Stanz/Umform/Schnitt-primary; Druckguss/Kokillen-primary; Thermoform/Siegel; Feinguss/Gießerei; Composite/GFK; Buchhaltung/Personal/Einkauf/Verwaltung/Assistentin/Versand/Auftragsabwicklung; cloak invent; generic Maschinenbau CAD without Spritz/Formenbau; CH-only boxes; Bewerbung/HR; webmaster; personal web.de; Photovoltaik/Umform SPF false friends (form-tec / formtech.de).
+- Known skips this continuum: … + Eberhardt Stanz/Umform; Wirth h.wirth Bewerbung; form-tec PV; formtech.de Umform SPF.
+- B113 KEEP: G. Beil info@gbeil.com (Messkirch); Dorn peter.dorn@ + marc.tobias@ + michael.dorner@ (Tettnang).

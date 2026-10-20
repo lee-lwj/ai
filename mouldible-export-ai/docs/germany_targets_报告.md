@@ -1,3 +1,43 @@
+## Website/named Kontakt Batch 114
+
+> 合并前重读 CSV（基线 **4234** / **2966**；Batch118dir 后父代理口径 4234/2953 hosts~2966）。勿用 4219/4227。本批网站轨净增 +3 → **4237** / **2967**；live 现为 **4237** / **2967**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4237** |
+| high / medium | **3967** / **270** |
+| 唯一域名 | **2967** |
+| 含电话 / 含城市 | **3656** / **3727** |
+| 非 .de 邮箱 | **1141** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3936** |
+| design_studio | **172** |
+| oem_buyer | **94** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+3**（相对基线 4234）
+
+- `m.lehr@schneider-form.de` — Schneider Form GmbH (Dettingen unter Teck) — `oem_buyer` / high
+- `info@cad4u.de` — Ingenieurbüro Helge Feddersen / CAD4U (Rosenheim) — `design_studio` / high
+- `ffb-formen@t-online.de` — FFB Förster Formenbau / Inh. Andreas Kunert (Bad Aibling) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- Bauer Werkzeugbau JS HTML-entity cloak — DROP cloak invent
+- `info@wepf.de` / named — DROP Schlauch/Rohrleitungen
+- `fthormann@spritzguss-bergmann.de` — DROP Lager/Versand
+- `vschouwink@spritzguss-bergmann.de` — DROP Buchhaltung
+- `info@sipka.de` — SKIP dead; Formenpolier/Druckguss
+- steinhauser / eckerle / bama / quattro / weiland / gollmer — SKIP already known
+- TBI Formenbau .at — SKIP AT
+
+---
 ## Website/named Kontakt Batch 113
 
 > 合并前重读 CSV（基线 **4200** / **2941**）。本批网站轨净增 +4 → 瞬时 **4204** / **2942**；随后并发目录合并，live 现为 **4219** / **2951**（B113 KEEP 仍在库）。

@@ -1,0 +1,34 @@
+[
+  {
+    "item": "info@bauer-werkzeugbau.de / fg@ / kb@ JS entity cloak",
+    "reason": "DROP cloak invent — JS HTML-entity concat emails"
+  },
+  {
+    "item": "info@wepf.de / dgoh@ etc.",
+    "reason": "DROP Schlauch/Rohrleitungen — not Spritz/Formenbau ICP"
+  },
+  {
+    "item": "fthormann@spritzguss-bergmann.de",
+    "reason": "DROP Lager/Versand (Alexander Bertels)"
+  },
+  {
+    "item": "vschouwink@spritzguss-bergmann.de",
+    "reason": "DROP Buchhaltung"
+  },
+  {
+    "item": "info@sipka.de",
+    "reason": "SKIP dead site; Formenpolier + Druckguss co"
+  },
+  {
+    "item": "info@form-tec.de / info@formtech.de",
+    "reason": "DROP PV / Umform SPF false friends (prior continuum)"
+  },
+  {
+    "item": "steinhauser / eckerle / bama / quattro / weiland / gollmer / krupanek named",
+    "reason": "SKIP already known"
+  },
+  {
+    "item": "TBI Formenbau .at",
+    "reason": "SKIP AT country-box (not DE-proven)"
+  }
+]
