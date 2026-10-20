@@ -1,3 +1,166 @@
+## Website/named Kontakt Batch 105
+
+> 合并前重读 CSV（Batch105dir 后基线 **3982** / **2741**；中途 Batch104dir 后曾为 3967/2726；初值 3947/2706）。
+
+### 累计（Batch 105 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3985** |
+| high / medium | **3729** / **256** |
+| 唯一域名 | **2744** |
+| 含电话 / 含城市 | **3424** / **3499** |
+| 非 .de 邮箱 | **1110** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3719** |
+| design_studio | **158** |
+| oem_buyer | **74** |
+| sourcing | **34** |
+
+### 本轨成果（Batch 105）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+3**（high **3** / medium **0**） |
+| 相对基线 3982/2741 | **+3** / **+3** 域名 |
+| 质量剔除 | **10** |
+
+### 方法
+
+1. 重读确认 **3982/2741**（Batch105dir 已合并；Batch104dir 亦已并入）
+2. NEW-domain: Beichert design_studio + IGENO oem_buyer + Polymeric oem_buyer（Spritzguss+Formenbau）
+3. 质量门：Druckguss-co（Borchert）；Stanz（Gerken）；CH（Sieber）；incomplete Impressum；site 500/dead；Kokillen（Meissner）；cross-domain residual；Buchhaltung
+
+### 本轨新增邮箱（共 3）
+
+- `info@cad-cam-beichert.de` · Kleines Wiesental · Alexander/Levin Beichert · Geschäftsführer / Konstruktion Spritzgießformen · high · **新域名**
+- `info@igeno-fat.de` · Nordhausen · Dr. Marlies Brandt · Geschäftsführerin / Spritzgießteile Formenbau · high · **新域名**
+- `info@polymeric.de` · Neusäß · Sebastian Wimmer · Geschäftsführer / Spritzguss Formenbau · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch105_new_verified.json`
+- `data/germany_raw/batch105_candidates_final.json`
+- `data/germany_raw/batch105_quality_drops.json`
+- `data/germany_raw/batch105_merge_log.json`
+- `data/germany_raw/batch106_queue_note.txt`
+
+---
+
+## Website/named Kontakt Batch 104
+
+> 合并前重读 CSV（Batch103dir 后基线 **3943** / **2703**；非初值 3925/2688）。
+
+### 累计（Batch 104 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3947** |
+| high / medium | **3696** / **251** |
+| 唯一域名 | **2706** |
+| 含电话 / 含城市 | **3390** / **3462** |
+| 非 .de 邮箱 | **1108** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3684** |
+| design_studio | **157** |
+| oem_buyer | **72** |
+| sourcing | **34** |
+
+### 本轨成果（Batch 104）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+4**（high **4** / medium **0**） |
+| 相对基线 3943/2703 | **+4** / **+3** 域名 |
+| 质量剔除 | **10** |
+
+### 方法
+
+1. 重读确认 **3943/2703**（Batch103dir 已合并）
+2. NEW-domain: Rethemeier design_studio + AB-FormTECH peer + SEBIKO info/Inhaber (Elastomer/LSR Formenbau)
+3. 质量门：third-party agency（wa21）；GF invent（Heim）；CH（Sieber）；incomplete Impressum；Wartenfelser Logistik/Personal/Einkauf/Assistenz
+
+### 本轨新增邮箱（共 4）
+
+- `info@rethemeier.eu` · Kalletal · Bernd Rethemeier · Inhaber / Werkzeugkonstruktion Spritzguss · high · **新域名**
+- `info@ab-form.tech` · Bad Aibling · Andreas Brandner · Inhaber / Werkzeug-Formenbau Spritzguss · high · **新域名**
+- `info@sebiko.de` · Büdingen · Matthias Lohrey · Inhaber / Präzisionsformen Elastomer Spritzguss · high · **新域名**
+- `mlohrey@sebiko.de` · Büdingen · Matthias Lohrey · Inhaber / Werkzeug- und Formenbau · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch104_new_verified.json`
+- `data/germany_raw/batch104_candidates_final.json`
+- `data/germany_raw/batch104_quality_drops.json`
+- `data/germany_raw/batch104_merge_log.json`
+- `data/germany_raw/batch105_queue_note.txt`
+
+---
+
+## Website/named Kontakt Batch 103
+
+> 合并前重读 CSV（Batch102dir 后基线 **3920** / **2685**；中途 Batch101dir 后曾为 3903/2668；初值 3897/2662）。
+
+### 累计（Batch 103 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3925** |
+| high / medium | **3679** / **246** |
+| 唯一域名 | **2688** |
+| 含电话 / 含城市 | **3370** / **3441** |
+| 非 .de 邮箱 | **1106** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3663** |
+| design_studio | **156** |
+| oem_buyer | **72** |
+| sourcing | **34** |
+
+### 本轨成果（Batch 103）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+5**（high **5** / medium **0**） |
+| 相对基线 3920/2685 | **+5** / **+3** 域名 |
+| master 可选重叠跳过 | **1**（direktform） |
+| 质量剔除 | **12** |
+
+### 方法
+
+1. 重读确认 **3920/2685**（Batch102dir 已合并；Batch101dir 亦已并入）
+2. NEW-domain: KB Wunner (design_studio) + Greschbach info/Ralf/Volker (oem_buyer) + pro forma concept (peer)
+3. 质量门：Stanz（THB）；Druckguss（Conrad）；CH（Sieber）；无 Impressum（spritzgusswerkzeug-konstruktion）；Medizin distributor（TriRad）；Composite（ZVZ）；Lager-Logistik（Formzeug a.fuerst）；cloak（mold-engineering）；Sondermaschinen（AKON）；dead（Formacon/rs-formtec）；master-optional（direktform）
+
+### 本轨新增邮箱（共 5）
+
+- `info@kb-wunner.de` · Meißen · Mirko Wunner · Inhaber / Konstruktion Spritzgussformenbau · high · **新域名**
+- `info@greschbach-gmbh.de` · Herbolzheim · — · Allgemeine Anfragen / Kunststoffverarbeitung Konstruktion · high · **新域名**
+- `r.greschbach@greschbach-gmbh.de` · Herbolzheim · Ralf Greschbach · Dipl.-Kfm. / Ansprechpartner · high · **新域名**
+- `v.greschbach@greschbach-gmbh.de` · Herbolzheim · Volker Greschbach · Dipl.-Ing. (BA) / Geschäftsführer · high · **新域名**
+- `info@proforma-concept.de` · Radeburg · Bilal Demirel · Geschäftsführer / Werkzeug- und Formenbau · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch103_new_verified.json`
+- `data/germany_raw/batch103_candidates_final.json`
+- `data/germany_raw/batch103_quality_drops.json`
+- `data/germany_raw/batch103_merge_log.json`
+- `data/germany_raw/batch104_queue_note.txt`
+
+---
+
 ## Website/named Kontakt Batch 102
 
 > 合并前重读 CSV（Batch100dir 后基线 **3893** / **2659**；非初值 3874/2642。Batch101dir 未写入）。
@@ -352,6 +515,380 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch106dir
+
+> 合并前重读 CSV（Website B105 后基线 **3985** / **2744**；非 3982）。合并后基线：**4012** / **2769**。
+
+### 累计（Batch106dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4012** |
+| high / medium | **3755** / **257** |
+| 唯一域名 | **2769** |
+| 含电话 / 含城市 | **3448** / **3526** |
+| 非 .de 邮箱 | **1110** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3746** |
+| design_studio | **158** |
+| oem_buyer | **74** |
+| sourcing | **34** |
+
+### 本轨成果（Batch106dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **50** |
+| 有邮箱命中 | **32** |
+| 本轨净增邮箱 | **27**（high **26** / medium **1**） |
+| 相对 Website B105 基线 3985/2744 | **+27** / **+25** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **22** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B105dir gsbiz | **69** |
+| 扩展 | NRW 城市 + Formteile/Spritzgießwerkzeuge + 新 gsbiz |
+| 本轮核验队列 | **50** |
+| 超时强制 no_email | opifexweimar.de, kunststoff-kaeppel.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **22** |
+
+### 方法
+
+1. 排空 `queue_gsbiz_ids_remaining.txt` **69** + 城市/类目扩展 → **50** 域名 Impressum  
+2. 合并前重读 **3985/2744** = Website B105  
+3. 质量剔除：ionos/darmstadt/bau/yumpu/off-domain；保留 agru→frank related medium  
+4. 再播种：gsbiz 余 **22**
+
+### 本轨新增邮箱（共 27）
+
+- `info@mjm-werkzeug.de` (high)
+- `info@hls-kluge.de` (high)
+- `info@composite-sys.de` (high)
+- `info@schoenberg-acryl.de` (high)
+- `info@tierock-hirth.de` (high)
+- `bjoern.kemmler@ycm-consulting.de` (high)
+- `info@langetec.de` (high)
+- `info@kunststoffspritzguss-24.de` (high)
+- `info@debus-aw.de` (high)
+- `josef.zemek@rgf-praezision.de` (high)
+- `info@cziotec.de` (high)
+- `info@brillundadloff.de` (high)
+- `sales@brillundadloff.de` (high)
+- `info@loekutec.de` (high)
+- `info@kunststoffe-giro.de` (high)
+- `info@drinhaus-technik.de` (high)
+- `info@moelders.de` (high)
+- `info@frank-gmbh.de` (medium)
+- `info@sattler-scm.de` (high)
+- `anfrage@sattler-scm.de` (high)
+- `info@ibkopp.de` (high)
+- `info@rmm-gmbh.de` (high)
+- `info@smd-olpe.de` (high)
+- `info@3d-cad-design.de` (high)
+- `info@ktr-rethwisch.de` (high)
+- `info@woelky-partner.de` (high)
+- `info@ib-muenster.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 2 域名超时 → forced no_email
+- 见 `data/germany_raw/batch106dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch106dir_impressum.json`
+- `data/germany_raw/batch106dir_verified.json` / `batch106dir_hits.json`
+- `data/germany_raw/batch106dir_merge_log.json` / `batch106dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch106dir 已合并；域名队列 **0**；gsbiz 余 **22** 供 Batch107dir。
+
+---
+
+## 目录/展会轨 Batch105dir
+
+> 合并前重读 CSV（基线 **3967** / **2726**；Website B105 未改写或同值）。合并后基线：**3982** / **2741**。
+
+### 累计（Batch105dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3982** |
+| high / medium | **3726** / **256** |
+| 唯一域名 | **2741** |
+| 含电话 / 含城市 | **3421** / **3496** |
+| 非 .de 邮箱 | **1110** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3719** |
+| design_studio | **157** |
+| oem_buyer | **72** |
+| sourcing | **34** |
+
+### 本轨成果（Batch105dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **35** |
+| 有邮箱命中 | **19** |
+| 本轨净增邮箱 | **15**（high **13** / medium **2**） |
+| 相对基线 3967/2726 | **+15** / **+15** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余（再播种） | **69** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空末批 gsbiz | **3**（B104dir 余） |
+| 新源扩展 | GS 新类目（Spritzgießerei/Kunststoffspritzguss/Erodieren）+ 东/南部城市；Europages DE Formenbau/Spritzguss/Werkzeugbau；DDG |
+| 扩展抓取 gsbiz | ~50 新详情页 → 核验队列 **35** |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **69**（域名队列空） |
+
+### 方法
+
+1. 排空末 **3** gsbiz + 非 WLW 新源重建 → Impressum **35**  
+2. 合并前重读 **3967/2726**  
+3. 质量剔除：muster.de / 混淆垃圾；保留 mks-spritzguss、wb-rau related medium  
+4. 再播种：新发现 gsbiz **69**
+
+### 本轨新增邮箱（共 15）
+
+- `info@hujer-lasertechnik.de` (high)
+- `info@ptz-prototypen.de` (high)
+- `bvt@bvt-bremen.de` (high)
+- `mail@toelke-gmbh.de` (high)
+- `info@mks-spritzguss.de` (medium)
+- `info@schubert-wzb.de` (high)
+- `a.g.weiss@adolf-weiss-ing.de` (high)
+- `info@zwerenz-industries.de` (high)
+- `info@jjweiler.de` (high)
+- `d.pfeifer@dp-werkzeugbau.de` (high)
+- `info@wb-rau.de` (medium)
+- `info@merten-zerspanungstechnik.de` (high)
+- `kontakt@springer-zerspanungstechnik.de` (high)
+- `nagler@normalien.de` (high)
+- `info@dahmen-umformtechnik.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 见 `data/germany_raw/batch105dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch105dir_impressum.json`
+- `data/germany_raw/batch105dir_verified.json` / `batch105dir_hits.json`
+- `data/germany_raw/batch105dir_merge_log.json` / `batch105dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch105dir 已合并；域名队列 **0**；gsbiz 再播种 **69** 供 Batch106dir。
+
+---
+
+## 目录/展会轨 Batch104dir
+
+> 合并前重读 CSV（Website B104 后基线 **3947** / **2706**；非 3943）。合并后基线：**3967** / **2726**。
+
+### 累计（Batch104dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3967** |
+| high / medium | **3713** / **254** |
+| 唯一域名 | **2726** |
+| 含电话 / 含城市 | **3406** / **3481** |
+| 非 .de 邮箱 | **1110** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3704** |
+| design_studio | **157** |
+| oem_buyer | **72** |
+| sourcing | **34** |
+
+### 本轨成果（Batch104dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **51** |
+| 有邮箱命中 | **26** |
+| 本轨净增邮箱 | **20**（high **17** / medium **3**） |
+| 相对 Website B104 基线 3947/2706 | **+20** / **+20** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **3** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B103dir gsbiz | **79** |
+| 扩展 | 中等城市 Formenbau + 新 gsbiz（池将尽） |
+| 本轮核验队列 | **51** |
+| 超时强制 no_email | erlmann.de, befi-plastic.de, magenta.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **3**（近耗尽） |
+
+### 方法
+
+1. 排空 `queue_gsbiz_ids_remaining.txt` **79** + 城市扩展 → **51** 域名 Impressum  
+2. 合并前重读 **3947/2706** = Website B104  
+3. 质量剔除：fotodesign/maler/pudelwohl/metallbau/metallverarbeitung  
+4. 再播种：gsbiz 余 **3**
+
+### 本轨新增邮箱（共 20）
+
+- `service@bero-werkzeugbau.de` (high)
+- `info@cst-gmbh.de` (high)
+- `info@spey.de` (high)
+- `info@jedig-heyns.de` (high)
+- `kontakt@mkl-online.com` (medium)
+- `info@demgen.de` (high)
+- `info@saritec.de` (high)
+- `service@stanzerei-werkzeugbau.de` (high)
+- `info@fritzschneidergmbh.de` (high)
+- `info@praezimolds-gmbh.de` (medium)
+- `info@kunststoff-cuba.de` (high)
+- `info@bwa-werkzeugbau.de` (high)
+- `info@grotefeld-kunststofftechnik.de` (high)
+- `info@pape-engineering.com` (medium)
+- `info@ds-elektrodenservice.de` (high)
+- `elpro@elprotec.de` (high)
+- `info@sudholt-wasemann.de` (high)
+- `info@modellbau-mueller-gmbh.de` (high)
+- `kontakt@sen-ff.de` (high)
+- `info@modellundformenbau.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- gsbiz 池近耗尽（余 **3**）
+- 见 `data/germany_raw/batch104dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch104dir_impressum.json`
+- `data/germany_raw/batch104dir_verified.json` / `batch104dir_hits.json`
+- `data/germany_raw/batch104dir_merge_log.json` / `batch104dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch104dir 已合并；域名队列 **0**；gsbiz 余 **3** 供 Batch105dir。
+
+---
+
+## 目录/展会轨 Batch103dir
+
+> 合并前重读 CSV（Website B103 后基线 **3925** / **2688**；非 3920）。合并后基线：**3943** / **2703**。
+
+### 累计（Batch103dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3943** |
+| high / medium | **3692** / **251** |
+| 唯一域名 | **2703** |
+| 含电话 / 含城市 | **3386** / **3458** |
+| 非 .de 邮箱 | **1106** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3681** |
+| design_studio | **156** |
+| oem_buyer | **72** |
+| sourcing | **34** |
+
+### 本轨成果（Batch103dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **32** |
+| 有邮箱命中 | **17** |
+| 本轨净增邮箱 | **18**（high **13** / medium **5**） |
+| 相对 Website B103 基线 3925/2688 | **+18** / **+15** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **79** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B102dir gsbiz | **56** |
+| 扩展 | Formenbau 城市（Paderborn/Osnabrück/Heidelberg 等）+ werkzeugbau ajax + 新 gsbiz |
+| 本轮核验队列 | **32** |
+| 超时强制 no_email | wachsmuth.de, netsurf.de, funke-blecher.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **79**（域名队列空） |
+
+### 方法
+
+1. 排空 `queue_gsbiz_ids_remaining.txt` **56** + 城市/werkzeugbau 扩展 → **32** 域名 Impressum  
+2. 合并前重读 **3925/2688** = Website B103  
+3. 质量剔除：the.net junk、dsa-marketing；保留 hetec-online / modellbau-giesserei related medium  
+4. 再播种：新 gsbiz ids → **79**
+
+### 本轨新增邮箱（共 18）
+
+- `info@gaertner-lang.de` (high)
+- `info@plexiglas-lehmann.de` (high)
+- `info@modellbau-giesserei.de` (medium)
+- `info@hammergmbh.de` (high)
+- `f.herhaus@hetec-online.de` (medium)
+- `g.herhaus@hetec-online.de` (medium)
+- `t.herhaus@hetec-online.de` (medium)
+- `info@hetec-online.de` (medium)
+- `info@ucar.de` (high)
+- `info@art-tec.de` (high)
+- `info@kokillenbau-friedrich.de` (high)
+- `info@doerken-wkzbau.de` (high)
+- `info@waltergoetz.de` (high)
+- `zentrale@bretting-werkzeugbau.de` (high)
+- `info@swwp.de` (high)
+- `julius@julius-gmbh.de` (high)
+- `info@suski.de` (high)
+- `m.schwarze@swk-konstruktion.de` (high)
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 3 域名超时 → forced no_email
+- 见 `data/germany_raw/batch103dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch103dir_impressum.json`
+- `data/germany_raw/batch103dir_verified.json` / `batch103dir_hits.json`
+- `data/germany_raw/batch103dir_merge_log.json` / `batch103dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch103dir 已合并；域名队列 **0**；gsbiz 余 **79** 供 Batch104dir。
 
 ---
 
