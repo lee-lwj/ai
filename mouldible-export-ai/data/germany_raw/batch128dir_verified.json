@@ -1,0 +1,28 @@
+[
+  {
+    "company": "Metra Kunststoffdesign (DE)",
+    "domain": "metra-kunststoffdesign.de",
+    "email": "info@metra-kunststoffdesign.de",
+    "email_source_url": "https://www.metra-kunststoffdesign.de/impressum",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "",
+    "city": "Erkner",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch128dir Lausitz/Brandenburg/MV)"
+  },
+  {
+    "company": "Rskunststoffgmbh (DE)",
+    "domain": "rskunststoffgmbh.de",
+    "email": "info@rskunststoffgmbh.de",
+    "email_source_url": "https://rskunststoffgmbh.de/kontakt/",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 (0) 2332 60605",
+    "city": "",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Verified on public Impressum/Kontakt this run (Batch128dir Lausitz/Brandenburg/MV)"
+  }
+]

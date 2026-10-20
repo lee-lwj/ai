@@ -1,0 +1,26 @@
+{
+  "n_domains": 0,
+  "n_gsbiz": 0,
+  "domain_queue": [],
+  "next_search_seeds": "data/germany_raw/batch128dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "ddg_bing_lausitz_bb_mv_hinterland",
+    "maps",
+    "europages",
+    "fakuma_vdwf_search"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted",
+    "empty_b127_domain_queue"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:thermokon.de"
+  ],
+  "queue_via": {
+    "search": 5
+  },
+  "cities_used": 103,
+  "yield_note": "Very thin: 5 candidates, 3 impressum hits, thermokon dropped non-ICP",
+  "supplemental_seed": "Eifel/Hunsrück/Weserbergland/Harz/Bodensee (queue for B129)"
+}

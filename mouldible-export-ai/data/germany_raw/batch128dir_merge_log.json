@@ -1,0 +1,56 @@
+{
+  "batch": "128dir",
+  "label": "目录/展会轨 Batch128dir",
+  "csv_before": 4327,
+  "csv_after": 4329,
+  "net_new_emails": 2,
+  "high": 2,
+  "medium": 0,
+  "impressum_checked": 5,
+  "impressum_ok": 3,
+  "stats": {
+    "added_cand": 2,
+    "qual_exclude": 1,
+    "no_hit": 2
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 266,
+    "queued_from_b127": 0,
+    "cities_used": 103,
+    "source_ok_pages": {
+      "maps": 30,
+      "search": 206,
+      "ep": 14,
+      "fakuma": 16
+    },
+    "queue": 5,
+    "queue_via": {
+      "search": 5
+    },
+    "sources": {
+      "web": 5
+    },
+    "csv_peek_at_harvest": 4327,
+    "method": "Lausitz/Brandenburg/MV + Mecklenburg/Uckermark/Spreewald/Altmark × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality",
+    "queue_verified": 5
+  },
+  "baseline_note": "Re-read CSV before merge (4327/3021); steering 4327; Website B122 not yet landed or equal",
+  "steering_expected_before": 4327,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "nationwide saturation — very thin new-domain yield"
+  ],
+  "domains_after": 3023,
+  "domains_before": 3021,
+  "sources": "Lausitz/Brandenburg/MV + Mecklenburg/Uckermark/Spreewald/Altmark × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; high quality",
+  "expand_worked": {
+    "search": 5
+  },
+  "quality_note": "Dropped thermokon.de (HVAC sensors non-ICP); metra tagged design_studio",
+  "quality_drops_sample": [
+    "exclude_dom:thermokon.de"
+  ]
+}

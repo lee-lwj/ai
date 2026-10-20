@@ -1213,6 +1213,64 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch128dir
+
+> 合并前重读 CSV（直播基线 **4327** / **3021**；指令预期 4327）。合并后基线：**4329** / **3023**。
+
+### 累计（Batch128dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4329** |
+| high / medium | **4049** / **280** |
+| 唯一域名 | **3023** |
+| 含电话 / 含城市 | **3736** / **3816** |
+| 非 .de 邮箱 | **1155** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4002** |
+| design_studio | **182** |
+| oem_buyer | **110** |
+| sourcing | **35** |
+
+### 本轨成果（Batch128dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **5** |
+| 有邮箱命中 | **3** |
+| 本轨净增邮箱 | **2**（high **2** / medium **0**） |
+| 相对基线 4327/3021 | **+2** / **+2** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B127 域名队列 | 空 |
+| Lausitz/BB/MV + Mecklenburg/Uckermark/Spreewald/Altmark × kw | 有效（103 城，search 206） |
+| Bing Maps / Europages / Fakuma | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+| 产量 | **极薄**：5 候选 / 3 命中 / 剔 1 非 ICP（Thermokon 传感器） |
+
+### 本轨新增邮箱（共 2）
+
+- `info@metra-kunststoffdesign.de` (high, design_studio)
+- `info@rskunststoffgmbh.de` (high, overseas_peer_overflow)
+
+### 产物
+
+- `data/germany_raw/batch128dir_*.json`
+- `data/germany_raw/batch128dir_next_search_seeds.json`
+
+### 状态
+
+Batch128dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch129dir（下一城带：Eifel/Hunsrück/Weserbergland/Harz/Bodensee）。全国目录轨饱和明显，仍按「应有尽有」推进。
+
 ## 目录/展会轨 Batch127dir
 
 > 合并前重读 CSV（Website B121 后直播基线 **4324** / **3018**；指令预期 4324；目录轨原基线 4316）。合并后基线：**4327** / **3021**。
