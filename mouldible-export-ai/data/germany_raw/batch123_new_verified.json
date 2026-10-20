@@ -1,0 +1,67 @@
+[
+  {
+    "company": "IRB Werkzeugbau GmbH",
+    "domain": "irb-werkzeugbau.de",
+    "email": "info@irb-werkzeugbau.de",
+    "email_source_url": "https://www.irb-werkzeugbau.de/impressum.php",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 6022 24272",
+    "city": "Kleinwallstadt",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch123: NEW domain; live Impressum §TMG IRB Werkzeugbau GmbH Plattenbergstraße 4, 63839 Kleinwallstadt; HRB 4681 Aschaffenburg; GF Reinhold/Bianca Büttner; Werkzeuge/Prototypen/Formen/Lehren peer tooling"
+  },
+  {
+    "company": "POLYTHERM Dipl.-Ing. Horst Sauer GmbH",
+    "domain": "polytherm-plastic.com",
+    "email": "info@polytherm-plastic.com",
+    "email_source_url": "https://polytherm-plastic.com/kontakt",
+    "contact_name": "",
+    "job_title": "",
+    "phone": "+49 6021 424868",
+    "city": "Aschaffenburg",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch123: NEW domain (.com DE-proven); live Kontakt/Home mailto; Impressum Hasenhägweg 79, 63741 Aschaffenburg HRB 2958; Spritzguss OEM + eigener Formenbau/Werkzeugbau peer"
+  },
+  {
+    "company": "CAD Konstruktionsbüro (Dennis Ptach)",
+    "domain": "cad-konstruktionsbuero.de",
+    "email": "info@cad-konstruktionsbuero.de",
+    "email_source_url": "https://cad-konstruktionsbuero.de/impressum/",
+    "contact_name": "Dennis Ptach",
+    "job_title": "Inhaber / CAD-Konstruktion Formenbau",
+    "phone": "",
+    "city": "Hamm",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch123: NEW domain; live Impressum §DDG Kleingewerbe Dennis Ptach, Paderborner Straße 13, 59075 Hamm; dedicated Formenbau CAD page (Formeinsätze/Trennebenen/Schieber)"
+  },
+  {
+    "company": "Johannes Menz GmbH",
+    "domain": "johannesmenz.de",
+    "email": "info@johannesmenz.de",
+    "email_source_url": "https://www.johannesmenz.de/impressum.html",
+    "contact_name": "Stephan Menz",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 36847 516100",
+    "city": "Steinbach-Hallenberg",
+    "icp_tag": "overseas_peer_overflow",
+    "confidence": "high",
+    "notes": "Batch123: NEW domain; live Impressum hex-entity email decoded on same domain; Stiller Berg 22-24, 98587 Steinbach-Hallenberg HRB 301266 Jena; Spritzgusswerkzeuge + Werkzeug-/Formenbau peer"
+  },
+  {
+    "company": "LH Werkzeug-Konstruktion GmbH",
+    "domain": "lh-konstruktion.de",
+    "email": "info@lh-konstruktion.de",
+    "email_source_url": "http://www.lh-konstruktion.de/pages/impressum.php",
+    "contact_name": "Georg Helm",
+    "job_title": "Geschäftsführer / Ansprechpartner",
+    "phone": "+49 9829 9120-0",
+    "city": "Flachslanden",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch123: NEW domain; live Impressum §5 TMG LH Werkzeug-Konstruktion GmbH Neustetter Str. 2, 91604 Flachslanden HRB 7372 Ansbach; Spritzguss-/2-5K-/Etagenwerkzeuge CAD Konstruktionsbüro (g.helm@ not published — only info@)"
+  }
+]

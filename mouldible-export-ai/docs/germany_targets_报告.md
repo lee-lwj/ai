@@ -1,3 +1,48 @@
+## Website/named Kontakt Batch 123
+
+> 合并前重读 CSV（任务口径 **4333** / **3026**；Directory Batch129dir→写时 live **4351** / **3042**；steering 确认后再读）。本批按 live 合并，网站轨净增 **+5** → 瞬时 **4356** / **3047**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4356** |
+| high / medium | **4076** / **280** |
+| 唯一域名 | **3047** |
+| 含电话 / 含城市 | **3760** / **3843** |
+| 非 .de 邮箱 | **1163** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4021** |
+| design_studio | **185** |
+| oem_buyer | **115** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+5**（相对写时基线 4351）
+
+- `info@irb-werkzeugbau.de` — IRB Werkzeugbau GmbH (Kleinwallstadt) — `overseas_peer_overflow` / high
+- `info@polytherm-plastic.com` — POLYTHERM Dipl.-Ing. Horst Sauer GmbH (Aschaffenburg) — `oem_buyer` / high
+- `info@cad-konstruktionsbuero.de` — CAD Konstruktionsbüro Dennis Ptach (Hamm) — `design_studio` / high — Dennis Ptach
+- `info@johannesmenz.de` — Johannes Menz GmbH (Steinbach-Hallenberg) — `overseas_peer_overflow` / high — Stephan Menz
+- `info@lh-konstruktion.de` — LH Werkzeug-Konstruktion GmbH (Flachslanden) — `design_studio` / high — Georg Helm
+
+### 本批质量剔除（节选）
+
+- `a.mueller@ / k.sticker@ mueller-werkzeugbau-gmbh.de` — DROP Buchhaltung/Personal / Einkauf+Fakturierung
+- `info@schuetze-seifert.de` — DROP Personaldienstleister off-ICP
+- `info@masterformer.de` — DROP beauty/aesthetics wholesaler off-ICP
+- `Formacon j.sancar@formacon.de` — SKIP site unreachable — never invent; carry recovery
+- `FLICKS-CAD` — SKIP phone-only / E-Mail anzeigen cloak
+- `Finke Formenbau plain mailto` — SKIP no plain company-site mailto this run
+- `ABAS Fulda named` — SKIP Cloudflare 526 / only known info@
+- `webmaster@cadkon-design.com / invent g.helm@` — DROP webmaster; SKIP invent
+- `Wenker→growzb already known / Dobener phone-only / Gerken continuum` — SKIP/DROP
+
+---
+
 ## Website/named Kontakt Batch 122
 
 > 合并前重读 CSV（任务口径 **4324** / **3018**；Directory Batch127dir→**4327**、Batch128dir→写时 live **4329** / **3023**）。本批按 live 合并，网站轨净增 **+4** → 瞬时 **4333** / **3026**。

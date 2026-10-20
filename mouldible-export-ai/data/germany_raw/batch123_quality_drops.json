@@ -1,0 +1,42 @@
+[
+  {
+    "item": "a.mueller@ / k.sticker@ mueller-werkzeugbau-gmbh.de",
+    "reason": "DROP Buchhaltung/Organisation/Personal / Einkauf und Fakturierung"
+  },
+  {
+    "item": "info@schuetze-seifert.de (+ fulda@/wuerzburg@/bm-fulda@)",
+    "reason": "DROP off-ICP Personaldienstleister (not Formenbau)"
+  },
+  {
+    "item": "info@masterformer.de",
+    "reason": "DROP off-ICP beauty/aesthetics medical-device wholesaler"
+  },
+  {
+    "item": "Formacon j.sancar@formacon.de",
+    "reason": "SKIP site unreachable (curl 0 / WebFetch 500) — never invent; carry recovery"
+  },
+  {
+    "item": "FLICKS-CAD Wolfgang Flickschuh",
+    "reason": "SKIP phone-only / E-Mail anzeigen cloak — no plain mailto on impressum"
+  },
+  {
+    "item": "Finke Formenbau / finke-formenbau.de / finke-gruppe Kontakt",
+    "reason": "SKIP no plain company-site mailto this run (redirects to gruppe; no published plain)"
+  },
+  {
+    "item": "ABAS Fulda named beyond info@",
+    "reason": "SKIP Cloudflare 526 / no new plain named beyond known info@"
+  },
+  {
+    "item": "webmaster@cadkon-design.com / g.helm@lh invent",
+    "reason": "DROP webmaster; SKIP invent g.helm@ (only info@ published)"
+  },
+  {
+    "item": "info@wenker-werkzeugbau.de / Dobener phone-only",
+    "reason": "SKIP Wenker redirects to known growzb.de; Dobener site dead phone-only"
+  },
+  {
+    "item": "zi-systeme / Rausch / Müller known / Gerken continuum",
+    "reason": "SKIP already known / Gerken Stanz continuum"
+  }
+]
