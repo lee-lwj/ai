@@ -1,3 +1,48 @@
+## Website/named Kontakt Batch 107
+
+> 合并前重读 CSV（基线 **4048** / **2818**；Batch106 后 4048/2818）。
+
+### 累计（Batch 107 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4052** |
+| high / medium | **3793** / **259** |
+| 唯一域名 | **2820** |
+| 含电话 / 含城市 | **3483** / **3564** |
+| 非 .de 邮箱 | **1115** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3780** |
+| design_studio | **162** |
+| oem_buyer | **76** |
+| sourcing | **34** |
+
+### 本批净增 **+4**
+
+- `info@schmitt-brackenheim.de` — Schmitt GmbH (Brackenheim-Dürrenzimmern) — `oem_buyer` / high
+- `cad@schmitt-brackenheim.de` — Schmitt GmbH (Brackenheim-Dürrenzimmern) — `design_studio` / high
+- `konstruktion@schmitt-brackenheim.de` — Schmitt GmbH (Brackenheim-Dürrenzimmern) — `design_studio` / high
+- `info@explicad.de` — expliCAD GmbH (Gilching) — `design_studio` / high
+
+### 本批质量剔除（节选）
+
+- `d.marx@rausch-formenbau.de` — DROP Buchhaltung/Verwaltung
+- `l.schuck@rausch-formenbau.de` — DROP Einkauf
+- `info@wds-werkzeugbau.de` — DROP Thermoform-/Siegel-Verpackungswerkzeuge primary
+- `info@sundermeier-werkzeugbau.de` — DROP Druckguss + Schnitt/Stanz co-primary Schwerpunkte alongside Spritzgieß
+- `info@hgs-schmitz.de` — DROP Schnittwerkzeuge/Pressformen co-branded with Spritzgusswerkzeuge
+- `info@formenbau-klomfass.de` — DROP Druckguss co (Zink/Alu Druckguss + Spritz)
+- `info@ck-form.de` — DROP site unreachable (again)
+- `info@hack-formenbau.de` — SKIP ROT13/JS cloak — do not invent decoded address
+- `info@formtec-kt.com` — DROP Thermoformen/PU packaging primary
+- `hhk-konstruktion Stanz branding` — SKIP known domain; home Stanz-co branding
+
+---
+
 ## Website/named Kontakt Batch 106
 
 > 合并前重读 CSV（Batch107dir 后基线 **4044** / **2816**；中途 Batch106dir 后曾为 4012/2769；初值 3985/2744）。

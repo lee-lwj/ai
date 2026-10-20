@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Schmitt GmbH",
+    "domain": "schmitt-brackenheim.de",
+    "email": "info@schmitt-brackenheim.de",
+    "email_source_url": "http://www.schmitt-brackenheim.de/de/kontakt/impressum.html",
+    "contact_name": "Joachim Schmitt / Viola Schmitt",
+    "job_title": "Geschäftsführung",
+    "phone": "+49 7135 9801-0",
+    "city": "Brackenheim-Dürrenzimmern",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch107: NEW domain; Impressum live (WebFetch); own Spritzgießwerkzeugbau + Kunststoffspritzerei; DE BW"
+  },
+  {
+    "company": "Schmitt GmbH",
+    "domain": "schmitt-brackenheim.de",
+    "email": "cad@schmitt-brackenheim.de",
+    "email_source_url": "http://www.schmitt-brackenheim.de/de/unternehmen/werkzeug-formenbau.html",
+    "contact_name": "",
+    "job_title": "CAD / Werkzeug- und Formenbau",
+    "phone": "+49 7135 9801-17",
+    "city": "Brackenheim-Dürrenzimmern",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch107: named CAD contact live on Werkzeug-Formenbau page; Spritzgießwerkzeuge Idee→Konstruktion→Elektroden→Werkzeug"
+  },
+  {
+    "company": "Schmitt GmbH",
+    "domain": "schmitt-brackenheim.de",
+    "email": "konstruktion@schmitt-brackenheim.de",
+    "email_source_url": "http://www.schmitt-brackenheim.de/de/unternehmen/konstruktion.html",
+    "contact_name": "",
+    "job_title": "Konstruktion / SolidWorks",
+    "phone": "+49 7135 9801-17",
+    "city": "Brackenheim-Dürrenzimmern",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch107: named Konstruktion live on Konstruktion page; 3D Werkzeug-/Betriebsmittelkonstruktion"
+  },
+  {
+    "company": "expliCAD GmbH",
+    "domain": "explicad.de",
+    "email": "info@explicad.de",
+    "email_source_url": "https://explicad.de/impressum/",
+    "contact_name": "Thomas Ludwig / Thomas Freitag",
+    "job_title": "Geschäftsführer / CAD Konstruktion Spritzgusswerkzeuge",
+    "phone": "+49 8105 7753-0",
+    "city": "Gilching",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch107: NEW domain; Impressum+home live; Konstruktionsbüro lists Spritzguss- und Serienwerkzeuge under Werkzeuge & Vorrichtungen; DE Bayern Gilching"
+  }
+]

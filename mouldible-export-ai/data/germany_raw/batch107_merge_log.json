@@ -1,0 +1,79 @@
+{
+  "batch": 107,
+  "timestamp_hk": "2026-10-21 03:20 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4048/2818 (start B107 queue note 4048/2818; watch Batch108dir).",
+  "baseline": {
+    "emails": 4048,
+    "domains": 2818
+  },
+  "net_new": 4,
+  "new_totals": {
+    "emails": 4052,
+    "domains": 2820,
+    "high": 3793,
+    "medium": 259,
+    "non_de": 1115,
+    "icp": {
+      "overseas_peer_overflow": 3780,
+      "design_studio": 162,
+      "oem_buyer": 76,
+      "sourcing": 34
+    },
+    "with_phone": 3483,
+    "with_city": 3564
+  },
+  "added_domains": [
+    "explicad.de",
+    "schmitt-brackenheim.de"
+  ],
+  "added_emails": [
+    "info@schmitt-brackenheim.de",
+    "cad@schmitt-brackenheim.de",
+    "konstruktion@schmitt-brackenheim.de",
+    "info@explicad.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "d.marx@rausch-formenbau.de",
+      "reason": "DROP Buchhaltung/Verwaltung"
+    },
+    {
+      "item": "l.schuck@rausch-formenbau.de",
+      "reason": "DROP Einkauf"
+    },
+    {
+      "item": "info@wds-werkzeugbau.de",
+      "reason": "DROP Thermoform-/Siegel-Verpackungswerkzeuge primary"
+    },
+    {
+      "item": "info@sundermeier-werkzeugbau.de",
+      "reason": "DROP Druckguss + Schnitt/Stanz co-primary Schwerpunkte alongside Spritzgieß"
+    },
+    {
+      "item": "info@hgs-schmitz.de",
+      "reason": "DROP Schnittwerkzeuge/Pressformen co-branded with Spritzgusswerkzeuge"
+    },
+    {
+      "item": "info@formenbau-klomfass.de",
+      "reason": "DROP Druckguss co (Zink/Alu Druckguss + Spritz)"
+    },
+    {
+      "item": "info@ck-form.de",
+      "reason": "DROP site unreachable (again)"
+    },
+    {
+      "item": "info@hack-formenbau.de",
+      "reason": "SKIP ROT13/JS cloak — do not invent decoded address"
+    },
+    {
+      "item": "info@formtec-kt.com",
+      "reason": "DROP Thermoformen/PU packaging primary"
+    },
+    {
+      "item": "hhk-konstruktion Stanz branding",
+      "reason": "SKIP known domain; home Stanz-co branding"
+    }
+  ]
+}
