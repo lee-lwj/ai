@@ -1,0 +1,18 @@
+{
+  "batch": "122dir",
+  "n_emails": 8,
+  "n_domains": 6,
+  "emails": [
+    "udo.orth@formenbau-bockenem.de",
+    "kontakt@formenbau-bockenem.de",
+    "info@mela-kunststofftechnik.de",
+    "info@deutsche-thermo.de",
+    "lv@deutsche-thermo.de",
+    "info@toolmoulding.de",
+    "info@scheplast.de",
+    "info@cnc-teschke.de"
+  ],
+  "quality_drops_sample": [
+    "exclude_dom:walther-praezision.de"
+  ]
+}

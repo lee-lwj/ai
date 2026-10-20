@@ -1,0 +1,63 @@
+{
+  "batch": "122dir",
+  "label": "目录/展会轨 Batch122dir",
+  "csv_before": 4271,
+  "csv_after": 4279,
+  "net_new_emails": 8,
+  "high": 8,
+  "medium": 0,
+  "impressum_checked": 15,
+  "impressum_ok": 9,
+  "stats": {
+    "qual_exclude": 1,
+    "added_cand": 8,
+    "brand_related_medium": 2,
+    "dup_email": 2,
+    "no_hit": 6
+  },
+  "queue_remaining_domains": 4,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 232,
+    "queued_from_b121": 5,
+    "cities_used": 87,
+    "source_ok_pages": {
+      "maps": 28,
+      "search": 174,
+      "ep": 20,
+      "fakuma": 10
+    },
+    "queue": 15,
+    "queue_via": {
+      "b121_domain_queue": 5,
+      "search": 9,
+      "ep": 1
+    },
+    "sources": {
+      "queue": 5,
+      "email": 2,
+      "web": 8
+    },
+    "method": "B121 domain queue + Südwestfalen/OWL/Hessen/BW/Bayern × kw DDG/Bing/Maps + Europages + Fakuma/VDWF search; skip WLW; drop Druckguss/Stanz/foundry/foreign EP",
+    "queue_verified": 15
+  },
+  "baseline_note": "Re-read CSV before merge (4271/2982); Website B116 landed (steering 4271/2993 hosts / 2982 domains)",
+  "steering_expected_before": 4271,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "NRW saturation; BW/Bayern expanding"
+  ],
+  "domains_after": 2988,
+  "domains_before": 2982,
+  "sources": "B121 domain queue + Südwestfalen/OWL/Hessen/BW/Bayern × kw DDG/Bing/Maps + Europages + Fakuma/VDWF search; skip WLW; drop Druckguss/Stanz/foundry/foreign EP",
+  "expand_worked": {
+    "b121_domain_queue": 5,
+    "search": 9,
+    "ep": 1
+  },
+  "quality_note": "Dropped walther-praezision (couplings non-ICP), Stanz/foundry/portal/HR/off-domain; brand_related beck-formenbau, schnepel .com→.de",
+  "quality_drops_sample": [
+    "exclude_dom:walther-praezision.de"
+  ]
+}

@@ -996,6 +996,74 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch122dir
+
+> 合并前重读 CSV（Website B116 后直播基线 **4271** / **2982**；指令预期 4271）。合并后基线：**4279** / **2988**。
+
+### 累计（Batch122dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4279** |
+| high / medium | **4005** / **274** |
+| 唯一域名 | **2988** |
+| 含电话 / 含城市 | **3692** / **3767** |
+| 非 .de 邮箱 | **1145** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3967** |
+| design_studio | **175** |
+| oem_buyer | **102** |
+| sourcing | **35** |
+
+### 本轨成果（Batch122dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **15** |
+| 有邮箱命中 | **9** |
+| 本轨净增邮箱 | **8**（high **8** / medium **0**） |
+| 相对基线 4271/2982 | **+8** / **+6** 域名 |
+| 域名队列剩余 | **4** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B121 域名队列 | 有效（5） |
+| Südwestfalen/OWL/Hessen/BW/Bayern × kw | 有效（87 城，search 174） |
+| Bing Maps | 部分（28） |
+| Europages DE | 有效（20） |
+| Fakuma/VDWF 公开搜索 | 部分（10） |
+| WLW / GS | 跳过 / 耗尽 |
+
+### 本轨新增邮箱（共 8）
+
+- `udo.orth@formenbau-bockenem.de` (high)
+- `kontakt@formenbau-bockenem.de` (high)
+- `info@mela-kunststofftechnik.de` (high)
+- `info@deutsche-thermo.de` (high)
+- `lv@deutsche-thermo.de` (high)
+- `info@toolmoulding.de` (high)
+- `info@scheplast.de` (high)
+- `info@cnc-teschke.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch122dir_*.json`
+- `data/germany_raw/batch122dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch122dir 已合并；gsbiz **0**；域名队列 **4** 供 Batch123dir（下一城带：Sachsen/Thüringen/Franken）。
+
+---
+
 ## 目录/展会轨 Batch121dir
 
 > 合并前重读 CSV（直播基线 **4260** / **2972**；指令预期 4260；Website B116 未改变或已对齐）。合并后基线：**4267** / **2979**。
