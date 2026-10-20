@@ -1,80 +1,95 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 74）
+## 1. 累计交付数量（如实，至 Batch 75）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **1903** |
-| 本轮净增（相对 Batch 73 的 1881） | **+22** |
-| 本轮因已在 master/targets/pilot 跳过 | **43** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **14** |
-| 其中 high / medium | **1798** / **105** |
+| 去重后邮箱总数（累计） | **1934** |
+| 本轮净增（相对 Batch 74 的 1903） | **+31** |
+| 本轮因已在 master/targets/pilot 跳过 | **86** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **13** |
+| 其中 high / medium | **1829** / **105** |
 | 唯一域名 | **1347** |
 | 非 .de 邮箱（累计） | **256** |
-| 含电话 / 含城市 | **1669** / **1761** |
-| 本轮新域名贡献 | **4** |
+| 含电话 / 含城市 | **1699** / **1792** |
+| 本轮新域名贡献 | **0** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **1675** |
+| overseas_peer_overflow | **1706** |
 | design_studio | **129** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 74）
+## 2. 本轮方法（Batch 75）
 
-1. **Expand**：`croner-formenbau.de` → 401（全路径）+ Wayback CDX 空；第三方 Netzwerk 有 `w.croner@` / `bewerbung@` 但**不可同域核验** → **+0**（drained）。
-2. **目录/named**：HWF Jelinek；Eckerle Brosig/Rieder/Balo/Gilch；WB GmbH 六人；HEIM Coburg；Formtech Hilmer/Stettmer；Merschbrock Vertrieb；Wartenfelser QS/Instandhaltung；Oelrich `px-spritzgussformen.com`（DE-proven）。
-3. **质量门**：Croner third-party；Wetec Handel；Coregenion agency；Eckerle Einkauf/Lack；Formzeug Logistik；Wartenfelser Buchhaltung/Logistik；AUT-FIT Stanz。
+1. **Expand 队列**：empty（B74 已排空 Croner）→ **+0**。
+2. **Named Kontakt / Ansprechpartner**（已知 peer Formenbau 域名，非目录翻页）：
+   - BamA Marsberg Kontakt（7 named）
+   - Battenberger Über-uns GF
+   - Droigk `info@…de`（CSV 仅有 `.com`）
+   - Ganser Kontakt Günter Ganser
+   - HPF/FUS Ansprechpartner（7 keep；Sekretariat/enesty 剔除）
+   - WISA Ansprechpartner（4）
+   - OM Werkzeugbau Kontakt（3；HR Thomas 剔除）
+   - Weckerle 角色邮箱 konstruktion@ / werkzeugbau@
+   - Müller Werkzeugbau Kontakt via mueller-formenbau-gmbh.de host（5；Buchhaltung/Einkauf 剔除）
+3. **质量门**：ABAS/Hack/Croner/FBB cloak；Sekretariat/HR/Einkauf/Buchhaltung/third-party enesty；scrape junk。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| expand 队列 | 1 | **+0** |
-| directory / named Kontakt | 多轮 | **+22** |
+| expand 队列 | 0 | **+0** |
+| named Kontakt / Ansprechpartner | ~90+ peer domains probed | **+31** |
 
-### 本轮新增（+22）
+### 本轮新增（+31）
 
-- `m.jelinek@hwf-werkzeugbau.de` · Eppertshausen · high
-- `c.brosig@eckerle-gmbh.de` · Beilngries · high
-- `d.rieder@eckerle-gmbh.de` · Beilngries · high
-- `m.balo@eckerle-gmbh.de` · Beilngries · high
-- `h.gilch@eckerle-gmbh.de` · Beilngries · high
-- `j.meli@wb-gmbh.de` · Bad Endorf · high
-- `g.hartl@wb-gmbh.de` · Bad Endorf · high
-- `s.murner@wb-gmbh.de` · Bad Endorf · high
-- `c.schaffer@wb-gmbh.de` · Bad Endorf · high
-- `a.schuhbeck@wb-gmbh.de` · Bad Endorf · high
-- `f.angerer@wb-gmbh.de` · Bad Endorf · high
-- `info@heim-werkzeugbau.de` · Coburg · high
-- `detlef.mueller@heim-werkzeugbau.de` · Coburg · high
-- `franz.hilmer@formtech-gmbh.de` · Niederwinkling · high
-- `martin.stettmer@formtech-gmbh.de` · Niederwinkling · high
-- `sebastian.hilmer@formtech-gmbh.de` · Niederwinkling · high
-- `vertrieb@merschbrock.de` · Verl · high
-- `bauer@wartenfelser.de` · Hemhofen · high
-- `chomitsch@wartenfelser.de` · Hemhofen · high
-- `goetz@wartenfelser.de` · Hemhofen · high
-- `protzer@wartenfelser.de` · Hemhofen · high
-- `oelrich@px-spritzgussformen.com` · Kaarst · high
+- `wirth@bama-formenbau.de` · Marsberg · Jörg Wirth · high
+- `matthaeus@bama-formenbau.de` · Marsberg · Elmar Matthäus · high
+- `b.bannenberg@bama-formenbau.de` · Marsberg · Bernd Bannenberg · high
+- `hefer@bama-formenbau.de` · Marsberg · Andreas Hefer · high
+- `teszler@bama-formenbau.de` · Marsberg · Kerstin Teszler · high
+- `brandmaehl@bama-formenbau.de` · Marsberg · Lars Brandmehl · high
+- `dornow@bama-formenbau.de` · Marsberg · Maria Dornow · high
+- `h.kreuzberger@battenberger-formenbau.de` · Battenberg · Harald Kreuzberger · high
+- `info@droigk-formenbau.de` · Iserlohn ·  · high
+- `g.ganser@ganser-werkzeugbau.de` · Georgsmarienhütte · Günter Ganser · high
+- `uwe.friedrich@fus-werkzeugbau.de` · Großdubrau · Uwe Friedrich · high
+- `rene.spahn@fus-werkzeugbau.de` · Großdubrau · René Spahn · high
+- `philipp.heinze@fus-werkzeugbau.de` · Großdubrau · Philipp Heinze · high
+- `catharina.mielsch@fus-werkzeugbau.de` · Großdubrau · Catharina Mielsch · high
+- `clemens.menzel@fus-werkzeugbau.de` · Großdubrau · Clemens Menzel · high
+- `andre.pischtschan@fus-werkzeugbau.de` · Großdubrau · André Pischtschan · high
+- `uwe.mittasch@fus-werkzeugbau.de` · Großdubrau · Uwe Mittasch · high
+- `torsten.decker@wisa-formenbau.de` · Denkendorf · Torsten Decker · high
+- `marion.dresel@wisa-formenbau.de` · Denkendorf · Marion Dresel · high
+- `gabriele.kantschick@wisa-formenbau.de` · Denkendorf · Gabriele Kantschick · high
+- `michael.kornprobst@wisa-formenbau.de` · Denkendorf · Michael Kornprobst · high
+- `d.pieper@om-werkzeugbau.de` · Mühlen · Dennis Pieper · high
+- `a.ortmann@om-werkzeugbau.de` · Mühlen · Alexander Ortmann · high
+- `g.boergerding@om-werkzeugbau.de` · Mühlen · Gregor Börgerding · high
+- `werkzeugbau@weckerle-werkzeugbau.de` · Ingolstadt · Markus Weckerle, Dennis Weckerle · high
+- `konstruktion@weckerle-werkzeugbau.de` · Ingolstadt · Uwe Weckerle · high
+- `c.mueller@mueller-werkzeugbau-gmbh.de` · Ludwigsstadt · Carlo Müller · high
+- `p.zwosta@mueller-werkzeugbau-gmbh.de` · Ludwigsstadt · Pascal Zwosta · high
+- `t.schramm@mueller-werkzeugbau-gmbh.de` · Ludwigsstadt · Tobias Schramm · high
+- `s.thiele@mueller-werkzeugbau-gmbh.de` · Ludwigsstadt · Stephan Thiele · high
+- `a.zwosta@mueller-werkzeugbau-gmbh.de` · Ludwigsstadt · Anja Zwosta · high
 
 ### 本轮新域名
 
-- `heim-werkzeugbau.de`
-- `merschbrock.de`
-- `px-spritzgussformen.com`
-- `wb-gmbh.de`
+- （无 — 均在已有 peer 域名上扩 named）
 
-### skipped-already-known（43）
+### skipped-already-known（86）
 
-`info@croner-formenbau.de`, `info@wisa-formenbau.de`, `info@fb-knott.de`, `info@norik.de`, `info@tooltec-spritzgusswerkzeuge.de`, `info@hwf-werkzeugbau.de`, `vertrieb@hwf-werkzeugbau.de`, `m.fischer@hwf-werkzeugbau.de`, `a.jakob@hwf-werkzeugbau.de`, `k.kretzschmar@hwf-werkzeugbau.de`, `s.hermanns@hwf-werkzeugbau.de`, `t.eckert@hwf-werkzeugbau.de`, `m.schmidt@hwf-werkzeugbau.de`, `r.maiwald@hwf-werkzeugbau.de`, `u.karg@hwf-werkzeugbau.de`, `info@eckerle-gmbh.de`, `a.eckerle@eckerle-gmbh.de`, `j.eckerle@eckerle-gmbh.de`, `j.schneider@eckerle-gmbh.de`, `f.pfahler@eckerle-gmbh.de`, `m.schmid@eckerle-gmbh.de`, `s.obermeyer@eckerle-gmbh.de`, `info@wb-gmbh.de`, `zentrale@formtech-gmbh.de`, `info@formtech-gmbh.de`…
+`a.guentner@musterbau.info`, `b.strassberger@steinhauser-formenbau.de`, `bettina.weiss@swo-formenbau.de`, `d.walter@oesterle-formenbau.de`, `felsch@felsch-spritzguss.de`, `firma@formenbau-meyer.de`, `info@aulbach-werkzeugbau.de`, `info@bama-formenbau.de`, `info@battenberger-formenbau.de`, `info@becker-formenbau.de`, `info@bf-formenbau.de`, `info@blochwitz-formenbau.de`, `info@blum-praezision.de`, `info@brand-werkzeugbau.de`, `info@breit-formenbau.de`, `info@croner-formenbau.de`, `info@droigk-formenbau.com`, `info@ebs-werkzeugbau.de`, `info@efi-formenbau.de`, `info@egle-werkzeugbau.de`, `info@fbb-formenbau.de`, `info@fenkl-formenbau.de`, `info@formen-modellbau.de`, `info@formen-werkzeugbau.de`, `info@formenbau-borchert.de` … (+61 more)
 
 ### 质量剔除（节选）
 
-**14**：Croner 401/third-party；Wetec Handel；Coregenion agency；Blank Einkauf；Lack；Formzeug Logistik；Wartenfelser Buchhaltung/Logistik；AUT-FIT Stanz；FBB cloaked named…
+**13**：FUS Sekretariat；enesty third-party；OM Talent/HR；Weckerle Buchhaltung；Müller Buchhaltung/Einkauf；ABAS/Hack/Croner/FBB cloak；mouldtec personal@；scrape junk…
 
 ---
 
@@ -82,13 +97,14 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch74_new_verified.json`
-- `data/germany_raw/batch74_expand_results.json`
-- `data/germany_raw/batch74_merge_log.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B75：empty — no real expand seed）
+- `data/germany_raw/batch75_new_verified.json`
+- `data/germany_raw/batch75_expand_results.json`
+- `data/germany_raw/batch75_merge_log.json`
+- `data/germany_raw/batch75_probe_wave1.json` / `batch75_probe_wave2.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B76：empty expand — continue named Kontakt）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Croner expand 已排空；名录/named 仍有空间；B75 继续 directory reseed + named Kontakt。
+**应有尽有 — 尚未完成。** Expand 仍空；named Kontakt 在剩余 single-email peer 域名上仍有空间（ABAS cloak 待观察；rausch/midena/snw/sohl 等）。B76 继续 website/named Kontakt track。
