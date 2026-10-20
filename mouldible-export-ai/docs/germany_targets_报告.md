@@ -108,3 +108,105 @@
 ## 4. 状态
 
 **应有尽有 — 尚未完成。** Expand 仍空；named Kontakt 在剩余 single-email peer 域名上仍有空间（ABAS cloak 待观察；rausch/midena/snw/sohl 等）。B76 继续 website/named Kontakt track。
+
+
+---
+
+## 目录/展会轨 Batch75dir
+
+> 与 website Batch 75 并行；按邮箱去重 append-merge，未删除 website 轨行。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2153** |
+| high / medium | **2029** / **124** |
+| 唯一域名 | **1508** |
+| 含电话 / 含城市 | **1892** / **1986** |
+| 非 .de 邮箱 | **330** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **1925** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch75dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 新域名种子（目录/展会，相对 known） | **614** |
+| Impressum/Kontakt 已核验域名 | **314** |
+| 本轨净增邮箱（email-unique） | **219**（high≈200 / medium≈19） |
+| 本轨涉及新域名（有邮箱入库） | **161** |
+| 剩余未核验目录域名队列 | **352** |
+
+### 来源与吞吐
+
+1. **Fakuma 2026 Ausstellerliste**：WP AJAX 下载全量 XLSX（1495 展商）+ `?Land=56&pg=1..8` HTML 解析 **735 DE** 展商联系方式（邮箱+官网）→ 过滤 known 后约 **600+ 新域名**。
+2. **KunststoffWeb**：Spritzgieß-/Presswerkzeuge + Andere Formwerkzeuge 列表 **152 DE** 公司；拉取 80 家详情页。**Formenbau 大类 p100362（标称 498）curl 无公司列表**（疑似 JS/反爬）— blocker。
+3. **WLW**：formenbau/spritzguss/werkzeugbau 分页合计 **316** firm slug；详情页经 schema.org `sameAs` 解析官网；本轮核验一批 `.de`。
+4. **Europages**：列表可采，公司页静态 HTML **无可用 websiteUrl/mailto**（reCAPTCHA 提示）— blocker。
+
+### 本轨新增邮箱（节选前 30 / 共 219）
+
+- `8170-29post@coltec-mb.de`
+- `a.beek@bsg.de`
+- `anders.karlsson@centramec.com`
+- `andre.miertschin@shouju.com`
+- `anfrage@basarigmbh.de`
+- `anfrage@e-braun.de`
+- `arjanne.wijnen@ascenta.de`
+- `askbinks@binks.com`
+- `askus@binks.com`
+- `banken@ceracon.com`
+- `career@daikinchem.de`
+- `carlos.aguila@shouju.com`
+- `chango@chango-glo.com`
+- `contact@polymerize.io`
+- `contact@se-k.de`
+- `cs-eu@binks.com`
+- `daniel.carlsson@centramec.com`
+- `dce.info@daikinchem.de`
+- `de.info@donnerberg.net`
+- `dk@dk-kunststoffe.de`
+- `dy@pro-plast.de`
+- `epost@ceracon.com`
+- `extruder@leistritz.com`
+- `extrusion-psirt@leistritz.com`
+- `fakuma@asahi-kasei.eu`
+- `gruppe@eifeler.com`
+- `hallen@shouju.com`
+- `hesco@hesco.de`
+- `holger_weisser@kkt-vs.de`
+- `info-america@tebis.com`
+… 另有 189 个，见 `data/germany_raw/batch75dir_hits.json`
+
+### 本轨新域名（节选）
+
+`3d-schilling.de`, `aboutjell.de`, `albea.de`, `ascenta.de`, `autosol.de`, `aw-schumacher.de`, `barnet.com`, `basarigmbh.de`, `bauerschmidt-folien.de`, `bfa-kunststofftechnik.de`, `bgf-enztech.com`, `bieglo.com`, `biesinger-gmbh.com`, `binks.com`, `bio-circle.de`, `biw.de`, `boyke-tec.de`, `braunform.com`, `bretthauer.de`, `brueggemann.com`, `bruno-weisser.de`, `bsg.de`, `buss-werkzeugbau.de`, `carbo.de`, `cas-kunststoffe.de`…
+
+### Blockers
+
+- KunststoffWeb Formenbau 分类页空列表（curl）
+- Europages 公司站链接/邮箱被前端/CAPTCHA 挡住
+- 部分站点超时/无 Impressum mailto；Fakuma 目录邮箱未二次核验者未标 high
+
+### 产物路径
+
+- `data/germany_targets.csv` / `data/germany_targets.xlsx`
+- `data/germany_raw/batch75dir_seeds.json`
+- `data/germany_raw/batch75dir_hits.json` / `batch75dir_verified.json`
+- `data/germany_raw/batch75dir_merge_log.json`
+- `data/germany_raw/batch75dir_impressum_*.json`
+- `data/germany_raw/batch75dir_fakuma_de_parsed.json`
+- `data/germany_raw/batch75dir_new_domains.txt`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**352** 待 Impressum）
+
+### 状态
+
+目录/展会轨 Batch75dir 已交付：**219** 封核验入库邮箱，**614** 新域名种子，队列仍有 **352** 可续跑。
