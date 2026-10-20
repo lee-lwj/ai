@@ -1,0 +1,64 @@
+{
+  "batch": "129dir",
+  "label": "目录/展会轨 Batch129dir",
+  "csv_before": 4333,
+  "csv_after": 4351,
+  "net_new_emails": 18,
+  "high": 18,
+  "medium": 0,
+  "impressum_checked": 73,
+  "impressum_ok": 37,
+  "stats": {
+    "added_cand": 18,
+    "qual_exclude": 11,
+    "no_hit": 36
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 168,
+    "queued_from_b128": 0,
+    "cities_used": 74,
+    "source_ok_pages": {
+      "maps": 30,
+      "search": 220,
+      "ep": 12,
+      "fakuma": 0
+    },
+    "queue": 73,
+    "queue_via": {
+      "search": 73
+    },
+    "sources": {
+      "web": 73
+    },
+    "csv_peek_at_harvest": 4333,
+    "method": "Eifel/Hunsrück/Weserbergland/Harz/Bodensee + RLP/NS/SA micro × kw DDG/Bing/Maps + Europages; skip WLW; Fakuma DDG challenged; high quality",
+    "queue_verified": 73
+  },
+  "baseline_note": "Re-read CSV before merge (4333/3026); steering 4333 after Website B122; never regress",
+  "steering_expected_before": 4333,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "Fakuma/VDWF DDG anomaly challenge this run",
+    "belt partially saturated; many hits already in CSV under alias domains"
+  ],
+  "domains_after": 3042,
+  "domains_before": 3026,
+  "sources": "Eifel/Hunsrück/Weserbergland/Harz/Bodensee + RLP/NS/SA micro × kw DDG/Bing/Maps + Europages; skip WLW; Fakuma DDG challenged; high quality",
+  "expand_worked": {
+    "search": 73
+  },
+  "quality_note": "Dropped metal Umform (GFU), mannequin foam (Polyform), Formundfaser non-ICP; Nolte Mayen Formenbau only verwaltung@; kept MoldTecs Bad Harzburg OEM; Zeller Plastik Zell oem_buyer; Gartzke named +2",
+  "quality_drops_sample": [
+    "gfu-forming.de: DROP metal Rohr-/Stanz-Umform machines (non-ICP)",
+    "polyform.de: DROP mannequin/display foam forms (non-ICP)",
+    "formundfaser.de: DROP no plastics ICP; PLZ 24214 Lindau (SH) not Bodensee",
+    "dax-metallform.de: DROP Metallform/Stanz",
+    "nolte-werkzeugbau.com (Mayen Formenbau): DROP only verwaltung@ published (role policy)",
+    "verwaltung@bfw-formenbau.de: DROP Verwaltung",
+    "personalbuero@zeller-plastik.de: DROP Personal",
+    "info@weborbis-webdesign.de: DROP web designer on third-party impressum"
+  ]
+}

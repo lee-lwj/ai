@@ -1260,6 +1260,81 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch129dir
+
+> 合并前重读 CSV（直播基线 **4333** / **3026**；Website Batch122 后 steering）。合并后基线：**4351** / **3042**。
+
+### 累计（Batch129dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4351** |
+| high / medium | **4071** / **280** |
+| 唯一域名 | **3042** |
+| 含电话 / 含城市 | **3756** / **3838** |
+| 非 .de 邮箱 | **1162** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4019** |
+| design_studio | **183** |
+| oem_buyer | **114** |
+| sourcing | **35** |
+
+### 本轨成果（Batch129dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **73** |
+| 有邮箱命中 | **37** |
+| 本轨净增邮箱 | **18**（high **18** / medium **0**） |
+| 相对基线 4333/3026 | **+18** / **+16** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B128 域名队列 | 空 |
+| Eifel/Hunsrück/Weserbergland/Harz/Bodensee + RLP/NS 微城 × kw | 有效（74 城，DDG 164 + Bing 56） |
+| Bing Maps / Europages | 部分（maps 30 / ep 12） |
+| Fakuma/VDWF DDG | 挑战页，跳过 |
+| WLW / GS | 跳过 / 耗尽 |
+| 产量 | 73 候选核验 / 37 命中 / 质量门后 **+18**；剔金属 Umform、假人泡沫、仅 Verwaltung 等 |
+
+### 本轨新增邮箱（共 18）
+
+- `info@atplast.de` (high, overseas_peer_overflow) · Idar-Oberstein
+- `u.labusga@la-kunststoff.de` (high, overseas_peer_overflow) · Birkenfeld
+- `kontakt@jost-plastec.de` (high, overseas_peer_overflow) · Ingelheim
+- `info@zeller-plastik.de` (high, oem_buyer) · Zell
+- `info@winkler-werkzeugbau.de` (high, overseas_peer_overflow) · Taufkirchen
+- `info@gartzke-kunststoffe.de` (high, overseas_peer_overflow) · Hameln
+- `c.gartzke@gartzke-kunststoffe.de` (high, overseas_peer_overflow) · Hameln
+- `k-galleske@gartzke-kunststoffe.de` (high, overseas_peer_overflow) · Hameln
+- `info@rk-werkzeugbau.de` (high, overseas_peer_overflow) · Düsseldorf
+- `info@moldtecs.com` (high, oem_buyer) · Bad Harzburg
+- `info@pohl-kunststofftechnik.de` (high, overseas_peer_overflow) · Nentershausen
+- `info@memoplast.de` (high, overseas_peer_overflow) · Troisdorf
+- `info@kunststoffspritzguss-service.de` (high, overseas_peer_overflow) · Syke
+- `info@ks-kunststoff.de` (high, overseas_peer_overflow) · Zweibrücken
+- `kontakt@k-form.com` (high, overseas_peer_overflow) · Minden
+- `info@formwerk.eu` (high, overseas_peer_overflow) · Neukirchen
+- `info@rr-kunststoff.de` (high, overseas_peer_overflow) · Saalburg-Ebersdorf
+- `verkauf@gbm-kunststoff.com` (high, overseas_peer_overflow) · Hamburg
+
+### 产物
+
+- `data/germany_raw/batch129dir_*.json`
+- `data/germany_raw/batch129dir_next_search_seeds.json`
+
+### 状态
+
+Batch129dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch130dir（下一城带：Sauerland/Siegerland/Westerwald/Taunus）。全国目录轨饱和仍高，但本带仍挖出 **+18** 新邮（含 MoldTecs Bad Harzburg OEM、Gartzke Hameln 具名）。
+
 ## 目录/展会轨 Batch128dir
 
 > 合并前重读 CSV（直播基线 **4327** / **3021**；指令预期 4327）。合并后基线：**4329** / **3023**。
