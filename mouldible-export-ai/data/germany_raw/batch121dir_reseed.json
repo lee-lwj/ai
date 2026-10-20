@@ -1,0 +1,30 @@
+{
+  "n_domains": 5,
+  "n_gsbiz": 0,
+  "domain_queue": [
+    "cnc-teschke.de",
+    "stantool.com",
+    "argeform.com",
+    "walther-praezision.de",
+    "polynisterplastik.de"
+  ],
+  "next_search_seeds": "data/germany_raw/batch121dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "b120_domain_queue",
+    "ddg_bing_niederrhein_ruhr",
+    "maps",
+    "europages"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted"
+  ],
+  "quality_drops_sample": [],
+  "queue_via": {
+    "b120_domain_queue": 8,
+    "search": 10,
+    "ep": 14
+  },
+  "cities_used": 59,
+  "supplemental_seed": "Südwestfalen/OWL/Hessen cities×kw DDG/Bing (queue-only for B122)"
+}

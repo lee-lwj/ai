@@ -953,6 +953,72 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch121dir
+
+> 合并前重读 CSV（直播基线 **4260** / **2972**；指令预期 4260；Website B116 未改变或已对齐）。合并后基线：**4267** / **2979**。
+
+### 累计（Batch121dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4267** |
+| high / medium | **3993** / **274** |
+| 唯一域名 | **2979** |
+| 含电话 / 含城市 | **3683** / **3755** |
+| 非 .de 邮箱 | **1145** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3959** |
+| design_studio | **173** |
+| oem_buyer | **100** |
+| sourcing | **35** |
+
+### 本轨成果（Batch121dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **17** |
+| 有邮箱命中 | **9** |
+| 本轨净增邮箱 | **7**（high **7** / medium **0**） |
+| 相对基线 4260/2972 | **+7** / **+7** 域名 |
+| 域名队列剩余 | **5** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B120 域名队列 | 有效（8） |
+| Niederrhein/Ruhr/Sauerland × kw DDG/Bing | 有效（59 城，search 118） |
+| Bing Maps | 部分（25） |
+| Europages DE | 有效（24；外国 peer 已剔） |
+| WLW / GS | 跳过 / 耗尽 |
+
+### 本轨新增邮箱（共 7）
+
+- `post@withoeft-werkzeuge.de` (high)
+- `info@jhwerkzeug.de` (high)
+- `info@koblenzer-werkzeugbau.de` (high)
+- `info@werkzeugbau-schulz.de` (high)
+- `info@horst-kunststofftechnik.de` (high)
+- `info@werkzeugbau-schmidt.com` (high)
+- `info@cnc-connection-germany.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch121dir_*.json`
+- `data/germany_raw/batch121dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch121dir 已合并；gsbiz **0**；域名队列 **5** 供 Batch122dir（下一城带：Südwestfalen/OWL/Hessen）。
+
+---
+
 ## 目录/展会轨 Batch120dir
 
 > 合并前重读 CSV（Website B115 后直播基线 **4254** / **2966**；指令预期 4254）。合并后基线：**4260** / **2972**。
