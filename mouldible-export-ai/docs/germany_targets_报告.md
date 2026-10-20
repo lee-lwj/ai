@@ -1,80 +1,78 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 78）
+## 1. 累计交付数量（如实，至 Batch 79）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **2720** |
-| 本轮净增（相对目录 Batch78dir 合并后基线 2706） | **+14** |
-| 本轮因已在 master/targets 跳过 | **2** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **9** |
-| 其中 high / medium | **2551** / **169** |
-| 唯一域名 | **1872** |
-| 非 .de 邮箱（累计） | **586** |
-| 含电话 / 含城市 | **2414** / **2509** |
-| 本轮新域名贡献 | **5** |
+| 去重后邮箱总数（累计） | **2824** |
+| 本轮净增（相对目录 Batch79dir 合并后基线 2808） | **+16** |
+| 本轮因已在 master/targets 跳过 | **0** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **11** |
+| 其中 high / medium | **2652** / **172** |
+| 唯一域名 | **1950** |
+| 非 .de 邮箱（累计） | **620** |
+| 含电话 / 含城市 | **2494** / **2596** |
+| 本轮新域名贡献 | **2** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **2492** |
+| overseas_peer_overflow | **2596** |
 | design_studio | **129** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 78 · Website/named Kontakt）
+## 2. 本轮方法（Batch 79 · Website/named Kontakt）
 
-1. **基线**：目录 Batch78dir 合并后 **重读 CSV** → **2706 / 1867**，再合并本轮。
-2. **Expand 队列**：仍空；~75 single-email peers wave1 探针多为 info@-only → **+0 named**。
+1. **基线**：目录 Batch79dir 合并后 **重读 CSV** → **2808 / 1948**，再合并本轮。
+2. **Expand 队列**：仍空；wave1 ~60 + wave2 部分 single-email peers → 几乎无新 named（junk/DPO only）。
 3. **Named Kontakt / Web 定向**：
-   - Betz Wernberg-Köblitz `vertrieb@betz-wzb.de`（Florian Betz GF/Vertrieb；info@ 已在 targets）
-   - REBHAN Kronach Ansprechpartner（info@ + Löffler Vertrieb / Welsch Blasformen / Bayer·Trebes Auftragsbearbeitung；Personal/Rechnung 剔除；无角色 mailto 剔除）
-   - ECHO Steinfeld Kontakt（info@ + Chodura / König Vertrieb / Rausch）
-   - Funke Heiligenhaus Impressum `info@funke-werkzeugbau.de`
-   - Future Inside Schömberg Formenbau（william.thier@ + info@）
-   - SWO Oberau 补 `info@swo-formenbau.de`（已有 bettina.weiss@）
-4. **质量门**：Personal/Rechnungswesen；无角色 orphan mailto；cloak（ABAS/Hack/Croner/RFK）；master skip；空站（cc-bark）。
+   - HAAG Präzisionsformen Schorndorf Ansprechpartner（info@ + Rainer/Steffen Vertrieb + Andreas Projektmanagement）
+   - OPUS Schönau `info@opus-mold.de`（Kontakt+Impressum）
+   - Zimmermann/ziform Gladenbach `jens.meier@` Vertrieb/Projektleitung
+   - Haselbeck Deggendorf 补 Stefan Ruh / Andreas Thoma（已有 Geiger）
+   - WESKO Stollberg Ansprechpartner ×8（GF/Sales/Vertrieb/Werkzeugbau/Spritzguss/Technik；Finanzen/Personal 剔除）
+4. **质量门**：Einkauf/Buchhaltung/Personal；cloak（FBB/ABAS/Hack/Croner/RFK）；dead Cloudflare（buck-formenbau）；无角色；DPO。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 single-email peers | ~75 | **+0** |
-| named Kontakt / 定向 Web | Betz·Rebhan·Echo·Funke·Future·SWO | **+14** |
+| wave1/2 single-email peers | ~110 | **+0** usable |
+| named Kontakt / 定向 Web | HAAG·OPUS·ziform·Haselbeck·WESKO | **+16** |
 
-### 本轮新增（+14）
+### 本轮新增（+16）
 
-- `vertrieb@betz-wzb.de` · Wernberg-Köblitz · Florian Betz · high
-- `info@rebhan-wzb.de` · Kronach ·  · high
-- `mloeffler@rebhan-wzb.de` · Kronach · Michael Löffler · high
-- `fwelsch@rebhan-wzb.de` · Kronach · Frank Welsch · high
-- `cbayer@rebhan-wzb.de` · Kronach · Christian Bayer · high
-- `strebes@rebhan-wzb.de` · Kronach · Sandra Trebes · high
-- `info@echo-werkzeugbau.de` · Steinfeld ·  · high
-- `ewald.chodura@echo-werkzeugbau.de` · Steinfeld · Ewald Chodura · high
-- `elisabeth.koenig@echo-werkzeugbau.de` · Steinfeld · Elisabeth König · high
-- `arnulf.rausch@echo-werkzeugbau.de` · Steinfeld · Arnulf Rausch · high
-- `info@funke-werkzeugbau.de` · Heiligenhaus · Dennis Funke · high
-- `william.thier@future-inside.de` · Schömberg · William Thier · high
-- `info@future-inside.de` · Schömberg ·  · high
-- `info@swo-formenbau.de` · Oberau ·  · high
+- `info@haag-formen.de` · Schorndorf ·   · high
+- `rainer.haag@haag-formen.de` · Schorndorf · Rainer Haag · high
+- `steffen.kientz@haag-formen.de` · Schorndorf · Steffen Kientz · high
+- `andreas.haag@haag-formen.de` · Schorndorf · Andreas Haag · high
+- `info@opus-mold.de` · Schönau ·   · high
+- `jens.meier@ziform.com` · Gladenbach · Jens Meier · high
+- `stefan.ruh@haselbeck.de` · Deggendorf · Stefan Ruh · high
+- `andreas.thoma@haselbeck.de` · Deggendorf · Andreas Thoma · high
+- `andreas.ebert@wesko-gmbh.de` · Stollberg · Dr. Andreas Ebert · high
+- `kai.reisner@wesko-gmbh.de` · Stollberg · Kai Reisner · high
+- `felix.vogel@wesko-gmbh.de` · Stollberg · Felix Vogel · high
+- `florian.patzer@wesko-gmbh.de` · Stollberg · Florian Patzer · high
+- `heiko.uhlmann@wesko-gmbh.de` · Stollberg · Heiko Uhlmann · high
+- `heiko.lehm@wesko-gmbh.de` · Stollberg · Heiko Lehm · high
+- `andre.haertel@wesko-gmbh.de` · Stollberg · André Härtel · high
+- `norman.mueller@wesko-gmbh.de` · Stollberg · Norman Müller · high
 
 ### 本轮新域名
 
-- `betz-wzb.de`
-- `echo-werkzeugbau.de`
-- `funke-werkzeugbau.de`
-- `future-inside.de`
-- `rebhan-wzb.de`
+- `haag-formen.de`
+- `opus-mold.de`
 
-### skipped-already-known（2）
+### skipped-already-known（0）
 
-`info@betz-wzb.de`, `info@grobusch.de`
+（无）
 
 ### 质量剔除（节选）
 
-**9**：Rebhan Personal/Rechnung；abrueckner/rvoelk 无角色；Grobusch master；cc-bark 空站；future-inside.eu 未确认；wave1 junk；ABAS/Hack/Croner/RFK cloak…
+**11**：WESKO Finanzen/Personal/无角色；Thenhausen Einkauf/Buchhaltung；Haselbeck Greil 未在本轮页面；buck-formenbau Cloudflare 520；FBB/ABAS/Hack/Croner/RFK cloak；wave junk/DPO…
 
 ---
 
@@ -82,19 +80,40 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch78_new_verified.json`
-- `data/germany_raw/batch78_expand_results.json`
-- `data/germany_raw/batch78_merge_log.json`
-- `data/germany_raw/batch78_candidates.json` / `batch78_probe_wave1.json`
-- `data/germany_raw/batch78_quality_drops.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B79：empty expand）
+- `data/germany_raw/batch79_new_verified.json`
+- `data/germany_raw/batch79_expand_results.json`
+- `data/germany_raw/batch79_merge_log.json`
+- `data/germany_raw/batch79_candidates.json` / `batch79_probe_wave1.json`
+- `data/germany_raw/batch79_quality_drops.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B80：empty expand）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空；wave1 对已有单邮箱 peers 几乎无新 named。B79 继续 named Kontakt（剩余 peers；ABAS/Hack/Croner/RFK cloak 观察；Grobusch/cc-bark 若站恢复可重试）。
+**应有尽有 — 尚未完成。** Expand 仍空；single-email peers 探针饱和。B80 继续 named Kontakt（剩余 peers；cloak 观察；buck-formenbau 若站恢复可重试）。
 
+
+---
+
+## 目录/展会轨 Batch79dir
+
+> 合并前重读 CSV；合并后基线供 Website B79：**2808** / **1948**。
+
+### 累计（Batch79dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2808** |
+| 唯一域名 | **1948** |
+
+### 本轨要点
+
+见 `data/germany_raw/batch79dir_merge_log.json` / `batch79dir_hits.json`。
+
+### 状态
+
+Batch79dir 已合并；Website Batch 79 在其上再合并 **+16** → 累计 **2824 / 1950**。
 
 ---
 
@@ -186,87 +205,3 @@ Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。Website Bat
 
 ---
 
-## 目录/展会轨 Batch79dir
-
-> 续跑队列 ~110；合并前重读 CSV（Website B78 后基线 **2720** / **1872** 域名）。
-
-### 累计（合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **2808** |
-| high / medium | **2636** / **172** |
-| 唯一域名 | **1948** |
-| 含电话 / 含城市 | **2478** / **2580** |
-| 非 .de 邮箱 | **619** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **2580** |
-| design_studio | **129** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch79dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **110** |
-| 有邮箱命中 | **79** |
-| 本轨净增邮箱 | **88**（high **85** / medium **3**） |
-| 相对 Website B78 基线 2720 | **+88** |
-| WLW 再播种（p29–36 + 扩类） | **119** |
-| 队列剩余 | **118** |
-
-### 方法
-
-1. 排空上轮 110 域名 → Impressum/Kontakt  
-2. append-dedupe（Website B78 并行后重读 CSV）  
-3. WLW p29–36 + formteile 等再播种
-
-### 本轨新增邮箱（节选前 25 / 共 88）
-
-- `sales@allucan.ch`
-- `alu@allucan.ch`
-- `info@zwei-r.com`
-- `info@3dmensionals.de`
-- `angebote@3dmensionals.de`
-- `info@tielke.de`
-- `info@antares-industrietechnik.de`
-- `askagmbhcokg@as-ka.de`
-- `info@as-ka.de`
-- `info@anlagenmontage-hippe.de`
-- `kontakt@3dprintedparts.de`
-- `contact@airloc.com`
-- `kontakt@fertigungscenter.at`
-- `info@addtec.eu`
-- `a.nebert@addtec.eu`
-- `info@band.ch`
-- `info@aston.de`
-- `info@royersignal.de`
-- `info@beyergmbh.de`
-- `info@amco-plast.de`
-- `info@bdg-online.de`
-- `service@bdg-online.de`
-- `info@besche.de`
-- `christine.behrens@besche.de`
-- `susanne.grimme@besche.de`
-… 另有 63 个，见 `data/germany_raw/batch79dir_hits.json`
-
-### 本轨新域名（节选）
-
-`3d-druck-dilba.de`, `3dmensionals.de`, `3dprintedparts.de`, `addtec.eu`, `airloc.com`, `allucan.ch`, `amco-plast.de`, `anlagenmontage-hippe.de`, `antares-industrietechnik.de`, `aqualonwaterjet.se`, `as-ka.de`, `aston.de`, `autmaring.eu`, `band.ch`, `bbk-kunststofftechnik.de`, `bdg-online.de`, `besche.de`, `beyergmbh.de`, `blombach-spindeln.de`, `bm-engineering.eu`…
-
-### 产物
-
-- `data/germany_targets.csv` / `.xlsx`
-- `data/germany_raw/batch79dir_impressum.json`
-- `data/germany_raw/batch79dir_verified.json` / `batch79dir_hits.json`
-- `data/germany_raw/batch79dir_merge_log.json` / `batch79dir_reseed.json`
-- `data/germany_raw/queue_directory_domains_remaining.txt`（**118**）
-
-### 状态
-
-Batch79dir 完成：**+88** 邮箱；队列 **118** 待 Batch80dir。
