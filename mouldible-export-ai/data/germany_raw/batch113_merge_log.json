@@ -1,0 +1,81 @@
+{
+  "batch": 113,
+  "timestamp_hk": "2026-10-21 04:02 Asia/Hong_Kong",
+  "baseline_note": "Re-read at write: 4200 emails / 2941 domains (parent steered 4200/~2941 hosts after dir drift post-B112; never use 4194).",
+  "baseline": {
+    "emails": 4200,
+    "domains": 2941
+  },
+  "net_new": 4,
+  "new_totals": {
+    "emails": 4219,
+    "domains": 2951,
+    "high": 3952,
+    "medium": 267,
+    "non_de": 1139,
+    "icp": {
+      "overseas_peer_overflow": 3921,
+      "design_studio": 171,
+      "oem_buyer": 92,
+      "sourcing": 35
+    },
+    "with_phone": 3639,
+    "with_city": 3711
+  },
+  "added_domains": [
+    "dorn-tt.de",
+    "gbeil.com"
+  ],
+  "added_emails": [
+    "info@gbeil.com",
+    "peter.dorn@dorn-tt.de",
+    "marc.tobias@dorn-tt.de",
+    "michael.dorner@dorn-tt.de"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "info@form-tec.de",
+      "reason": "DROP Photovoltaik-Unterkonstruktionen — not Spritz/Formenbau"
+    },
+    {
+      "item": "info@formtech.de",
+      "reason": "DROP Umformtechnik SPF/Diffusion Bonding — not Spritz ICP"
+    },
+    {
+      "item": "a.fuerst@formzeug.de",
+      "reason": "DROP Lager-Logistikleiter"
+    },
+    {
+      "item": "diana.heimpel@dorn-tt.de",
+      "reason": "DROP Buchhaltung"
+    },
+    {
+      "item": "carmen Dorn Assistentin / info Assistentin path",
+      "reason": "DROP Assistentin der GF"
+    },
+    {
+      "item": "sabine.schlessmann@ / karina.hoeld@ / andrea.willmann@ dorn-tt",
+      "reason": "DROP Auftragsabwicklung/office"
+    },
+    {
+      "item": "renate.wirth@dorn-tt.de",
+      "reason": "DROP QS-only"
+    },
+    {
+      "item": "h.babka@ / a.zierold@ formzeug",
+      "reason": "DROP Einkauf (already known continuum)"
+    },
+    {
+      "item": "pakulla / timm / praezisionsformenbau.com / formzeug named / franz-lechner / marquart / happ / geiger / bayreuth / formtech-gmbh",
+      "reason": "SKIP already known"
+    }
+  ],
+  "post_merge_note": "After B113 append, concurrent directory merge raised live CSV to 4219/2951. B113 KEEP rows retained (pos ~4200–4203). Finals below are live post-concurrent.",
+  "website_batch_net_new": 4,
+  "website_batch_end_snapshot": {
+    "emails": 4204,
+    "domains": 2942
+  }
+}

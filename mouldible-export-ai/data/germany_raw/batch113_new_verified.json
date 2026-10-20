@@ -1,0 +1,54 @@
+[
+  {
+    "company": "G. Beil Formtechnik / Konstruktion / Entwicklung",
+    "domain": "gbeil.com",
+    "email": "info@gbeil.com",
+    "email_source_url": "https://www.gbeil.com/impressum",
+    "contact_name": "Günther Beil",
+    "job_title": "Inhaber / Werkzeugkonstruktion Spritzguss CAD",
+    "phone": "+49 7570 92006",
+    "city": "Messkirch-Langenhart",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch113: NEW domain gbeil.com; live Impressum+Leistungen+Kontakt info@; Schwerpunkt Konstruktion Kunststoffspritzwerkzeuge (2K/Etagen/Einlege); DE BW Messkirch USt DE178402350; 'stanz' false-positive from distanziert"
+  },
+  {
+    "company": "Dorn Spritzguss GmbH",
+    "domain": "dorn-tt.de",
+    "email": "peter.dorn@dorn-tt.de",
+    "email_source_url": "https://www.dorn-spritzguss.de/kontakt/",
+    "contact_name": "Peter Daniel Dorn",
+    "job_title": "Inhaber / Geschäftsführer",
+    "phone": "+49 7543 9632-0",
+    "city": "Tettnang-Hiltensweiler",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch113: NEW named on known domain dorn-tt.de; live Kontakt peter.dorn(at); Spritzguss+Werkzeugbau DE BW Tettnang HRB 631197; Blech co secondary"
+  },
+  {
+    "company": "Dorn Spritzguss GmbH",
+    "domain": "dorn-tt.de",
+    "email": "marc.tobias@dorn-tt.de",
+    "email_source_url": "https://www.dorn-spritzguss.de/kontakt/",
+    "contact_name": "Marc Tobias",
+    "job_title": "Technischer Projektleiter",
+    "phone": "+49 7543 9632-25",
+    "city": "Tettnang-Hiltensweiler",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch113: named Kontakt live marc.tobias(at); Technischer Projektleiter Spritzguss"
+  },
+  {
+    "company": "Dorn Spritzguss GmbH",
+    "domain": "dorn-tt.de",
+    "email": "michael.dorner@dorn-tt.de",
+    "email_source_url": "https://www.dorn-spritzguss.de/kontakt/",
+    "contact_name": "Michael Dorner",
+    "job_title": "Konstruktion",
+    "phone": "+49 7543 9632-0",
+    "city": "Tettnang-Hiltensweiler",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch113: named Kontakt live michael.dorner(at); Konstruktion"
+  }
+]

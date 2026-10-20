@@ -1,3 +1,46 @@
+## Website/named Kontakt Batch 113
+
+> 合并前重读 CSV（基线 **4200** / **2941**）。本批网站轨净增 +4 → 瞬时 **4204** / **2942**；随后并发目录合并，live 现为 **4219** / **2951**（B113 KEEP 仍在库）。
+
+### 累计（当前 live，含并发目录）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4219** |
+| high / medium | **3952** / **267** |
+| 唯一域名 | **2951** |
+| 含电话 / 含城市 | **3639** / **3711** |
+| 非 .de 邮箱 | **1139** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3921** |
+| design_studio | **171** |
+| oem_buyer | **92** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+4**（相对基线 4200）
+
+- `info@gbeil.com` — G. Beil Formtechnik / Konstruktion / Entwicklung (Messkirch-Langenhart) — `design_studio` / high
+- `peter.dorn@dorn-tt.de` — Dorn Spritzguss GmbH (Tettnang-Hiltensweiler) — `oem_buyer` / high
+- `marc.tobias@dorn-tt.de` — Dorn Spritzguss GmbH (Tettnang-Hiltensweiler) — `oem_buyer` / high
+- `michael.dorner@dorn-tt.de` — Dorn Spritzguss GmbH (Tettnang-Hiltensweiler) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `info@form-tec.de` — DROP Photovoltaik-Unterkonstruktionen — not Spritz/Formenbau
+- `info@formtech.de` — DROP Umformtechnik SPF/Diffusion Bonding — not Spritz ICP
+- `a.fuerst@formzeug.de` — DROP Lager-Logistikleiter
+- `diana.heimpel@dorn-tt.de` — DROP Buchhaltung
+- Carmen Dorn Assistentin — DROP Assistentin der GF
+- sabine.schlessmann@ / karina.hoeld@ / andrea.willmann@ dorn-tt — DROP Auftragsabwicklung/office
+- `renate.wirth@dorn-tt.de` — DROP QS-only
+- pakulla / timm / formzeug named / franz-lechner / marquart / happ / geiger — SKIP already known
+
+---
+
 ## Website/named Kontakt Batch 112
 
 > 合并前重读 CSV（基线 **4192** / **2934**；Batch114dir +11 后邮箱 **4192**，父代理域名口径 2919 / hosts~2934；本机重计域名 **2934**）。勿用 4177/4181。
@@ -824,6 +867,79 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch116dir
+
+> 合并前重读 CSV（基线 **4204** / **2928**）。合并后基线：**4219** / **2938**。
+
+### 累计（Batch116dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4219** |
+| high / medium | **3952** / **267** |
+| 唯一域名 | **2938** |
+| 含电话 / 含城市 | **3639** / **3711** |
+| 非 .de 邮箱 | **1139** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3921** |
+| design_studio | **171** |
+| oem_buyer | **92** |
+| sourcing | **35** |
+
+### 本轨成果（Batch116dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **29** |
+| 有邮箱命中 | **15** |
+| 本轨净增邮箱 | **15**（high **12** / medium **3**） |
+| 相对基线 4204/2928 | **+15** / **+10** 域名 |
+| 域名队列剩余 | **12** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B115 域名队列 | 有效（via b115_domain_queue） |
+| 种子城 × 关键词 DDG/Bing | 有效（via search） |
+| Europages DE | 部分 |
+| WLW / GS | 跳过 / 耗尽 |
+
+### 本轨新增邮箱（共 15）
+
+- `info@forma-coburg.de` (high)
+- `korn@fromm-praezision.de` (high)
+- `steidle@fromm-praezision.de` (high)
+- `macedo@fromm-praezision.de` (high)
+- `schmidt@fromm-praezision.de` (high)
+- `paul@fromm-praezision.de` (high)
+- `info@lausberg-kunststofftechnik.de` (high)
+- `alexander.may@k-tech.de` (medium)
+- `kontakt@k-tech.de` (medium)
+- `m.siegele@ser-kunststoffverarbeitung.de` (high)
+- `info@eisenmann-druckguss.de` (high)
+- `riedmueller@form-sachen.de` (high)
+- `info@saratools.com` (high)
+- `info@sartorius-werkzeuge.de` (high)
+- `info@fischer-plastic-praezision.de` (medium)
+
+### 产物
+
+- `data/germany_raw/batch116dir_*.json`
+- `data/germany_raw/batch116dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch116dir 已合并；gsbiz **0**；域名队列 **12** 供 Batch117dir。
 
 ---
 
