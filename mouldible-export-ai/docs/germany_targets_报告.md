@@ -1,22 +1,83 @@
-## Website/named Kontakt Batch 95
+## Website/named Kontakt Batch 96
 
-> 合并前重读 CSV（目录 Batch93dir 后基线 **3702** / **2527**；用户从 B94 后 3681/2514 转向）。
+> 合并前重读 CSV（Website B95 + Batch94dir 后基线 **3717** / **2532**；Batch95dir **+0**）。
 
-### 累计（Batch 95 合并后）
+### 累计（Batch 96 合并后）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数 | **3715** |
-| high / medium | **3473** / **242** |
-| 唯一域名 | **2530** |
-| 含电话 / 含城市 | **3228** / **3329** |
+| 去重后邮箱总数 | **3724** |
+| high / medium | **3481** / **243** |
+| 唯一域名 | **2533** |
+| 含电话 / 含城市 | **3233** / **3333** |
 | 非 .de 邮箱 | **988** |
 
 ### 按 icp_tag（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3473** |
+| overseas_peer_overflow | **3482** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch 96）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+7**（high **7** / medium **0**） |
+| 相对基线 3717/2532 | **+7** / **+1** 域名 |
+| master 可选重叠 | **2**（formenbau@hkm-kunststoff.de, steffen@autenrieth-kunststofftechnik.de） |
+| 质量剔除 | **12** |
+
+### 方法
+
+1. 重读确认 **3717/2532**（Batch95dir +0）
+2. Expand 空；thin multi named Kontakt + NEW-domain 定向
+3. 命中：HKM formenbau@+cnc@；Autenrieth steffen@ GF；nico nschmid@ GF；Junghans info@；Krauß t.riester@ GF；**FORMA** 新域名 info@
+4. 质量门：Druckguss-primary（Cox/Weinmüller）；Verwaltung/Buchhaltung/Einkauf；Liquidation（Beiter）；cloak invent
+
+### 本轨新增邮箱（共 7）
+
+- `formenbau@hkm-kunststoff.de` · Ebersbach-Neugersdorf · — · Anfrage Formenbau · high
+- `cnc-fertigung@hkm-kunststoff.de` · Ebersbach-Neugersdorf · — · Anfrage CNC-Präzisionsteile · high
+- `steffen@autenrieth-kunststofftechnik.de` · Heroldstatt · Steffen Autenrieth · Geschäftsführer · high
+- `nschmid@nico-kunststofftechnik.de` · Fellbach · Norman Schmid · Geschäftsleitung · high
+- `info@junghans-microtec.de` · Dunningen · — · Allgemeine Anfragen · high
+- `t.riester@krauss-formenbau.de` · Reutlingen-Sondelfingen · Timo Riester · Geschäftsführer · high
+- `info@forma-gmbh.de` · Redwitz/Trainau · Frank Wich-Heiter / Klaus Bruchmann · Geschäftsführer / Allgemeine Anfragen · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch96_new_verified.json` / `batch96_candidates_final.json`
+- `data/germany_raw/batch96_quality_drops.json` / `batch96_merge_log.json`
+- `data/germany_raw/batch97_queue_note.txt`
+
+### 状态
+
+Batch 96 已合并；下轮 Batch 97（Website）/ Batch96dir（目录）。队列剩余 thin multi ~**81** + 新域名定向。
+
+---
+
+## Website/named Kontakt Batch 95
+
+> 合并前重读 CSV（目录 Batch93dir 后基线 **3702** / **2527**）。终写前再读：Batch94dir 并发后 **3717** / **2532**。
+
+### 累计（Batch 95 + 并发 Batch94dir 后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3717** |
+| high / medium | **3474** / **243** |
+| 唯一域名 | **2532** |
+| 含电话 / 含城市 | **3226** / **3326** |
+| 非 .de 邮箱 | **988** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3475** |
 | design_studio | **142** |
 | oem_buyer | **69** |
 | sourcing | **31** |
@@ -26,13 +87,14 @@
 | 指标 | 数值 |
 |---|---:|
 | 本轨净增邮箱 | **+13**（high **13** / medium **0**） |
-| 相对 Batch93dir 基线 3702/2527 | **+13** / **+3** 域名 |
-| master 可选重叠 | **2**（info@formenbau-klomfass.de、info@modelltechnik.de — 仍写入 germany_targets） |
+| 相对 Batch93dir 基线 3702/2527 | **+13** 邮箱 / **+3** 域名（B95 单独贡献 → 3715/2530） |
+| 终写实时（含 Batch94dir） | **3717** / **2532** |
+| master 可选重叠 | **2**（info@formenbau-klomfass.de、info@modelltechnik.de — 仍写入） |
 | 质量剔除 | **13** |
 
 ### 方法
 
-1. 重读确认 Batch93dir 后 **3702/2527**
+1. 重读确认 Batch93dir 后 **3702/2527**；终写前再读 Batch94dir 后 **3717/2532**
 2. Expand 空；DE tooling singles 已尽；thin multi named Kontakt + Web 定向
 3. 命中：Karl s.karl@；**Erwes-Reifenberg** 新域名×2；babyplast Marc Tesche GF；**PETA Formenbau** 新域名×3；Klomfass info@；**ModellTechnik** design_studio×5
 4. 质量门：Buchhaltung/Personal；Stanz/Umform（Schwinn）；cloak invent；第三方无公司 mailto；收购收购 stale
@@ -61,7 +123,91 @@
 
 ### 状态
 
-Batch 95 已合并；下轮 Batch 96（Website）/ Batch94dir（目录）。队列剩余 thin multi ~90–100 + 新域名定向。
+Batch 95 已合并（相对 B93dir **+13**）。实时合计 **3717** / **2532**（含 Batch94dir）。下轮 Batch 96（Website）。队列剩余 thin multi ~90–100 + 新域名定向。
+
+
+---
+
+## 目录/展会轨 Batch95dir
+
+> 合并前重读 CSV（Website B95 后基线仍为 **3717** / **2532**）。合并后基线供 Website B96：**3717** / **2532**。
+
+### 累计（Batch95dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3717** |
+| high / medium | **3474** / **243** |
+| 唯一域名 | **2532** |
+| 含电话 / 含城市 | **3226** / **3326** |
+| 非 .de 邮箱 | **988** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3475** |
+| design_studio | **142** |
+| oem_buyer | **69** |
+| sourcing | **31** |
+
+### 本轨成果（Batch95dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **29** |
+| 有邮箱命中 | **3** |
+| 本轨净增邮箱 | **0**（high **0** / medium **0**） |
+| 相对基线 3717 | **+0** |
+| 再播种剩余 | **80** |
+| 队列剩余 | **80** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 上轮队列排空 | **8** |
+| 档案再挖 fresh | **21** |
+| master_strong ICP | **0**（已空） |
+| VDWF/Fakuma | **saturated** |
+| GKV Mitglieder | **404** |
+
+### 本轮队列来源构成
+
+| 来源 | 数量 |
+|---|---:|
+| `prior_queue` | **8** |
+| `archive_batch85_candidates.json` | **1** |
+| `archive_batch24_peer_expand2.jso` | **3** |
+| `archive_batch24_peer_expand3.jso` | **2** |
+| `archive_batch24_design_peer_expa` | **15** |
+
+### 方法
+
+1. 排空上轮 **8** + 档案 design/peer leftover **21** → **29** Impressum  
+2. 尝试再播种：master_strong（0）、GKV（404）、弱 token master 残余 → 队列 **80**  
+3. append-dedupe（合并前重读 **3717/2532**）；命中均为 known / 非 ICP（suedleasing）→ **净增 0**  
+4. WLW 跳过
+
+### 本轨新增邮箱
+
+- （无）
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 目录/展会轨主源接近枯竭；弱 master 再播种质量预期偏低
+- 见 `data/germany_raw/batch95dir_merge_log.json` / `batch95dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch95dir_impressum.json`
+- `data/germany_raw/batch95dir_verified.json` / `batch95dir_hits.json`
+- `data/germany_raw/batch95dir_merge_log.json` / `batch95dir_reseed.json`
+
+### 状态
+
+Batch95dir 已合并（**+0**）；队列剩余 **80**（弱 master 残余）供 Batch96dir。
 
 ---
 
