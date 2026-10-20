@@ -182,3 +182,91 @@
 ### 状态
 
 Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。Website Batch 78 已在其上再合并 **+14** → 累计 **2720 / 1872**。
+
+
+---
+
+## 目录/展会轨 Batch79dir
+
+> 续跑队列 ~110；合并前重读 CSV（Website B78 后基线 **2720** / **1872** 域名）。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **2808** |
+| high / medium | **2636** / **172** |
+| 唯一域名 | **1948** |
+| 含电话 / 含城市 | **2478** / **2580** |
+| 非 .de 邮箱 | **619** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **2580** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch79dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **110** |
+| 有邮箱命中 | **79** |
+| 本轨净增邮箱 | **88**（high **85** / medium **3**） |
+| 相对 Website B78 基线 2720 | **+88** |
+| WLW 再播种（p29–36 + 扩类） | **119** |
+| 队列剩余 | **118** |
+
+### 方法
+
+1. 排空上轮 110 域名 → Impressum/Kontakt  
+2. append-dedupe（Website B78 并行后重读 CSV）  
+3. WLW p29–36 + formteile 等再播种
+
+### 本轨新增邮箱（节选前 25 / 共 88）
+
+- `sales@allucan.ch`
+- `alu@allucan.ch`
+- `info@zwei-r.com`
+- `info@3dmensionals.de`
+- `angebote@3dmensionals.de`
+- `info@tielke.de`
+- `info@antares-industrietechnik.de`
+- `askagmbhcokg@as-ka.de`
+- `info@as-ka.de`
+- `info@anlagenmontage-hippe.de`
+- `kontakt@3dprintedparts.de`
+- `contact@airloc.com`
+- `kontakt@fertigungscenter.at`
+- `info@addtec.eu`
+- `a.nebert@addtec.eu`
+- `info@band.ch`
+- `info@aston.de`
+- `info@royersignal.de`
+- `info@beyergmbh.de`
+- `info@amco-plast.de`
+- `info@bdg-online.de`
+- `service@bdg-online.de`
+- `info@besche.de`
+- `christine.behrens@besche.de`
+- `susanne.grimme@besche.de`
+… 另有 63 个，见 `data/germany_raw/batch79dir_hits.json`
+
+### 本轨新域名（节选）
+
+`3d-druck-dilba.de`, `3dmensionals.de`, `3dprintedparts.de`, `addtec.eu`, `airloc.com`, `allucan.ch`, `amco-plast.de`, `anlagenmontage-hippe.de`, `antares-industrietechnik.de`, `aqualonwaterjet.se`, `as-ka.de`, `aston.de`, `autmaring.eu`, `band.ch`, `bbk-kunststofftechnik.de`, `bdg-online.de`, `besche.de`, `beyergmbh.de`, `blombach-spindeln.de`, `bm-engineering.eu`…
+
+### 产物
+
+- `data/germany_targets.csv` / `.xlsx`
+- `data/germany_raw/batch79dir_impressum.json`
+- `data/germany_raw/batch79dir_verified.json` / `batch79dir_hits.json`
+- `data/germany_raw/batch79dir_merge_log.json` / `batch79dir_reseed.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**118**）
+
+### 状态
+
+Batch79dir 完成：**+88** 邮箱；队列 **118** 待 Batch80dir。
