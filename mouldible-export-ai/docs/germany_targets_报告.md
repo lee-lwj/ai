@@ -1,89 +1,80 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 77）
+## 1. 累计交付数量（如实，至 Batch 78）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **2612** |
-| 本轮净增（相对目录 Batch77dir 合并后基线 2586） | **+26** |
-| 本轮因已在 master/targets 跳过 | **10** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **11** |
-| 其中 high / medium | **2453** / **159** |
-| 唯一域名 | **1793** |
-| 非 .de 邮箱（累计） | **548** |
-| 含电话 / 含城市 | **2330** / **2428** |
-| 本轮新域名贡献 | **2** |
+| 去重后邮箱总数（累计） | **2720** |
+| 本轮净增（相对目录 Batch78dir 合并后基线 2706） | **+14** |
+| 本轮因已在 master/targets 跳过 | **2** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **9** |
+| 其中 high / medium | **2551** / **169** |
+| 唯一域名 | **1872** |
+| 非 .de 邮箱（累计） | **586** |
+| 含电话 / 含城市 | **2414** / **2509** |
+| 本轮新域名贡献 | **5** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **2384** |
+| overseas_peer_overflow | **2492** |
 | design_studio | **129** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 77）
+## 2. 本轮方法（Batch 78 · Website/named Kontakt）
 
-1. **基线**：目录 Batch77dir 合并后 **重读 CSV** → **2586 / 1791**，再合并本轮。
-2. **Expand 队列**：仍空；master-seed ~33 DE peer 域名多数死站 → **+0**。
-3. **Named Kontakt**：
-   - Güthner Oberrot（info@ + Manfred / Markus；Verwaltung 剔除）
-   - Wefo Inden Ansprechpartner（Ruhwiedel / Weiland / Gatzweiler；Assistentin 剔除）
-   - MM Formenbau Heiligenhaus `info@mm-formenbau.de`
-   - priomold Schömberg Ansprechpartner（11 named；Rechnung 剔除）
-   - Moldingtec Steinberg Kontakt（6 named）
-   - Servomold Erbach sales@ / service@
-4. **质量门**：Verwaltung/Assistentin/Buchhaltung/Personal；cloak；dead master-seed。
+1. **基线**：目录 Batch78dir 合并后 **重读 CSV** → **2706 / 1867**，再合并本轮。
+2. **Expand 队列**：仍空；~75 single-email peers wave1 探针多为 info@-only → **+0 named**。
+3. **Named Kontakt / Web 定向**：
+   - Betz Wernberg-Köblitz `vertrieb@betz-wzb.de`（Florian Betz GF/Vertrieb；info@ 已在 targets）
+   - REBHAN Kronach Ansprechpartner（info@ + Löffler Vertrieb / Welsch Blasformen / Bayer·Trebes Auftragsbearbeitung；Personal/Rechnung 剔除；无角色 mailto 剔除）
+   - ECHO Steinfeld Kontakt（info@ + Chodura / König Vertrieb / Rausch）
+   - Funke Heiligenhaus Impressum `info@funke-werkzeugbau.de`
+   - Future Inside Schömberg Formenbau（william.thier@ + info@）
+   - SWO Oberau 补 `info@swo-formenbau.de`（已有 bettina.weiss@）
+4. **质量门**：Personal/Rechnungswesen；无角色 orphan mailto；cloak（ABAS/Hack/Croner/RFK）；master skip；空站（cc-bark）。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| expand / master-seed Impressum | ~33 | **+0** |
-| named Kontakt | 多轮 | **+26** |
+| wave1 single-email peers | ~75 | **+0** |
+| named Kontakt / 定向 Web | Betz·Rebhan·Echo·Funke·Future·SWO | **+14** |
 
-### 本轮新增（+26）
+### 本轮新增（+14）
 
-- `info@guethner-gmbh.de` · Oberrot-Marbächle ·  · high
-- `manfred.guethner@guethner-gmbh.de` · Oberrot-Marbächle · Manfred Güthner · high
-- `markus.visser@guethner-gmbh.de` · Oberrot-Marbächle · Markus Visser · high
-- `mario.ruhwiedel@wefo.com` · Inden · Mario Ruhwiedel · high
-- `nils.weiland@wefo.com` · Inden · Nils Weiland · high
-- `thomas.gatzweiler@wefo.com` · Inden · Thomas Gatzweiler · high
-- `info@mm-formenbau.de` · Heiligenhaus · Michael Müller · high
-- `t.camek@priomold.de` · Schömberg · Tobias Camek · high
-- `t.green@priomold.de` · Schömberg · Tom Green · high
-- `s.geist@priomold.de` · Schömberg · Stefan Geist · high
-- `m.oezdemir@priomold.de` · Schömberg · Murat Özdemir · high
-- `s.scherer@priomold.de` · Schömberg · Sebastian Scherer · high
-- `d.jensen@priomold.de` · Schömberg · Daniel Jensen · high
-- `m.krebs@priomold.de` · Schömberg · Matthias Krebs · high
-- `k.konusch@priomold.de` · Schömberg · Kevin Konusch · high
-- `s.oezkorucu@priomold.de` · Schömberg · Sitav Özkorucu · high
-- `n.schmidt@priomold.de` · Schömberg · Nils Schmidt · high
-- `r.frey@priomold.de` · Schömberg · Regina Frey · high
-- `monty.tepper@moldingtec.de` · Steinberg · Monty Tepper · high
-- `ralf.singer@moldingtec.de` · Steinberg · Ralf Singer · high
-- `sandy.hoera@moldingtec.de` · Steinberg · Sandy Höra · high
-- `thomas.riedel@moldingtec.de` · Steinberg · Thomas Riedel · high
-- `thomas.schneider@moldingtec.de` · Steinberg · Thomas Schneider · high
-- `torsten.meyer@moldingtec.de` · Steinberg · Torsten Meyer-Quendt · high
-- `sales@servomold.com` · Erbach ·  · high
-- `service@servomold.com` · Erbach ·  · high
+- `vertrieb@betz-wzb.de` · Wernberg-Köblitz · Florian Betz · high
+- `info@rebhan-wzb.de` · Kronach ·  · high
+- `mloeffler@rebhan-wzb.de` · Kronach · Michael Löffler · high
+- `fwelsch@rebhan-wzb.de` · Kronach · Frank Welsch · high
+- `cbayer@rebhan-wzb.de` · Kronach · Christian Bayer · high
+- `strebes@rebhan-wzb.de` · Kronach · Sandra Trebes · high
+- `info@echo-werkzeugbau.de` · Steinfeld ·  · high
+- `ewald.chodura@echo-werkzeugbau.de` · Steinfeld · Ewald Chodura · high
+- `elisabeth.koenig@echo-werkzeugbau.de` · Steinfeld · Elisabeth König · high
+- `arnulf.rausch@echo-werkzeugbau.de` · Steinfeld · Arnulf Rausch · high
+- `info@funke-werkzeugbau.de` · Heiligenhaus · Dennis Funke · high
+- `william.thier@future-inside.de` · Schömberg · William Thier · high
+- `info@future-inside.de` · Schömberg ·  · high
+- `info@swo-formenbau.de` · Oberau ·  · high
 
 ### 本轮新域名
 
-- `guethner-gmbh.de`
-- `mm-formenbau.de`
+- `betz-wzb.de`
+- `echo-werkzeugbau.de`
+- `funke-werkzeugbau.de`
+- `future-inside.de`
+- `rebhan-wzb.de`
 
-### skipped-already-known（10）
+### skipped-already-known（2）
 
-`bettina.weiss@swo-formenbau.de`, `info@ghd-formenbau.de`, `info@moldingtec.de`, `info@mouldtec.de`, `info@mp-werkzeugbau.de`, `info@priomold.de`, `info@servomold.com`, `info@wefo.com`, `info@will-werkzeugbau.de`, `office@i-mold.com`
+`info@betz-wzb.de`, `info@grobusch.de`
 
 ### 质量剔除（节选）
 
-**11**：Güthner Verwaltung；Wefo Assistentin；priomold Rechnung；mouldtec Personal；master-seed dead；ABAS/Hack/Croner/RFK/Ruhla cloak…
+**9**：Rebhan Personal/Rechnung；abrueckner/rvoelk 无角色；Grobusch master；cc-bark 空站；future-inside.eu 未确认；wave1 junk；ABAS/Hack/Croner/RFK cloak…
 
 ---
 
@@ -91,26 +82,27 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch77_new_verified.json`
-- `data/germany_raw/batch77_expand_results.json`
-- `data/germany_raw/batch77_merge_log.json`
-- `data/germany_raw/batch77_probe_seeds.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B78：empty expand）
+- `data/germany_raw/batch78_new_verified.json`
+- `data/germany_raw/batch78_expand_results.json`
+- `data/germany_raw/batch78_merge_log.json`
+- `data/germany_raw/batch78_candidates.json` / `batch78_probe_wave1.json`
+- `data/germany_raw/batch78_quality_drops.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B79：empty expand）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空；master-seed DE peers 大多死站。B78 继续 named Kontakt（剩余 single-email peers；ABAS/Hack/Croner/RFK cloak 观察）。
+**应有尽有 — 尚未完成。** Expand 仍空；wave1 对已有单邮箱 peers 几乎无新 named。B79 继续 named Kontakt（剩余 peers；ABAS/Hack/Croner/RFK cloak 观察；Grobusch/cc-bark 若站恢复可重试）。
 
 
 ---
 
 ## 目录/展会轨 Batch78dir
 
-> 续跑队列 ~123；合并前重读 CSV（Website B77 后基线 **2612** / **1793** 域名）。
+> 续跑队列 ~123；合并前重读 CSV（Website B77 后基线 **2612** / **1793** 域名）。合并后基线供 Website B78：**2706** / **1867**。
 
-### 累计（合并后）
+### 累计（Batch78dir 合并后）
 
 | 指标 | 数值 |
 |---|---:|
@@ -120,7 +112,7 @@
 | 含电话 / 含城市 | **2401** / **2495** |
 | 非 .de 邮箱 | **586** |
 
-### 按 icp_tag（累计）
+### 按 icp_tag（Batch78dir 合并后）
 
 | icp_tag | 数量 |
 |---|---:|
@@ -189,4 +181,4 @@
 
 ### 状态
 
-Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。
+Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。Website Batch 78 已在其上再合并 **+14** → 累计 **2720 / 1872**。
