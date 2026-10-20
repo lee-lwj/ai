@@ -1354,6 +1354,95 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch130dir
+
+> 合并前重读 CSV（直播基线 **4361** / **3052**；Website Batch124 后 steering）。合并后基线：**4391** / **3088**。
+
+### 累计（Batch130dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4391** |
+| high / medium | **4111** / **280** |
+| 唯一域名 | **3088** |
+| 含电话 / 含城市 | **3791** / **3878** |
+| 非 .de 邮箱 | **1169** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4050** |
+| design_studio | **189** |
+| oem_buyer | **117** |
+| sourcing | **35** |
+
+### 本轨成果（Batch130dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **80** |
+| 有邮箱命中 | **38** |
+| 本轨净增邮箱 | **30**（high **30** / medium **0**） |
+| 相对基线 4361/3052 | **+30** / **+36** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B129 域名队列 | 空 |
+| Sauerland/Siegerland/Westerwald/Taunus + Lahn-Dill/Märkisch 微城 × kw | 有效（93 城，DDG 199 + Bing 60） |
+| Bing Maps / Europages / Gelbe Seiten | 部分（maps 31 / ep 15 / gs 10；GS 站链 JS 隐藏） |
+| BVMF Westfalen-Süd 名录 | 有效（Modellbau/Formenbau 带核验） |
+| Fakuma/VDWF / WLW | 未用 / 跳过 |
+| 产量 | 80 候选核验 / 38 命中 / 质量门后 **+30**；剔金属 Härte/Stanz/Kokille/Beton/Extrusion、Mehrwegbecher、Brill Personal/Einkauf/Assistenz |
+
+### 本轨新增邮箱（共 30）
+
+- `kontakt@ksm.info` (high, overseas_peer_overflow) · Meschede
+- `info@modellbau-nebeling.de` (high, overseas_peer_overflow) · Drolshagen
+- `info@mk-modellbau.com` (high, overseas_peer_overflow) · Werdohl
+- `ohm@modellbauohm.de` (high, overseas_peer_overflow) · Olpe
+- `info@modellbauohm.de` (high, overseas_peer_overflow) · Olpe
+- `info@schrichten.de` (high, overseas_peer_overflow) · Schmallenberg
+- `info@friedrichs-kunststoffe.de` (high, overseas_peer_overflow) · Meschede
+- `office@friedrichs-kunststoffe.de` (high, overseas_peer_overflow) · Meschede
+- `info@innovative-cad-cam-solutions.com` (high, design_studio) · Meschede
+- `info@ktm-kunststofftechnik.de` (high, overseas_peer_overflow) · Montabaur
+- `info@modellbau-brueggemann.de` (high, overseas_peer_overflow) · Hemer
+- `info@gutberlet-modellbau.de` (high, overseas_peer_overflow) · Lüdenscheid
+- `eike-lotz@gl-spritzgusstechnik.de` (high, overseas_peer_overflow) · Menden
+- `info@herscheider-modellbau.de` (high, overseas_peer_overflow) · Herscheid
+- `singer@singerengineering.de` (high, design_studio) · Montabaur
+- `info@modellbau-nassal.de` (high, overseas_peer_overflow) · Hohentengen
+- `engineering@rikutec.de` (high, overseas_peer_overflow) · Altenkirchen
+- `info@hjs-kunststoff.de` (high, overseas_peer_overflow) · Tirschenreuth
+- `info@burk-kunststofftechnik.com` (high, overseas_peer_overflow) · Gladenbach
+- `info@inkuplastics.com` (high, overseas_peer_overflow) · Meinerzhagen
+- `info@simon-kunststoff.de` (high, overseas_peer_overflow) · Sundern
+- `kontakt@kunststoff-mende.de` (high, overseas_peer_overflow) · Klingenberg
+- `info@ma-formfabrik.de` (high, overseas_peer_overflow) · Steinbach-Hallenberg
+- `info@zoellner-kunststoff.de` (high, overseas_peer_overflow) · Burbach
+- `mail@simon-kunststofftechnik.de` (high, overseas_peer_overflow) · Berglen
+- `info@ht-tooldesign.de` (high, overseas_peer_overflow) · Marsberg
+- `info@kkt-siegen.de` (high, overseas_peer_overflow) · Siegen
+- `info@newtonian.gmbh` (high, design_studio) · Wetzlar
+- `d.stahl@brillundadloff.de` (high, overseas_peer_overflow) · Lennestadt — Dominik Stahl
+- `m.koenig@brillundadloff.de` (high, overseas_peer_overflow) · Lennestadt — Michael König
+
+### 产物
+
+- `data/germany_raw/batch130dir_*.json`
+- `data/germany_raw/batch130dir_next_search_seeds.json`
+
+### 状态
+
+Batch130dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch131dir（下一城带：Rhön/Spessart/Odenwald/Frankenwald）。全国目录轨饱和仍高，本带仍挖出 **+30** 新邮（含 brill+adloff Lennestadt 具名、KSM/Schrichten/Ohm/Nebeling 等 Sauerland/Siegerland 同业）。
+
+---
+
 ## 目录/展会轨 Batch129dir
 
 > 合并前重读 CSV（直播基线 **4333** / **3026**；Website Batch122 后 steering）。合并后基线：**4351** / **3042**。

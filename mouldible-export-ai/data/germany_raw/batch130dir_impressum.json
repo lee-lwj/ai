@@ -1,0 +1,888 @@
+[
+  {
+    "domain": "ksm-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "kontakt@ksm.info"
+    ],
+    "source_url": "https://www.ksm-kunststofftechnik.de/de/impressum",
+    "phone": "+49 291 5487 0",
+    "city": "Meschede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "modellbau-nebeling.de",
+    "ok": true,
+    "emails": [
+      "info@modellbau-nebeling.de"
+    ],
+    "source_url": "https://www.modellbau-nebeling.de/impressum/",
+    "phone": "+49276183430",
+    "city": "Drolshagen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "mk-modellbau.com",
+    "ok": true,
+    "emails": [
+      "info@mk-modellbau.com"
+    ],
+    "source_url": "https://mk-modellbau.com/impressum/",
+    "phone": "+49 (0) 2392 2294",
+    "city": "Werdohl",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "modellbauohm.de",
+    "ok": true,
+    "emails": [
+      "ohm@modellbauohm.de",
+      "info@modellbauohm.de"
+    ],
+    "source_url": "https://www.modellbauohm.de/impressum/",
+    "phone": "+49 2761 94186-0",
+    "city": "Olpe Handelsregister",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "modellbau-hillebrand.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststoff-berens.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "schrichten.de",
+    "ok": true,
+    "emails": [
+      "info@schrichten.de"
+    ],
+    "source_url": "https://www.schrichten.de/impressum/",
+    "phone": "+49 29 72 / 97 50 - 0",
+    "city": "Schmallenberg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "friedrichs-kunststoffe.de",
+    "ok": true,
+    "emails": [
+      "info@friedrichs-kunststoffe.de",
+      "office@friedrichs-kunststoffe.de"
+    ],
+    "source_url": "https://friedrichs-kunststoffe.de/impressum/",
+    "phone": "",
+    "city": "Meschede",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "innovative-cad-cam-solutions.de",
+    "ok": true,
+    "emails": [
+      "info@innovative-cad-cam-solutions.com"
+    ],
+    "source_url": "https://www.innovative-cad-cam-solutions.de/impressum/",
+    "phone": "+49 291 13078-900",
+    "city": "Meschede Vertreten durch",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "innovative-cad-cam-solutions.com",
+    "ok": true,
+    "emails": [
+      "info@innovative-cad-cam-solutions.com"
+    ],
+    "source_url": "https://www.innovative-cad-cam-solutions.de/impressum/",
+    "phone": "+49 291 13078-900",
+    "city": "Meschede Vertreten durch",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "noelle-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@noelle-kst.de"
+    ],
+    "source_url": "https://noelle-kunststofftechnik.de/ihr-partner-fuer-werkzeugbau-und-spritzguss-im-sauerland",
+    "phone": "+49 291 99 12 0",
+    "city": "Meschede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "akma.de",
+    "ok": true,
+    "emails": [
+      "info@akma.de"
+    ],
+    "source_url": "https://www.akma.de/de/impressum",
+    "phone": "+49-2241-1239740",
+    "city": "Siegburg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ktm-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@ktm-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.ktm-kunststofftechnik.de/impressum/",
+    "phone": "+492602670210",
+    "city": "Montabaur",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "nolle-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "modellbau-brueggemann.de",
+    "ok": true,
+    "emails": [
+      "info@modellbau-brueggemann.de"
+    ],
+    "source_url": "https://www.modellbau-brueggemann.de/impressum/",
+    "phone": "",
+    "city": "Hemer",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ksm.info",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ziform.de",
+    "ok": true,
+    "emails": [
+      "info@ziform.com"
+    ],
+    "source_url": "https://www.ziform.de/impressum/",
+    "phone": "+49 6462 209-0",
+    "city": "Gladenbach",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "gutberlet-modellbau.de",
+    "ok": true,
+    "emails": [
+      "info@gutberlet-modellbau.de"
+    ],
+    "source_url": "https://www.gutberlet-modellbau.de/impressum/",
+    "phone": "+49 (0) 23 51 / 981 22-0",
+    "city": "Lüdenscheid",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "gl-spritzgusstechnik.de",
+    "ok": true,
+    "emails": [
+      "eike-lotz@gl-spritzgusstechnik.de"
+    ],
+    "source_url": "https://www.gl-spritzgusstechnik.de/impressum/",
+    "phone": "+49 (0) 2373/ 1749584",
+    "city": "Menden",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "herscheider-modellbau.de",
+    "ok": true,
+    "emails": [
+      "info@herscheider-modellbau.de"
+    ],
+    "source_url": "https://www.herscheider-modellbau.de/",
+    "phone": "tel:0235790880",
+    "city": "Neuenrade",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbau-gmbh.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "driess-kunststoffe.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststofftechnik-schmid.de",
+    "ok": true,
+    "emails": [
+      "info@kt-schmid.de"
+    ],
+    "source_url": "https://www.kunststofftechnik-schmid.de/impressum/",
+    "phone": "+49 7486 97800-0",
+    "city": "Waldachtal",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "formenbau.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "singerengineering.de",
+    "ok": true,
+    "emails": [
+      "singer@singerengineering.de"
+    ],
+    "source_url": "https://www.singerengineering.de/impressum.html",
+    "phone": "+491777543831",
+    "city": "Montabaur",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ideen-formen.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststofftechnik-beuter.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ehs-kunststoffverarbeitung.de",
+    "ok": true,
+    "emails": [
+      "ehs@dietrich-gruppe.com",
+      "formenbau@dietrich-gruppe.com"
+    ],
+    "source_url": "https://ehs-kunststoffverarbeitung.de/impressum/",
+    "phone": "+49 (0) 2354 77779-0",
+    "city": "Meinerzhagen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "modellbau-nassal.de",
+    "ok": true,
+    "emails": [
+      "info@modellbau-nassal.de"
+    ],
+    "source_url": "https://www.modellbau-nassal.de/impressum/",
+    "phone": "+49 7572 710 18",
+    "city": "Hohentengen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "rikutec-custommolding.com",
+    "ok": true,
+    "emails": [
+      "engineering@rikutec.de"
+    ],
+    "source_url": "https://www.rikutec-custommolding.com/contact/",
+    "phone": "+49-2681-9546-43",
+    "city": "Altenkirchen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "hjs-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@hjs-kunststoff.de"
+    ],
+    "source_url": "https://www.hjs-kunststoff.de/impressum",
+    "phone": "+49963170070",
+    "city": "Tirschenreuth",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "burk-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "info@burk-kunststofftechnik.com"
+    ],
+    "source_url": "https://www.burk-kunststofftechnik.de/impressum/",
+    "phone": "+49 (0) 64 62 91448-0",
+    "city": "Gladenbach Handelsregister",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststoffspritzguss-werkzeugbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "inkuplastics.com",
+    "ok": true,
+    "emails": [
+      "info@inkuplastics.com"
+    ],
+    "source_url": "https://inkuplastics.com/impressum.html",
+    "phone": "+49 2354 1473643",
+    "city": "Meinerzhagen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "simon-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@simon-kunststoff.de"
+    ],
+    "source_url": "https://www.simon-kunststoff.de/",
+    "phone": "Tel. 02933-2383",
+    "city": "",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "heimann-werkzeugbau.org",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "abel-plastic.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kunststoff-mende.de",
+    "ok": true,
+    "emails": [
+      "kontakt@kunststoff-mende.de"
+    ],
+    "source_url": "https://www.kunststoff-mende.de/de/",
+    "phone": "+49 35055 61231",
+    "city": "Klingenberg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "hess-formen.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "hmb-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ihr-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-berger.com",
+    "ok": true,
+    "emails": [
+      "info@wzb-berger.de"
+    ],
+    "source_url": "https://www.werkzeugbau-berger.com/de/impressum",
+    "phone": "+495258797810",
+    "city": "Salzkotten-Scharmede",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "modellbau-goerdes.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ma-formfabrik.de",
+    "ok": true,
+    "emails": [
+      "info@ma-formfabrik.de"
+    ],
+    "source_url": "https://ma-formfabrik.de/de/",
+    "phone": "+49 36847 5225-40",
+    "city": "Steinbach-Hallenberg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "zoellner-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@zoellner-kunststoff.de"
+    ],
+    "source_url": "https://zoellner-kunststoff.de/impressum",
+    "phone": "",
+    "city": "Burbach",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "itm-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "formdimensionen.com",
+    "ok": true,
+    "emails": [
+      "info@formdimensionen.com"
+    ],
+    "source_url": "https://www.formdimensionen.com/impressum.html",
+    "phone": "+491778453152",
+    "city": "Maintal",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "perfektinform.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "skt-kunststoff.com",
+    "ok": true,
+    "emails": [
+      "mail@skt-kunststoff.de"
+    ],
+    "source_url": "https://www.skt-kunststoff.com/de/?pssid=f23bfdb5317736651a1454701b115f83",
+    "phone": "+49 (0)6441",
+    "city": "",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "simon-kunststofftechnik.de",
+    "ok": true,
+    "emails": [
+      "mail@simon-kunststofftechnik.de"
+    ],
+    "source_url": "https://www.simon-kunststofftechnik.de/",
+    "phone": "+49 7195 13986-0",
+    "city": "Berglen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "ht-tooldesign.de",
+    "ok": true,
+    "emails": [
+      "info@ht-tooldesign.de"
+    ],
+    "source_url": "https://www.ht-tooldesign.de/impressum/",
+    "phone": "+49 (0) 2991",
+    "city": "Marsberg Germany Telefon",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "jordan-spritzgusstechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ebel-wzb.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "hellmig-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "ziform-spritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "h-t-tooldesign.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "hoffmann-jochheim.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "dieter-rest.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "kkt-siegen.de",
+    "ok": true,
+    "emails": [
+      "info@kkt-siegen.de"
+    ],
+    "source_url": "https://www.kkt-siegen.de/kontakt/",
+    "phone": "tel:049271319923",
+    "city": "Siegen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "witte-brilon.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "bechtum.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "jordan-spritzguss.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "werkzeugbau-schroeder.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "rest-gmbh.de",
+    "ok": true,
+    "emails": [
+      "info@rest-gmbh.com"
+    ],
+    "source_url": "https://www.rest-gmbh.de/",
+    "phone": "+49 (0) 29 32 - 96 17 0",
+    "city": "Arnsberg",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "hellmig.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "1a-leibe.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "leibe-kunststofftechnik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "swf-siegen.de",
+    "ok": true,
+    "emails": [
+      "vertrieb@swf-siegen.de",
+      "haertetechnik@swf-siegen.de",
+      "s.tralau@swf-siegen.de",
+      "logistik@swf-siegen.de",
+      "p.haebel@swf-siegen.de",
+      "f.philipp@swf-siegen.de",
+      "plasma@swf-siegen.de",
+      "e.fischbach@swf-siegen.de"
+    ],
+    "source_url": "https://www.swf-siegen.de/kontakt",
+    "phone": "+492713305555",
+    "city": "Siegen",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "bernhardt-schulte.de",
+    "ok": true,
+    "emails": [
+      "info@drehschalter.de"
+    ],
+    "source_url": "https://www.drehschalter.de/impressum/",
+    "phone": "+49 (0)2354 926-5",
+    "city": "Meinerzhagen",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "bartsch-kunststoffe.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "newtonian.gmbh",
+    "ok": true,
+    "emails": [
+      "info@newtonian.gmbh"
+    ],
+    "source_url": "https://www.newtonian.gmbh/impressum/",
+    "phone": "+49 (0) 15774007839",
+    "city": "Wetzlar",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "witte-gmbh.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "pms-plastic.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "modellbau-hillebrand.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "abc-federn.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "droste-kokillenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "msm-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "metall-kunststoff-technik.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "schmitz-formenbau.de",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  },
+  {
+    "domain": "haberl-kunststofftechnik.at",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]
