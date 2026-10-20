@@ -1,3 +1,50 @@
+## Website/named Kontakt Batch 122
+
+> 合并前重读 CSV（任务口径 **4324** / **3018**；Directory Batch127dir→**4327**、Batch128dir→写时 live **4329** / **3023**）。本批按 live 合并，网站轨净增 **+4** → 瞬时 **4333** / **3026**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4333** |
+| high / medium | **4053** / **280** |
+| 唯一域名 | **3026** |
+| 含电话 / 含城市 | **3740** / **3820** |
+| 非 .de 邮箱 | **1158** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4003** |
+| design_studio | **183** |
+| oem_buyer | **112** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+4**（相对写时基线 4329）
+
+- `waldemar.kremer@cad-kremer.de` — CAD Kremer GmbH (Zimmern ob Rottweil) — `design_studio` / high — Waldemar Kremer
+- `info@plastium.com` — Plastium GmbH (Lauterbach) — `oem_buyer` / high
+- `m.costantino@plastium.com` — Plastium GmbH (Lauterbach) — `oem_buyer` / high — Marco Costantino
+- `info@ww-moltics.com` — WERNER WIRTH MOLTICS GmbH (Hamburg) — `overseas_peer_overflow` / high
+
+### 本批质量剔除（节选）
+
+- `Finke Gruppe JS-split emails / info@finke-formenbau.de directory-only` — SKIP cloak invent (JS-split spaces); no plain company-site mailto this run
+- `Formacon j.sancar@formacon.de` — SKIP site unreachable (curl 0 / WebFetch 500) — never invent; carry recovery
+- `ABAS Fulda named` — SKIP only info@ known; Kontakt cloaked / no new plain named
+- `Krauss Calw mailto@krauss-web.de / krauss-formenbau (at)` — SKIP already known / (at) already decoded known
+- `Gollmer third-party sales (stolz/mks/atr/mf-couplings)` — DROP third-party on Gollmer kontakt
+- `w.schiffl@cad-schiffl.de` — DROP off-ICP (Anlagenbau pipeXPRESS / CAD Schulung, not Formenbau)
+- `dialog@seiten-werk.com / info@tim-gatzky.de / support@cosmiclabs` — DROP Werbeagentur/web designer third-party
+- `dsb@polar-form.de` — DROP Datenschutzbeauftragter
+- `d.marx@ / l.schuck@ rausch-formenbau.de` — DROP Buchhaltung/Verwaltung / Einkauf
+- `einkauf@triwefo.de / FLICKS-CAD phone-only / Gerken continuum` — DROP Einkauf / phone-only invent / Gerken Stanz continuum
+- `placeholder info@company.com etc Heinrich Schmitt template` — DROP template placeholders
+- `Scheidig/HHK/Klomfass/KuKo/WTL/WISA/Polar/FBB/Spies/Eder already known` — SKIP already known
+
+---
+
 ## Website/named Kontakt Batch 121
 
 > 合并前重读 CSV（任务口径 **4306** / **3018**；Directory Batch125dir→**4312**、Batch126dir→写时 live **4316** / **3017**）。本批按 live 合并，网站轨净增 **+8** → 瞬时 **4324** / **3018**。
