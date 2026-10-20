@@ -1,0 +1,97 @@
+[
+  {
+    "domain": "qm-formtechnik.de",
+    "ok": true,
+    "emails": [
+      "michael.quast@qm-formtechnik.de"
+    ],
+    "source_url": "https://www.qm-formtechnik.de/impressum/",
+    "phone": "+49 4161 7528815",
+    "city": "Buxtehude-Ovelgönne",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "meinspritzgiesser.de",
+    "ok": true,
+    "emails": [
+      "info@glittenberg-gmbh.de",
+      "toinfo@glittenberg-gmbh.de"
+    ],
+    "source_url": "https://meinspritzgiesser.de/impressum",
+    "phone": "+49 6451 7218-0",
+    "city": "Frankenberg",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "mueller-formenbau-gmbh.de",
+    "ok": true,
+    "emails": [
+      "info@mueller-werkzeugbau-gmbh.de"
+    ],
+    "source_url": "https://www.mueller-formenbau-gmbh.de/impressum/",
+    "phone": "+49 9263 975185-0",
+    "city": "Ludwigsstadt I Tel",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "zippel-werkzeugbau.de",
+    "ok": true,
+    "emails": [
+      "info@zippel-werkzeugbau.de"
+    ],
+    "source_url": "https://www.zippel-werkzeugbau.de/impressum",
+    "phone": "+49533162509",
+    "city": "Wolfenbüttel",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "formenbau-gf.com",
+    "ok": true,
+    "emails": [
+      "kontakt@formenbau-gf.de"
+    ],
+    "source_url": "https://www.formenbau-gf.com/Impressum/",
+    "phone": "tel:03735 - 9166-0",
+    "city": "Marienberg",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "rm-kunststoffe.com",
+    "ok": true,
+    "emails": [
+      "mail@rm-plast.com"
+    ],
+    "source_url": "https://rm-kunststoffe.com/impressum/",
+    "phone": "+49 571 3876 2439",
+    "city": "Lübbecke",
+    "status": "medium",
+    "same_domain": false
+  },
+  {
+    "domain": "storm-kunststoff.de",
+    "ok": true,
+    "emails": [
+      "info@storm-kunststoff.de"
+    ],
+    "source_url": "https://www.storm-kunststoff.de/",
+    "phone": "+49 (0) 80 82 / 94 307",
+    "city": "Schwindegg",
+    "status": "high",
+    "same_domain": true
+  },
+  {
+    "domain": "plastic-t.com",
+    "ok": false,
+    "emails": [],
+    "source_url": "",
+    "phone": "",
+    "city": "",
+    "status": "no_email",
+    "same_domain": false
+  }
+]

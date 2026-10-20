@@ -1,0 +1,15 @@
+{
+  "batch": "124dir",
+  "n_emails": 4,
+  "n_domains": 4,
+  "emails": [
+    "michael.quast@qm-formtechnik.de",
+    "info@zippel-werkzeugbau.de",
+    "mail@rm-plast.com",
+    "info@storm-kunststoff.de"
+  ],
+  "quality_drops_sample": [
+    "offdomain:info@glittenberg-gmbh.de<-meinspritzgiesser.de",
+    "junk_local:toinfo@glittenberg-gmbh.de"
+  ]
+}

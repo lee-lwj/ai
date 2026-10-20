@@ -1077,6 +1077,70 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch124dir
+
+> 合并前重读 CSV（直播基线 **4294** / **3001**；指令预期 4294，含 B123dir+Website B118）。合并后基线：**4298** / **3005**。
+
+### 累计（Batch124dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4298** |
+| high / medium | **4021** / **277** |
+| 唯一域名 | **3005** |
+| 含电话 / 含城市 | **3710** / **3786** |
+| 非 .de 邮箱 | **1150** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3982** |
+| design_studio | **179** |
+| oem_buyer | **102** |
+| sourcing | **35** |
+
+### 本轨成果（Batch124dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **8** |
+| 有邮箱命中 | **7** |
+| 本轨净增邮箱 | **4**（high **3** / medium **1**） |
+| 相对基线 4294/3001 | **+4** / **+4** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B123 域名队列 | 空（主靠城种子） |
+| Nord/SH/MV/Harz/北德 × kw | 有效（99 城，search 198） |
+| Bing Maps | 部分（35） |
+| Europages DE | 有效（16） |
+| Fakuma/VDWF 公开搜索 | 部分（10） |
+| WLW / GS | 跳过 / 耗尽 |
+
+### 本轨新增邮箱（共 4）
+
+- `michael.quast@qm-formtechnik.de` (high)
+- `info@zippel-werkzeugbau.de` (high)
+- `mail@rm-plast.com` (medium)
+- `info@storm-kunststoff.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch124dir_*.json`
+- `data/germany_raw/batch124dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch124dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch125dir（下一城带：Rhein-Main/Pfalz/Saar）。
+
+---
+
 ## 目录/展会轨 Batch123dir
 
 > 合并前重读 CSV（Website B117 后直播基线 **4281** / **2990**；指令预期 4281）。合并后基线：**4291** / **2999**。

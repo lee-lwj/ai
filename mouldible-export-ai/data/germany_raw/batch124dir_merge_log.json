@@ -1,0 +1,60 @@
+{
+  "batch": "124dir",
+  "label": "目录/展会轨 Batch124dir",
+  "csv_before": 4294,
+  "csv_after": 4298,
+  "net_new_emails": 4,
+  "high": 3,
+  "medium": 1,
+  "impressum_checked": 8,
+  "impressum_ok": 7,
+  "stats": {
+    "added_cand": 4,
+    "qual_offdomain_drop": 1,
+    "qual_exclude": 1,
+    "brand_related_medium": 3,
+    "dup_email": 2,
+    "no_hit": 1
+  },
+  "queue_remaining_domains": 0,
+  "queue_remaining_gsbiz": 0,
+  "seed_status": {
+    "jobs": 259,
+    "queued_from_b123": 0,
+    "cities_used": 99,
+    "source_ok_pages": {
+      "maps": 35,
+      "search": 198,
+      "ep": 16,
+      "fakuma": 10
+    },
+    "queue": 10,
+    "queue_via": {
+      "search": 10
+    },
+    "sources": {
+      "email": 1,
+      "web": 9
+    },
+    "method": "Nord/SH/MV/Harz/north-east × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; drop Druckguss/Stanz/foundry/CH/couplings",
+    "queue_verified": 8
+  },
+  "baseline_note": "Re-read CSV before merge (4294/3001); steering 4294 after B123dir+Website B118; Website B119 not yet landed or equal",
+  "steering_expected_before": 4294,
+  "blockers": [
+    "WLW skipped",
+    "GS exhausted",
+    "Nord yield thin (many known); domain queue started empty"
+  ],
+  "domains_after": 3005,
+  "domains_before": 3001,
+  "sources": "Nord/SH/MV/Harz/north-east × kw DDG/Bing/Maps + Europages + Fakuma/VDWF; skip WLW; drop Druckguss/Stanz/foundry/CH/couplings",
+  "expand_worked": {
+    "search": 10
+  },
+  "quality_note": "Dropped meinspritzgiesser→glittenberg off-domain + toinfo junk; brand_related mueller/gf/rm-plast kept",
+  "quality_drops_sample": [
+    "offdomain:info@glittenberg-gmbh.de<-meinspritzgiesser.de",
+    "junk_local:toinfo@glittenberg-gmbh.de"
+  ]
+}
