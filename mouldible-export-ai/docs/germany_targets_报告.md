@@ -1,3 +1,43 @@
+## Website/named Kontakt Batch 117
+
+> 合并前重读 CSV（基线 **4279** / **2999**；Batch122dir 后父代理口径 4279/2988 hosts~2999）。勿用 4271。本批网站轨净增 **+2** → 瞬时 **4281** / **3001**；live 现为 **4281** / **3001**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4281** |
+| high / medium | **4007** / **274** |
+| 唯一域名 | **3001** |
+| 含电话 / 含城市 | **3694** / **3769** |
+| 非 .de 邮箱 | **1146** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3967** |
+| design_studio | **177** |
+| oem_buyer | **102** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+2**（相对基线 4279）
+
+- `info@baer-cad.de` — BÄR-CAD Inh. Manfred Bär (Eichstetten) — `design_studio` / high
+- `info@hiltel-formentechnik.com` — Hiltel Formentechnik GmbH (Simmelsdorf) — `design_studio` / high
+
+### 本批质量剔除（节选）
+
+- `info@ke-services.de` — DROP wrong vertical — Entrümpelung/Umzüge Herford (LinkedIn false friend)
+- `info@wk-konstruktion.de / w.kraus@` — DROP generic Konstruktion Stolberg — no Spritz/Formenbau ICP on site
+- `bewerbung@spindler-formenbau.de` — DROP Bewerbung/HR
+- `info@zi-systeme.de / info@sauer-tooldesign.de / info@kb-hiemer.de` — SKIP already known
+- `zegla/jama named contacts` — SKIP phones only — no named emails live; info@ already known
+- `reddikowsky / rommel-formen / formenbau-rapp` — SKIP dead/403 — never invent
+- `info@thb-konstruktionsbuero.de` — SKIP site unreachable — never invent
+
+---
+
 ## Website/named Kontakt Batch 116
 
 > 合并前重读 CSV（基线 **4267** / **2990**；Batch121dir 后父代理口径 4267/2979 hosts~2990）。勿用 4260/4254。本批网站轨净增 **+4** → 瞬时 **4271** / **2993**；live 现为 **4271** / **2993**。

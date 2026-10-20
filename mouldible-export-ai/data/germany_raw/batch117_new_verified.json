@@ -1,0 +1,28 @@
+[
+  {
+    "company": "BÄR-CAD Inh. Manfred Bär",
+    "domain": "baer-cad.de",
+    "email": "info@baer-cad.de",
+    "email_source_url": "https://www.baer-cad.de/Seiten/Impressum.html",
+    "contact_name": "Manfred Bär",
+    "job_title": "Inhaber",
+    "phone": "+49 (0)7663 607370",
+    "city": "Eichstetten",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch117: NEW domain; live Impressum/Kontakt; Spritzgussformen / Schäumformen / Heißkanal CAD-Konstruktion; DE BW Endingerstraße 9, 79356 Eichstetten; USt-IdNr. DE221337818"
+  },
+  {
+    "company": "Hiltel Formentechnik GmbH",
+    "domain": "hiltel-formentechnik.com",
+    "email": "info@hiltel-formentechnik.com",
+    "email_source_url": "https://hiltel-formentechnik-gmbh.onepage.me/impressum",
+    "contact_name": "Michael Hiltel",
+    "job_title": "Geschäftsführer",
+    "phone": "+49 (0) 9155 92699-0",
+    "city": "Simmelsdorf",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch117: NEW domain; live Impressum (onepage) + Kontakt; Spezialist Konstruktion Spritzgießwerkzeuge CAD/CAE/CAM; DE BY Am Tucherschloß 8, 91245 Simmelsdorf; HRB 23374 Nürnberg; USt DE253636063"
+  }
+]
