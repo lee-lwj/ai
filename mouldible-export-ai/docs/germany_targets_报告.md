@@ -1,72 +1,72 @@
 # Germany ICP Targets — 报告
 
-## 1. 累计交付数量（如实，至 Batch 80）
+## 1. 累计交付数量（如实，至 Batch 81）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数（累计） | **2924** |
-| 本轮净增（相对目录 Batch80dir 合并后基线 2912） | **+12** |
-| 本轮因已在 master/targets 跳过 | **1** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **9** |
-| 其中 high / medium | **2748** / **176** |
-| 唯一域名 | **2032** |
-| 非 .de 邮箱（累计） | **646** |
-| 含电话 / 含城市 | **2580** / **2682** |
+| 去重后邮箱总数（累计） | **3035** |
+| 本轮净增（相对目录 Batch81dir 合并后基线 3022） | **+13** |
+| 本轮因已在 master/targets 跳过 | **2** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **8** |
+| 其中 high / medium | **2847** / **188** |
+| 唯一域名 | **2118** |
+| 非 .de 邮箱（累计） | **686** |
+| 含电话 / 含城市 | **2669** / **2778** |
 | 本轮新域名贡献 | **1** |
 
 ### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **2696** |
+| overseas_peer_overflow | **2807** |
 | design_studio | **129** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
 ---
 
-## 2. 本轮方法（Batch 80 · Website/named Kontakt）
+## 2. 本轮方法（Batch 81 · Website/named Kontakt）
 
-1. **基线**：目录 Batch80dir 合并后 **重读 CSV** → **2912 / 2031**，再合并本轮。
-2. **Expand 队列**：仍空；wave1 ~55 unprobed tooling singles → 3 promising domains after gate。
+1. **基线**：目录 Batch81dir 合并后 **重读 CSV** → **3022 / 2117**，再合并本轮。
+2. **Expand 队列**：仍空；wave1 ~55 unprobed tooling/Kunststoff singles。
 3. **Named Kontakt / Web 定向**：
-   - Sauer & Sohn Dieburg Formentechnik（info@ + Schultheis GF + Schneider；Lambracht 等页面 404/redirect 本轮不取）
-   - Werkzeugbau Berger Salzkotten（Neubert/Haacke GF + Klocke/Berhorst Projekt + J.Berger Konstruktion；Einkauf 剔除）
-   - Dressel Kunststofftechnik Selb（Lang/S.Dressel GF + Kiesl Prok. + A.Dressel Vertrieb；Bewerbung 剔除）
-   - Schröder+Heidler `info@` → **master skip**（已有 vertrieb@）
-4. **质量门**：Einkauf/Bewerbung；doettling.de 现为 Beratung/Mediation（非 Werkzeugbau）；formtechnik-gmbh.de 为 Blech/Umform；Croner/FBB cloak。
+   - Auer Kunststofftechnik Olching（Peter Auer GF + Grundmann/Binzer Verkauf + Geiger）
+   - D+S Werkzeugbau VS-Schwenningen（Daume GF/Prok. + Teras Vertrieb + Aldinger + Rosenberg Projekt + Beck Fertigung；`info@` master-skip）
+   - Autenrieth Heroldstatt（Schilling/Müller Vertrieb + Lehner Auftragsbearbeitung；`steffen@` master-skip）
+4. **质量门**：Kortenbach Stanz/Umform；AW-Color Farbkonzentrate；Bernauer Laminate；Formzeug Logistik；Bergmann phones-only；Croner/FBB cloak。
 
 | 来源 | 尝试 | 可用命中 |
 |---|---:|---:|
-| wave1 single-email peers | ~55 | **+9**（Berger+Dressel） |
-| named Web（Sauer/Schröder/Formtechnik） | 多页 | **+3** Sauer；Schröder master-skip；Formtechnik 错垂剔除 |
+| wave1 singles | ~55 | **+7**（Auer+Autenrieth） |
+| named Web（D+S/Kortenbach/Formzeug…） | 多页 | **+6** D+S；其余 skip/drop |
 
-### 本轮新增（+12）
+### 本轮新增（+13）
 
-- `info@sauerundsohn.de` · Dieburg ·   · high
-- `b.schultheis@sauerundsohn.de` · Dieburg · Benjamin Schultheis · high
-- `r.schneider@sauerundsohn.de` · Dieburg · Ralph Schneider · high
-- `m.neubert@wzb-berger.de` · Salzkotten-Scharmede · Michael Neubert · high
-- `m.haacke@wzb-berger.de` · Salzkotten-Scharmede · Marius Haacke · high
-- `n.klocke@wzb-berger.de` · Salzkotten-Scharmede · Norbert Klocke · high
-- `f.berhorst@wzb-berger.de` · Salzkotten-Scharmede · Florian Berhorst · high
-- `j.berger@wzb-berger.de` · Salzkotten-Scharmede · Jens Berger · high
-- `d.lang@dressel-kt.de` · Selb · Daniel Lang · high
-- `s.dressel@dressel-kt.de` · Selb · Susanne Dressel · high
-- `t.kiesl@dressel-kt.de` · Selb · Tina Kiesl · high
-- `a.dressel@dressel-kt.de` · Selb · Annette Dressel · high
+- `peter.auer@auer-kunststofftechnik.de` · Olching · Peter Auer · high
+- `oliver.grundmann@auer-kunststofftechnik.de` · Olching · Oliver Grundmann · high
+- `sandra.binzer@auer-kunststofftechnik.de` · Olching · Sandra Binzer · high
+- `christine.geiger@auer-kunststofftechnik.de` · Olching · Christine Geiger · high
+- `j.daume@ds-werkzeugbau.de` · Villingen-Schwenningen · Jörg Daume · high
+- `h.daume@ds-werkzeugbau.de` · Villingen-Schwenningen · Heike Daume · high
+- `j.teras@ds-werkzeugbau.de` · Villingen-Schwenningen · Jürgen Teras · high
+- `l.aldinger@ds-werkzeugbau.de` · Villingen-Schwenningen · Laura Aldinger · high
+- `j.rosenberg@ds-werkzeugbau.de` · Villingen-Schwenningen · Jan Rosenberg · high
+- `m.beck@ds-werkzeugbau.de` · Villingen-Schwenningen · Martin Beck · high
+- `j.schilling@autenrieth-kunststofftechnik.de` · Heroldstatt ·   · high
+- `m.lehner@autenrieth-kunststofftechnik.de` · Heroldstatt ·   · high
+- `r.mueller@autenrieth-kunststofftechnik.de` · Heroldstatt · Ronald Müller · high
 
 ### 本轮新域名
 
-- `sauerundsohn.de`
+- `ds-werkzeugbau.de`
 
-### skipped-already-known（1）
+### skipped-already-known（2）
 
-`info@schroeder-heidler.de`
+`info@ds-werkzeugbau.de`, `steffen@autenrieth-kunststofftechnik.de`
 
 ### 质量剔除（节选）
 
-**9**：Berger Einkauf；Dressel Bewerbung；doettling Beratung（非 Werkzeugbau）；formtechnik-gmbh Blech/Umform；Sauer Formenbau named 页面不可达；Croner/FBB cloak…
+**8**：Kortenbach Stanz/Umform；AW-Color；Bernauer Laminate；Formzeug Logistik；Bergmann 无邮箱；Croner/FBB cloak…
 
 ---
 
@@ -74,19 +74,41 @@
 
 - `data/germany_targets.csv` / `data/germany_targets.xlsx`
 - `docs/germany_targets_报告.md`
-- `data/germany_raw/batch80_new_verified.json`
-- `data/germany_raw/batch80_expand_results.json`
-- `data/germany_raw/batch80_merge_log.json`
-- `data/germany_raw/batch80_candidates.json` / `batch80_probe_wave1.json`
-- `data/germany_raw/batch80_quality_drops.json`
-- `data/germany_raw/queue_expand_de_remaining.txt`（B81：empty expand）
+- `data/germany_raw/batch81_new_verified.json`
+- `data/germany_raw/batch81_expand_results.json`
+- `data/germany_raw/batch81_merge_log.json`
+- `data/germany_raw/batch81_candidates.json` / `batch81_probe_wave1.json`
+- `data/germany_raw/batch81_quality_drops.json`
+- `data/germany_raw/queue_expand_de_remaining.txt`（B82：empty expand）
 
 ---
 
 ## 4. 状态
 
-**应有尽有 — 尚未完成。** Expand 仍空。B81 继续 named Kontakt；cloak 观察；Sauer Formenbau named 若页面恢复可补；doettling.de 域名需复核（现站非 Werkzeugbau）。
+**应有尽有 — 尚未完成。** Expand 仍空。B82 继续 named Kontakt；cloak 观察；Bergmann 若公开邮箱可补。
 
+
+---
+
+## 目录/展会轨 Batch81dir
+
+> 合并前重读 CSV（Website B80 后基线 **2924** / **2032**）。合并后基线供 Website B81：**3022** / **2117**。
+
+### 累计（Batch81dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3022** |
+| 唯一域名 | **2117** |
+| 本轨净增（相对 2924） | **+98** |
+
+### 本轨要点
+
+见 `data/germany_raw/batch81dir_merge_log.json` / `batch81dir_hits.json`。
+
+### 状态
+
+Batch81dir 已合并；Website Batch 81 在其上再合并 **+13** → 累计 **3035 / 2118**。
 
 ---
 
