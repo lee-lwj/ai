@@ -1,3 +1,48 @@
+## Website/named Kontakt Batch 109
+
+> 合并前重读 CSV（基线 **4103** / **2865**；Batch109dir 后邮箱 **4103**，父代理域名口径曾报 2849；本机重计域名 **2865**）。
+
+### 累计（Batch 109 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4108** |
+| high / medium | **3847** / **261** |
+| 唯一域名 | **2870** |
+| 含电话 / 含城市 | **3534** / **3619** |
+| 非 .de 邮箱 | **1130** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3826** |
+| design_studio | **168** |
+| oem_buyer | **80** |
+| sourcing | **34** |
+
+### 本批净增 **+5**
+
+- `e.jakimenko@ej-konstruktionsbuero.de` — Konstruktionsbüro Eugen Jakimenko (Espelkamp) — `design_studio` / high
+- `info@cad-plast.de` — CAD-Plast GmbH (Aichach/Ecknach) — `oem_buyer` / high
+- `info@radtke-konstruktionen.de` — Konstruktionsbüro Horst Radtke (Espelkamp) — `design_studio` / high
+- `info@kraemer-e.de` — Krämer Engineering Solutions GmbH (Jevenstedt) — `oem_buyer` / high
+- `info@ewkon.de` — E.W. Konstruktionen / EWK (Hille) — `design_studio` / high
+
+### 本批质量剔除（节选）
+
+- `info@formenschmiede.com / Formenschmiede` — DROP Silikon/Juwelier FormenSchmiede — not Spritzguss ICP
+- `info@selve.de` — DROP Rollladen-primary (SELVE)
+- `kontakt@formenbau-bockenem.de / Bockenem` — DROP Druckguss/Kokille-primary
+- `info@hkr-werkzeugtechnik.de / j.dittrich@` — DROP unreachable / live verify fail
+- `kb-das.de David Schuster` — DROP empty E-Mail field on home+Impressum — never invent
+- `info@midena-formenbau.de / info@rocolani.de` — SKIP master-optional
+- `d.marx@ / l.schuck@ rausch-formenbau` — DROP Buchhaltung/Verwaltung / Einkauf (info@+a.marx already known)
+- `werkzeuge@pakulla FAQ-only` — SKIP invent — FAQ invent-ish; info@ already known
+- `info@spritzgusswerkzeug-konstruktion.de` — SKIP prior continuum (non-DE country-box / known skip)
+- `h.radtke@radtke-konstruktionen.de` — SKIP invent — only on third-party PDF directory; not live on own site
+
+---
 ## Website/named Kontakt Batch 108
 
 > 合并前重读 CSV（基线 **4052** / **2820**；Batch107 后 4052/2820）。

@@ -1,0 +1,67 @@
+[
+  {
+    "company": "Konstruktionsbüro Eugen Jakimenko",
+    "domain": "ej-konstruktionsbuero.de",
+    "email": "e.jakimenko@ej-konstruktionsbuero.de",
+    "email_source_url": "https://www.ej-konstruktionsbuero.de/",
+    "contact_name": "Eugen Jakimenko",
+    "job_title": "Inhaber / CAD Konstruktion Spritzgusswerkzeuge",
+    "phone": "+49 176 3017 0866",
+    "city": "Espelkamp",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch109: NEW domain; live on home + Datenschutz (Verantwortliche Stelle DE Espelkamp); CAD Konstruktion Spritzgusswerkzeuge; impressum path 404 but Datenschutz Impressum-equivalent"
+  },
+  {
+    "company": "CAD-Plast GmbH",
+    "domain": "cad-plast.de",
+    "email": "info@cad-plast.de",
+    "email_source_url": "http://www.cad-plast.de/impressum.html",
+    "contact_name": "Peter Rappmannsberger / Jürgen Schick",
+    "job_title": "Geschäftsführer / Formenbau & Spritzwerkzeuge",
+    "phone": "+49 8251 8880-0",
+    "city": "Aichach/Ecknach",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch109: NEW domain; live Impressum+Kontakt+Formenbau (WebFetch; curl egress blocked); Prototypen/Vorserien/Serien-Spritzgießwerkzeuge 2K Exjection; DE Bayern HRB Augsburg"
+  },
+  {
+    "company": "Konstruktionsbüro Horst Radtke",
+    "domain": "radtke-konstruktionen.de",
+    "email": "info@radtke-konstruktionen.de",
+    "email_source_url": "https://radtke-konstruktionen.de/impressum.html",
+    "contact_name": "Horst Radtke",
+    "job_title": "Inhaber / CAD Konstruktion Spritzgusswerkzeuge",
+    "phone": "+49 5743 9339111",
+    "city": "Espelkamp",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch109: NEW domain; live home+Impressum info [at] radtke-konstruktionen.de; Spritzguss Steckverbinder 2K Insert/Outsert Fluidtechnik NX/Cimatron; DE NRW Espelkamp"
+  },
+  {
+    "company": "Krämer Engineering Solutions GmbH",
+    "domain": "kraemer-e.de",
+    "email": "info@kraemer-e.de",
+    "email_source_url": "https://www.kraemer-e.de/impressum/",
+    "contact_name": "",
+    "job_title": "Formenbau & Konstruktionsbüro / Spritzgusswerkzeuge",
+    "phone": "+49 4337 9197856",
+    "city": "Jevenstedt",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch109: NEW domain; live home+Impressum info@; Engineering Konstruktion Werkzeugbau Bauteilfertigung Spritzgusswerkzeuge; DE SH Jevenstedt HRB KI"
+  },
+  {
+    "company": "E.W. Konstruktionen / EWK",
+    "domain": "ewkon.de",
+    "email": "info@ewkon.de",
+    "email_source_url": "https://ewkon.de/",
+    "contact_name": "",
+    "job_title": "Konstruktionsbüro Werkzeug- und Kunststofftechnik",
+    "phone": "+49 5734 96940-0",
+    "city": "Hille",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch109: NEW domain; live home info[at]ewkon.de + Impressum; Spritzguss/Druckguss/Silikon Werkzeugkonstruktion + Cadmould; DE NRW Hille (Druckguss co but Spritz primary design_studio)"
+  }
+]
