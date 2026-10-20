@@ -1,3 +1,87 @@
+## 目录/展会轨 Batch133dir
+
+> 合并前重读 CSV（直播基线 **4466** / **3134**；Website Batch128 steering +10）。合并后基线：**4492** / **3151**（hosts ~3161）。
+
+### 累计（Batch133dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4492** |
+| high / medium | **4212** / **280** |
+| 唯一域名 | **3151** |
+| 含电话 / 含城市 | **3874** / **3977** |
+| 非 .de 邮箱 | **1197** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **4131** |
+| design_studio | **196** |
+| oem_buyer | **130** |
+| sourcing | **35** |
+
+### 本轨成果（Batch133dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **55** |
+| 有邮箱命中 | **38** |
+| 本轨净增邮箱 | **26**（high **26** / medium **0**） |
+| 相对基线 4466/3134 | **+26** / **+17** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B132 域名队列 | 空 |
+| Lüneburger Heide/Elbe-Weser/Ostfriesland 微城 × kw | 有效（~80 城，DDG/Bing 720 + Maps/EP/GS） |
+| Bing Maps / Europages / Gelbe Seiten | 部分（maps 60 / ep 0 / gs 1） |
+| WebSearch 具名解析 | Plas-tech/KS Aurich/MSW Winsen/Syntech/Röders/Blau-LMB/emco/UNICAD 等 |
+| Fakuma/VDWF / WLW | 未用 / 跳过 |
+| 产量 | 55 候选核验 / 38 命中 / 质量门后 **+26**；剔 Thermoform/Recycling/GFK/US/Druckguss-role/Verwaltung |
+
+### 本轨新增邮箱（共 26）
+
+- `info@plas-tech.de` (high, overseas_peer_overflow) · Winsen/Aller
+- `info@ks-praezisionstechnik.de` (high, overseas_peer_overflow) · Aurich
+- `msw@msw-winsen.de` (high, overseas_peer_overflow) · Winsen/Luhe
+- `info@syntech-plastics.com` (high, overseas_peer_overflow) · Steinfeld (Oldenburg)
+- `cengiz.karaoglu@syntech-plastics.com` (high, overseas_peer_overflow) · Steinfeld (Oldenburg)
+- `cueneyt.karaoglu@syntech-plastics.com` (high, overseas_peer_overflow) · Steinfeld (Oldenburg)
+- `hueseyin.karaoglu@syntech-plastics.com` (high, overseas_peer_overflow) · Steinfeld (Oldenburg)
+- `projekt.spritzguss@roeders.com` (high, overseas_peer_overflow) · Soltau
+- `vertrieb.spritzguss@roeders.com` (high, overseas_peer_overflow) · Soltau
+- `qualitaet.spritzguss@roeders.com` (high, overseas_peer_overflow) · Soltau
+- `info@blau-group.com` (high, overseas_peer_overflow) · Grevenbroich / Leer
+- `info.leer@blau-group.com` (high, overseas_peer_overflow) · Leer
+- `info@emco.de` (high, overseas_peer_overflow) · Lingen (Ems)
+- `mail@unicadgmbh.de` (high, design_studio) · Walsrode
+- `info@a-form.de` (high, overseas_peer_overflow) · Mildenau
+- `info@becker-kunststofftechnik.com` (high, overseas_peer_overflow) · Neunkirchen
+- `formenbau@keiels.de` (high, overseas_peer_overflow) · Attenhausen
+- `info@ksn-kunststofftechnik.de` (high, overseas_peer_overflow) · Wertheim
+- `klaus.sadowski@ksn-kunststofftechnik.de` (high, overseas_peer_overflow) · Wertheim
+- `contact@moldnex.de` (high, design_studio) · Frankenberg
+- `info@oberhofer-kunststofftechnik.de` (high, overseas_peer_overflow) · Schönau
+- `info@geschwentner-form.de` (high, overseas_peer_overflow) · Deilingen
+- `anfrage@geschwentner-form.de` (high, overseas_peer_overflow) · Deilingen
+- `qs@geschwentner-form.de` (high, overseas_peer_overflow) · Deilingen
+- `info@gerken-konstruktionen.de` (high, design_studio) · Bad Lippspringe
+- `udo.roszak@rowiform.com` (high, overseas_peer_overflow) · Bad Salzuflen
+
+### 产物
+
+- `data/germany_raw/batch133dir_*.json`
+- `data/germany_raw/batch133dir_next_search_seeds.json`
+
+### 状态
+
+Batch133dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch134dir（下一城带：Münsterland/Emsland/Teutoburger Wald）。全国目录轨饱和仍高，本带仍挖出 **+26** 新邮（含 Plas-tech Winsen/Aller、KS Aurich、MSW Winsen/Luhe、Syntech Steinfeld、Röders Soltau Spritz、Blau/LMB Leer、emco Lingen、UNICAD Walsrode 等）。多数带内大户已在库（jama/atka/schlarmann/sovinec/liebke/imtec/flm/fuxen/roeders.de）。
+
+---
 ## Website/named Kontakt Batch 128
 
 > 合并前重读 CSV（任务初口径 **4456** / **3130** domains ~**3140** hosts；Directory Batch133dir 未再抬升）。本批按 live 合并，网站轨净增 **+10** → **4466** / **3133** domains (~**3144** hosts)。
