@@ -1,0 +1,42 @@
+{
+  "cities_remaining_hint": [
+    "Mönchengladbach",
+    "Krefeld",
+    "Meerbusch",
+    "Kaarst",
+    "Neuss",
+    "Dormagen",
+    "Grevenbroich",
+    "Rommerskirchen",
+    "Pulheim",
+    "Frechen",
+    "Hürth",
+    "Brühl",
+    "Wesseling",
+    "Bornheim",
+    "Alfter",
+    "Königswinter",
+    "Bad Honnef",
+    "Unkel",
+    "Remagen",
+    "Sinzig",
+    "Bad Breisig",
+    "Andernach",
+    "Mayen",
+    "Koblenz",
+    "Bendorf",
+    "Neuwied",
+    "Linz am Rhein",
+    "Bad Hönningen",
+    "Rheinbrohl"
+  ],
+  "keywords": [
+    "Formenbau",
+    "Spritzgusswerkzeuge",
+    "Präzisionsformenbau",
+    "Kunststoffspritzguss",
+    "Werkzeugbau Spritzguss"
+  ],
+  "domains_queued": 8,
+  "note": "Avoid Druckguss/Stanz; GS exhausted; Niederrhein/Rhein downstream cities next"
+}

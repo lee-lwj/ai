@@ -953,6 +953,71 @@ Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）�
 
 ---
 
+## 目录/展会轨 Batch120dir
+
+> 合并前重读 CSV（Website B115 后直播基线 **4254** / **2966**；指令预期 4254）。合并后基线：**4260** / **2972**。
+
+### 累计（Batch120dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4260** |
+| high / medium | **3986** / **274** |
+| 唯一域名 | **2972** |
+| 含电话 / 含城市 | **3676** / **3748** |
+| 非 .de 邮箱 | **1144** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3952** |
+| design_studio | **173** |
+| oem_buyer | **100** |
+| sourcing | **35** |
+
+### 本轨成果（Batch120dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **24** |
+| 有邮箱命中 | **8** |
+| 本轨净增邮箱 | **6**（high **5** / medium **1**） |
+| 相对基线 4254/2966 | **+6** / **+6** 域名 |
+| 域名队列剩余 | **8** |
+| gsbiz ids 剩余 | **0** |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| B119 域名队列 | 有效（7，via b119_domain_queue） |
+| Rheinland 城 × 关键词 DDG/Bing | 有效（search pages 60） |
+| Bing Maps | 部分（15） |
+| Europages DE | 有效（14；外国 peer 已剔） |
+| WLW / GS | 跳过 / 耗尽 |
+
+### 本轨新增邮箱（共 6）
+
+- `info@plastec-technology.com` (high)
+- `info@singold-kunststoff.de` (high)
+- `info@ks-engineering-tools.de` (high)
+- `info@spritzgusswerkzeuge.de` (high)
+- `info@werkzeugbau-hotz.de` (high)
+- `info@schneider-technologies.de` (medium)
+
+### 产物
+
+- `data/germany_raw/batch120dir_*.json`
+- `data/germany_raw/batch120dir_next_search_seeds.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+
+### 状态
+
+Batch120dir 已合并；gsbiz **0**；域名队列 **8** 供 Batch121dir。
+
+---
+
 ## 目录/展会轨 Batch119dir
 
 > 合并前重读 CSV（Website B114 后直播基线 **4237** / **2955**；指令预期 4237）。合并后基线：**4247** / **2965**。

@@ -1,0 +1,35 @@
+{
+  "n_domains": 8,
+  "n_gsbiz": 0,
+  "domain_queue": [
+    "werkzeugbau-schulz.de",
+    "werkzeugbau-schmidt.com",
+    "werkzeugbau-wolf.de",
+    "withoeft-werkzeuge.de",
+    "werkzeugschmiede24.de",
+    "formex.de",
+    "bannerkunststoff.com",
+    "emk-kunststofftechnik.de"
+  ],
+  "next_search_seeds": "data/germany_raw/batch120dir_next_search_seeds.json",
+  "expand_sources_worked": [
+    "b119_domain_queue",
+    "ddg_bing_rheinland",
+    "maps_partial",
+    "europages"
+  ],
+  "expand_sources_skipped": [
+    "wlw",
+    "gs_exhausted"
+  ],
+  "quality_drops_sample": [
+    "portal_email:info@weborbis-webdesign.de"
+  ],
+  "queue_via": {
+    "b119_domain_queue": 7,
+    "search": 4,
+    "ep": 13
+  },
+  "reseed_note": "Broader extract after first pass returned 0; EP soft + KEEP from all pages",
+  "supplemental_seed": "Niederrhein cities×kw DDG/Bing + alt EP slugs (queue-only for B121)"
+}
