@@ -1,1028 +1,281 @@
-# Germany ICP Targets — 报告
+## 目录/展会轨 Batch91dir
 
-## 1. 累计交付数量（如实，至 Batch 89）
+> 合并前重读 CSV（Website B92 后基线 **3654** / **2506**）。合并后基线供 Website B93：**3657** / **2509**。
 
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数（累计） | **3604** |
-| 本轮净增（相对目录 Batch88dir 合并后基线 3597） | **+7** |
-| 本轮因已在 master/targets 跳过 | **0** |
-| 本轮质量剔除（死站/错垂/cloak 等） | **12** |
-| 其中 high / medium | **3372** / **232** |
-| 唯一域名 | **2491** |
-| 非 .de 邮箱（累计） | **953** |
-| 含电话 / 含城市 | **3128** / **3239** |
-| 本轮新域名贡献 | **5** |
-
-### 按 `icp_tag`（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **3369** |
-| design_studio | **136** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
----
-
-## 2. 本轮方法（Batch 89 · Website/named Kontakt）
-
-1. **基线**：目录 Batch88dir 合并后 **重读 CSV** → **3597 / 2486**（非用户提示的 3552，亦非 Batch87dir 的 3560）。
-2. **Expand 队列**：仍空；DE tooling singles 几乎耗尽（余 CH/AT）。
-3. **Named Kontakt / Web 定向**：
-   - Heck & Becker Dautphetal（Druckguss-Formenbau OEM peer）— **新域名**
-   - Thier GmbH Schömberg（Formenbau+Spritzguss；CF 解码 .com/.de）— **新域名×2**
-   - Mues Products & Moulds Kolbermoor（Spritzgießformen；非 Neubrandenburg 冲压）— **新域名**
-   - KPS `thilo.drechsler@` 3D-Druck（Personal/Buchhaltung 剔除）
-   - Borkott GF `fb@`（Assistentin 剔除）
-   - Fischer Werkzeugbau Rimsting `info@wzb-fischer.de` — **新域名**
-4. **质量门**：HTML 注释-only Stüwe；Aurora 再生料；Henneke Corian；Mues-Gruppe/Kortenbach 冲压；Assistentin/Finanzen/Personal/Versand；closed Kleber；cloak invent。
-
-| 来源 | 尝试 | 可用命中 |
-|---|---:|---:|
-| wave1 thin multi peers | ~21 | Stüwe(注释 DROP)/Aurora(错垂 DROP) |
-| named Web（Heck/Thier/Mues-PM/Borkott/Fischer/Wesko…） | 多页 | **+7** 入库 |
-
-### 本轮新增（+7）
-
-- `info@heck-becker.com` · Dautphetal ·    · high
-- `info@thier-gmbh.com` · Schömberg · David Thier · high
-- `info@thier-gmbh.de` · Schömberg · David Thier · high
-- `info@mues-pm.de` · Kolbermoor ·    · high
-- `thilo.drechsler@kps-kunststofftechnik.de` · Scheibenberg · Thilo Drechsler · high
-- `fb@borkott.de` · Solingen · Frank Borkott · high
-- `info@wzb-fischer.de` · Rimsting · Johann Fischer · high
-
-### 本轮质量剔除（摘要）
-
-- a.stuewe@formen-undwerkzeugbau.de (Andrea Stüwe): DROP — HTML comment only on Kontakt, not live-visible
-- aurora-kunststoffe.de (19 named): DROP Rohstoff/Regrind/Extrusion/Mahlbetrieb (wrong vertical like XIFA)
-- service@henneke.com: DROP Corian/Hi-Macs Mineralwerkstoff Formenbau (not Spritzguss peer)
-- mues-gruppe.de johannes.peter/vertrieb/andre.wellsandt: DROP Stanz/Umform Blech (Neubrandenburg); kept mues-pm.de Spritzguss instead
-- kortenbach.de jens/bastian: DROP Stanz/Tiefzieh/Umform Solingen
-- bw@borkott.de (Birgit Wehrens): DROP Assistentin der Geschäftsleitung
-- sebastian.pfueller@wesko-gmbh.de: DROP Finanzen/Personal
-- ines.erdtel@ / dominik.gross@wesko: DROP unclear role / Prüftechnik-AV only
-- a.fuerst@formzeug.de: DROP Lager-Logistik
-- FUKS/Heim/Gollmer/Fütterer/OM/B+S/TriWeFo named: Already absorbed by Batch87dir/prior; no net new
-- kleber-formenbau.de: DROP site marks permanently closed
-- warenausgang@p-w-f.de: DROP Versand
-
----
-
-## 3. 下轮（Batch 90）提示
-
-Expand still empty; tooling singles ~8 CH/AT only. Prefer web-search named Kontakt on unharvested Spritzguss Formenbau peers. Watch Batch89dir. Avoid Stanz/Umform, Rohstoff, Corian, Assistentin/Buchhaltung/Einkauf/Versand, cloak invent, HTML-comment-only.
-
----
-
-_报告更新：2026-10-21 01:42 Asia/Hong_Kong_
-
----
-
-## 目录/展会轨 Batch88dir
-
-> 合并前重读 CSV（基线 **3560** / **2460**；Website B89 当时尚未改写）。合并后基线供 Website B89/B90：**3597** / **2486**。
-
-### 累计（Batch88dir 合并后）
+### 累计（Batch91dir 合并后）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数 | **3597** |
-| high / medium | **3365** / **232** |
-| 唯一域名 | **2486** |
-| 含电话 / 含城市 | **3121** / **3232** |
-| 非 .de 邮箱 | **951** |
+| 去重后邮箱总数 | **3657** |
+| high / medium | **3418** / **239** |
+| 唯一域名 | **2509** |
+| 含电话 / 含城市 | **3174** / **3281** |
+| 非 .de 邮箱 | **971** |
 
 ### 按 icp_tag（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3362** |
+| overseas_peer_overflow | **3422** |
 | design_studio | **136** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
-### 本轨成果（Batch88dir）
+### 本轨成果（Batch91dir）
 
 | 指标 | 数值 |
 |---|---:|
 | Impressum 核验 | **120** |
-| 有邮箱命中 | **40** |
-| 本轨净增邮箱 | **37**（high **36** / medium **1**） |
-| 相对基线 3560 | **+37** |
+| 有邮箱命中 | **16** |
+| 本轨净增邮箱 | **3**（high **2** / medium **1**） |
+| 相对 Website B92 基线 3654 | **+3** |
+| 再播种剩余 | **85** |
+| 队列剩余 | **85** |
+
+### 本轮队列来源构成
+
+| 来源 | 数量 |
+|---|---:|
+| fakuma | **1** |
+| master_strong_icp | **1** |
+| broader_master | **118** |
+
+### 方法
+
+1. 尝试再播种：vdwf_data_www, fakuma_lists, europages_cache, kunststoffweb_cleaned, master_strong_icp（多数已核验过，仅补入 **2** 个新 ICP 候选）  
+2. 排空 **120** 域名（118 broader master + 2 ICP）→ Impressum/Kontakt  
+3. append-dedupe（合并前重读 **3654/2506** = Website B92）  
+4. WLW 跳过（CAPTCHA）
+
+### 本轨新增邮箱（共 3）
+
+- `info@speth-zerspanung.de`
+- `info@giemotec.de`
+- `info@gizeh.com`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- Fakuma/VDWF/Europages 缓存 / KunststoffWeb 清理后几乎无新域名（已在 B75–B90 耗尽）
+- broader master 继续收益递减
+- 见 `data/germany_raw/batch91dir_merge_log.json` / `batch91dir_hits.json`
+
+### 产物
+
+- `data/germany_raw/batch91dir_impressum.json`
+- `data/germany_raw/batch91dir_verified.json` / `batch91dir_hits.json`
+- `data/germany_raw/batch91dir_merge_log.json` / `batch91dir_reseed.json`
+
+### 状态
+
+Batch91dir 已合并；队列剩余 **85** 供 Batch92dir。
+
+---
+
+## 目录/展会轨 Batch90dir
+
+> 合并前重读 CSV（Website B91 后基线 **3645** / **2504**）。合并后基线供 Website B92：**3646** / **2505**。
+
+### 累计（Batch90dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3646** |
+| high / medium | **3408** / **238** |
+| 唯一域名 | **2505** |
+| 含电话 / 含城市 | **3165** / **3270** |
+| 非 .de 邮箱 | **969** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3411** |
+| design_studio | **136** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch90dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **120** |
+| 有邮箱命中 | **11** |
+| 本轨净增邮箱 | **1**（high **1** / medium **0**） |
+| 相对 Website B91 基线 3645 | **+1** |
 | 再播种剩余 | **120** |
 | 队列剩余 | **120** |
 
 ### 方法
 
 1. 排空上轮 **120** 个 broader master `.de/.at/.ch` → Impressum/Kontakt  
-2. append-dedupe（合并前重读 **3560/2460**）  
-3. 质量剔除：web.de / freenet 门户、医院等非 ICP（broader master 噪音）  
+2. append-dedupe（合并前重读 **3645/2504** = Website B91）  
+3. 命中率极低（多数 no_email / off-domain）；仅 **+1** 入库  
 4. 续播种 broader master → 队列 **120**；WLW 跳过
 
-### 本轨新增邮箱（节选前 25 / 共 37）
+### 本轨新增邮箱（共 1）
 
-- `info@helios-ac.ch`
-- `admin@digisens.ch`
-- `admin@mafix.ch`
-- `automotive@preh.de`
-- `contact@nose.ch`
-- `commercial@rmontavon.ch`
-- `contact@rmontavon.ch`
-- `corresp@schallersa.ch`
-- `info@werba-print.de`
-- `daten@lmd-innovation.de`
-- `dave@wats-on.de`
-- `post@schoenmueller.de`
-- `contact@dixi.ch`
-- `communication@he-arc.ch`
-- `juridique@he-arc.ch`
-- `office@hadi.at`
-- `presse@bingo-ev.de`
-- `support@bingo-ev.de`
-- `info@rudolfpuetzergmbh.de`
-- `hewa@hewa-ft.de`
-- `info@tectro.de`
-- `info@hund.de`
-- `info@realag.ch`
-- `info@adax.ch`
-- `info@admo.ch`
-… 另有 12 个，见 `data/germany_raw/batch88dir_hits.json`
+- `contact@iveyfrank.de`
 
 ### 阻塞 / 备注
 
 - WLW CAPTCHA — 跳过
-- broader master 含门户噪音，已剔除 web.de/freenet/hcuge
-- 见 `data/germany_raw/batch88dir_merge_log.json` / `batch88dir_hits.json`
+- broader master 收益递减；建议下轮改非-WLW 目录/展会源或 OEM 定向
+- 见 `data/germany_raw/batch90dir_merge_log.json` / `batch90dir_hits.json`
 
 ### 产物
 
-- `data/germany_raw/batch88dir_impressum.json`
-- `data/germany_raw/batch88dir_verified.json` / `batch88dir_hits.json`
-- `data/germany_raw/batch88dir_merge_log.json` / `batch88dir_reseed.json`
+- `data/germany_raw/batch90dir_impressum.json`
+- `data/germany_raw/batch90dir_verified.json` / `batch90dir_hits.json`
+- `data/germany_raw/batch90dir_merge_log.json` / `batch90dir_reseed.json`
 
 ### 状态
 
-Batch88dir 已合并；队列剩余 **120** 供 Batch89dir。
+Batch90dir 已合并；队列剩余 **120** 供 Batch91dir。
 
 ---
 
-## 目录/展会轨 Batch87dir
+## Website/named Kontakt Batch 92
 
-> 合并前重读 CSV（Website B88 后基线 **3552** / **2452**）。合并后基线供 Website B89：**3560** / **2460**。
+> 合并前重读 CSV（目录 Batch90dir 后基线 **3646** / **2505**）。Batch91dir 合并时未出现。
 
-### 累计（Batch87dir 合并后）
+### 累计（Batch 92 合并后）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数 | **3560** |
-| high / medium | **3329** / **231** |
-| 唯一域名 | **2460** |
-| 含电话 / 含城市 | **3109** / **3221** |
-| 非 .de 邮箱 | **927** |
+| 去重后邮箱总数 | **3654** |
+| high / medium | **3416** / **238** |
+| 唯一域名 | **2506** |
+| 含电话 / 含城市 | **3172** / **3278** |
+| 非 .de 邮箱 | **970** |
 
 ### 按 icp_tag（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3325** |
+| overseas_peer_overflow | **3419** |
 | design_studio | **136** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
-### 本轨成果（Batch87dir）
+### 本轨成果（Batch 92）
 
 | 指标 | 数值 |
 |---|---:|
-| Impressum 核验 | **37** |
-| 有邮箱命中 | **11** |
-| 本轨净增邮箱 | **8**（high **7** / medium **1**） |
-| 相对 Website B88 基线 3552 | **+8** |
-| 再播种剩余 | **121** |
-| 队列剩余 | **121** |
+| 本轨净增邮箱 | **+8**（high **8** / medium **0**） |
+| 相对 Batch90dir 基线 3646/2505 | **+8** / **+1** 域名 |
+| master 可选跳过 | **3** |
+| 质量剔除 | **15** |
 
 ### 方法
 
-1. 排空上轮 **37** 个 master ICP 剩余域名 → Impressum/Kontakt  
-2. append-dedupe（合并前重读 **3552/2452** = Website B88）  
-3. 严格 ICP master 池已空 → 再播种放宽为 broader master `.de/.at/.ch` + expand/design 队列（**121**）  
-4. WLW 跳过（CAPTCHA）
+1. 重读 CSV 确认 Batch90dir 后 **3646/2505**；Batch91dir 未到
+2. Expand 空；DE tooling singles 耗尽 → thin multi named Kontakt + Web 定向
+3. 命中：Pakulla Vertriebsleitung Guido Rieder；Eitner anfragen@；**Wiegelmann** 新域名 info@+vertrieb@；Servomold GF tmeister@；SUK Schwerin info@/verkauf@/qs@
+4. 质量门：Sauer 旧索引 invent；cloak FBB/Croner；Assistentin/Einkauf/Versand/Verwaltung/Logistik；master 可选跳过 Schroeder/Moellering/Stolz-Seng
 
 ### 本轨新增邮箱（共 8）
 
-- `christoph@formfabrik.ch`
-- `office@formschluss.at`
-- `office@kmould.at`
-- `contact@peschke.at`
-- `office@researchstudio.at`
-- `proform@proform.ch`
-- `spritzguss@prontoplast.ch`
-- `wehapost@weha-plastic.de`
+- `guido.rieder@pakulla.de` · Bergisch Gladbach · Guido Rieder · Vertriebsleitung · high
+- `anfragen@u-eitner.de` · Dieburg · high
+- `info@wiegelmann-gmbh.de` · Olsberg · **新域名** · high
+- `vertrieb@wiegelmann-gmbh.de` · Olsberg · **新域名** · high
+- `tmeister@servomold.com` · Erbach · Thomas Meister · GF · high
+- `info@suk-schwerin.de` · Schwerin · high
+- `verkauf@suk-schwerin.de` · Schwerin · high
+- `qs@suk-schwerin.de` · Schwerin · high
 
 ### 阻塞 / 备注
 
-- WLW CAPTCHA — 跳过
-- 严格 keyword master ICP 耗尽；已切换 broader master 再播种
-- 见 `data/germany_raw/batch87dir_merge_log.json` / `batch87dir_hits.json`
+- Sauer Formenbau 页面已改版至 sauer-praezision；搜索索引中的 Lambracht/Kunkel/Reeh 等不可再核验 → 不 invent
+- FBB/Croner 仍 cloak；Roth/Hugo Stiehl 仅共享 vertrieb@/anfrage@
+- 见 `data/germany_raw/batch92_*.json` / `batch93_queue_note.txt`
 
 ### 产物
 
-- `data/germany_raw/batch87dir_impressum.json`
-- `data/germany_raw/batch87dir_verified.json` / `batch87dir_hits.json`
-- `data/germany_raw/batch87dir_merge_log.json` / `batch87dir_reseed.json`
+- `data/germany_raw/batch92_new_verified.json` / `batch92_candidates_final.json`
+- `data/germany_raw/batch92_quality_drops.json` / `batch92_merge_log.json`
+- `data/germany_raw/batch93_queue_note.txt`
 
 ### 状态
 
-Batch87dir 已合并；队列剩余 **121** 供 Batch88dir。
+Batch 92 已合并；下轮 Batch 93（Website）/ Batch91dir（目录）。
 
 ---
 
-## 目录/展会轨 Batch86dir
+# Germany ICP Targets — 报告
 
-> 合并前重读 CSV（Website B87 后基线 **3480** / **2404**）。合并后基线供 Website B88：**3534** / **2450**。
-
-### 累计（Batch86dir 合并后）
+## 1. 累计交付数量（如实，至 Batch 92）
 
 | 指标 | 数值 |
 |---|---:|
-| 去重后邮箱总数 | **3534** |
-| high / medium | **3305** / **229** |
-| 唯一域名 | **2450** |
-| 含电话 / 含城市 | **3088** / **3200** |
-| 非 .de 邮箱 | **914** |
+| 去重后邮箱总数（累计） | **3654** |
+| 本轮净增（相对目录 Batch90dir 合并后基线 3646） | **+8** |
+| 本轮因已在 master/targets 跳过 | **3** |
+| 本轮质量剔除（死站/错垂/cloak 等） | **15** |
+| 其中 high / medium | **3416** / **238** |
+| 唯一域名 | **2506** |
+| 非 .de 邮箱（累计） | **970** |
+| 含电话 / 含城市 | **3172** / **3278** |
+| 本轮新域名贡献 | **1**（wiegelmann-gmbh.de） |
 
-### 按 icp_tag（累计）
+### 按 `icp_tag`（累计）
 
 | icp_tag | 数量 |
 |---|---:|
-| overseas_peer_overflow | **3301** |
-| design_studio | **134** |
+| overseas_peer_overflow | **3419** |
+| design_studio | **136** |
 | oem_buyer | **69** |
 | sourcing | **30** |
 
-### 本轨成果（Batch86dir）
+---
 
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **150** |
-| 有邮箱命中 | **60** |
-| 本轨净增邮箱 | **54**（high **49** / medium **7**） |
-| 相对 Website B87 基线 3480 | **+54** |
-| master ICP 再播种剩余 | **37** |
-| 队列剩余 | **37** |
+## 2. 上轮方法（Batch 91 · Website/named Kontakt）
 
-### 方法
+1. **基线**：目录 Batch89dir 合并后 **重读 CSV** → **3635 / 2504**（非用户提示的 3620）。
+2. **Expand**：仍空；DE tooling singles 耗尽。
+3. **Named Kontakt / Web 定向**：
+   - hesco Kunststoffverarbeitung Luckenwalde（GF×2 + Vertrieb + QM + Produktion + PM/Konstruktion；Einkauf/Personal 剔除）
+   - KE-Technik Mönchweiler（Technische GF Helms + Leitung Vertrieb Kaiser）
+   - Lammers Formenbau `marek.kolodziej@`（DE peer 波兰办事处，同域 .de）
+4. **质量门**：hesco Einkauf/Personal；Kindtner Rechnungswesen；Jantsch Personal；HPF Sekretariat；EHRWA Europages-only；Fus invent info@；cloak/third-party。
 
-1. 排空上轮 **150** 个 master ICP 再播种域名 → Impressum/Kontakt  
-2. append-dedupe（合并前重读 **3480/2404** = Website B87）  
-3. 质量过滤：同域 high；品牌相关 medium（含 `.swiss` 孪生）；丢弃 digit-prefix 刮取垃圾邮箱  
-4. 再播种 master ICP 续段 → 队列 **37**；WLW 跳过
+| 来源 | 尝试 | 可用命中 |
+|---|---:|---:|
+| thin multi peer probe | ~17 URLs | 低产（已入库） |
+| named Web（hesco/KE/Lammers/WPK/…） | 多页 | **+10** |
 
-### 本轨新增邮箱（节选前 25 / 共 54）
+### 本轮新增（+10）
 
-- `max.eberle@glaroform.swiss`
-- `robin.eberle@glaroform.swiss`
-- `peter.hotz@glaroform.swiss`
-- `markus.blessing@glaroform.swiss`
-- `michele.freuler@glaroform.swiss`
-- `info@glaroform.swiss`
-- `info@hf-cncbearbeitung.de`
-- `info@hipp-praezisionstechnik.de`
-- `info@hs-formtechnik.de`
-- `info@hs-kunststoffe.de`
-- `info@ils-fertigungstechnik.de`
-- `info@indra-metall.de`
-- `info@kaiser-metallwaren.de`
-- `info@keim-fasertechnik.de`
-- `info@ks-biegetechnik.de`
-- `info@lamers-metallverarbeitung.de`
-- `info@lappe-metallbau.de`
-- `info@maedel-metall.de`
-- `info@maschinentechnik.de`
-- `info@mcadform.de`
-- `info@metallbearbeitung-bruno.de`
-- `info@mform.de`
-- `info@mjm-metallverarbeitung.de`
-- `info@mould2part.ch`
-- `info@multiple-design.ch`
-… 另有 31 个，见 `data/germany_raw/batch86dir_hits.json`
+- `marek.kolodziej@lammers-formenbau.de` · Haren-Erika / Tarnów · Marek Kołodziej · high
+- `felix.reiche@hesco.de` · Luckenwalde · Dr. Felix Reiche · high
+- `klaus.reiche@hesco.de` · Luckenwalde · Klaus Reiche · high
+- `yuliia.dubinchuk@hesco.de` · Luckenwalde · Yuliia Dubinchuk · high
+- `manuel.mommert@hesco.de` · Luckenwalde · Manuel Mommert · high
+- `detlef.grove@hesco.de` · Luckenwalde · Detlef Grove · high
+- `oliver.ast@hesco.de` · Luckenwalde · Oliver Ast · high
+- `marcel.boche@hesco.de` · Luckenwalde · Marcel Boche · high
+- `harald.helms@ke-technik.de` · Mönchweiler · Harald Helms · high
+- `siegfried.kaiser@ke-technik.de` · Mönchweiler · Siegfried Kaiser · high
 
-### 阻塞 / 备注
+### 本轮质量剔除（摘要）
 
-- WLW CAPTCHA — 跳过
-- 见 `data/germany_raw/batch86dir_merge_log.json` / `batch86dir_hits.json`
-
-### 产物
-
-- `data/germany_raw/batch86dir_impressum.json`
-- `data/germany_raw/batch86dir_verified.json` / `batch86dir_hits.json`
-- `data/germany_raw/batch86dir_merge_log.json` / `batch86dir_reseed.json`
-
-### 状态
-
-Batch86dir 已合并；队列剩余 **37**（master ICP）供 Batch87dir。
+- jana.schneider@hesco.de: DROP Einkauf/Buchhaltung/Personal
+- rechnungswesen@kindtner.de: DROP Rechnungswesen
+- personal@jantsch.de: DROP Personal/Verwaltung
+- nadine.reichelt@ / kathrin.friedrich@fus-werkzeugbau.de: DROP Sekretariat
+- bruno.ehrhardt / joachim.danner EHRWA: DROP — only on Europages third-party; company Kontakt shows info@ only
+- info@fus-werkzeugbau.de: DROP invent — Impressum shows mail@ only (already known)
+- Gollmer kontakt page third-party sales@ emails: DROP third-party-only
+- Croner/FBB cloak named: DROP never invent
+- Andreas Weise Blechumform: DROP Stanz/Umform vertical
 
 ---
 
-## 目录/展会轨 Batch85dir
+## 3. 下轮（Batch 93）提示
 
-> 合并前重读 CSV（Website B86 后基线 **3435** / **2386**）。合并后基线供 Website B87：**3462** / **2404**。
-
-### 累计（Batch85dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3462** |
-| high / medium | **3241** / **221** |
-| 唯一域名 | **2404** |
-| 含电话 / 含城市 | **3031** / **3148** |
-| 非 .de 邮箱 | **878** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **3230** |
-| design_studio | **133** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch85dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **60** |
-| 有邮箱命中 | **23** |
-| 本轨净增邮箱 | **27**（high **25** / medium **2**） |
-| 相对 Website B86 基线 3435 | **+27** |
-| master ICP 再播种剩余 | **150** |
-| 队列剩余 | **150** |
-
-### 方法
-
-1. 排空上轮 **60** 个 master/pool leftover 域名 → Impressum/Kontakt  
-2. append-dedupe（合并前重读 **3435/2386** = Website B86）  
-3. 再播种：master ICP `.de/.at/.ch` → 队列 **150**  
-4. WLW 跳过（CAPTCHA）
-
-### 本轨新增邮箱（节选前 25 / 共 27）
-
-- `info@d-plast.ch`
-- `info@eph-elektronik.com`
-- `kevin.szvitok@eph-elektronik.com`
-- `info@formreich.ch`
-- `info@fatra.cz`
-- `contact@geficca.fr`
-- `geocad@geocad.es`
-- `david@geocad.es`
-- `joao.silva@geocad.es`
-- `jack.zhao@geocad.es`
-- `juan.martinez@geocad.es`
-- `info@kessler-ag.ch`
-- `info@kvl-gmbh.com`
-- `kontakt@layertech.pl`
-- `office@maplan.at`
-- `helpdesk@maplan.at`
-- `guss@mettec.at`
-- `office@mettec.at`
-- `geral@natigam.pt`
-- `info@ocellrings.com`
-- `info@perezlinares.com`
-- `info@pinsundmehr.de`
-- `32info@pfwag.ch`
-- `info@pfwag.ch`
-- `info@piu.nl`
-… 另有 2 个，见 `data/germany_raw/batch85dir_hits.json`
-
-### 阻塞 / 备注
-
-- WLW CAPTCHA — 跳过
-- 见 `data/germany_raw/batch85dir_merge_log.json` / `batch85dir_hits.json`
-
-### 产物
-
-- `data/germany_raw/batch85dir_impressum.json`
-- `data/germany_raw/batch85dir_verified.json` / `batch85dir_hits.json`
-- `data/germany_raw/batch85dir_merge_log.json` / `batch85dir_reseed.json`
-
-### 状态
-
-Batch85dir 已合并；队列剩余 **150**（master ICP）供 Batch86dir。
+Expand empty; DE tooling singles exhausted. Prefer named Kontakt on remaining thin multi-email Spritzguss/Formenbau peers (Ganser/Nelles/Saur/Heim/Rausch/Härer/Battenberger already thin). Watch Batch91dir. Avoid Stanz/Umform, Assistentin/Buchhaltung/Einkauf/Personal/Verwaltung/Versand/Sekretariat, Europages-only invent, cloak invent, Sauer stale-search invent.
 
 ---
 
-## 目录/展会轨 Batch84dir
-
-> 合并前重读 CSV（Website B84 后基线 **3382** / **2349**）。合并后基线供 Website B85：**3419** / **2384**。
-
-### 累计（Batch84dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3419** |
-| high / medium | **3200** / **219** |
-| 唯一域名 | **2384** |
-| 含电话 / 含城市 | **3000** / **3116** |
-| 非 .de 邮箱 | **851** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **3187** |
-| design_studio | **133** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch84dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **100** |
-| 有邮箱命中 | **43** |
-| 本轨净增邮箱 | **37**（high **35** / medium **2**） |
-| 相对 Website B84 基线 3382 | **+37** |
-| 再播种剩余 | **60** |
-| 队列剩余 | **60** |
-
-### 方法
-
-1. 排空上轮 ~21 Fakuma unused（剔协会/展会/畸形域名）→ 16 可用  
-2. 再播种：VDWF extras + Europages 缓存站 + master ICP `.de` → 共核验 **100**  
-3. append-dedupe（合并前重读 **3382/2349**）；同域 high / 品牌相关 medium  
-4. WLW 跳过（CAPTCHA）
-
-### 本轨新增邮箱（节选前 25 / 共 37）
-
-- `office@simcon.com`
-- `infohrde@synventive.com`
-- `info@topas.com`
-- `info@ifu-online.de`
-- `info@kolibri.de.com`
-- `info@hohlgmbh.com`
-- `info@kunststoff-meyer.com`
-- `info@ak-kunststoffspritzguss.com`
-- `info@oks-germany.com`
-- `info@iesgmbh.com`
-- `info@pfaffgmbh.com`
-- `info@schuemann-gmbh.com`
-- `info@moeller-gmbh.com`
-- `fkb@fkb-gmbh.com`
-- `info@abs-gmbh.com`
-- `info@baum-gmbh.com`
-- `info@braun-gmbh.com`
-- `info@si-tech-gmbh.com`
-- `info@wethje-gmbh.com`
-- `fredrik.sporrong@materialise.com`
-- `proyectos@materialise.com`
-- `contato@materialise.com`
-- `info@sagerbeton.de`
-- `baufakturaschulungenbuchungsseite@huonker.de`
-- `mateo.adam@glory-injectionplastique.fr`
-… 另有 12 个，见 `data/germany_raw/batch84dir_hits.json`
-
-### 阻塞 / 备注
-
-- WLW CAPTCHA — 跳过
-- 见 `data/germany_raw/batch84dir_merge_log.json` / `batch84dir_hits.json`
-
-### 产物
-
-- `data/germany_raw/batch84dir_impressum.json`
-- `data/germany_raw/batch84dir_verified.json` / `batch84dir_hits.json`
-- `data/germany_raw/batch84dir_merge_log.json` / `batch84dir_reseed.json`
-
-### 状态
-
-Batch84dir 已合并；队列剩余 **60**（master/pool leftover）供 Batch85dir。
-
----
-
-## 目录/展会轨 Batch83dir
-
-> 合并前重读 CSV（Website B83 后基线 **3333** / **2327**）。合并后基线供 Website B84：**3368** / **2349**。
-
-### 累计（Batch83dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3368** |
-| high / medium | **3154** / **214** |
-| 唯一域名 | **2349** |
-| 含电话 / 含城市 | **2958** / **3070** |
-| 非 .de 邮箱 | **821** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **3137** |
-| design_studio | **132** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch83dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **117** |
-| 有邮箱命中 | **46** |
-| 本轨净增邮箱 | **35**（high **33** / medium **2**） |
-| 相对 Website B83 基线 3333 | **+35** |
-| Fakuma/VDWF 再播种剩余 | **21** |
-| 队列剩余 | **21** |
-
-### 方法
-
-1. 清理上轮 26 个 VDWF 再播种（剔 youtu.be/fb.me/pressebox 等噪音）→ 12 可用  
-2. 再播种：VDWF `data-www` 未核验域名 + Fakuma unused → 共核验 **117**  
-3. append-dedupe（合并前重读 **3333/2327**）；同域 high / 品牌相关 medium；丢弃 off-domain 与截断垃圾邮箱  
-4. WLW / Europages / Gelbe Seiten 本轮不依赖（CAPTCHA/consent）
-
-### 本轨新增邮箱（节选前 25 / 共 35）
-
-- `brackenheim@haerterei.com`
-- `bochum@haerterei.com`
-- `chemnitz@haerterei.com`
-- `weimar@haerterei.com`
-- `info@hirschmann-automotive.com`
-- `mail@konsens.de`
-- `info@mcu-gmbh.de`
-- `buchhaltung@mcu-gmbh.de`
-- `info@nachreiner-werkzeuge.de`
-- `info@polytalent.de`
-- `mail@kunststoff-institut.de`
-- `mumme@kunststoff-institut.de`
-- `info@badico-trading.com`
-- `info@bbsautomation.com`
-- `info.blaichach@bbsautomation.com`
-- `info.hallbergmoos@bbsautomation.com`
-- `info.stuttgart@bbsautomation.com`
-- `info.caravaggio@bbsautomation.com`
-- `info.poggibonsi@bbsautomation.com`
-- `info.atlanta@bbsautomation.com`
-- `info.chicago@bbsautomation.com`
-- `info@belaser.de`
-- `info@bohler.de`
-- `info.bosch.iam@bosch.com`
-- `info@byk.com`
-… 另有 10 个，见 `data/germany_raw/batch83dir_hits.json`
-
-### 阻塞 / 备注
-
-- WLW 公司页 CAPTCHA — 跳过
-- Fakuma 域名命中率偏低（多数 no_email / 死站）
-- 见 `data/germany_raw/batch83dir_merge_log.json` / `batch83dir_hits.json`
-
-### 产物
-
-- `data/germany_raw/batch83dir_impressum.json`
-- `data/germany_raw/batch83dir_verified.json` / `batch83dir_hits.json`
-- `data/germany_raw/batch83dir_merge_log.json` / `batch83dir_reseed.json`
-
-### 状态
-
-Batch83dir 已合并；队列剩余 **21**（Fakuma unused）供 Batch84dir。
-
----
-
-## 目录/展会轨 Batch82dir（VDWF）
-
-> 合并前重读 CSV（Website B82 后基线 **3042** / **2119**）。合并后基线供 Website B83：**3320** / **2326**。
-
-### 累计（Batch82dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3320** |
-| 唯一域名 | **2326** |
-| 本轨净增（相对 3042） | **+278** |
-| Impressum 核验 | **328** |
-
-### 本轨要点
-
-VDWF Mitglieder extras（WLW CAPTCHA 阻断）；见 `batch82dir_merge_log.json` / `batch82dir_hits.json`。
-
-### 状态
-
-Batch82dir 已合并；Website Batch 83 在其上再合并 **+13** → 累计 **3333 / 2327**。
-
----
-
-## 目录/展会轨 Batch82dir
-
-> 合并前重读 CSV（Website B82 后基线 **3042** / **2119**）。合并后基线供 Website B83：**3320** / **2326**。
-
-### 累计（Batch82dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3320** |
-| high / medium | **3108** / **212** |
-| 唯一域名 | **2326** |
-| 含电话 / 含城市 | **2912** / **3025** |
-| 非 .de 邮箱 | **800** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **3089** |
-| design_studio | **132** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch82dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **328** |
-| 有邮箱命中 | **235** |
-| 本轨净增邮箱 | **278**（high **254** / medium **24**） |
-| 相对 Website B82 基线 3042 | **+278** |
-| VDWF 再播种剩余 | **26** |
-| 队列剩余 | **26** |
-
-### 方法
-
-1. 排空上轮 **328** 个 VDWF 域名队列 → Impressum/Kontakt（WLW CAPTCHA，本轮不用 WLW 公司页）
-2. append-dedupe 入库（与 Website 轨并行，合并前重读 **3042/2119**）
-3. 质量过滤：同域 high；品牌相关异域 medium；丢弃 off-domain 广告/占位/混淆邮箱
-4. VDWF mitglieder 额外域名再播种 → 队列剩余 **26**（供 Batch83dir）
-
-### 本轨新增邮箱（节选前 25 / 共 278）
-
-- `mail@kellermanngmbh.de`
-- `info@cadkaiser.de`
-- `info@inevo.eu`
-- `mail@alte.de`
-- `info@harnischmacher.de`
-- `tooling@tsetinis.com`
-- `info@inwetec.de`
-- `anfrage@elektrodenfabrik.de`
-- `info@hotec-gmbh.de`
-- `anfragen@hotec-gmbh.de`
-- `info@laserkraftwerk.de`
-- `info@hydropneu.de`
-- `info@iket-horb.de`
-- `o.kessling@iket-horb.de`
-- `s.epple@iket-horb.de`
-- `b.rief@iket-horb.de`
-- `mail@polymold.de`
-- `info@wika-erodiertechnik.de`
-- `info@reutlingen-university.de`
-- `sabine.loebbe@reutlingen-university.de`
-- `daniela.goller@reutlingen-university.de`
-- `aniela.goller@reutlingen-university.de`
-- `maximilian.musch@reutlingen-university.de`
-- `rmz-leitung@reutlingen-university.de`
-- `info@cnc-sicks.de`
-… 另有 253 个，见 `data/germany_raw/batch82dir_hits.json`
-
-### 阻塞 / 备注
-
-- WLW 公司页 Human Verification CAPTCHA — Batch82dir 仅用 VDWF
-- 见 `data/germany_raw/batch82dir_merge_log.json` / `batch82dir_hits.json`
-
-### 产物
-
-- `data/germany_raw/batch82dir_impressum.json`
-- `data/germany_raw/batch82dir_verified.json` / `batch82dir_hits.json`
-- `data/germany_raw/batch82dir_merge_log.json` / `batch82dir_reseed.json`
-
-### 状态
-
-Batch82dir 已合并；队列剩余 **26** VDWF 再播种域名供 Batch83dir。
-
----
-
-## 目录/展会轨 Batch81dir
-
-> 合并前重读 CSV（Website B80 后基线 **2924** / **2032**）。合并后基线供 Website B81：**3022** / **2117**。
-
-### 累计（Batch81dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3022** |
-| 唯一域名 | **2117** |
-| 本轨净增（相对 2924） | **+98** |
-
-### 本轨要点
-
-见 `data/germany_raw/batch81dir_merge_log.json` / `batch81dir_hits.json`。
-
-### 状态
-
-Batch81dir 已合并；Website Batch 81 在其上再合并 **+13** → 累计 **3035 / 2118**。
-
----
-
-## 目录/展会轨 Batch80dir
-
-> 合并前重读 CSV（Website B79 后基线 **2824** / **1950**）。合并后基线供 Website B80：**2912** / **2031**。
-
-### 累计（Batch80dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **2912** |
-| 唯一域名 | **2031** |
-| 本轨净增（相对 2824） | **+88** |
-
-### 本轨要点
-
-见 `data/germany_raw/batch80dir_merge_log.json` / `batch80dir_hits.json`。
-
-### 状态
-
-Batch80dir 已合并；Website Batch 80 在其上再合并 **+12** → 累计 **2924 / 2032**。
-
----
-
-## 目录/展会轨 Batch79dir
-
-> 合并前重读 CSV；合并后基线供 Website B79：**2808** / **1948**。
-
-### 累计（Batch79dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **2808** |
-| 唯一域名 | **1948** |
-
-### 本轨要点
-
-见 `data/germany_raw/batch79dir_merge_log.json` / `batch79dir_hits.json`。
-
-### 状态
-
-Batch79dir 已合并；Website Batch 79 在其上再合并 **+16** → 累计 **2824 / 1950**。
-
----
-
-## 目录/展会轨 Batch78dir
-
-> 续跑队列 ~123；合并前重读 CSV（Website B77 后基线 **2612** / **1793** 域名）。合并后基线供 Website B78：**2706** / **1867**。
-
-### 累计（Batch78dir 合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **2706** |
-| high / medium | **2537** / **169** |
-| 唯一域名 | **1867** |
-| 含电话 / 含城市 | **2401** / **2495** |
-| 非 .de 邮箱 | **586** |
-
-### 按 icp_tag（Batch78dir 合并后）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **2478** |
-| design_studio | **129** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch78dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **123** |
-| 有邮箱命中 | **76** |
-| 本轨净增邮箱 | **94**（high **84** / medium **10**） |
-| 相对 Website B77 基线 2612 | **+94** |
-| WLW 再播种候选（p21–28 + 扩类） | **111** |
-| 队列剩余 | **110** |
-
-### 方法
-
-1. 排空上轮 123 域名队列 → Impressum/Kontakt  
-2. append-dedupe 入库（与 Website 轨并行，合并前重读）  
-3. WLW formenbau/spritzguss/werkzeugbau/kunststofftechnik 等 **p21–28** 再播种
-
-### 本轨新增邮箱（节选前 25 / 共 94）
-
-- `info@alexander-magnettechnik.de`
-- `info@agathon.ch`
-- `info@cnc-dreherei.de`
-- `t.allenstein@cnc-dreherei.de`
-- `r.allenstein@cnc-dreherei.de`
-- `k.allenstein@cnc-dreherei.de`
-- `a.bettermann@cnc-dreherei.de`
-- `n.hardt@cnc-dreherei.de`
-- `office@alu-future.com`
-- `info@alumina.systems`
-- `info@ama-maschinen.de`
-- `info@abp-blech.de`
-- `info@alptec.de`
-- `info@aaubry.ch`
-- `info@amsler-frey.ch`
-- `office@aewwzb.at`
-- `office@wiba.co.at`
-- `info@federn-weigel.de`
-- `info@normdreh.de`
-- `vertrieb@addiprint3d.de`
-- `technik@addiprint3d.de`
-- `vertrieb@asp-germany.de`
-- `info@adkom.de`
-- `info@aw-color.de`
-- `info@bedra.com`
-… 另有 69 个，见 `data/germany_raw/batch78dir_hits.json`
-
-### 本轨新域名（节选）
-
-`aaubry.ch`, `abp-blech.de`, `addiprint3d.de`, `adkom.de`, `adnandogangroup.com`, `aewwzb.at`, `agathon.ch`, `alexander-magnettechnik.de`, `alkaz.pl`, `allenstein-cnc-dreherei.de`, `alptec.de`, `alu-future.com`, `alumina.systems`, `ama-maschinen.de`, `amsler-frey.ch`, `asd-bochum.de`, `asp-germany.de`, `atcweb.at`, `atositalia.com`, `aundl-kunststoff.de`…
-
-### 产物
-
-- `data/germany_targets.csv` / `.xlsx`
-- `data/germany_raw/batch78dir_impressum.json`
-- `data/germany_raw/batch78dir_verified.json` / `batch78dir_hits.json`
-- `data/germany_raw/batch78dir_merge_log.json` / `batch78dir_reseed.json`
-- `data/germany_raw/queue_directory_domains_remaining.txt`（**110**）
-
-### 状态
-
-Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。Website Batch 78 已在其上再合并 **+14** → 累计 **2720 / 1872**。
-
-
----
-
-
----
-
-## 目录/展会轨 Batch80dir
-
-> 续跑队列 ~118；合并前重读 CSV（Website B79 后基线 **2824** / **1950** 域名）。
-
-### 累计（合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **2912** |
-| high / medium | **2736** / **176** |
-| 唯一域名 | **2031** |
-| 含电话 / 含城市 | **2568** / **2670** |
-| 非 .de 邮箱 | **646** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **2684** |
-| design_studio | **129** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch80dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **118** |
-| 有邮箱命中 | **87** |
-| 本轨净增邮箱 | **88**（high **84** / medium **4**） |
-| 相对 Website B79 基线 2824 | **+88** |
-| WLW 再播种（p37–44 + 扩类） | **119** |
-| 队列剩余 | **119** |
-
-### 方法
-
-1. 排空上轮 118 域名 → Impressum/Kontakt  
-2. append-dedupe（Website B79 并行后重读 CSV）  
-3. WLW p37–44 + kunststoffverarbeitung 等再播种
-
-### 本轨新增邮箱（节选前 25 / 共 88）
-
-- `info@3d-profi-druck.de`
-- `office@alu-tech-trade.at`
-- `info@2b-klebebaender.de`
-- `info@alpaco-lueck.de`
-- `wagner@beck-federn.de`
-- `info@amb-germany.de`
-- `info@all-in-optics.de`
-- `info@3ddesign24.de`
-- `info@mueller-ohlenrode.de`
-- `info@atr-solutions.de`
-- `ettingshausen@subtil-group.com`
-- `info@buerojetzt.de`
-- `info@buntenbach-cnc.de`
-- `info@aps-techgroup.de`
-- `mail@andreasweisegmbh.de`
-- `c.weise@andreasweisegmbh.de`
-- `office@modellbau-richter.at`
-- `mail@bb-plastpack.de`
-- `info@bb-plastpack.de`
-- `info@ayhan-online.de`
-- `info@asti-filter.de`
-- `info@atka.de`
-- `info@bohl.biz`
-- `info@altenis.de`
-- `info@almetec.de`
-… 另有 63 个，见 `data/germany_raw/batch80dir_hits.json`
-
-### 本轨新域名（节选）
-
-`2b-klebebaender.de`, `3d-profi-druck.de`, `3ddesign24.de`, `3pcorporate.com`, `aet-kunststoffe.de`, `all-in-optics.de`, `almetec.de`, `alpaco-lueck.de`, `altenis.de`, `alu-tech-trade.com`, `amb-germany.de`, `andreasweisegmbh.de`, `aps-techgroup.de`, `asti-filter.de`, `atka.de`, `atr-solutions.de`, `aupperle-gmbh.de`, `ayhan-online.de`, `bb-plastpack.de`, `beck-federn.de`…
-
-### 产物
-
-- `data/germany_targets.csv` / `.xlsx`
-- `data/germany_raw/batch80dir_impressum.json`
-- `data/germany_raw/batch80dir_verified.json` / `batch80dir_hits.json`
-- `data/germany_raw/batch80dir_merge_log.json` / `batch80dir_reseed.json`
-- `data/germany_raw/queue_directory_domains_remaining.txt`（**119**）
-
-### 状态
-
-Batch80dir 完成：**+88** 邮箱；队列 **119** 待下一批。
-
-
----
-
-## 目录/展会轨 Batch81dir
-
-> 续跑队列 ~119；合并前重读 CSV（Website B80 后基线 **2924** / **2032** 域名）。
-
-### 累计（合并后）
-
-| 指标 | 数值 |
-|---|---:|
-| 去重后邮箱总数 | **3022** |
-| high / medium | **2834** / **188** |
-| 唯一域名 | **2117** |
-| 含电话 / 含城市 | **2656** / **2765** |
-| 非 .de 邮箱 | **686** |
-
-### 按 icp_tag（累计）
-
-| icp_tag | 数量 |
-|---|---:|
-| overseas_peer_overflow | **2794** |
-| design_studio | **129** |
-| oem_buyer | **69** |
-| sourcing | **30** |
-
-### 本轨成果（Batch81dir）
-
-| 指标 | 数值 |
-|---|---:|
-| Impressum 核验 | **119** |
-| 有邮箱命中 | **91** |
-| 本轨净增邮箱 | **98**（high **86** / medium **12**） |
-| 相对 Website B80 基线 2924 | **+98** |
-| 再播种（VDWF 会员站） | **330** |
-| 队列剩余 | **328** |
-
-### 方法与 blockers
-
-1. 排空上轮 119 域名 → Impressum/Kontakt  
-2. append-dedupe（Website B80 并行后重读 CSV）  
-3. **WLW p45+ 详情页 CAPTCHA（Human Verification）**— 无法再取 sameAs  
-4. 改用 **VDWF Mitglieder** 公开会员页解析官网 → **330** 新域名入队
-
-### 本轨新增邮箱（节选前 25 / 共 98）
-
-- `kontakt@aim3d.de`
-- `info@3d-metall-theobald.de`
-- `info@boho-moebel.de`
-- `info@appinger-ks.de`
-- `info@3dmarkt.shop`
-- `info@am-gebhart.de`
-- `info@adelmann.net`
-- `info@biodelta.de`
-- `info@aquaduna.com`
-- `office@astria-sourcing.com`
-- `info@breuer-stahlhandel.de`
-- `info@berlet-formenbau.de`
-- `info@brobeil-maschinenbau.de`
-- `info@bws.ag`
-- `s.rickli@bws.ag`
-- `kontakt@csb-metalsolutions.de`
-- `info@braeuersysteme.de`
-- `info@desetec.de`
-- `info@rahmede.de`
-- `info@merki-ag.ch`
-- `info@deco-pack.com`
-- `ernst@nutricos.at`
-- `office@nutricos.at`
-- `kontakt@weydemeyer.de`
-- `info@klappmoebel.de`
-… 另有 73 个，见 `data/germany_raw/batch81dir_hits.json`
-
-### 本轨新域名（节选）
-
-`3d-metall-theobald.de`, `3dmarkt.shop`, `adelmann.net`, `aim3d.de`, `am-gebhart.de`, `appinger-ks.de`, `aquaduna.de`, `astria-sourcing.com`, `avalumitran.com`, `becher-schilder.de`, `berlet-formenbau.de`, `biodelta-privatelabel.de`, `boho-moebel.de`, `braeuersysteme.de`, `breuer-stahlhandel.de`, `brobeil-maschinenbau.de`, `bws.ag`, `cnc-praniess.at`, `csb-metalsolutions.de`, `de.halfar.com`…
-
-### 产物
-
-- `data/germany_targets.csv` / `.xlsx`
-- `data/germany_raw/batch81dir_impressum.json`
-- `data/germany_raw/batch81dir_verified.json` / `batch81dir_hits.json`
-- `data/germany_raw/batch81dir_merge_log.json` / `batch81dir_reseed.json`
-- `data/germany_raw/queue_directory_domains_remaining.txt`（**328**）
-
-### 状态
-
-Batch81dir 完成：**+98** 邮箱；队列 **328**（VDWF 再播种，ICP 优先）待下一批。
+_报告更新：2026-10-21 01:56 Asia/Hong_Kong_
