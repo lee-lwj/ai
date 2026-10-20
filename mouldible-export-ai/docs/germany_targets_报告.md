@@ -308,3 +308,92 @@ Batch78dir 完成：**+94** 邮箱；队列 **110** 待 Batch79dir。Website Bat
 ### 状态
 
 Batch80dir 完成：**+88** 邮箱；队列 **119** 待下一批。
+
+
+---
+
+## 目录/展会轨 Batch81dir
+
+> 续跑队列 ~119；合并前重读 CSV（Website B80 后基线 **2924** / **2032** 域名）。
+
+### 累计（合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3022** |
+| high / medium | **2834** / **188** |
+| 唯一域名 | **2117** |
+| 含电话 / 含城市 | **2656** / **2765** |
+| 非 .de 邮箱 | **686** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **2794** |
+| design_studio | **129** |
+| oem_buyer | **69** |
+| sourcing | **30** |
+
+### 本轨成果（Batch81dir）
+
+| 指标 | 数值 |
+|---|---:|
+| Impressum 核验 | **119** |
+| 有邮箱命中 | **91** |
+| 本轨净增邮箱 | **98**（high **86** / medium **12**） |
+| 相对 Website B80 基线 2924 | **+98** |
+| 再播种（VDWF 会员站） | **330** |
+| 队列剩余 | **328** |
+
+### 方法与 blockers
+
+1. 排空上轮 119 域名 → Impressum/Kontakt  
+2. append-dedupe（Website B80 并行后重读 CSV）  
+3. **WLW p45+ 详情页 CAPTCHA（Human Verification）**— 无法再取 sameAs  
+4. 改用 **VDWF Mitglieder** 公开会员页解析官网 → **330** 新域名入队
+
+### 本轨新增邮箱（节选前 25 / 共 98）
+
+- `kontakt@aim3d.de`
+- `info@3d-metall-theobald.de`
+- `info@boho-moebel.de`
+- `info@appinger-ks.de`
+- `info@3dmarkt.shop`
+- `info@am-gebhart.de`
+- `info@adelmann.net`
+- `info@biodelta.de`
+- `info@aquaduna.com`
+- `office@astria-sourcing.com`
+- `info@breuer-stahlhandel.de`
+- `info@berlet-formenbau.de`
+- `info@brobeil-maschinenbau.de`
+- `info@bws.ag`
+- `s.rickli@bws.ag`
+- `kontakt@csb-metalsolutions.de`
+- `info@braeuersysteme.de`
+- `info@desetec.de`
+- `info@rahmede.de`
+- `info@merki-ag.ch`
+- `info@deco-pack.com`
+- `ernst@nutricos.at`
+- `office@nutricos.at`
+- `kontakt@weydemeyer.de`
+- `info@klappmoebel.de`
+… 另有 73 个，见 `data/germany_raw/batch81dir_hits.json`
+
+### 本轨新域名（节选）
+
+`3d-metall-theobald.de`, `3dmarkt.shop`, `adelmann.net`, `aim3d.de`, `am-gebhart.de`, `appinger-ks.de`, `aquaduna.de`, `astria-sourcing.com`, `avalumitran.com`, `becher-schilder.de`, `berlet-formenbau.de`, `biodelta-privatelabel.de`, `boho-moebel.de`, `braeuersysteme.de`, `breuer-stahlhandel.de`, `brobeil-maschinenbau.de`, `bws.ag`, `cnc-praniess.at`, `csb-metalsolutions.de`, `de.halfar.com`…
+
+### 产物
+
+- `data/germany_targets.csv` / `.xlsx`
+- `data/germany_raw/batch81dir_impressum.json`
+- `data/germany_raw/batch81dir_verified.json` / `batch81dir_hits.json`
+- `data/germany_raw/batch81dir_merge_log.json` / `batch81dir_reseed.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`（**328**）
+
+### 状态
+
+Batch81dir 完成：**+98** 邮箱；队列 **328**（VDWF 再播种，ICP 优先）待下一批。
