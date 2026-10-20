@@ -1,3 +1,43 @@
+## Website/named Kontakt Batch 112
+
+> 合并前重读 CSV（基线 **4192** / **2934**；Batch114dir +11 后邮箱 **4192**，父代理域名口径 2919 / hosts~2934；本机重计域名 **2934**）。勿用 4177/4181。
+
+### 累计（Batch 112 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4194** |
+| high / medium | **3930** / **264** |
+| 唯一域名 | **2935** |
+| 含电话 / 含城市 | **3616** / **3691** |
+| 非 .de 邮箱 | **1136** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3900** |
+| design_studio | **170** |
+| oem_buyer | **89** |
+| sourcing | **35** |
+
+### 本批净增 **+2**
+
+- `team_cad-kon@t-online.de` — CAD-KON GmbH (Dettingen unter Teck) — `design_studio` / high
+- `info@fun-gmbh.eu` — FuN GmbH (Rott am Inn) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `m.nagl@web.de` — DROP personal web.de mailbox (FuN GF) — prefer company info@
+- `webmaster@cadkon-design.com` — DROP webmaster technical contact
+- `info@eberhardt-wk.de` — DROP Stanz-/Umform-primary Werkzeugkonstruktion
+- `h.wirth@werkzeugbau-wirth.com` — DROP Bewerbung/HR mailbox
+- `bewerbung@spindler-formenbau.de` — DROP HR/Bewerbung
+- `terminbuchung@aboutjell.de` — DROP appointment-booking only
+- `info@raba-tech.de` — SKIP unreachable 404
+- ferratec / vogel / w-p-k / hwf / opticamms / kaspareth / edegs / frank / wtl / spindler / triwefo / khp / schwendemann / bayreuth / winkelmühle / ermet / croner / steiert / haenel / seeger / mueller / wefo / kon-form / schneider / km / formtech / benkert — SKIP already known
+
+---
 ## Website/named Kontakt Batch 111
 
 > 合并前重读 CSV（基线 **4171** / **2918**；Batch111dir 后邮箱 **4160**，父代理域名口径 2893 / hosts~2909；本机重计域名 **2918**）。
@@ -784,6 +824,75 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch115dir
+
+> 合并前重读 CSV（基线 **4194** / **2921**）。合并后基线：**4200** / **2927**。
+
+### 累计（Batch115dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4200** |
+| high / medium | **3936** / **264** |
+| 唯一域名 | **2927** |
+| 含电话 / 含城市 | **3621** / **3697** |
+| 非 .de 邮箱 | **1137** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3906** |
+| design_studio | **170** |
+| oem_buyer | **89** |
+| sourcing | **35** |
+
+### 本轨成果（Batch115dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **16** |
+| 有邮箱命中 | **10** |
+| 本轨净增邮箱 | **6**（high **6** / medium **0**） |
+| 相对基线 4194/2921 | **+6** / **+6** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **0**（GS 耗尽） |
+
+### 扩展来源（本批）
+
+| 来源 | 结果 |
+|---|---|
+| 排空最后 1 gsbiz | 完成 |
+| 中小城镇 × 关键词 DDG/Bing | **主贡献**（via search） |
+| 展会目录 | 弱 |
+| 商会/目录 | 部分（噪声多，已滤） |
+| WLW | 跳过 |
+
+### 饱和备注
+
+Gelbe Seiten gsbiz **已耗尽**。后续目录轨以 **地图/网页检索 + 域名队列** 为主；本批已写入 `queue_directory_domains_remaining.txt`（**0**）。
+
+### 本轨新增邮箱（共 6）
+
+- `info@kemmer-praezision.com` (high)
+- `info@riedl-kunststofftechnik.de` (high)
+- `info@k-tech.de` (high)
+- `info@praezis-dresden.de` (high)
+- `info@settele.de` (high)
+- `info@skn-technik.de` (high)
+
+### 产物
+
+- `data/germany_raw/batch115dir_*.json`
+- `data/germany_raw/queue_directory_domains_remaining.txt`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`（空）
+
+### 状态
+
+Batch115dir 已合并；gsbiz **0**；域名队列 **0** 供 Batch116dir。
 
 ---
 

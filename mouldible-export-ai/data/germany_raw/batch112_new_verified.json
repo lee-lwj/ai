@@ -1,0 +1,28 @@
+[
+  {
+    "company": "CAD-KON GmbH",
+    "domain": "cadkon-design.com",
+    "email": "team_cad-kon@t-online.de",
+    "email_source_url": "https://www.cadkon-design.com/impressum",
+    "contact_name": "Wolfgang Bauer / Gerhard Lerch",
+    "job_title": "Geschäftsführung / Werkzeugkonstruktion Kunststoffspritzguss",
+    "phone": "+49 7021 958178",
+    "city": "Dettingen unter Teck",
+    "icp_tag": "design_studio",
+    "confidence": "high",
+    "notes": "Batch112: NEW mailbox (t-online) for CAD-KON; live Impressum+Kontakt Team_cad-kon@; Schwerpunkt Konstruktion Spritzgusswerkzeuge (2K/GID/WID/Etagen); DE BW Dettingen u.T. HRB 231483; webmaster@ skipped"
+  },
+  {
+    "company": "FuN GmbH",
+    "domain": "fun-gmbh.eu",
+    "email": "info@fun-gmbh.eu",
+    "email_source_url": "https://www.fun-gmbh.eu/impressum/",
+    "contact_name": "Markus Nagl / Stephanie Nagl",
+    "job_title": "Geschäftsführung / Spritzguss Kunststoffteile Werkzeugbau",
+    "phone": "+49 8039 9012318",
+    "city": "Rott am Inn",
+    "icp_tag": "oem_buyer",
+    "confidence": "high",
+    "notes": "Batch112: NEW domain fun-gmbh.eu; live Impressum+Kontakt info@; Spritzguss Werkzeugbau Konstruktion Prototypen; DE BY Rott am Inn HRB 19323 USt DE266698260; m.nagl@web.de personal skipped"
+  }
+]
