@@ -1,3 +1,58 @@
+## Website/named Kontakt Batch 102
+
+> 合并前重读 CSV（Batch100dir 后基线 **3893** / **2659**；非初值 3874/2642。Batch101dir 未写入）。
+
+### 累计（Batch 102 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3897** |
+| high / medium | **3651** / **246** |
+| 唯一域名 | **2662** |
+| 含电话 / 含城市 | **3345** / **3413** |
+| 非 .de 邮箱 | **1106** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3639** |
+| design_studio | **155** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch 102）
+
+| 指标 | 数值 |
+|---|---:|
+| 本轨净增邮箱 | **+4**（high **4** / medium **0**） |
+| 相对基线 3893/2659 | **+4** / **+3** 域名 |
+| master 可选重叠跳过 | **2** |
+| 质量剔除 | **9** |
+
+### 方法
+
+1. 重读确认 **3893/2659**（Batch100dir 已合并；Batch101dir 空）
+2. NEW-domain: Gebr. Schwarz（info+GF）+ Quinger peer + Grimm & Remmert design_studio
+3. 质量门：Stanz/Umform（Spill/Gerken）；CNC-only（Engl）；Honwerkzeuge（PWG）；弱 ICP（Olinger）；Consulting（Schötz）；master-optional（EMS/Stolz-Seng）；Druckguss-primary（Cox）
+
+### 本轨新增邮箱（共 4）
+
+- `info@schwarz-gmbh.de` · Rottweil-Neukirch · — · Allgemeine Anfragen / Werkzeugbau Spritzguss · high · **新域名**
+- `j.roth@schwarz-gmbh.de` · Rottweil-Neukirch · Jens Roth · Geschäftsführer · high · **新域名**
+- `info@quinger-gmbh.de` · Flöha · — · Allgemeine Anfragen / Formenbau Spritzguss · high · **新域名**
+- `info@grimm-remmert.de` · Bad Lobenstein · Mathias Grimm / Peter Remmert · Geschäftsführung / Konstruktion Spritzgießwerkzeuge · high · **新域名**
+
+### 产物
+
+- `data/germany_raw/batch102_new_verified.json`
+- `data/germany_raw/batch102_candidates_final.json`
+- `data/germany_raw/batch102_quality_drops.json`
+- `data/germany_raw/batch102_merge_log.json`
+- `data/germany_raw/batch103_queue_note.txt`
+
+---
+
 ## Website/named Kontakt Batch 101
 
 > 合并前重读 CSV（Batch99dir 后基线 **3867** / **2635**；非初值 3854/2623。Batch100dir 未写入；dir 队列空）。
@@ -297,6 +352,183 @@ Batch 98 已合并；下轮 Batch 99（Website）/ Batch97dir|98dir（目录）�
 ### 状态
 
 Batch 97 已合并；下轮 Batch 98（Website）/ Batch96dir|97dir（目录）。队列剩余 thin multi ~**80** + 新域名定向。
+
+---
+
+## 目录/展会轨 Batch101dir
+
+> 合并前重读 CSV（Website B102 后基线 **3897** / **2662**；非 3893）。合并后基线：**3903** / **2668**。
+
+### 累计（Batch101dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3903** |
+| high / medium | **3657** / **246** |
+| 唯一域名 | **2668** |
+| 含电话 / 含城市 | **3351** / **3419** |
+| 非 .de 邮箱 | **1106** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3645** |
+| design_studio | **155** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch101dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 核验域名 | **22** |
+| 有邮箱命中 | **7** |
+| 本轨净增邮箱 | **6**（high **6** / medium **0**） |
+| 相对 Website B102 基线 3897/2662 | **+6** / **+6** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz ids 剩余 | **80** |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 排空 B100dir gsbiz 余 | **20** |
+| 扩展 gsbiz + ajax/城市 | Formenbau pos 90–150、Spritzguss 60–100、Freiburg/Ulm/Kassel 等 |
+| 本轮核验队列 | **22** |
+| 超时强制 no_email | motan-colortronic.de, lampersberger-gmbh.de |
+| WLW | CAPTCHA — 跳过 |
+| 再播种 | gsbiz ids **80**（域名队列空） |
+
+### 方法
+
+1. 排空 `queue_gsbiz_ids_remaining.txt` **20** + 更深 ajax/城市 → 提取邮箱域名 **22**  
+2. 合并前重读 **3897/2662** = Website B102  
+3. 质量剔除：seghost off-domain（performgmbh）  
+4. 再播种：新发现 gsbiz ids → 保留 **80**
+
+### 本轨新增邮箱（共 6）
+
+- `info@stranghoener-kunststoff.de`
+- `info@stocker-kunststoff.de`
+- `info@wetekk.de`
+- `info@ebr-formenbau.de`
+- `info@wtl-group.de`
+- `info@deege-formenbau.de`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过
+- 2 域名超时 → forced no_email
+- 见 `data/germany_raw/batch101dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch101dir_impressum.json`
+- `data/germany_raw/batch101dir_verified.json` / `batch101dir_hits.json`
+- `data/germany_raw/batch101dir_merge_log.json` / `batch101dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch101dir 已合并；域名队列 **0**；gsbiz 余 **80** 供 Batch102dir。
+
+---
+
+## 目录/展会轨 Batch100dir
+
+> 合并前重读 CSV（Website B101 后基线 **3874** / **2642**；非 3867）。合并后基线：**3893** / **2659**。
+
+### 累计（Batch100dir 合并后）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **3893** |
+| high / medium | **3647** / **246** |
+| 唯一域名 | **2659** |
+| 含电话 / 含城市 | **3341** / **3409** |
+| 非 .de 邮箱 | **1106** |
+
+### 按 icp_tag（累计）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3636** |
+| design_studio | **154** |
+| oem_buyer | **69** |
+| sourcing | **34** |
+
+### 本轨成果（Batch100dir）
+
+| 指标 | 数值 |
+|---|---:|
+| 新建队列域名 | **38**（Gelbe Seiten + Europages） |
+| Impressum 核验 | **38** |
+| 有邮箱命中 | **20** |
+| 本轨净增邮箱 | **19**（high **18** / medium **1**） |
+| 相对 Website B101 基线 3874/2642 | **+19** / **+17** 域名 |
+| 域名队列剩余 | **0** |
+| gsbiz 未抓详情 | **20** ids（见 `queue_gsbiz_ids_remaining.txt`） |
+
+### 种子状态
+
+| 项 | 状态 |
+|---|---|
+| 上轮队列 | **0**（B99dir 耗尽） |
+| Gelbe Seiten | Formenbau/Spritzguss 全国+城市 + ajax 分页 + **60** gsbiz 详情 |
+| Europages DE | Formenbau/Spritzguss 列表 + firma 页 |
+| KunststoffWeb | **404** |
+| Das Örtliche | **410** |
+| Bing/DDG | 垃圾/验证码 — 未用 |
+| WLW | CAPTCHA — 跳过 |
+| master/VDWF/Fakuma | 饱和 — 未用 |
+
+### 方法
+
+1. 从非 WLW 公开目录重建队列（GS email/json + EP STRICT）→ **38** 域名  
+2. 合并前重读 **3874/2642** = Website B101  
+3. 质量剔除：Stuck/Trocknung/Spanntechnik/媒体门户；保留 Formenbau/Formteile/Werkzeugbau/Modellbau/Plastiform  
+4. 再播种：gsbiz 剩余 ids **20**（域名队列空）
+
+### 本轨新增邮箱（共 19）
+
+- `contact@luettgens.de`
+- `info@ermet.de`
+- `info@hm-fraas.de`
+- `info@werkzeugbau-wick.de`
+- `info@bk-formteile.de`
+- `info@max-schuster.de`
+- `info@ncb-lohmann.de`
+- `info@w-potthoff.de`
+- `info@stemotec.de`
+- `mail@fiberglas.net`
+- `info@cox-formenbau.de`
+- `info@fmf-wwf.de`
+- `h.stange@schramm-stanzformenbau.de`
+- `info@procito.de`
+- `martin@procito.de`
+- `robert@procito.de`
+- `info@modellbau-schmidgall.de`
+- `info@albert-fuchs-gmbh.de`
+- `info@plastiform.de`
+
+### 阻塞 / 备注
+
+- WLW CAPTCHA — 跳过；master/VDWF/Fakuma 饱和
+- KunststoffWeb 404；Das Örtliche 410
+- 下轮优先继续 Gelbe Seiten gsbiz 剩余 ids / 更深 ajax
+- 见 `data/germany_raw/batch100dir_merge_log.json`
+
+### 产物
+
+- `data/germany_raw/batch100dir_impressum.json`
+- `data/germany_raw/batch100dir_verified.json` / `batch100dir_hits.json`
+- `data/germany_raw/batch100dir_merge_log.json` / `batch100dir_reseed.json`
+- `data/germany_raw/queue_gsbiz_ids_remaining.txt`
+
+### 状态
+
+Batch100dir 已合并；域名队列 **0**；gsbiz 详情余 **20** 供 Batch101dir。
 
 ---
 
