@@ -1,3 +1,46 @@
+## Website/named Kontakt Batch 119
+
+> 合并前重读 CSV（任务口径 **4294** / **3012**；Directory Batch124dir 中途已合 → 写时 live **4298** / **3016**）。本批按 live 合并，网站轨净增 **+5** → 瞬时 **4303** / **3017**。
+
+### 累计（当前 live）
+
+| 指标 | 数值 |
+|---|---:|
+| 去重后邮箱总数 | **4303** |
+| high / medium | **4026** / **277** |
+| 唯一域名 | **3017** |
+| 含电话 / 含城市 | **3715** / **3791** |
+| 非 .de 邮箱 | **1154** |
+
+### 按 icp_tag（累计 live）
+
+| icp_tag | 数量 |
+|---|---:|
+| overseas_peer_overflow | **3982** |
+| design_studio | **179** |
+| oem_buyer | **107** |
+| sourcing | **35** |
+
+### 本批网站轨净增 **+5**（相对写时基线 4298；相对任务口径 4294 为 +9 含目录）
+
+- `info@kb-kunststoff.de` — KB Kunststofftechnik Vertriebs GmbH (Gummersbach) — `oem_buyer` / high
+- `c.pfaff@pfaffgmbh.com` — Pfaff GmbH (Waldkirch) — `oem_buyer` / high
+- `a.buff@pfaffgmbh.com` — Pfaff GmbH (Waldkirch) — `oem_buyer` / high
+- `o.salvat@pfaffgmbh.com` — Pfaff GmbH (Waldkirch) — `oem_buyer` / high
+- `h.seifried@pfaffgmbh.com` — Pfaff GmbH (Waldkirch) — `oem_buyer` / high
+
+### 本批质量剔除（节选）
+
+- `s.kaul@pfaffgmbh.com` — DROP Assistenz/Vertrieb (Assistentin)
+- `c.biehler@pfaffgmbh.com` — DROP Assistenz/Buchhaltung
+- `duerrbeck@ / erdogan@ / hanneder@ / mehdi@ wartenfelser.de` — DROP Personal/Buchhaltung / Versand / Logistik
+- `Finke Gruppe named emails` — DROP cloak invent (JS-split E-Mail obfuscation)
+- `info@ccoffice.de / webmaster@` — SKIP invent — live site shows phone only, no plain email
+- `ABAS/Croner ansprechpartner` — SKIP no plain emails / thin page
+- `seidltec.com` — DROP AT-only (Auerbach AT)
+
+---
+
 ## Website/named Kontakt Batch 118
 
 > 合并前重读 CSV（任务口径 **4281** / **3001**；Directory Batch123dir 中途已合 → 写时 live **4291** / **3010**）。本批按 live 合并，网站轨净增 **+3** → 瞬时 **4294** / **3012**。

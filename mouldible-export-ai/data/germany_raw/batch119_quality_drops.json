@@ -1,0 +1,34 @@
+[
+  {
+    "item": "s.kaul@pfaffgmbh.com",
+    "reason": "DROP Assistenz/Vertrieb (Assistentin)"
+  },
+  {
+    "item": "c.biehler@pfaffgmbh.com",
+    "reason": "DROP Assistenz/Buchhaltung"
+  },
+  {
+    "item": "duerrbeck@ / erdogan@ / hanneder@ / mehdi@ wartenfelser.de",
+    "reason": "DROP Personal/Buchhaltung / Versand / Logistik"
+  },
+  {
+    "item": "Finke Gruppe named emails",
+    "reason": "DROP cloak invent (JS-split E-Mail obfuscation)"
+  },
+  {
+    "item": "info@ccoffice.de / webmaster@",
+    "reason": "SKIP invent — live site shows phone only, no plain email"
+  },
+  {
+    "item": "ABAS/Croner ansprechpartner",
+    "reason": "SKIP no plain emails / thin page"
+  },
+  {
+    "item": "seidltec.com",
+    "reason": "DROP AT-only (Auerbach AT)"
+  },
+  {
+    "item": "Wartenfelser/Formzeug/HWF ICP-fit named",
+    "reason": "SKIP already known"
+  }
+]

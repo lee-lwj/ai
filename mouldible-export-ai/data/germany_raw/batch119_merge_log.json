@@ -1,0 +1,79 @@
+{
+  "batch": 119,
+  "timestamp_hk": "2026-10-21 04:31 Asia/Hong_Kong",
+  "baseline_note": "Task steered 4294/3012; Directory Batch124dir likely mid-batch. Re-read at write: 4298 emails / 3016 domains. Merged against live (never 4294).",
+  "baseline_steered": {
+    "emails": 4294,
+    "domains": 3012
+  },
+  "baseline": {
+    "emails": 4298,
+    "domains": 3016
+  },
+  "net_new": 5,
+  "website_batch_end_snapshot": {
+    "emails": 4303,
+    "domains": 3017
+  },
+  "new_totals": {
+    "emails": 4303,
+    "domains": 3017,
+    "high": 4026,
+    "medium": 277,
+    "non_de": 1154,
+    "icp": {
+      "overseas_peer_overflow": 3982,
+      "design_studio": 179,
+      "oem_buyer": 107,
+      "sourcing": 35
+    },
+    "with_phone": 3715,
+    "with_city": 3791
+  },
+  "added_domains": [
+    "kb-kunststoff.de"
+  ],
+  "added_emails": [
+    "info@kb-kunststoff.de",
+    "c.pfaff@pfaffgmbh.com",
+    "a.buff@pfaffgmbh.com",
+    "o.salvat@pfaffgmbh.com",
+    "h.seifried@pfaffgmbh.com"
+  ],
+  "skipped_already_known": [],
+  "skipped_already_known_count": 0,
+  "quality_drops": [
+    {
+      "item": "s.kaul@pfaffgmbh.com",
+      "reason": "DROP Assistenz/Vertrieb (Assistentin)"
+    },
+    {
+      "item": "c.biehler@pfaffgmbh.com",
+      "reason": "DROP Assistenz/Buchhaltung"
+    },
+    {
+      "item": "duerrbeck@ / erdogan@ / hanneder@ / mehdi@ wartenfelser.de",
+      "reason": "DROP Personal/Buchhaltung / Versand / Logistik"
+    },
+    {
+      "item": "Finke Gruppe named emails",
+      "reason": "DROP cloak invent (JS-split E-Mail obfuscation)"
+    },
+    {
+      "item": "info@ccoffice.de / webmaster@",
+      "reason": "SKIP invent — live site shows phone only, no plain email"
+    },
+    {
+      "item": "ABAS/Croner ansprechpartner",
+      "reason": "SKIP no plain emails / thin page"
+    },
+    {
+      "item": "seidltec.com",
+      "reason": "DROP AT-only (Auerbach AT)"
+    },
+    {
+      "item": "Wartenfelser/Formzeug/HWF ICP-fit named",
+      "reason": "SKIP already known"
+    }
+  ]
+}
